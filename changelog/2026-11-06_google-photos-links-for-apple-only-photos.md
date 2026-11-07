@@ -33,9 +33,22 @@
   - It returned nothing for 2025-08-02, 2025-10-04 and 2026-02-25, even before the rate limiting started
   - Opening `/photo/<id>` directly still works while search is throttled
 
-## Still without a Google link (url: null)
+## Follow-up: iCloud Photos links
 
-| Concert | Photo | Status |
+- The 2 Ella Red (2026-02-25) videos were found in iCloud Photos on icloud.com. They are linked there because Google Photos search couldn't find them.
+  - 20:17:07 (portrait) → iCloud record `109B1F4C-CC8B-476D-91BC-7081C5EDF1DE`
+  - 20:17:29 (landscape) → iCloud record `1B1FB9F4-43B5-4947-B920-D2046E78409C`
+- New provider `icloud_photos` in `src/types.ts`. Source label is `iCloud Photos + Apple Photos`.
+- The gallery link label now follows the URL host: "Open in iCloud Photos ↗" or "Open in Google Photos ↗" (`src/client/archive.ts`). The README was updated to match.
+- iCloud deep links look like `https://www.icloud.com/photos/#/i,pz,<record id>,<library index>/`.
+  - The index is the photo's position in the library and shifts as photos are added.
+  - The link without the index (`#/i,pz,<record id>/`) was tested and opens the right item, so links are stored in that form.
+- iCloud record IDs are **not** the same as the old Apple Photos UUIDs in the research export.
+- iCloud web search needs "Enable Search with <device>", which changes an account setting, so it wasn't used. The library was navigated by date instead, using the "View months" year/month picker.
+- Totals: 215 of 216 photos have a link.
+
+## Still without a link (url: null)
+
+| Concert | Photo | Why |
 |---|---|---|
-| 2025-08-02 Gogol Bordello | 19:58:27 photo | Not in Google Photos: the timeline jumps from 7:37:48 PM to 8:44:28 PM |
-| 2026-02-25 Ella Red | 20:17:07 and 20:17:29 video stills | Not found yet: search returns nothing, and the timeline walk was interrupted |
+| 2025-08-02 Gogol Bordello | 19:58:27 photo (`B89204C1…`) | It's a "Shared with You" photo someone sent in Messages: `syndicated: true`, `IMG_4076.heic` from an iPhone 16 Pro Max. It isn't in the user's iCloud or Google library. Both timelines jump from 7:37 PM to 8:44 PM that night |

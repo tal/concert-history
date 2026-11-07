@@ -38,7 +38,7 @@ export interface Source {
 export type PhotoKind = 'Photo' | 'Video still';
 
 export interface PhotoReference {
-  provider: 'apple_photos' | 'google_photos';
+  provider: 'apple_photos' | 'google_photos' | 'icloud_photos';
   photo_id: string;
 }
 

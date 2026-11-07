@@ -139,7 +139,8 @@ function showPhoto() {
   const img = $<HTMLImageElement>('#fullphoto');
   img.src = images[p.id]!;
   img.alt = `Concert image from ${activeEvent.artist} at ${activeEvent.venue}, ${activeEvent.date}`;
-  const link = p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in Google Photos ↗</a>` : '';
+  const service = p.url && new URL(p.url).hostname.endsWith('icloud.com') ? 'iCloud Photos' : 'Google Photos';
+  const link = p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">Open in ${service} ↗</a>` : '';
   $('#photo-caption').innerHTML =
     `${esc(activeEvent.artist)} · ${esc(activeEvent.venue)} · ${esc(activeEvent.date)}<br>` +
     `${esc(p.kind)} · ${esc(p.source)} · Captured ${esc(p.captured.slice(0, 19).replace('T', ' '))}${link}`;
