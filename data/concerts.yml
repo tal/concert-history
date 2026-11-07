@@ -5004,6 +5004,169 @@ concerts:
       photo_id: 6446CE0E-ED80-4FBD-83BF-FB830F5503CA
     - provider: google_photos
       photo_id: AF1QipN2buKdgDP-6cNMCjMzzkGTjKWn6Np188i3ADv2
+- date: '2017-04-06'
+  artist: Gogol Bordello
+  support: DeVotchKa
+  venue: Cornucopia Majesty (Pier 36 boat cruise)
+  status: Check-in confirmed
+  sources:
+  - type: checkin
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/58e6d4ad76f2ca76deda7a1f
+    provider: swarm
+    checkin_id: '58e6d4ad76f2ca76deda7a1f'
+    id_note: 'Pier 36 check-in at 7:52 PM EDT (created_at 1491522733), with the shout "Gogol Bordello".'
+  - type: email
+    label: Email
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/15ad2b988c94655f
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '15ad2b988c94655f'
+    thread_id: '15ad2b988c94655f'
+    subject: 'Your Ticket Purchase #12236139'
+  - type: email
+    label: Cruise info email
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/15ad72d741db28d1
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '15ad72d741db28d1'
+    thread_id: '15ad72d741db28d1'
+    subject: Gogol Bordello - April 6 Rocks Off Concert Cruise Information
+  - type: web
+    label: Historical bill
+    url: https://www.gogolbordello.com/2017
+  - type: web
+    label: ACLU benefit announcement
+    url: https://www.thewaster.com/news/gogol-bordello-to-perform-aclu-benefit-show-in-nyc/
+  notes: 'Immigraniada Boat Show: a Rocks Off concert cruise from Pier 36 (299 South Street), with proceeds going
+    to the ACLU. 2 GA tickets came from Ticketstoday. The receipt and the March 16 cruise email both name the Liberty
+    Belle, but the band later moved the show to the larger Cornucopia Majesty. An 11:15 PM Instagram story clip in
+    Google Photos is tagged "Cornucopia Majesty Cruise Ship". Apple Photos GPS places the photos at Pier 36, the Battery
+    and Upper New York Bay. The 8:26-8:46 PM shots appear to be DeVotchKa''s opening set (sousaphone).'
+  id: 2017-04-06-gogol-bordello
+  photo_match: 'Visually reviewed concert images: 12 picked from 45 Google Photos items taken 8:22-11:15 PM on the
+    boat. Matched by date, Apple Photos GPS and the boat interior. Individual pictured sets may include support acts.'
+  photos:
+  - captured: '2017-04-06T20:26:46.446245-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNShi6HU7aUZHfF5tpTrhGfExFBHkXBFZTYPEOp
+    kind: Photo
+    id: 4C4113EE-7DF9-48C7-97DC-2779A5910BB6
+    asset: data/photos/4C4113EE-7DF9-48C7-97DC-2779A5910BB6.webp
+    references:
+    - provider: apple_photos
+      photo_id: 4C4113EE-7DF9-48C7-97DC-2779A5910BB6
+    - provider: google_photos
+      photo_id: AF1QipNShi6HU7aUZHfF5tpTrhGfExFBHkXBFZTYPEOp
+  - captured: '2017-04-06T20:42:12-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipNUp8T1dWtW6XPBN4Q8QMJ3zVlJnksSVX7BiBvi
+    kind: Video still
+    id: AF1QipNUp8T1dWtW6XPBN4Q8QMJ3zVlJnksSVX7BiBvi
+    asset: data/photos/AF1QipNUp8T1dWtW6XPBN4Q8QMJ3zVlJnksSVX7BiBvi.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipNUp8T1dWtW6XPBN4Q8QMJ3zVlJnksSVX7BiBvi
+  - captured: '2017-04-06T20:46:10.990539-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPJV7mN8CHkgYqBDi49zGd6I7vZFZAC4Hb9QtWN
+    kind: Photo
+    id: 9E9A82CF-1A52-4E55-A35D-1EBECEAC6A71
+    asset: data/photos/9E9A82CF-1A52-4E55-A35D-1EBECEAC6A71.webp
+    references:
+    - provider: apple_photos
+      photo_id: 9E9A82CF-1A52-4E55-A35D-1EBECEAC6A71
+    - provider: google_photos
+      photo_id: AF1QipPJV7mN8CHkgYqBDi49zGd6I7vZFZAC4Hb9QtWN
+  - captured: '2017-04-06T21:26:33.765431-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPI-1a8d-PFXoFawvnmAP5WkBbz8tnvqE7TaWma
+    kind: Photo
+    id: 04609169-017E-452F-B9DE-9971A9255D82
+    asset: data/photos/04609169-017E-452F-B9DE-9971A9255D82.webp
+    references:
+    - provider: apple_photos
+      photo_id: 04609169-017E-452F-B9DE-9971A9255D82
+    - provider: google_photos
+      photo_id: AF1QipPI-1a8d-PFXoFawvnmAP5WkBbz8tnvqE7TaWma
+  - captured: '2017-04-06T21:49:17-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipO_cEQdMGSdYXZvkRYzPVF2acO6--vhKJoiG7LR
+    kind: Photo
+    id: AF1QipO_cEQdMGSdYXZvkRYzPVF2acO6--vhKJoiG7LR
+    asset: data/photos/AF1QipO_cEQdMGSdYXZvkRYzPVF2acO6--vhKJoiG7LR.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipO_cEQdMGSdYXZvkRYzPVF2acO6--vhKJoiG7LR
+  - captured: '2017-04-06T21:50:23-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipN-5oWc1zGjQQ_44uMDnrCkwdH1QjSsRz9dZQ04
+    kind: Photo
+    id: AF1QipN-5oWc1zGjQQ_44uMDnrCkwdH1QjSsRz9dZQ04
+    asset: data/photos/AF1QipN-5oWc1zGjQQ_44uMDnrCkwdH1QjSsRz9dZQ04.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipN-5oWc1zGjQQ_44uMDnrCkwdH1QjSsRz9dZQ04
+  - captured: '2017-04-06T21:57:18-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipPPiwTDZ9jV9HdtI5S92WcHoOQo4cRCU0I2n7_n
+    kind: Photo
+    id: AF1QipPPiwTDZ9jV9HdtI5S92WcHoOQo4cRCU0I2n7_n
+    asset: data/photos/AF1QipPPiwTDZ9jV9HdtI5S92WcHoOQo4cRCU0I2n7_n.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipPPiwTDZ9jV9HdtI5S92WcHoOQo4cRCU0I2n7_n
+  - captured: '2017-04-06T22:09:35.371169-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPP9k-QER7mX1dzcOqZ0aq-i4xfGVoPaVr4iUVm
+    kind: Photo
+    id: AC03E8A3-1C86-456F-87C6-0F1EBE307638
+    asset: data/photos/AC03E8A3-1C86-456F-87C6-0F1EBE307638.webp
+    references:
+    - provider: apple_photos
+      photo_id: AC03E8A3-1C86-456F-87C6-0F1EBE307638
+    - provider: google_photos
+      photo_id: AF1QipPP9k-QER7mX1dzcOqZ0aq-i4xfGVoPaVr4iUVm
+  - captured: '2017-04-06T22:13:55.957528-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNxMPK_ph9p1cmCiwJnEduAHOcc_pQTI4MbP2HR
+    kind: Photo
+    id: 74814D33-0A68-477E-958E-1E39ECD3DFA0
+    asset: data/photos/74814D33-0A68-477E-958E-1E39ECD3DFA0.webp
+    references:
+    - provider: apple_photos
+      photo_id: 74814D33-0A68-477E-958E-1E39ECD3DFA0
+    - provider: google_photos
+      photo_id: AF1QipNxMPK_ph9p1cmCiwJnEduAHOcc_pQTI4MbP2HR
+  - captured: '2017-04-06T22:51:17.114145-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMAQrFKDA0p5XcpZMT0-KZ2AB8Rr7Uga9mHsPTs
+    kind: Photo
+    id: D00DDD76-E998-4CF0-9962-1ED1EC48F4C9
+    asset: data/photos/D00DDD76-E998-4CF0-9962-1ED1EC48F4C9.webp
+    references:
+    - provider: apple_photos
+      photo_id: D00DDD76-E998-4CF0-9962-1ED1EC48F4C9
+    - provider: google_photos
+      photo_id: AF1QipMAQrFKDA0p5XcpZMT0-KZ2AB8Rr7Uga9mHsPTs
+  - captured: '2017-04-06T22:53:55-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipOvm3BEuVj6lE0Lt94j6dONIKEmJA1-oHXd0Ji8
+    kind: Photo
+    id: AF1QipOvm3BEuVj6lE0Lt94j6dONIKEmJA1-oHXd0Ji8
+    asset: data/photos/AF1QipOvm3BEuVj6lE0Lt94j6dONIKEmJA1-oHXd0Ji8.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipOvm3BEuVj6lE0Lt94j6dONIKEmJA1-oHXd0Ji8
+  - captured: '2017-04-06T23:15:45-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipPMnj1Rsb8bnzTSjVcO1Hxob-t9qA7rw0GUd0Wr
+    kind: Video still
+    id: AF1QipPMnj1Rsb8bnzTSjVcO1Hxob-t9qA7rw0GUd0Wr
+    asset: data/photos/AF1QipPMnj1Rsb8bnzTSjVcO1Hxob-t9qA7rw0GUd0Wr.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipPMnj1Rsb8bnzTSjVcO1Hxob-t9qA7rw0GUd0Wr
 - date: '2017-04-10'
   artist: LCD Soundsystem
   support: ''
