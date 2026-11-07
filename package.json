@@ -1,0 +1,16 @@
+{
+  "name": "concert-history",
+  "version": "0.1.0",
+  "description": "Personal concert archive with source references and photo galleries",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun src/build.ts",
+    "typecheck": "tsc --noEmit",
+    "open": "open dist/concert-history.html"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}

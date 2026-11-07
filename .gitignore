@@ -1,0 +1,6 @@
+# Local research preserves full email/photo/browser captures.
+research/
+node_modules/
+.DS_Store
+# Rebuild with `bun run build`.
+/dist/
