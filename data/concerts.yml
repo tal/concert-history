@@ -127,32 +127,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2010-08-12T22:28:28-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOrvYALwymoWKJ4S7pP91L5IvOJlzH-49J3kpck
     kind: Photo
     id: 07E70CE5-D780-44DE-9C86-DE4CA9ED0329
     asset: data/photos/07E70CE5-D780-44DE-9C86-DE4CA9ED0329.webp
     references:
     - provider: apple_photos
       photo_id: 07E70CE5-D780-44DE-9C86-DE4CA9ED0329
+    - provider: google_photos
+      photo_id: AF1QipOrvYALwymoWKJ4S7pP91L5IvOJlzH-49J3kpck
   - captured: '2010-08-12T22:29:36-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNxatvaMVrdpN9-dp6RgCwauoHbWU1UHzlZGC3i
     kind: Photo
     id: F6FBD4E8-B6DD-4645-B160-6F6714CAD306
     asset: data/photos/F6FBD4E8-B6DD-4645-B160-6F6714CAD306.webp
     references:
     - provider: apple_photos
       photo_id: F6FBD4E8-B6DD-4645-B160-6F6714CAD306
+    - provider: google_photos
+      photo_id: AF1QipNxatvaMVrdpN9-dp6RgCwauoHbWU1UHzlZGC3i
   - captured: '2010-08-12T23:00:32-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNmxqoxRwvlQoN104JxBG8wzc6EmS84dn-zLmQC
     kind: Photo
     id: 9724527F-DC26-4854-8467-D1F9E66A54D1
     asset: data/photos/9724527F-DC26-4854-8467-D1F9E66A54D1.webp
     references:
     - provider: apple_photos
       photo_id: 9724527F-DC26-4854-8467-D1F9E66A54D1
+    - provider: google_photos
+      photo_id: AF1QipNmxqoxRwvlQoN104JxBG8wzc6EmS84dn-zLmQC
 - date: '2010-10-08'
   artist: Ratatat
   support: ''
@@ -328,23 +334,27 @@ concerts:
     may include support acts.
   photos:
   - captured: '2011-01-18T20:17:54-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPTpxaUO-R2OyY5h5Smatf7JxgvU47m-xf1Cox0
     kind: Photo
     id: E6416C3A-2D84-483D-8C66-258FF13E1CD4
     asset: data/photos/E6416C3A-2D84-483D-8C66-258FF13E1CD4.webp
     references:
     - provider: apple_photos
       photo_id: E6416C3A-2D84-483D-8C66-258FF13E1CD4
+    - provider: google_photos
+      photo_id: AF1QipPTpxaUO-R2OyY5h5Smatf7JxgvU47m-xf1Cox0
   - captured: '2011-01-18T21:03:08-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOQ49gqhSE8aEXWBwAapma2QQo8eQDy-1NDF1fB
     kind: Photo
     id: D3EFA3D3-5F31-4DF4-A241-D1DAB2F50B2E
     asset: data/photos/D3EFA3D3-5F31-4DF4-A241-D1DAB2F50B2E.webp
     references:
     - provider: apple_photos
       photo_id: D3EFA3D3-5F31-4DF4-A241-D1DAB2F50B2E
+    - provider: google_photos
+      photo_id: AF1QipOQ49gqhSE8aEXWBwAapma2QQo8eQDy-1NDF1fB
 - date: '2011-02-12'
   artist: Baths
   support: ''
@@ -396,14 +406,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2011-02-16T22:22:20-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOLyeODYT4yG6sBLguK259ekZCXKgoxhJAlp7R6
     kind: Photo
     id: 6D9BF701-5727-40A5-B8F6-D382CFD24290
     asset: data/photos/6D9BF701-5727-40A5-B8F6-D382CFD24290.webp
     references:
     - provider: apple_photos
       photo_id: 6D9BF701-5727-40A5-B8F6-D382CFD24290
+    - provider: google_photos
+      photo_id: AF1QipOLyeODYT4yG6sBLguK259ekZCXKgoxhJAlp7R6
 - date: '2011-03-02'
   artist: Flogging Molly
   support: ''
@@ -428,14 +440,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2011-03-02T22:13:01-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPXjO_hPibxndEA55tiTe2OjuG_YmA5nsF8Ohfc
     kind: Photo
     id: EB2672D8-18ED-4D48-B01C-E913CBCCC601
     asset: data/photos/EB2672D8-18ED-4D48-B01C-E913CBCCC601.webp
     references:
     - provider: apple_photos
       photo_id: EB2672D8-18ED-4D48-B01C-E913CBCCC601
+    - provider: google_photos
+      photo_id: AF1QipPXjO_hPibxndEA55tiTe2OjuG_YmA5nsF8Ohfc
   - captured: '2011-03-02T22:35:24-05:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipMsU0yflvmUgcwW9EzDkg1zoHg4l75cUVblJRsk
@@ -448,14 +462,16 @@ concerts:
     - provider: google_photos
       photo_id: AF1QipMsU0yflvmUgcwW9EzDkg1zoHg4l75cUVblJRsk
   - captured: '2011-03-02T22:35:48-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOPU02X6f7ceT0AHl7Reg6ww4P9sZF8Ve9DcgUs
     kind: Photo
     id: 4427B744-4C3E-4712-8CAB-3CFB1D4137DD
     asset: data/photos/4427B744-4C3E-4712-8CAB-3CFB1D4137DD.webp
     references:
     - provider: apple_photos
       photo_id: 4427B744-4C3E-4712-8CAB-3CFB1D4137DD
+    - provider: google_photos
+      photo_id: AF1QipOPU02X6f7ceT0AHl7Reg6ww4P9sZF8Ve9DcgUs
 - date: '2011-03-29'
   artist: The Mountain Goats
   support: ''
@@ -1114,14 +1130,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2012-02-22T23:10:58-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPLIXsroBEWf7DJUe3ISN1b1j_m9AYk9KtVL69j
     kind: Video still
     id: 15431E3F-2132-485B-B835-D198BE8D14D0
     asset: data/photos/15431E3F-2132-485B-B835-D198BE8D14D0.webp
     references:
     - provider: apple_photos
       photo_id: 15431E3F-2132-485B-B835-D198BE8D14D0
+    - provider: google_photos
+      photo_id: AF1QipPLIXsroBEWf7DJUe3ISN1b1j_m9AYk9KtVL69j
 - date: '2012-02-28'
   artist: School of Seven Bells
   support: Exitmusic
@@ -1150,32 +1168,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2012-02-28T19:40:09-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMK-0g8t92mrhKlU1t_VhytfCVe4BwvKv49Dpas
     kind: Photo
     id: 4FF796F7-BFB4-4725-90E2-577FC45AD244
     asset: data/photos/4FF796F7-BFB4-4725-90E2-577FC45AD244.webp
     references:
     - provider: apple_photos
       photo_id: 4FF796F7-BFB4-4725-90E2-577FC45AD244
+    - provider: google_photos
+      photo_id: AF1QipMK-0g8t92mrhKlU1t_VhytfCVe4BwvKv49Dpas
   - captured: '2012-02-28T19:28:48-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipM_MW85sVSi2rmwXTEHSzvR-cOLkxC-4NQ3Ky33
     kind: Photo
     id: 3FCDE07B-6706-4A10-886A-FA236066E205
     asset: data/photos/3FCDE07B-6706-4A10-886A-FA236066E205.webp
     references:
     - provider: apple_photos
       photo_id: 3FCDE07B-6706-4A10-886A-FA236066E205
+    - provider: google_photos
+      photo_id: AF1QipM_MW85sVSi2rmwXTEHSzvR-cOLkxC-4NQ3Ky33
   - captured: '2012-02-28T19:36:00-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPg8HUzWWNPZXF36DADYSy7ZPuliD8JYvjM7vMD
     kind: Photo
     id: E8140F3B-0B4A-4DFE-8B86-4AE0D529B55F
     asset: data/photos/E8140F3B-0B4A-4DFE-8B86-4AE0D529B55F.webp
     references:
     - provider: apple_photos
       photo_id: E8140F3B-0B4A-4DFE-8B86-4AE0D529B55F
+    - provider: google_photos
+      photo_id: AF1QipPg8HUzWWNPZXF36DADYSy7ZPuliD8JYvjM7vMD
 - date: '2012-03-09'
   artist: RJD2
   support: ''
@@ -1204,23 +1228,27 @@ concerts:
     may include support acts.
   photos:
   - captured: '2012-03-10T01:15:13-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipP4Sda17qweEFZTnJ8uvfEDeOAz0Exd6oWbF8cB
     kind: Photo
     id: 6D49D16A-EEF1-402A-9B3D-7DF304672DF7
     asset: data/photos/6D49D16A-EEF1-402A-9B3D-7DF304672DF7.webp
     references:
     - provider: apple_photos
       photo_id: 6D49D16A-EEF1-402A-9B3D-7DF304672DF7
+    - provider: google_photos
+      photo_id: AF1QipP4Sda17qweEFZTnJ8uvfEDeOAz0Exd6oWbF8cB
   - captured: '2012-03-10T01:12:09-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMF_nhOG-jc2LVMPg-Bo9mLWfBje1V3qBMrb_dP
     kind: Photo
     id: 7AED9237-B32E-42AC-8EE1-D47626B50F6C
     asset: data/photos/7AED9237-B32E-42AC-8EE1-D47626B50F6C.webp
     references:
     - provider: apple_photos
       photo_id: 7AED9237-B32E-42AC-8EE1-D47626B50F6C
+    - provider: google_photos
+      photo_id: AF1QipMF_nhOG-jc2LVMPg-Bo9mLWfBje1V3qBMrb_dP
 - date: '2012-03-10'
   artist: Daughter
   support: Lay Low
@@ -1240,14 +1268,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2012-03-10T22:20:13-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNcagJdlD0bI7_kE15hhTo4a7M49Ok8-41Lkf9K
     kind: Photo
     id: 024095B3-B2C3-478F-A97A-02B9B96DA263
     asset: data/photos/024095B3-B2C3-478F-A97A-02B9B96DA263.webp
     references:
     - provider: apple_photos
       photo_id: 024095B3-B2C3-478F-A97A-02B9B96DA263
+    - provider: google_photos
+      photo_id: AF1QipNcagJdlD0bI7_kE15hhTo4a7M49Ok8-41Lkf9K
 - date: '2012-03-22'
   artist: The Black Keys
   support: Arctic Monkeys
@@ -1273,32 +1303,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2012-03-22T21:38:22-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMBtcuXKZOXA6Ru1VMisLCCQYbCZ9RegeL5l9Qo
     kind: Photo
     id: C1ECF531-BF52-41AB-8137-063ED50C4D23
     asset: data/photos/C1ECF531-BF52-41AB-8137-063ED50C4D23.webp
     references:
     - provider: apple_photos
       photo_id: C1ECF531-BF52-41AB-8137-063ED50C4D23
+    - provider: google_photos
+      photo_id: AF1QipMBtcuXKZOXA6Ru1VMisLCCQYbCZ9RegeL5l9Qo
   - captured: '2012-03-22T21:56:25-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOQ_OJHDv7VILbWj2oRLlTcSALoTJn6xK2hJvVp
     kind: Photo
     id: BF076345-1116-48D9-B1EB-0970F441CFE0
     asset: data/photos/BF076345-1116-48D9-B1EB-0970F441CFE0.webp
     references:
     - provider: apple_photos
       photo_id: BF076345-1116-48D9-B1EB-0970F441CFE0
+    - provider: google_photos
+      photo_id: AF1QipOQ_OJHDv7VILbWj2oRLlTcSALoTJn6xK2hJvVp
   - captured: '2012-03-22T22:02:22-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNWVuXY7DBKt1DsD8K214MyLhBlT_mvO52guUa4
     kind: Photo
     id: BFF7CFEE-230D-432B-9D43-E88AC1583DE5
     asset: data/photos/BFF7CFEE-230D-432B-9D43-E88AC1583DE5.webp
     references:
     - provider: apple_photos
       photo_id: BFF7CFEE-230D-432B-9D43-E88AC1583DE5
+    - provider: google_photos
+      photo_id: AF1QipNWVuXY7DBKt1DsD8K214MyLhBlT_mvO52guUa4
 - date: '2012-03-28'
   artist: Youth Lagoon
   support: Porcelain Raft
@@ -2488,14 +2524,16 @@ concerts:
     - provider: google_photos
       photo_id: AF1QipPb4SGJfVSvt78EDLONsp83AsSL54jS53U_W5ZX
   - captured: '2013-01-25T21:34:56-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNHbNJuufn23ll_4bqlIQZvzgiB_0e_hyMNSEUm
     kind: Photo
     id: 0B872BFA-F73D-4C73-A429-EE02913D422C
     asset: data/photos/0B872BFA-F73D-4C73-A429-EE02913D422C.webp
     references:
     - provider: apple_photos
       photo_id: 0B872BFA-F73D-4C73-A429-EE02913D422C
+    - provider: google_photos
+      photo_id: AF1QipNHbNJuufn23ll_4bqlIQZvzgiB_0e_hyMNSEUm
 - date: '2013-02-02'
   artist: Flogging Molly
   support: Skinny Lister; Dave Hause
@@ -2515,23 +2553,27 @@ concerts:
     may include support acts.
   photos:
   - captured: '2013-02-02T22:32:29-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMr6r3wAoHZ5yuCFzu2Gw-OcgHp5gyRJ-gF8ZHG
     kind: Video still
     id: 0E706D73-5959-47F6-AF1A-2C5E8FC24693
     asset: data/photos/0E706D73-5959-47F6-AF1A-2C5E8FC24693.webp
     references:
     - provider: apple_photos
       photo_id: 0E706D73-5959-47F6-AF1A-2C5E8FC24693
+    - provider: google_photos
+      photo_id: AF1QipMr6r3wAoHZ5yuCFzu2Gw-OcgHp5gyRJ-gF8ZHG
   - captured: '2013-02-02T23:32:00-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNljLmjTPAz1-jRQPeqZe-PMofbLGFTouGx7QdD
     kind: Photo
     id: A65F7B04-EF54-46AF-B1BC-CB99B6C5239C
     asset: data/photos/A65F7B04-EF54-46AF-B1BC-CB99B6C5239C.webp
     references:
     - provider: apple_photos
       photo_id: A65F7B04-EF54-46AF-B1BC-CB99B6C5239C
+    - provider: google_photos
+      photo_id: AF1QipNljLmjTPAz1-jRQPeqZe-PMofbLGFTouGx7QdD
 - date: '2013-02-21'
   artist: KONGOS
   support: ''
@@ -2695,14 +2737,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2013-05-11T23:00:12-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN8PhiEqUd1ys28bvbZwo4M7_R1U0PymV3nxqjW
     kind: Photo
     id: CD2C9C54-A98D-4F77-92B1-3C0E6E487EFB
     asset: data/photos/CD2C9C54-A98D-4F77-92B1-3C0E6E487EFB.webp
     references:
     - provider: apple_photos
       photo_id: CD2C9C54-A98D-4F77-92B1-3C0E6E487EFB
+    - provider: google_photos
+      photo_id: AF1QipN8PhiEqUd1ys28bvbZwo4M7_R1U0PymV3nxqjW
 - date: '2013-05-15'
   artist: MS MR
   support: ''
@@ -2739,14 +2783,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2013-06-08T22:31:55-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipP7KFdIISrkA3vVVWsl0MG0B9oxbPqVGua0WOST
     kind: Photo
     id: EB82A152-F6EA-46BF-94E4-F5A40530554D
     asset: data/photos/EB82A152-F6EA-46BF-94E4-F5A40530554D.webp
     references:
     - provider: apple_photos
       photo_id: EB82A152-F6EA-46BF-94E4-F5A40530554D
+    - provider: google_photos
+      photo_id: AF1QipP7KFdIISrkA3vVVWsl0MG0B9oxbPqVGua0WOST
   - captured: '2013-06-08T22:31:11-04:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipOdPQ3i2Ov-rDA94arRd6RrqFdmgUgKT1XHLTbs
@@ -2853,14 +2899,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2013-09-17T22:08:47-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOyoL46QUllC34qJAjhSvoHi7M0XJsdC19CMvJ4
     kind: Photo
     id: 8D666472-CF44-47CA-BDD4-EC87F1B8B92B
     asset: data/photos/8D666472-CF44-47CA-BDD4-EC87F1B8B92B.webp
     references:
     - provider: apple_photos
       photo_id: 8D666472-CF44-47CA-BDD4-EC87F1B8B92B
+    - provider: google_photos
+      photo_id: AF1QipOyoL46QUllC34qJAjhSvoHi7M0XJsdC19CMvJ4
 - date: '2013-09-21'
   artist: Alex Winston
   support: The Echo Friendly; Connor Hanwick & Peggy Wang DJ sets
@@ -3316,14 +3364,16 @@ concerts:
     - provider: google_photos
       photo_id: AF1QipPubSQHbVigVoekQ1ysGWeTIOfXx0HyXL_bST-1
   - captured: '2013-12-04T22:07:00-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNsc_izW_5Z_4Nro7xta0Z3Yc3nGvqnHcl5-una
     kind: Photo
     id: FC8A139C-4864-4BE1-BD49-388F407FA51D
     asset: data/photos/FC8A139C-4864-4BE1-BD49-388F407FA51D.webp
     references:
     - provider: apple_photos
       photo_id: FC8A139C-4864-4BE1-BD49-388F407FA51D
+    - provider: google_photos
+      photo_id: AF1QipNsc_izW_5Z_4Nro7xta0Z3Yc3nGvqnHcl5-una
   - captured: '2013-12-04T22:12:49-05:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipNuLhVkjriFho3ZediijffsaMrwSIKrtiSQpuap
@@ -4311,32 +4361,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2016-01-14T21:25:14-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOcJ9IbS6fsOCZWjW-6jP8x7PjxJAMk70hmTvY2
     kind: Video still
     id: 621EE410-0951-4D87-A112-E45A45DC82B8
     asset: data/photos/621EE410-0951-4D87-A112-E45A45DC82B8.webp
     references:
     - provider: apple_photos
       photo_id: 621EE410-0951-4D87-A112-E45A45DC82B8
+    - provider: google_photos
+      photo_id: AF1QipOcJ9IbS6fsOCZWjW-6jP8x7PjxJAMk70hmTvY2
   - captured: '2016-01-14T21:35:52-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipO04UY0s2632D1I9iHwAKd1bCaRYxAA6FsSudBV
     kind: Video still
     id: EF870AB5-9054-4341-8F76-A427690A5058
     asset: data/photos/EF870AB5-9054-4341-8F76-A427690A5058.webp
     references:
     - provider: apple_photos
       photo_id: EF870AB5-9054-4341-8F76-A427690A5058
+    - provider: google_photos
+      photo_id: AF1QipO04UY0s2632D1I9iHwAKd1bCaRYxAA6FsSudBV
   - captured: '2016-01-14T21:40:02-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipP2DIgQ3hnsbzOg_e8v6bSwVwMJ36dYd3vnFfrE
     kind: Video still
     id: 0A51C88E-0F50-414C-9C0D-8881B1791004
     asset: data/photos/0A51C88E-0F50-414C-9C0D-8881B1791004.webp
     references:
     - provider: apple_photos
       photo_id: 0A51C88E-0F50-414C-9C0D-8881B1791004
+    - provider: google_photos
+      photo_id: AF1QipP2DIgQ3hnsbzOg_e8v6bSwVwMJ36dYd3vnFfrE
 - date: '2016-02-02'
   artist: The Peach Kings
   support: Monogold; Heartracer
@@ -4356,23 +4412,27 @@ concerts:
     may include support acts.
   photos:
   - captured: '2016-02-02T22:46:30.861299-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNMFkZ44_-Y5oeXOjCiOXHsY_bmoK6X1hOahkp0
     kind: Photo
     id: 8318FB01-9563-4401-A79F-4B58473E4F10
     asset: data/photos/8318FB01-9563-4401-A79F-4B58473E4F10.webp
     references:
     - provider: apple_photos
       photo_id: 8318FB01-9563-4401-A79F-4B58473E4F10
+    - provider: google_photos
+      photo_id: AF1QipNMFkZ44_-Y5oeXOjCiOXHsY_bmoK6X1hOahkp0
   - captured: '2016-02-02T22:46:38.970673-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipM9tQVpl-8ASUr1GfhAUaZeaF1xiS9dnHDJu3mH
     kind: Photo
     id: FA0F1BE6-5C4A-46FD-886F-E991DF30CD39
     asset: data/photos/FA0F1BE6-5C4A-46FD-886F-E991DF30CD39.webp
     references:
     - provider: apple_photos
       photo_id: FA0F1BE6-5C4A-46FD-886F-E991DF30CD39
+    - provider: google_photos
+      photo_id: AF1QipM9tQVpl-8ASUr1GfhAUaZeaF1xiS9dnHDJu3mH
 - date: '2016-03-28'
   artist: LCD Soundsystem
   support: ''
@@ -4408,32 +4468,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2016-04-12T22:23:08.254160-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN4ZMxdVKeE8NfRywlznGl4_pnJoKX55chhNcyQ
     kind: Photo
     id: 493E1BD7-0F90-48E1-97BD-59B16F0D8DB4
     asset: data/photos/493E1BD7-0F90-48E1-97BD-59B16F0D8DB4.webp
     references:
     - provider: apple_photos
       photo_id: 493E1BD7-0F90-48E1-97BD-59B16F0D8DB4
+    - provider: google_photos
+      photo_id: AF1QipN4ZMxdVKeE8NfRywlznGl4_pnJoKX55chhNcyQ
   - captured: '2016-04-12T22:24:17.039664-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNngC6dfGihGCtPWq3Spc3IIQj_fAqVOKXDcv_I
     kind: Photo
     id: 9035CDE5-E6AB-4244-999C-8348722643AF
     asset: data/photos/9035CDE5-E6AB-4244-999C-8348722643AF.webp
     references:
     - provider: apple_photos
       photo_id: 9035CDE5-E6AB-4244-999C-8348722643AF
+    - provider: google_photos
+      photo_id: AF1QipNngC6dfGihGCtPWq3Spc3IIQj_fAqVOKXDcv_I
   - captured: '2016-04-12T22:27:09.787104-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN-yOb2zQvJp13jsBu2OJu5BDiuOcz6l5-GQS6R
     kind: Photo
     id: 3A38AE8D-3AC5-474D-934E-F682C6B8E1DC
     asset: data/photos/3A38AE8D-3AC5-474D-934E-F682C6B8E1DC.webp
     references:
     - provider: apple_photos
       photo_id: 3A38AE8D-3AC5-474D-934E-F682C6B8E1DC
+    - provider: google_photos
+      photo_id: AF1QipN-yOb2zQvJp13jsBu2OJu5BDiuOcz6l5-GQS6R
 - date: '2016-04-27'
   artist: Brika
   support: ''
@@ -4472,32 +4538,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2016-05-17T22:26:58.695915-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN5ttK2H06b109YXts0ehKwd371cxvZQMbDE3bG
     kind: Photo
     id: F6072CD3-F1D2-4981-8EC2-FFD9A89F7F71
     asset: data/photos/F6072CD3-F1D2-4981-8EC2-FFD9A89F7F71.webp
     references:
     - provider: apple_photos
       photo_id: F6072CD3-F1D2-4981-8EC2-FFD9A89F7F71
+    - provider: google_photos
+      photo_id: AF1QipN5ttK2H06b109YXts0ehKwd371cxvZQMbDE3bG
   - captured: '2016-05-17T22:29:23.514604-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMQ2VNrpb8y8O3YJZAU5Se0OlWZjlZaHTXf0TVe
     kind: Photo
     id: 622F7D03-2E99-445F-9191-952A9E2269E2
     asset: data/photos/622F7D03-2E99-445F-9191-952A9E2269E2.webp
     references:
     - provider: apple_photos
       photo_id: 622F7D03-2E99-445F-9191-952A9E2269E2
+    - provider: google_photos
+      photo_id: AF1QipMQ2VNrpb8y8O3YJZAU5Se0OlWZjlZaHTXf0TVe
   - captured: '2016-05-17T22:31:38.386050-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNxAgi1qILghXmoidNKdjTetU4IFMRzV0DyVVzs
     kind: Photo
     id: A1BDD4DE-9C76-4D06-8BA9-E55DACC5811B
     asset: data/photos/A1BDD4DE-9C76-4D06-8BA9-E55DACC5811B.webp
     references:
     - provider: apple_photos
       photo_id: A1BDD4DE-9C76-4D06-8BA9-E55DACC5811B
+    - provider: google_photos
+      photo_id: AF1QipNxAgi1qILghXmoidNKdjTetU4IFMRzV0DyVVzs
 - date: '2016-06-03'
   artist: Governors Ball Music Festival
   support: ''
@@ -4525,14 +4597,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2016-06-03T18:52:18-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipM5SqRUnb2fsxZtUKxevV1xvxC5Tuf86PV4dP-J
     kind: Video still
     id: 387F5FA5-D452-49A3-AC91-DF8E76FEAB87
     asset: data/photos/387F5FA5-D452-49A3-AC91-DF8E76FEAB87.webp
     references:
     - provider: apple_photos
       photo_id: 387F5FA5-D452-49A3-AC91-DF8E76FEAB87
+    - provider: google_photos
+      photo_id: AF1QipM5SqRUnb2fsxZtUKxevV1xvxC5Tuf86PV4dP-J
   - captured: '2016-06-03T18:56:45.936281-04:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipPdw0l9su4C-zrUgxDHLa7VO4-g007VLpliRQ9H
@@ -4635,14 +4709,16 @@ concerts:
     - provider: google_photos
       photo_id: AF1QipMjZAV3kcHlf6iabQU7ygTL2Gxd0mCsarO1MoJk
   - captured: '2016-07-07T22:02:15.751559-03:59'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMSPXIEAtyV1wtSsg8Cv44t6epTZzPlhj8MVDS5
     kind: Photo
     id: 239393AA-D22D-4775-AF69-BA36C334DD0D
     asset: data/photos/239393AA-D22D-4775-AF69-BA36C334DD0D.webp
     references:
     - provider: apple_photos
       photo_id: 239393AA-D22D-4775-AF69-BA36C334DD0D
+    - provider: google_photos
+      photo_id: AF1QipMSPXIEAtyV1wtSsg8Cv44t6epTZzPlhj8MVDS5
   - captured: '2016-07-07T22:14:31.288055-04:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipP0dqYnZnJOziPKgalNpbKCZIWXLHwYknqIR-fQ
@@ -4896,23 +4972,27 @@ concerts:
     may include support acts.
   photos:
   - captured: '2017-04-05T21:21:30.951451-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipM0SPREORQ_8DMMwgGgmVrZH99OYuZyyY3icnR-
     kind: Photo
     id: 8E0386E3-1A13-4348-8DBB-B449ECBB1215
     asset: data/photos/8E0386E3-1A13-4348-8DBB-B449ECBB1215.webp
     references:
     - provider: apple_photos
       photo_id: 8E0386E3-1A13-4348-8DBB-B449ECBB1215
+    - provider: google_photos
+      photo_id: AF1QipM0SPREORQ_8DMMwgGgmVrZH99OYuZyyY3icnR-
   - captured: '2017-04-05T21:34:31-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN3B0tGnaFOQi3IkawrE0q0TW1Wx7RvNb7gwroa
     kind: Video still
     id: 3450C9C0-68D2-45D1-A1F9-7CD136D19906
     asset: data/photos/3450C9C0-68D2-45D1-A1F9-7CD136D19906.webp
     references:
     - provider: apple_photos
       photo_id: 3450C9C0-68D2-45D1-A1F9-7CD136D19906
+    - provider: google_photos
+      photo_id: AF1QipN3B0tGnaFOQi3IkawrE0q0TW1Wx7RvNb7gwroa
   - captured: '2017-04-05T22:02:13.977342-04:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipN2buKdgDP-6cNMCjMzzkGTjKWn6Np188i3ADv2
@@ -4986,23 +5066,27 @@ concerts:
     may include support acts.
   photos:
   - captured: '2017-09-26T21:44:11.495178-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipML7GpIF0gPNnZIAHDKpVsfmEQ-bOvn7P88QSh_
     kind: Photo
     id: D92D0A3C-80DE-4F0F-BD43-92C5E64CEAAF
     asset: data/photos/D92D0A3C-80DE-4F0F-BD43-92C5E64CEAAF.webp
     references:
     - provider: apple_photos
       photo_id: D92D0A3C-80DE-4F0F-BD43-92C5E64CEAAF
+    - provider: google_photos
+      photo_id: AF1QipML7GpIF0gPNnZIAHDKpVsfmEQ-bOvn7P88QSh_
   - captured: '2017-09-26T21:50:28.822077-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipO8ZU904lEkXgujPu0Zfz5PrvgwFAX280bmen-j
     kind: Photo
     id: 09BB53A2-E66A-421D-A091-133F30E45103
     asset: data/photos/09BB53A2-E66A-421D-A091-133F30E45103.webp
     references:
     - provider: apple_photos
       photo_id: 09BB53A2-E66A-421D-A091-133F30E45103
+    - provider: google_photos
+      photo_id: AF1QipO8ZU904lEkXgujPu0Zfz5PrvgwFAX280bmen-j
   - captured: '2017-09-26T22:34:22.135688-04:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipNIRNBnU1uFnht5glOOrM-OayxcoO80YdDS6-gS
@@ -5144,32 +5228,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2018-03-20T22:02:52.893487-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNQLAymjpTO2VK_TOUvCogOqUr5LyMFjbSmr4PN
     kind: Photo
     id: 14B6391B-8DDD-4CFE-A40B-FE777424B0EF
     asset: data/photos/14B6391B-8DDD-4CFE-A40B-FE777424B0EF.webp
     references:
     - provider: apple_photos
       photo_id: 14B6391B-8DDD-4CFE-A40B-FE777424B0EF
+    - provider: google_photos
+      photo_id: AF1QipNQLAymjpTO2VK_TOUvCogOqUr5LyMFjbSmr4PN
   - captured: '2018-03-20T22:33:37.069519-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNwOa8YvYw6z9Rx_o0AMLcaCqMewo0c_K0ORyFY
     kind: Photo
     id: 93A8D3CC-6B8B-42B7-8CC0-2382A44B7F2F
     asset: data/photos/93A8D3CC-6B8B-42B7-8CC0-2382A44B7F2F.webp
     references:
     - provider: apple_photos
       photo_id: 93A8D3CC-6B8B-42B7-8CC0-2382A44B7F2F
+    - provider: google_photos
+      photo_id: AF1QipNwOa8YvYw6z9Rx_o0AMLcaCqMewo0c_K0ORyFY
   - captured: '2018-03-20T22:34:42.696759-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOlAdMs-iSTyPZcP-F4GteGjUuZrTjOemt9OUhF
     kind: Photo
     id: BA00E3C2-3F5C-460A-AD75-BDBB6119FD99
     asset: data/photos/BA00E3C2-3F5C-460A-AD75-BDBB6119FD99.webp
     references:
     - provider: apple_photos
       photo_id: BA00E3C2-3F5C-460A-AD75-BDBB6119FD99
+    - provider: google_photos
+      photo_id: AF1QipOlAdMs-iSTyPZcP-F4GteGjUuZrTjOemt9OUhF
 - date: '2018-06-15'
   artist: Chromeo
   support: Pomo
@@ -5632,32 +5722,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2023-03-24T21:25:28.155000-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMjRSkuYi4eChx7owdEpGUMHvacnDwxFdSfZhP-
     kind: Photo
     id: 4145B05B-BFED-4F8A-978A-D16F826D9208
     asset: data/photos/4145B05B-BFED-4F8A-978A-D16F826D9208.webp
     references:
     - provider: apple_photos
       photo_id: 4145B05B-BFED-4F8A-978A-D16F826D9208
+    - provider: google_photos
+      photo_id: AF1QipMjRSkuYi4eChx7owdEpGUMHvacnDwxFdSfZhP-
   - captured: '2023-03-24T21:29:42-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMgBdNo0iirwPOexOJy8ZJwu4c_wGKq-aBaRP2A
     kind: Video still
     id: 58D3EE48-6891-48CF-9E0E-A8D3494F5BC8
     asset: data/photos/58D3EE48-6891-48CF-9E0E-A8D3494F5BC8.webp
     references:
     - provider: apple_photos
       photo_id: 58D3EE48-6891-48CF-9E0E-A8D3494F5BC8
+    - provider: google_photos
+      photo_id: AF1QipMgBdNo0iirwPOexOJy8ZJwu4c_wGKq-aBaRP2A
   - captured: '2023-03-24T21:51:31.861000-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOT3l5Z3Pm_yvf6W94ZSVhI2D0i6TBBsX_ti2ZI
     kind: Photo
     id: 85D1D1EF-5416-430A-B209-B009C1E256F4
     asset: data/photos/85D1D1EF-5416-430A-B209-B009C1E256F4.webp
     references:
     - provider: apple_photos
       photo_id: 85D1D1EF-5416-430A-B209-B009C1E256F4
+    - provider: google_photos
+      photo_id: AF1QipOT3l5Z3Pm_yvf6W94ZSVhI2D0i6TBBsX_ti2ZI
 - date: '2023-09-10'
   artist: Tove Lo
   support: UPSAHL
@@ -5940,32 +6036,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2024-03-10T21:36:15-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNObSXIh2GL0JNVk4NEcv0sHV-aVQ8a4-B4p4hq
     kind: Video still
     id: 39E25BA1-D568-476E-8BCB-04B1395E8191
     asset: data/photos/39E25BA1-D568-476E-8BCB-04B1395E8191.webp
     references:
     - provider: apple_photos
       photo_id: 39E25BA1-D568-476E-8BCB-04B1395E8191
+    - provider: google_photos
+      photo_id: AF1QipNObSXIh2GL0JNVk4NEcv0sHV-aVQ8a4-B4p4hq
   - captured: '2024-03-10T21:39:47-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNxKQfkOniQJA3Xi29F1VCmz2pEGf7WnlLqSY2p
     kind: Video still
     id: 692D1EF8-7A5D-44A1-9278-405F065FDFE8
     asset: data/photos/692D1EF8-7A5D-44A1-9278-405F065FDFE8.webp
     references:
     - provider: apple_photos
       photo_id: 692D1EF8-7A5D-44A1-9278-405F065FDFE8
+    - provider: google_photos
+      photo_id: AF1QipNxKQfkOniQJA3Xi29F1VCmz2pEGf7WnlLqSY2p
   - captured: '2024-03-10T21:47:38-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPOZiAKhUhq6nCVtrZdnEv5hiWQYmHguOoQzxw6
     kind: Video still
     id: 82A6CFE0-80FA-4E69-BD41-BF0E87B58399
     asset: data/photos/82A6CFE0-80FA-4E69-BD41-BF0E87B58399.webp
     references:
     - provider: apple_photos
       photo_id: 82A6CFE0-80FA-4E69-BD41-BF0E87B58399
+    - provider: google_photos
+      photo_id: AF1QipPOZiAKhUhq6nCVtrZdnEv5hiWQYmHguOoQzxw6
 - date: '2024-03-20'
   artist: A St. Paddy’s Celebration of Sinéad O’Connor and Shane MacGowan
   support: Billed performers included Flogging Molly, Glen Hansard, Cat Power, Dropkick Murphys, David Gray, Billy
@@ -6275,32 +6377,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2025-01-30T19:58:28.819000-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPoQhbeXzoNuG27p5QSrGpiWlNJPIMA8Ij3WYwo
     kind: Photo
     id: E0A9DE04-2776-4754-872E-A25AE289BB27
     asset: data/photos/E0A9DE04-2776-4754-872E-A25AE289BB27.webp
     references:
     - provider: apple_photos
       photo_id: E0A9DE04-2776-4754-872E-A25AE289BB27
+    - provider: google_photos
+      photo_id: AF1QipPoQhbeXzoNuG27p5QSrGpiWlNJPIMA8Ij3WYwo
   - captured: '2025-01-30T20:22:16.448000-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPMEUs6eflUgxS_Du5S2Blh0sNlUDqSl5tXkHH5
     kind: Photo
     id: 280DB815-AF6F-4065-A99B-1342C9203F63
     asset: data/photos/280DB815-AF6F-4065-A99B-1342C9203F63.webp
     references:
     - provider: apple_photos
       photo_id: 280DB815-AF6F-4065-A99B-1342C9203F63
+    - provider: google_photos
+      photo_id: AF1QipPMEUs6eflUgxS_Du5S2Blh0sNlUDqSl5tXkHH5
   - captured: '2025-01-30T20:42:50.222000-05:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPX04JWq-v_p0nkFLKJkTGugWyUKssnPwauCSsP
     kind: Photo
     id: EE0E0BE0-3A61-4B24-AA1D-21F247D9309E
     asset: data/photos/EE0E0BE0-3A61-4B24-AA1D-21F247D9309E.webp
     references:
     - provider: apple_photos
       photo_id: EE0E0BE0-3A61-4B24-AA1D-21F247D9309E
+    - provider: google_photos
+      photo_id: AF1QipPX04JWq-v_p0nkFLKJkTGugWyUKssnPwauCSsP
 - date: '2025-03-17'
   artist: Madelline
   support: ''
@@ -6326,32 +6434,38 @@ concerts:
     may include support acts.
   photos:
   - captured: '2025-03-17T20:13:58-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNuQA5VaKEUNDLyrm8L8T4-p2jZlnJ_EQxSq38B
     kind: Video still
     id: BCB46C6A-4A5B-46ED-9A02-7EBDA1CCF095
     asset: data/photos/BCB46C6A-4A5B-46ED-9A02-7EBDA1CCF095.webp
     references:
     - provider: apple_photos
       photo_id: BCB46C6A-4A5B-46ED-9A02-7EBDA1CCF095
+    - provider: google_photos
+      photo_id: AF1QipNuQA5VaKEUNDLyrm8L8T4-p2jZlnJ_EQxSq38B
   - captured: '2025-03-17T20:23:46-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOo0C9vi3uj4dbLXgINHgor7ZRrFfGXvvKy185F
     kind: Video still
     id: 812191A6-51FA-4A71-91D9-879A5594C2AD
     asset: data/photos/812191A6-51FA-4A71-91D9-879A5594C2AD.webp
     references:
     - provider: apple_photos
       photo_id: 812191A6-51FA-4A71-91D9-879A5594C2AD
+    - provider: google_photos
+      photo_id: AF1QipOo0C9vi3uj4dbLXgINHgor7ZRrFfGXvvKy185F
   - captured: '2025-03-17T20:31:49-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNrvLhKLsA-nEgT5AbCQvSrI3DBJqkCIMiHsw7H
     kind: Video still
     id: EF8FBDD7-7829-4A4C-8EDF-5172C710CC7C
     asset: data/photos/EF8FBDD7-7829-4A4C-8EDF-5172C710CC7C.webp
     references:
     - provider: apple_photos
       photo_id: EF8FBDD7-7829-4A4C-8EDF-5172C710CC7C
+    - provider: google_photos
+      photo_id: AF1QipNrvLhKLsA-nEgT5AbCQvSrI3DBJqkCIMiHsw7H
 - date: '2025-03-22'
   artist: Emei
   support: ''
@@ -6371,14 +6485,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2025-03-22T21:55:21.183000-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN3FeE0Y29b5pdoFMNK4wnY_g0gnIWzd09qVgri
     kind: Photo
     id: 80E7B216-31B7-4E09-B291-C98A6ADFA3E7
     asset: data/photos/80E7B216-31B7-4E09-B291-C98A6ADFA3E7.webp
     references:
     - provider: apple_photos
       photo_id: 80E7B216-31B7-4E09-B291-C98A6ADFA3E7
+    - provider: google_photos
+      photo_id: AF1QipN3FeE0Y29b5pdoFMNK4wnY_g0gnIWzd09qVgri
 - date: '2025-06-26'
   artist: Sub Urban
   support: Madelline
@@ -6561,14 +6677,16 @@ concerts:
     may include support acts.
   photos:
   - captured: '2025-10-04T19:55:56-04:00'
-    source: Apple Photos
-    url: null
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMDenLonabzxZXVHoD1Fs53SNr9K0KxAioL6n9Y
     kind: Video still
     id: 541E7B9F-0B6C-4743-9DAC-3103B5683074
     asset: data/photos/541E7B9F-0B6C-4743-9DAC-3103B5683074.webp
     references:
     - provider: apple_photos
       photo_id: 541E7B9F-0B6C-4743-9DAC-3103B5683074
+    - provider: google_photos
+      photo_id: AF1QipMDenLonabzxZXVHoD1Fs53SNr9K0KxAioL6n9Y
   - captured: '2025-10-04T20:04:58-04:00'
     source: Google Photos + Apple Photos
     url: https://photos.google.com/photo/AF1QipP-hMP0R36XzGXGxWSSPqn8-72dVN9Nzin42RAR
