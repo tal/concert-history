@@ -2016,6 +2016,11 @@ concerts:
   venue: Pier 63, Hudson River Park
   status: Photo corroborated
   sources:
+  - type: attendee
+    label: Tal remembers seeing The Kills on the West Side
+    statement: Tal has a vivid memory of seeing The Kills at a park on the West Side over 10 years ago. This is the only
+      West Side park Kills show in the archive.
+    confirmed_on: '2026-11-08'
   - type: email
     label: Email
     url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/13814edb64e00605
