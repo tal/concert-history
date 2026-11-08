@@ -19,6 +19,8 @@ The generated HTML embeds its photos and JavaScript and can be opened directly f
 |---|---|
 | `data/concerts.yml` | Canonical concert, source, and photo metadata |
 | `data/photos/` | Portable WebP image copies, embedded at build time |
+| `data/posters/` | Gig posters found on the web, as WebP, embedded at build time |
+| `AGENTS.md` | Checklist for adding concerts, including the required web search |
 | `src/build.ts` | Validates the data and writes everything in `dist/` |
 | `src/types.ts` | Types shared by the build and the browser code |
 | `src/archive.html` | Page template and styles |
@@ -36,6 +38,8 @@ Each concert has a stable `id`, date, artist, supporting acts, venue, status, no
 - Swarm sources link to individual check-ins at `https://www.swarmapp.com/user/<user_id>/checkin/<checkin_id>`. Their `checkin_id` values were recovered from Swarm history by matching the local date, venue, and event or shout where available. `id_note` records the original check-in venue and local timestamp; after-midnight check-ins can belong to the previous evening's concert. Other missing IDs remain null rather than inferred.
 - Attendee sources (`type: attendee`) record something Tal confirmed from memory, such as seeing a set or identifying who is in a photo. They have a `statement` and a `confirmed_on` date (YYYY-MM-DD), and no `url`. The page shows their label as plain text.
 - The `Attendee confirmed` status marks a show logged on Tal's word. It counts as supported, and its `notes` keep any evidence that conflicts with it.
+- `setlists` holds each headliner's songs from setlist.fm (`encore_start_index` marks the first encore song). `poster` points at a WebP in `data/posters/` with its `kind` (`show_poster`, `tour_admat` or `festival_lineup`) and source URLs.
+- `web_research` records the web search every concert gets for support acts, setlist and poster: the date searched and a `found` / `none_found` outcome for each (plus `matches_existing` for support and `empty_event` for an empty setlist.fm page). The build warns about concerts that have not been searched yet. See `AGENTS.md` for the checklist when adding a concert.
 - `photo_match` records the rationale for attaching a gallery. No matched image does not establish that no photos exist.
 - Local paths in the YAML (photo `asset`s and non-HTTP source `url`s such as `research/…` or `dist/photo-catalog.json`) are relative to the project root. The build rewrites links so they resolve from `dist/`.
 

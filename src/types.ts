@@ -57,6 +57,39 @@ export interface Photo {
   references: PhotoReference[];
 }
 
+/** One performer's set, usually from setlist.fm. */
+export interface Setlist {
+  artist: string;
+  url: string;
+  songs: string[];
+  /** Index into `songs` of the first encore song, or null when no encore is marked. */
+  encore_start_index: number | null;
+  tour?: string | null;
+}
+
+export type PosterKind = 'show_poster' | 'tour_admat' | 'festival_lineup';
+
+export interface Poster {
+  /** Path relative to the project root, inside data/posters/. */
+  asset: string;
+  kind: PosterKind;
+  /** Page the poster was found on. */
+  page_url: string;
+  /** Original image URL. */
+  image_url: string;
+}
+
+/** Outcome of the web search every concert gets for support acts, setlists and a poster. */
+export interface WebResearch {
+  searched_on: string;
+  /** not_searched: the web search could not run (e.g. search quota ran out) and still needs doing. */
+  support: 'found' | 'matches_existing' | 'none_found' | 'not_searched';
+  support_sources: string[];
+  setlist: 'found' | 'empty_event' | 'none_found';
+  poster: 'found' | 'none_found' | 'not_searched';
+  notes?: string;
+}
+
 export interface Concert {
   id: string;
   date: string;
@@ -69,6 +102,10 @@ export interface Concert {
   sources: Source[];
   photo_match: string | null;
   photos: Photo[];
+  setlists?: Setlist[];
+  poster?: Poster | null;
+  /** Absent until the concert has been searched on the web; the build warns about those. */
+  web_research?: WebResearch;
 }
 
 export interface ArchiveData {
@@ -98,7 +135,7 @@ export interface RenderedConcert extends Omit<Concert, 'id' | 'sources'> {
 
 export interface PagePayload {
   events: RenderedConcert[];
-  /** Photo ID → data: URI. */
+  /** Photo ID, or `poster:<concert id>`, → data: URI. */
   images: Record<string, string>;
 }
 

@@ -28,8 +28,8 @@ function names(r: RenderedConcert, role: ArtistRole = 'headliner') {
 
 const badge = (r: RenderedConcert) => `<span class="status ${supported(r) ? 'good' : ''}">${esc(r.status)}</span>`;
 
-function gallery(r: RenderedConcert) {
-  if (!r.photos.length) return '';
+function gallery(r: RenderedConcert, posterThumb = '') {
+  if (!r.photos.length) return posterThumb && `<div class="gallery-strip">${posterThumb}</div>`;
   const thumbs = r.photos
     .slice(0, 2)
     .map(
@@ -39,7 +39,32 @@ function gallery(r: RenderedConcert) {
     )
     .join('');
   const count = `${r.photos.length} ${r.photos.length === 1 ? 'photo' : 'photos'}`;
-  return `<div class="gallery-strip">${thumbs}<span class="photo-count">${count}</span></div>`;
+  return `<div class="gallery-strip">${posterThumb}${thumbs}<span class="photo-count">${count}</span></div>`;
+}
+
+const POSTER_KINDS = { show_poster: 'Show poster', tour_admat: 'Tour admat', festival_lineup: 'Festival lineup' };
+
+function poster(r: RenderedConcert) {
+  if (!r.poster) return '';
+  return (
+    `<button class="thumb poster" data-poster="${r.id}" aria-label="Open poster: ${esc(r.artist)}, ${esc(r.date)}">` +
+    `<img loading="lazy" src="${images['poster:' + r.archive_id]}" alt="Poster, ${esc(r.artist)}, ${esc(r.date)}"></button>`
+  );
+}
+
+function setlists(r: RenderedConcert) {
+  return (r.setlists ?? [])
+    .filter((l) => l.songs.length)
+    .map((l) => {
+      const songs = l.songs
+        .map((song, i) => `${i === l.encore_start_index ? '<li class="encore">Encore</li>' : ''}<li>${esc(song)}</li>`)
+        .join('');
+      return (
+        `<details class="setlist"><summary>${esc(l.artist)} setlist · ${l.songs.length} songs</summary>` +
+        `<ol>${songs}</ol><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(new URL(l.url).hostname.replace(/^www\./, ''))} ↗</a></details>`
+      );
+    })
+    .join('');
 }
 
 function evidence(r: RenderedConcert) {
@@ -63,7 +88,7 @@ body.innerHTML = events
     (r) =>
       `<tr data-id="${r.id}" data-status="${supported(r) ? 'confirmed' : esc(r.status)}" data-year="${esc(r.date.slice(0, 4))}">` +
       `<td class="date">${esc(r.date)}</td>` +
-      `<td><strong>${names(r)}</strong>${gallery(r)}${evidence(r)}</td>` +
+      `<td><strong>${names(r)}</strong>${gallery(r, poster(r))}${setlists(r)}${evidence(r)}</td>` +
       `<td class="support">${names(r, 'support')}</td>` +
       `<td>${esc(r.venue)}</td><td>${badge(r)}</td></tr>`,
   )
@@ -122,7 +147,7 @@ function openArtist(key: string) {
         `<article class="appearance"><div class="role">${role} ${badge(r)}</div>` +
         `<h3>${esc(r.date)} · ${esc(r.venue)}</h3>` +
         `<p>${esc(r.artist)}${r.support ? ' · With ' + esc(r.support) : ''}</p>` +
-        `${gallery(r)}${evidence(r)}</article>`
+        `${gallery(r, poster(r))}${setlists(r)}${evidence(r)}</article>`
       );
     })
     .join('');
@@ -151,6 +176,20 @@ function showPhoto() {
   next.disabled = photoIndex === activeEvent.photos.length - 1;
 }
 
+function showPoster(r: RenderedConcert) {
+  activeEvent = null;
+  const img = $<HTMLImageElement>('#fullphoto');
+  img.src = images['poster:' + r.archive_id]!;
+  img.alt = `Poster for ${r.artist} at ${r.venue}, ${r.date}`;
+  const p = r.poster!;
+  $('#photo-caption').innerHTML =
+    `${esc(r.artist)} · ${esc(r.venue)} · ${esc(r.date)}<br>${POSTER_KINDS[p.kind]} · ` +
+    `<a href="${esc(p.page_url)}" target="_blank" rel="noopener">Source ↗</a>`;
+  $('#photo-position').textContent = '';
+  previous.disabled = next.disabled = true;
+  photoDialog.showModal();
+}
+
 function step(delta: -1 | 1) {
   if (!activeEvent) return;
   const target = photoIndex + delta;
@@ -164,6 +203,11 @@ document.addEventListener('click', (e) => {
   const artist = target.closest<HTMLElement>('[data-artist]');
   if (artist) {
     openArtist(artist.dataset.artist!);
+    return;
+  }
+  const posterButton = target.closest<HTMLElement>('[data-poster]');
+  if (posterButton) {
+    showPoster(events[Number(posterButton.dataset.poster)]!);
     return;
   }
   const thumb = target.closest<HTMLElement>('[data-gallery]');

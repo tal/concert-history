@@ -15,6 +15,7 @@ import {
 const ROOT = path.resolve(import.meta.dir, '..');
 const DATA = path.join(ROOT, 'data');
 const PHOTOS = path.join(DATA, 'photos');
+const POSTERS = path.join(DATA, 'posters');
 const DIST = path.join(ROOT, 'dist');
 const SRC = import.meta.dir;
 
@@ -64,6 +65,31 @@ function validate(concert: Concert, seen: Set<string>) {
     }
     if (source.type !== 'attendee' && !source.url) throw new Error(`Missing source URL: ${concert.id}`);
   }
+  for (const setlist of concert.setlists ?? []) {
+    if (!setlist.artist || !setlist.url || !Array.isArray(setlist.songs)) {
+      throw new Error(`Setlist needs artist, url and songs: ${concert.id}`);
+    }
+  }
+  const research = concert.web_research;
+  if (research) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(research.searched_on ?? '')) {
+      throw new Error(`web_research needs a searched_on date: ${concert.id}`);
+    }
+    if ((research.poster === 'found') !== Boolean(concert.poster)) {
+      throw new Error(`web_research.poster disagrees with poster: ${concert.id}`);
+    }
+    if ((research.setlist === 'found') !== Boolean(concert.setlists?.some((s) => s.songs.length))) {
+      throw new Error(`web_research.setlist disagrees with setlists: ${concert.id}`);
+    }
+  }
+}
+
+async function loadPoster(concert: Concert, images: Record<string, string>) {
+  if (!concert.poster) return;
+  const asset = path.resolve(ROOT, concert.poster.asset);
+  if (!isInside(asset, POSTERS)) throw new Error(`Poster asset outside data/posters: ${asset}`);
+  const bytes = await Bun.file(asset).bytes();
+  images[`poster:${concert.id}`] = 'data:image/webp;base64,' + Buffer.from(bytes).toString('base64');
 }
 
 async function loadImages(concert: Concert, images: Record<string, string>) {
@@ -101,8 +127,8 @@ function markdown(data: ArchiveData, supported: number, galleries: number) {
     '',
     `${supported} check-in/photo/attendee supported events; ${galleries} events with image galleries.`,
     '',
-    '| Date | Artist / event | Supporting / billed acts | Venue | Evidence and notes | Images |',
-    '|---|---|---|---|---|---|',
+    '| Date | Artist / event | Supporting / billed acts | Venue | Evidence and notes | Images | Setlist | Poster |',
+    '|---|---|---|---|---|---|---|---|',
   ];
   for (const row of data.concerts.toReversed()) {
     const refs = row.sources.map((s) => (s.url ? `[${s.label}](${fromDist(s.url)})` : s.label)).join('; ');
@@ -113,6 +139,8 @@ function markdown(data: ArchiveData, supported: number, galleries: number) {
       row.venue,
       `${row.status} — ${refs} — ${row.notes}`,
       row.photos.length || 'No match',
+      row.setlists?.map((l) => `[${l.artist} (${l.songs.length} songs)](${l.url})`).join('; ') || '—',
+      row.poster ? `[Poster](${fromDist(row.poster.asset)})` : '—',
     ];
     lines.push('| ' + values.map((v) => String(v).replaceAll('|', '/').replaceAll('\n', ' ')).join(' | ') + ' |');
   }
@@ -131,6 +159,7 @@ async function build() {
   for (const [index, concert] of concerts.entries()) {
     validate(concert, seen);
     await loadImages(concert, images);
+    await loadPoster(concert, images);
     const row = structuredClone(concert);
     events.push({
       ...row,
@@ -180,6 +209,15 @@ async function build() {
   console.log(
     `Built ${concerts.length} concerts, ${catalog.length} galleries, ${Object.keys(images).length} embedded images.`,
   );
+  const unresearched = concerts
+    .filter((c) => !c.web_research || c.web_research.support === 'not_searched' || c.web_research.poster === 'not_searched')
+    .map((c) => c.id);
+  if (unresearched.length) {
+    console.warn(
+      `${unresearched.length} concerts still need a web search for support acts, setlist and poster ` +
+        `(see AGENTS.md): ${unresearched.join(', ')}`,
+    );
+  }
 }
 
 if (import.meta.main) await build();
