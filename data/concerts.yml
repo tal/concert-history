@@ -6611,8 +6611,12 @@ concerts:
   artist: Madelline
   support: ''
   venue: The Sultan Room
-  status: Ticket evidence
+  status: Excluded
   sources:
+  - type: attendee
+    label: Tal did not attend this show
+    statement: Tal says they saw Madelline three times (Baby's All Right 2025-03-17, opening for Sub Urban at Elsewhere 2025-06-26, opening for Emei at Sony Hall 2026-10-17); this Sultan Room show was not one of them.
+    confirmed_on: '2026-11-07'
   - type: email
     label: Email
     url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/191658db7ad1685b
@@ -6622,7 +6626,7 @@ concerts:
     thread_id: 191658db7ad1685b
     subject: 'Your tickets: Madelline'
     rfc822_message_id: <30201406.20240818125428.66c1ef04b8bf10.61564073@mail177-245.suw61.mandrillapp.com>
-  notes: ''
+  notes: Tickets were bought, but Tal says they did not see Madelline at this show.
   id: 2024-09-05-madelline
   photo_match: null
   photos: []
@@ -6818,6 +6822,10 @@ concerts:
   venue: Baby’s All Right
   status: Check-in confirmed
   sources:
+  - type: attendee
+    label: Tal confirmed seeing Madelline headline
+    statement: Tal remembers seeing Madelline headline Baby's All Right.
+    confirmed_on: '2026-11-07'
   - type: checkin
     label: Swarm check-in
     url: https://www.swarmapp.com/user/9203/checkin/67d8c93b1d3b5f701569e66b
@@ -6902,8 +6910,12 @@ concerts:
   artist: Sub Urban
   support: Madelline
   venue: Elsewhere - Zone One, 599 Johnson Avenue, Brooklyn, NY, 11237, US
-  status: Calendar only
+  status: Attendee confirmed
   sources:
+  - type: attendee
+    label: Tal confirmed seeing Madelline open
+    statement: Tal remembers seeing Madelline open for Sub Urban at this show, one of the three times they saw her.
+    confirmed_on: '2026-11-07'
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=YXFqMXM3cGUycTc1MjFubXVsNGE2YWduMjQgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -6911,7 +6923,7 @@ concerts:
     event_id: aqj1s7pe2q7521nmul4a6agn24
     calendar_id: swimming.bird@gmail.com
     url_eid: YXFqMXM3cGUycTc1MjFubXVsNGE2YWduMjQgc3dpbW1pbmcuYmlyZEBt
-  notes: Calendar entry; attendance not established.
+  notes: Calendar entry; Tal confirmed attending and seeing Madelline's support set.
   id: 2025-06-26-sub-urban
   photo_match: null
   photos: []
@@ -7385,6 +7397,10 @@ concerts:
   venue: Sony Hall
   status: Photo corroborated
   sources:
+  - type: attendee
+    label: Tal confirmed seeing Madelline open
+    statement: Tal remembers seeing Madelline open for Emei at this show, the most recent time they saw her.
+    confirmed_on: '2026-11-07'
   - type: email
     label: Email
     url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1a14b8941c08f6a5
