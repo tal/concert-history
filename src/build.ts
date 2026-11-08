@@ -59,6 +59,10 @@ function validate(concert: Concert, seen: Set<string>) {
     if (source.type === 'calendar' && !(source.event_id && source.calendar_id)) {
       throw new Error(`Missing calendar identifiers: ${concert.id}`);
     }
+    if (source.type === 'attendee' && !(source.statement && /^\d{4}-\d{2}-\d{2}$/.test(source.confirmed_on ?? ''))) {
+      throw new Error(`Attendee source needs a statement and confirmed_on date: ${concert.id}`);
+    }
+    if (source.type !== 'attendee' && !source.url) throw new Error(`Missing source URL: ${concert.id}`);
   }
 }
 
@@ -95,13 +99,13 @@ function markdown(data: ArchiveData, supported: number, galleries: number) {
   const lines = [
     '# ' + data.title,
     '',
-    `${supported} check-in/photo supported events; ${galleries} events with image galleries.`,
+    `${supported} check-in/photo/attendee supported events; ${galleries} events with image galleries.`,
     '',
     '| Date | Artist / event | Supporting / billed acts | Venue | Evidence and notes | Images |',
     '|---|---|---|---|---|---|',
   ];
   for (const row of data.concerts.toReversed()) {
-    const refs = row.sources.map((s) => `[${s.label}](${fromDist(s.url)})`).join('; ');
+    const refs = row.sources.map((s) => (s.url ? `[${s.label}](${fromDist(s.url)})` : s.label)).join('; ');
     const values = [
       row.date,
       row.artist,
@@ -135,7 +139,7 @@ async function build() {
       headliners: artistNames(row.artist, data.artist_aliases),
       supportArtists: artistNames(row.support, data.artist_aliases),
       sourceRefs: row.sources,
-      sources: row.sources.map((s) => [s.label, fromDist(s.url)]),
+      sources: row.sources.map((s) => [s.label, s.url ? fromDist(s.url) : null]),
       photoMatch:
         row.photo_match ||
         'No photo confidently matched in this search. This does not establish that no photos exist.',

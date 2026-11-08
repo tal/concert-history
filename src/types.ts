@@ -3,6 +3,7 @@
 export const STATUSES = [
   'Check-in confirmed',
   'Photo corroborated',
+  'Attendee confirmed',
   'Ticket evidence',
   'Calendar only',
   'Tentative schedule',
@@ -13,15 +14,15 @@ export const STATUSES = [
 ] as const;
 export type Status = (typeof STATUSES)[number];
 
-export const SUPPORTED_STATUSES: readonly Status[] = ['Check-in confirmed', 'Photo corroborated'];
+export const SUPPORTED_STATUSES: readonly Status[] = ['Check-in confirmed', 'Photo corroborated', 'Attendee confirmed'];
 
-export type SourceType = 'email' | 'calendar' | 'checkin' | 'research' | 'web' | 'photo_catalog';
+export type SourceType = 'email' | 'calendar' | 'checkin' | 'research' | 'web' | 'photo_catalog' | 'attendee';
 
 export interface Source {
   type: SourceType;
   label: string;
-  /** External URL, or a path relative to the project root. */
-  url: string;
+  /** External URL, or a path relative to the project root. Absent only for attendee statements. */
+  url?: string;
   provider?: string;
   message_id?: string;
   thread_id?: string;
@@ -33,6 +34,9 @@ export interface Source {
   url_eid?: string;
   checkin_id?: string | null;
   id_note?: string;
+  /** Attendee statements: what Tal confirmed, and when (YYYY-MM-DD). */
+  statement?: string;
+  confirmed_on?: string;
 }
 
 export type PhotoKind = 'Photo' | 'Video still';
@@ -87,8 +91,8 @@ export interface RenderedConcert extends Omit<Concert, 'id' | 'sources'> {
   headliners: ArtistName[];
   supportArtists: ArtistName[];
   sourceRefs: Source[];
-  /** [label, href] pairs, with local paths made relative to dist/. */
-  sources: [string, string][];
+  /** [label, href] pairs, with local paths made relative to dist/. href is null for attendee statements. */
+  sources: [string, string | null][];
   photoMatch: string;
 }
 

@@ -34,6 +34,8 @@ Each concert has a stable `id`, date, artist, supporting acts, venue, status, no
 - Calendar sources store the Google Calendar `event_id`, full `calendar_id`, encoded URL `url_eid`, and original URL.
 - Each photo stores its image `asset`, capture time, media kind, source URL, and provider-specific `references` with the Apple Photos UUID, Google Photos photo ID and/or iCloud Photos record ID. `url` opens the photo in Google Photos, or in iCloud Photos (`https://www.icloud.com/photos/#/i,pz,<record id>/`) when it is not in Google Photos. Video captures are displayed as labeled still images.
 - Swarm sources link to individual check-ins at `https://www.swarmapp.com/user/<user_id>/checkin/<checkin_id>`. Their `checkin_id` values were recovered from Swarm history by matching the local date, venue, and event or shout where available. `id_note` records the original check-in venue and local timestamp; after-midnight check-ins can belong to the previous evening's concert. Other missing IDs remain null rather than inferred.
+- Attendee sources (`type: attendee`) record something Tal confirmed from memory, such as seeing a set or identifying who is in a photo. They have a `statement` and a `confirmed_on` date (YYYY-MM-DD), and no `url`. The page shows their label as plain text.
+- The `Attendee confirmed` status marks a show logged on Tal's word. It counts as supported, and its `notes` keep any evidence that conflicts with it.
 - `photo_match` records the rationale for attaching a gallery. No matched image does not establish that no photos exist.
 - Local paths in the YAML (photo `asset`s and non-HTTP source `url`s such as `research/…` or `dist/photo-catalog.json`) are relative to the project root. The build rewrites links so they resolve from `dist/`.
 

@@ -44,7 +44,9 @@ function gallery(r: RenderedConcert) {
 
 function evidence(r: RenderedConcert) {
   const links = r.sources
-    .map(([label, url]) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`)
+    .map(([label, url]) =>
+      url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>` : `<span>${esc(label)}</span>`,
+    )
     .join(' · ');
   return (
     `<details><summary>Evidence & notes</summary>` +
@@ -111,7 +113,7 @@ function openArtist(key: string) {
   $('#artist-title').textContent = displayName(key, matches);
   const confirmed = matches.filter(supported).length;
   $('#artist-meta').textContent =
-    `${matches.length} ${matches.length === 1 ? 'appearance' : 'appearances'} in your records · ${confirmed} check-in/photo supported. ` +
+    `${matches.length} ${matches.length === 1 ? 'appearance' : 'appearances'} in your records · ${confirmed} check-in/photo/attendee supported. ` +
     'Other records retain their booking, plan, or exclusion labels. Supporting listings do not prove you saw that set.';
   $('#artist-events').innerHTML = matches
     .map((r) => {

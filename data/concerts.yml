@@ -1335,6 +1335,54 @@ concerts:
       photo_id: BFF7CFEE-230D-432B-9D43-E88AC1583DE5
     - provider: google_photos
       photo_id: AF1QipNWVuXY7DBKt1DsD8K214MyLhBlT_mvO52guUa4
+- date: '2012-03-24'
+  artist: Grimes
+  support: Born Gold; DJ Dog Dick
+  venue: Glasslands Gallery
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal confirmed attending
+    statement: Tal remembers seeing Grimes at Glasslands and chose this date from her three Glasslands shows.
+    confirmed_on: '2026-11-07'
+  - type: email
+    label: Ryan Jorgenson's show list (Mar 24 Grimes @ Glasslands)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/134fc599b997f05c
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '134fc599b997f05c'
+    thread_id: '134fc599b997f05c'
+    subject: 'Fw: Shows'
+  - type: email
+    label: Ryan Jorgenson's earlier show list (3/24 Grimes @ Glasslands)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/134200f014c5a692
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '134200f014c5a692'
+    thread_id: '134200f014c5a692'
+    subject: Shows
+  - type: email
+    label: Craigslist inquiry to buy Glasslands Grimes tickets (2012-03-12)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/13608013633a768d
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '13608013633a768d'
+    thread_id: '13608013633a768d'
+    subject: Trade Grimes Tickets GL for ML (Glasslands)
+  - type: web
+    label: Ticketfly event 76543 (archived; sold out)
+    url: http://web.archive.org/web/20120429210714/http://www.ticketfly.com/event/76543
+  - type: web
+    label: BrooklynVegan post-show write-up (archived)
+    url: http://web.archive.org/web/20120330223548/http://www.brooklynvegan.com/archives/2012/03/grimes_played_g.html
+  notes: "Sold-out PopGun show (doors 8:30 PM, over by 11:30 PM, 21+). Logged on Tal's word; no ticket, check-in\
+    \ or photo from the show has been found. Conflict, kept on purpose: Google Photos GPS puts Tal in Killington,\
+    \ VT at 7:12 PM that day (about 250 miles away), with a drive home on Mar 25. Grimes's other Glasslands dates\
+    \ were 2010-10-17 (headlining after Silly Kissers and Family Dynamics) and 2013-05-21 (a DJ set at the Majical\
+    \ Cloudz release show). She also played Mercury Lounge on 2012-03-23."
+  id: 2012-03-24-grimes
+  photo_match: null
+  photos: []
 - date: '2012-03-28'
   artist: Youth Lagoon
   support: Porcelain Raft
@@ -2935,7 +2983,7 @@ concerts:
   id: 2013-09-21-alex-winston
   photo_match: null
   photos: []
-- date: '2013-10-06'
+- date: '2013-10-05'
   artist: Sleigh Bells
   support: ''
   venue: Le Poisson Rouge
@@ -2947,8 +2995,25 @@ concerts:
     provider: swarm
     checkin_id: '5250fae211d2c47afe4bb53b'
     id_note: "Recovered from Swarm history on 2026-11-07; Le Poisson Rouge at 2013-10-06 01:53:38 local time. Event: Sleigh Bells."
+  - type: email
+    label: Ticket Prophet receipt (4 GA, Oct 5, 2013, 11 PM show)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1416026ba93a0cd2
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1416026ba93a0cd2'
+    thread_id: '1416026ba93a0cd2'
+    subject: Your ticket confirmation
+  - type: email
+    label: Email to Ryan Jorgenson (show at 11 PM with an opener)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1418a78606c7a407
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1418a78606c7a407'
+    thread_id: '1418a78606c7a407'
+    subject: My email + sleigh bells at 11pm
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
-    \ not proven."
+    \ not proven. Dated 2013-10-05 from the Ticket Prophet receipt (11 PM show). It was previously 2013-10-06 because\
+    \ the check-in and photos (00:53–01:20) came after midnight. The ID keeps the old date so it stays stable."
   id: 2013-10-06-sleigh-bells
   photo_match: Visually reviewed concert image; matched by event date and venue/context. Individual pictured sets
     may include support acts.
@@ -3876,7 +3941,8 @@ concerts:
   photos: []
 - date: '2014-10-23'
   artist: 'CMJ showcase: Kate Boy / Made in Heights / Fenech-Soler / George Maple'
-  support: Nine further billed acts not named in history
+  support: Aurora; Zella Day; Seinabo Sey; Cathedrals; Verite; Circa Waves; Thief; Hoodlem; Twin Peaks; Nothing But
+    Thieves
   venue: Santos Party House
   status: Check-in confirmed
   sources:
@@ -3887,17 +3953,84 @@ concerts:
     checkin_id: '54498c90498efe68f43fa515'
     id_note: "Recovered from Swarm history on 2026-11-07; Santos Party House at 2014-10-23 19:17:36 local time. Event: Kate Boy, Made in Heights, Fenech-Soler, George Maple and 9 more."
   - type: calendar
-    label: Calendar
+    label: 'Calendar: George Maple at Rough Trade (separate plan, not Santos)'
     url: https://www.google.com/calendar/event?eid=bmI2ZjFma3AxNTV2OThjOWRodGI1YmI0Ym8gc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
     provider: google_calendar
     event_id: nb6f1fkp155v98c9dhtb5bb4bo
     calendar_id: swimming.bird@gmail.com
     url_eid: bmI2ZjFma3AxNTV2OThjOWRodGI1YmI0Ym8gc3dpbW1pbmcuYmlyZEBt
+  - type: web
+    label: Historical bill (Neon Gold)
+    url: https://neon.gold/?p=3750
+  - type: web
+    label: CMJ preview listing Aurora (Complex)
+    url: https://www.complex.com/pigeons-and-planes/2014/10/aurora-artist-norway
+  - type: attendee
+    label: Tal identified Aurora in photo
+    statement: The 19:59 photo (IMG_0981, B76CFFC2) shows Aurora performing.
+    confirmed_on: '2026-11-07'
+  - type: attendee
+    label: Tal confirmed seeing Zella Day
+    statement: Tal remembers seeing Zella Day play this Santos Party House show.
+    confirmed_on: '2026-11-06'
+  - type: attendee
+    label: Tal identified Zella Day in photo
+    statement: The 19:55 photo (IMG_0979, 26DEDE00) shows Zella Day performing.
+    confirmed_on: '2026-11-07'
+  - type: calendar
+    label: 'Calendar: Zella Day at Santos Party House, 7:30 PM'
+    url: https://www.google.com/calendar/event?eid=ZTRoZXFnMHUxbTZnZWdrdWl1cnJvZmI0N28gc3dpbW1pbmcuYmlyZEBt
+    provider: google_calendar
+    event_id: e4heqg0u1m6gegkuiurrofb47o
+    calendar_id: swimming.bird@gmail.com
+    url_eid: ZTRoZXFnMHUxbTZnZWdrdWl1cnJvZmI0N28gc3dpbW1pbmcuYmlyZEBt
+  - type: calendar
+    label: 'Calendar: Aurora at Santos Party House, 7:00 PM'
+    url: https://www.google.com/calendar/event?eid=Mm12N2h0OHR2Z240NmhzaWE3dDRvZGM5YnMgc3dpbW1pbmcuYmlyZEBt
+    provider: google_calendar
+    event_id: 2mv7ht8tvgn46hsia7t4odc9bs
+    calendar_id: swimming.bird@gmail.com
+    url_eid: Mm12N2h0OHR2Z240NmhzaWE3dDRvZGM5YnMgc3dpbW1pbmcuYmlyZEBt
+  - type: calendar
+    label: 'Calendar: Twin Peaks at Santos Party House, 8:30 PM'
+    url: https://www.google.com/calendar/event?eid=ajRwaDNncnJzYmRzbzAxbGkwdWNsbGh2Y2sgc3dpbW1pbmcuYmlyZEBt
+    provider: google_calendar
+    event_id: j4ph3grrsbdso01li0ucllhvck
+    calendar_id: swimming.bird@gmail.com
+    url_eid: ajRwaDNncnJzYmRzbzAxbGkwdWNsbGh2Y2sgc3dpbW1pbmcuYmlyZEBt
+  - type: calendar
+    label: 'Calendar: Cathedrals at Santos Party House, 10:00 PM'
+    url: https://www.google.com/calendar/event?eid=bHJwcnAxZ2tqZ3NndDZnZzRucWMwZGpiN2cgc3dpbW1pbmcuYmlyZEBt
+    provider: google_calendar
+    event_id: lrprp1gkjgsgt6gg4nqc0djb7g
+    calendar_id: swimming.bird@gmail.com
+    url_eid: bHJwcnAxZ2tqZ3NndDZnZzRucWMwZGpiN2cgc3dpbW1pbmcuYmlyZEBt
+  - type: calendar
+    label: 'Calendar: George Maple at Santos Party House, 11:30 PM'
+    url: https://www.google.com/calendar/event?eid=NGtmbmZoM243MXVndnZxcjRvcmU4OTkzaXMgc3dpbW1pbmcuYmlyZEBt
+    provider: google_calendar
+    event_id: 4kfnfh3n71ugvvqr4ore8993is
+    calendar_id: swimming.bird@gmail.com
+    url_eid: NGtmbmZoM243MXVndnZxcjRvcmU4OTkzaXMgc3dpbW1pbmcuYmlyZEBt
+  - type: web
+    label: Venue listing with the full bill (Santos Party House, archived 2014-10-20)
+    url: http://web.archive.org/web/20141020225004/http://santospartyhouse.com/
+  - type: web
+    label: Zella Day CMJ 2014 set times (label press release)
+    url: https://www.hollywoodrecords.com/wp-content/uploads/2014/12/ZELLA-DAY-EP-Release-10.21.14.pdf
+  - type: web
+    label: 'B3SCI CMJ preview: Zella Day, basement, 7:30–8:15 PM'
+    url: https://blahblahblahscience.com/blahblahblahscience/b3scis-cmj-2014-preview/
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
-    \ not proven."
+    \ not proven. Neon Gold's New Shapes CMJ showcase (doors 6 PM; the venue listed 14 acts across the main room\
+    \ and basement). Neon Gold and Complex list Aurora on this bill, and Tal identified the 19:59 photo as her set.\
+    \ Tal also remembers seeing Zella Day, whose 7:30–8:15 PM basement set was her first CMJ show, and identified\
+    \ the 19:55 photo as her set. Tal's calendar\
+    \ planned Aurora 7:00, Zella Day 7:30, Twin Peaks 8:30, Cathedrals 10:00 and George Maple 11:30 at Santos."
   id: 2014-10-23-cmj-showcase-kate-boy-made-in-heights-fenech-soler-george-maple
-  photo_match: Visually reviewed concert image; matched by event date and venue/context. Individual pictured sets
-    may include support acts.
+  photo_match: Visually reviewed concert image; matched by event date and venue/context. The 19:59 photo (IMG_0981)
+    shows Aurora and the 19:55 photo (IMG_0979) shows Zella Day during her 7:30–8:15 PM basement set, both identified
+    by Tal.
   photos:
   - captured: '2014-10-23T19:59:35.170801-04:00'
     source: Google Photos + Apple Photos
@@ -6894,6 +7027,32 @@ concerts:
     url_eid: YTU1anR1amV1MDh0aW1sOG80bnRqdmxobDAgc3dpbW1pbmcuYmlyZEBt
   notes: Calendar entry; attendance not established.
   id: 2025-10-15-midnight-generation
+  photo_match: null
+  photos: []
+- date: '2025-11-01'
+  artist: Of Monsters and Men
+  support: Arny Margret
+  venue: Brooklyn Paramount
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal confirmed attending
+    statement: Tal remembers going to Of Monsters and Men at Brooklyn Paramount within the last year or two.
+    confirmed_on: '2026-11-07'
+  - type: calendar
+    label: 'Family calendar: Need babysitter - Of Monsters And Men, 7–11 PM'
+    url: https://www.google.com/calendar/event?eid=XzZsMmplaGhtNjEya2NiOXA4ZDJrY2I5azhkMWpjYjlwNzEwamliOW02c3JqNmM5ZzZjcTMwaDFnOG8gZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
+    provider: google_calendar
+    event_id: _6l2jehhm612kcb9p8d2kcb9k8d1jcb9p710jib9m6srj6c9g6cq30h1g8o
+    calendar_id: family07260733676432264048@group.calendar.google.com
+    url_eid: XzZsMmplaGhtNjEya2NiOXA4ZDJrY2I5azhkMWpjYjlwNzEwamliOW02c3JqNmM5ZzZjcTMwaDFnOG8gZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
+  - type: web
+    label: Tour announcement with Arny Margret (BrooklynVegan)
+    url: https://www.brooklynvegan.com/tour-news-of-monsters-and-men-arny-margret-many-eyes-meatbodies-more/
+  notes: "Mouse Parade tour. The band played Brooklyn Paramount on Nov 1 and an added Nov 2 show. Nov 1 fits Tal's\
+    \ Family calendar babysitter booking (7–11 PM); on Nov 2 the family flew JFK to Paris at 7:49 PM. No ticket\
+    \ email was found, and Google Photos has no evening photos on either day."
+  id: 2025-11-01-of-monsters-and-men
   photo_match: null
   photos: []
 - date: '2026-02-25'
