@@ -31,11 +31,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4b1d9d99a4de2f5e9fff80bb
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4b1d9d99a4de2f5e9fff80bb'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2009-12-07 19:28:09 local time."
   notes: No artist in check-in.
   id: 2009-12-07-artist-unresolved
   photo_match: null
@@ -318,11 +318,11 @@ concerts:
     subject: Your Ticketmaster Order  (64-25047/NY1)
     rfc822_message_id: <5148-1292521065892851-489127131493813@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4d36469ceba4548127d605f5
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4d36469ceba4548127d605f5'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2011-01-18 21:04:12 local time."
   - type: research
     label: Photos contact sheet
     url: research/album-contact-sheet.jpg
@@ -391,11 +391,11 @@ concerts:
     subject: Your Ticketmaster Order  (52-35900/NY1)
     rfc822_message_id: <3979-1297290216976819-30266277517233@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4d5c8dc91ef2f04dd66cf6cd
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4d5c8dc91ef2f04dd66cf6cd'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2011-02-16 21:54:01 local time."
   - type: research
     label: Photos contact sheet
     url: research/album-contact-sheet.jpg
@@ -479,11 +479,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4d928ee17ac3a35d0400c425
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4d928ee17ac3a35d0400c425'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2011-03-29 22:01:05 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-03-29-the-mountain-goats
@@ -496,11 +496,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4db61ffa0437fa536a50b99b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4db61ffa0437fa536a50b99b'
+    id_note: "Recovered from Swarm history on 2026-11-07; Roseland Ballroom at 2011-04-25 21:29:30 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-04-25-lupe-fiasco
@@ -522,11 +522,11 @@ concerts:
     subject: Your Ticketmaster Order  (37-21367/NY1)
     rfc822_message_id: <15696-1297103934176420-709410385520101@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4db77d3b4df0ded98baa0c18
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4db77d3b4df0ded98baa0c18'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2011-04-26 22:19:39 local time."
   - type: research
     label: Photos contact sheet
     url: research/album-contact-sheet.jpg
@@ -585,11 +585,11 @@ concerts:
     subject: Your Ticketfly Order (099709034572)
     rfc822_message_id: <90917520.11302.1306511913262.JavaMail.j2ee-backstage@ticketfly-web02.managed.contegix.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4deaf60ad4c00071b8326103
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4deaf60ad4c00071b8326103'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Bowl at 2011-06-04 23:20:42 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-06-04-school-of-seven-bells
@@ -621,11 +621,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e1e435dc65bd9e1fddcd9fe
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e1e435dc65bd9e1fddcd9fe'
+    id_note: "Recovered from Swarm history on 2026-11-07; Ratatat And Omar Soyleyman Summer Stage Central Park at 2011-07-13 21:16:13 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-07-13-ratatat
@@ -647,11 +647,11 @@ concerts:
     subject: Your Ticketmaster Order  (15-29720/NY1)
     rfc822_message_id: <10838-1308261052604048-40533904585951@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e66d299b0fbcbb043dd61e0
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e66d299b0fbcbb043dd61e0'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2011-09-06 22:10:33 local time. Event: Braids, Painted Palms and Blue Hawaii."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-09-06-braids
@@ -676,11 +676,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e6977a97d8b143eb6b0bb80
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e6977a97d8b143eb6b0bb80'
+    id_note: "Recovered from Swarm history on 2026-11-07; Williamsburg Waterfront at 2011-09-08 22:19:21 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-09-08-broken-social-scene-tv-on-the-radio
@@ -705,11 +705,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e6aecf01f6e1e74e4747c9d
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e6aecf01f6e1e74e4747c9d'
+    id_note: "Recovered from Swarm history on 2026-11-07; Arlene's Grocery at 2011-09-10 00:52:00 local time."
   notes: Check-in mentions Jim Carrey doing karaoke; spontaneous appearance, not treated as a concert.
   id: 2011-09-10-artist-unresolved
   photo_match: Visually reviewed concert image; matched by event date and venue/context. Individual pictured sets
@@ -733,11 +733,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e6eb3a862e1d475e1e42cfc
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e6eb3a862e1d475e1e42cfc'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2011-09-12 21:36:40 local time. Event: Youth Lagoon and Young Magic."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-09-12-youth-lagoon
@@ -759,11 +759,11 @@ concerts:
     subject: Your Ticketmaster Order  (53-39307/NY1)
     rfc822_message_id: <26743-1310408119353743-983548764577463@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e72acee62e1a77aac7b55d3
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e72acee62e1a77aac7b55d3'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2011-09-15 21:57:02 local time. Event: Two Door Cinema Club, Bombay Bicycle Club and The Lonely Forest."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-09-15-two-door-cinema-club
@@ -776,11 +776,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e9a58be8231878c157030f7
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e9a58be8231878c157030f7'
+    id_note: "Recovered from Swarm history on 2026-11-07; Fontana's Bar at 2011-10-16 00:08:30 local time. Event: Watermelon."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-10-16-watermelon
@@ -802,11 +802,11 @@ concerts:
     subject: Your Ticketmaster Order  (10-23333/NY1)
     rfc822_message_id: <16288-1314653465163953-949456172560694@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4e9f67307ee5342a63d0583c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4e9f67307ee5342a63d0583c'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2011-10-19 20:11:28 local time. Event: Motopony."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven. Ticket is billed Viva Brother; personal calendar and Swarm name Motopony. Bill/order requires\
     \ review."
@@ -863,11 +863,11 @@ concerts:
     subject: Your Ticketmaster Order  (6-20450/NY1)
     rfc822_message_id: <2038-1316278987157826-737932628409872@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4ea21899f5b9efc0014c32c5
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4ea21899f5b9efc0014c32c5'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2011-10-21 21:12:57 local time. Event: Braids."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-10-21-braids-active-child-weekend
@@ -880,11 +880,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4ea37f989adff6343a206265
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4ea37f989adff6343a206265'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2011-10-22 22:44:40 local time. Event: Dovecote Records Unofficial Cmj Party, Jonquil, Hard Mix, Evan Voytas and 5 more."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-10-22-dovecote-records-cmj-party
@@ -920,11 +920,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4ed97c257ee56e58e64f3e82
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4ed97c257ee56e58e64f3e82'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2011-12-02 20:32:21 local time. Event: Baths, Dinosaur Feathers and Ki:theory."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-12-02-baths
@@ -983,11 +983,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4ee95b4b6da1d1536c09b6df
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4ee95b4b6da1d1536c09b6df'
+    id_note: "Recovered from Swarm history on 2026-11-07; Madison Square Garden at 2011-12-14 21:28:27 local time. Event: My Morning Jacket and Band of Horses."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2011-12-14-my-morning-jacket
@@ -1009,11 +1009,11 @@ concerts:
     subject: Your Ticketmaster Order  (59-54895/NY1)
     rfc822_message_id: <7701-1319401550194347-382903731010217@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4efe6dbe8231bcb7028ece7e
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4efe6dbe8231bcb7028ece7e'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2011-12-30 21:04:46 local time. Event: Gogol Bordello."
   - type: research
     label: Photos contact sheet
     url: research/album-contact-sheet.jpg
@@ -1072,11 +1072,11 @@ concerts:
     subject: Order Confirmation (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <18595132.1325828096768.JavaMail.tmweb@app6.tweb.els1.stratsys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f2b4a7de4b071decfe22a61
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f2b4a7de4b071decfe22a61'
+    id_note: "Recovered from Swarm history on 2026-11-07; Highline Ballroom at 2012-02-02 21:46:21 local time. Event: Natasha Kmeto, Emancipator and Little People."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-02-02-emancipator
@@ -1089,11 +1089,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f3f0cbce4b0ac9415ba3332
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f3f0cbce4b0ac9415ba3332'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2012-02-17 21:28:12 local time. Event: Sleigh Bells and Wet Witch."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-02-17-sleigh-bells
@@ -1115,11 +1115,11 @@ concerts:
     subject: 'CrowdSurge.com ORDER ID: 20111128171947-130-260463 Payment Received'
     rfc822_message_id: <20111128172101.8FD6C18D06EA@355499-app1.crowdsurge.com>
   - type: checkin
-    label: Swarm
+    label: Swarm check-in
     url: https://www.swarmapp.com/user/9203/checkin/4f45a8fce4b007cd8c83298b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f45a8fce4b007cd8c83298b'
+    id_note: "Recovered from Swarm history on 2026-11-07; Hammerstein Ballroom at Manhattan Center at 2012-02-22 21:48:28 local time. Event: Flogging Molly, Black Joe Lewis & The Honeybears and The Devil Makes Three."
   - type: web
     label: Historical date/venue
     url: https://www.wusb.fm/cbb_admin?filter0%5B0%5D=4063&op0=NOR&order=Title%3A&page=34&sort=asc
@@ -1156,11 +1156,11 @@ concerts:
     subject: Your Ticketmaster Order  (55-30958/NY1)
     rfc822_message_id: <26376-1324529905903184-755656916310802@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f4d69cfe4b0cb12b92b6263
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f4d69cfe4b0cb12b92b6263'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-02-28 18:57:03 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-02-28-school-of-seven-bells
@@ -1216,11 +1216,11 @@ concerts:
     subject: Order Confirmation (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <17506718.1330498604740.JavaMail.tmweb@app11.tweb.els1.stratsys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f5ad75ae4b026f4c4ce3838
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f5ad75ae4b026f4c4ce3838'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2012-03-09 23:23:54 local time. Event: Rjd2."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-03-09-rjd2
@@ -1256,11 +1256,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f5c0952e4b0cfc5e16738bb
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f5c0952e4b0cfc5e16738bb'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-03-10 21:09:22 local time. Event: Daughter and Lay Low."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-03-10-daughter
@@ -1288,11 +1288,11 @@ concerts:
     label: Photos album
     url: research/album-contact-sheet.jpg
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f6bc1a1e4b058b4bf1c4243
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f6bc1a1e4b058b4bf1c4243'
+    id_note: "Recovered from Swarm history on 2026-11-07; Madison Square Garden at 2012-03-22 20:19:45 local time. Event: The Black Keys and Arctic Monkeys."
   - type: web
     label: Historical bill
     url: https://www.arcticmonkeys.com/pages/live
@@ -1342,11 +1342,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f73dba0e4b0bdf32dcb3c36
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f73dba0e4b0bdf32dcb3c36'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2012-03-28 23:48:48 local time. Event: Youth Lagoon and Porcelain Raft."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-03-28-youth-lagoon
@@ -1378,11 +1378,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f84d709e4b07583082e0bda
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f84d709e4b07583082e0bda'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2012-04-10 20:57:45 local time. Event: The Ting Tings and MNDR."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-04-10-the-ting-tings
@@ -1405,11 +1405,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f976a63e4b00e72831583a5
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f976a63e4b00e72831583a5'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2012-04-24 23:07:15 local time. Event: Miike Snow and Penguin Prison."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-04-24-miike-snow
@@ -1422,11 +1422,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4f98a6c3e4b05c380fd13102
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4f98a6c3e4b05c380fd13102'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2012-04-25 21:37:07 local time. Event: Miike Snow and Penguin Prison."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-04-25-miike-snow
@@ -1439,11 +1439,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fa5b7a8e4b05ddd675b8064
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fa5b7a8e4b05ddd675b8064'
+    id_note: "Recovered from Swarm history on 2026-11-07; Le Poisson Rouge at 2012-05-05 19:28:40 local time. Event: School of Seven Bells and Exitmusic."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-05-05-school-of-seven-bells
@@ -1475,11 +1475,11 @@ concerts:
     subject: Your Ticketfly Order (099343394365)
     rfc822_message_id: <1220349704.34213.1336281846830.JavaMail.j2ee-backstage@bks02.sc.tfly-internal.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fa72164e4b038e6a3a3c601
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fa72164e4b038e6a3a3c601'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-05-06 21:12:04 local time. Event: Pyyramids and Not Blood Paint."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-05-06-pyyramids
@@ -1530,11 +1530,11 @@ concerts:
     subject: Your Ticketfly Order (099384656147)
     rfc822_message_id: <1743278809.31874.1333474148532.JavaMail.j2ee-backstage@bks03.sc.tfly-internal.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fb30fbfe4b04028898a5e02
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fb30fbfe4b04028898a5e02'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-05-15 22:23:59 local time. Event: The Hundred In the Hands, Erika Spring, Vorhees and Jacques Renault."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-05-15-the-hundred-in-the-hands
@@ -1557,11 +1557,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fbadec3e4b0402627116acd
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fbadec3e4b0402627116acd'
+    id_note: "Recovered from Swarm history on 2026-11-07; Roseland Ballroom at 2012-05-21 20:33:07 local time. Event: Jack White and Alabama Shakes."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-05-21-jack-white
@@ -1631,11 +1631,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fd95029e4b0318de7901d70
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fd95029e4b0318de7901d70'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2012-06-13 22:44:57 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-13-metric
@@ -1648,11 +1648,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fd96926e4b0283349c8b2ca
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fd96926e4b0283349c8b2ca'
+    id_note: "Recovered from Swarm history on 2026-11-07; Public Assembly at 2012-06-14 00:31:34 local time. Event: Not Blood Paint, Eula, Beast Make Bomb, Indian Rebound and 1 more."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-14-not-blood-paint
@@ -1665,11 +1665,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fe26428e4b0f8abc83f56a8
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fe26428e4b0f8abc83f56a8'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-06-20 20:00:40 local time. Event: Morning Parade."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-20-morning-parade
@@ -1682,11 +1682,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fe2862ae4b0a812e9bb4259
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fe2862ae4b0a812e9bb4259'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-06-20 22:25:46 local time. Event: The Hundred In the Hands and Mmoths."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-20-the-hundred-in-the-hands
@@ -1699,11 +1699,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fe3b639e4b05cb8d26e3eb1
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fe3b639e4b05cb8d26e3eb1'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-06-21 20:03:05 local time. Event: The Canon Logic and Casey Shea."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-21-the-canon-logic
@@ -1716,11 +1716,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fe7b90be4b08674cae736ef
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fe7b90be4b08674cae736ef'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Bowl at 2012-06-24 21:04:11 local time. Event: Penguin Prison, Art vs Science, Eurocup Quarter Finals on Hd Screens, England V. Italy and 3 more."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-24-art-vs-science-penguin-prison
@@ -1743,11 +1743,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4fecf598e4b0b6774e9c599a
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4fecf598e4b0b6774e9c599a'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-06-28 20:23:52 local time. Event: Exitmusic and Stagnant Pools."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-06-28-exitmusic
@@ -1760,11 +1760,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/4ff63e9fe4b0fecb25615a8c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '4ff63e9fe4b0fecb25615a8c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Le Poisson Rouge at 2012-07-05 21:25:51 local time. Event: CBGB Festival LLC."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-07-05-xylos-escort
@@ -1787,11 +1787,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5000da82e4b062a7b215230e
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5000da82e4b062a7b215230e'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Fire Proof at 2012-07-13 22:33:38 local time. Event: Bushwick Walkabout Festival."
   notes: Bushwick Walkabout festival; specific sets unknown.
   id: 2012-07-13-artist-unresolved
   photo_match: null
@@ -1803,11 +1803,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50024648e4b04575fe110b0d
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50024648e4b04575fe110b0d'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Fire Proof at 2012-07-15 00:25:44 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-07-15-ravens-chimes-xylos
@@ -1829,11 +1829,11 @@ concerts:
     subject: Your Ticketmaster Order  (23-29718/NY1)
     rfc822_message_id: <25902-133506203513182-320025303392331@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50173bc8e4b033fdaf66edcb
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50173bc8e4b033fdaf66edcb'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2012-07-30 21:58:32 local time. Event: Bombay Bicycle Club and Plants and Animals."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-07-30-bombay-bicycle-club
@@ -1846,11 +1846,11 @@ concerts:
   status: Excluded
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50304c9fe4b047ef9ae6c12a
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50304c9fe4b047ef9ae6c12a'
+    id_note: "Recovered from Swarm history on 2026-11-07; Williamsburg Park at 2012-08-18 22:17:03 local time. Event: Sharon Jones & The Dap-Kings, Antibalas, Menahan Street Band and The Electric Sound of Johnny Arrow."
   notes: Swarm says Just missed the show. Not counted as attendance.
   id: 2012-08-18-sharon-jones-the-dap-kings
   photo_match: null
@@ -1926,11 +1926,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50401c58e4b05127f71a6901
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50401c58e4b05127f71a6901'
+    id_note: "Recovered from Swarm history on 2026-11-07; Public Assembly at 2012-08-30 22:07:20 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-08-30-not-blood-paint
@@ -1964,11 +1964,11 @@ concerts:
     subject: Your Ticketfly Order (099158950602)
     rfc822_message_id: <1661237550.92031345853057750.JavaMail.j2ee-backstage@bks01.sc.tfly-internal.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5046be68e4b0568f685c1773
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5046be68e4b0568f685c1773'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-09-04 22:52:24 local time. Event: Loom, Group of the Altos and Death Blues."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-09-04-the-loom
@@ -1981,11 +1981,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50495d40e4b0f60ad666b46b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50495d40e4b0f60ad666b46b'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rockwood Music Hall, Stage 2 at 2012-09-06 22:34:40 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-09-06-lake-street-dive
@@ -1998,11 +1998,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5051426ee4b0a94a2863bffe
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5051426ee4b0a94a2863bffe'
+    id_note: "Recovered from Swarm history on 2026-11-07; Santos Party House at 2012-09-12 22:18:22 local time. Event: Icona Pop, Heartsrevolution and The Punches."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-09-12-icona-pop
@@ -2027,11 +2027,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/506640ace4b0f328df55a44e
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '506640ace4b0f328df55a44e'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rumsey Playfield at 2012-09-28 20:28:28 local time. Event: Two Door Cinema Club, Guards and Friends."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-09-28-two-door-cinema-club
@@ -2078,11 +2078,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50678251e4b03c3d3afcea35
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50678251e4b03c3d3afcea35'
+    id_note: "Recovered from Swarm history on 2026-11-07; Williamsburg Park at 2012-09-29 19:20:49 local time. Event: David Byrne and St. Vincent."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-09-29-david-byrne-st-vincent
@@ -2184,11 +2184,11 @@ concerts:
     subject: Your Ticketfly Order (099094092088)
     rfc822_message_id: <273487237.103941349816245722.JavaMail.j2ee-backstage@bks04.sc.tfly-internal.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5078cc73e4b018ca957d2ca4
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5078cc73e4b018ca957d2ca4'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-10-12 22:05:39 local time. Event: Lord Huron and NIGHT MOVES."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-12-lord-huron
@@ -2201,11 +2201,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/507dfeb7e4b0fac9b0acadb6
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '507dfeb7e4b0fac9b0acadb6'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Living Room at 2012-10-16 20:41:27 local time. Event: Conveyor, Natureboy, Pree and The City & Horses."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-16-cmj-showcase-conveyor-natureboy-pree-the-city-horses
@@ -2218,11 +2218,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/507df562e4b02a1c7d52a11c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '507df562e4b02a1c7d52a11c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-10-16 20:01:38 local time. Event: Tashaki Miyaki and The Orwells."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-16-tashaki-miyaki-the-orwells
@@ -2235,11 +2235,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/507f2c39e4b0de411b6b6fd1
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '507f2c39e4b0de411b6b6fd1'
+    id_note: "Recovered from Swarm history on 2026-11-07; Pianos at 2012-10-17 18:07:53 local time. Event: Braids, Maus Haus and Tell All Your Friends Day Party."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-17-braids
@@ -2252,11 +2252,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/507ec720e4b0b018d9cc97d6
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '507ec720e4b0b018d9cc97d6'
+    id_note: "Recovered from Swarm history on 2026-11-07; CMJ Union at 2012-10-17 10:56:32 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-17-daughter
@@ -2292,11 +2292,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/508090c6e4b0134247d7988a
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '508090c6e4b0134247d7988a'
+    id_note: "Recovered from Swarm history on 2026-11-07; Pianos at 2012-10-18 19:29:10 local time. Event: Moon King, Field Mouse, Chad Valley, Hundred Waters and 2 more."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-18-hundred-waters
@@ -2309,11 +2309,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50809098e4b0fbd4bee4ff76
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50809098e4b0fbd4bee4ff76'
+    id_note: "Recovered from Swarm history on 2026-11-07; CMJ Union at 2012-10-18 19:28:24 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-18-little-green-cars
@@ -2326,11 +2326,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50809820498eac55fb93aabc
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50809820498eac55fb93aabc'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rockwood Music Hall, Stage 2 at 2012-10-18 20:00:32 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-18-monsters-calling-home-the-canon-logic
@@ -2343,11 +2343,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5081e79ae4b0ec60c4c0dd66
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5081e79ae4b0ec60c4c0dd66'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-10-19 19:51:54 local time. Event: Savages, Choir of Young Believers, Daughter, San Cisco and 3 more."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-10-19-cmj-showcase-savages-choir-of-young-believers-daughter-san-cisco
@@ -2372,11 +2372,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5094700fe4b055b34c315472
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5094700fe4b055b34c315472'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2012-11-02 21:14:55 local time. Event: Grouplove and MS MR."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-11-02-grouplove
@@ -2410,11 +2410,11 @@ concerts:
     subject: Your Ticketfly Order (099043701593)
     rfc822_message_id: <1979719063.39611352995563129.JavaMail.j2ee-backstage@bks01.sc.tfly-internal.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50b6d552e4b0620488c515d2
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50b6d552e4b0620488c515d2'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-11-28 22:24:02 local time. Event: Sky Ferreira, Acrylics and Rumors."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-11-28-sky-ferreira
@@ -2450,11 +2450,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/50c2bbdde4b0dee54274c520
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '50c2bbdde4b0dee54274c520'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2012-12-07 23:02:37 local time. Event: Xylos, Cultfever, Modern Rivals and I Am Lightyear."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2012-12-07-xylos
@@ -2490,11 +2490,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51033bc5e4b073eb90fb8025
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51033bc5e4b073eb90fb8025'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2013-01-25 21:13:25 local time. Event: Walk the Moon and Pacific Air."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-01-25-walk-the-moon
@@ -2541,11 +2541,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/510dcf07e4b0f6277694a39a
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '510dcf07e4b0f6277694a39a'
+    id_note: "Recovered from Swarm history on 2026-11-07; Roseland Ballroom at 2013-02-02 21:44:23 local time. Event: Flogging Molly, Skinny Lister and Dave Hause."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-02-02-flogging-molly
@@ -2581,11 +2581,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5126e584e4b0c2161ec8ba4d
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5126e584e4b0c2161ec8ba4d'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rockwood Music Hall, Stage 2 at 2013-02-21 22:27:00 local time. Event: KONGOS."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-02-21-kongos
@@ -2598,11 +2598,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/514e5c9ae4b0a18341465ddb
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '514e5c9ae4b0a18341465ddb'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2013-03-23 21:53:30 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-03-23-hundred-waters
@@ -2624,11 +2624,11 @@ concerts:
     subject: Your Yeah Yeah Yeahs Ticket Order (54-10466/NY1)
     rfc822_message_id: <20130301170548.5D5F61C106C@rnd1.tct.ash2.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51621c98e4b04c5095eaae40
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51621c98e4b04c5095eaae40'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2013-04-07 21:25:44 local time. Event: Yeah Yeah Yeahs and X-Ray Eyeballs."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-04-07-yeah-yeah-yeahs
@@ -2641,11 +2641,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51637060e4b0e7142a6e2938
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51637060e4b0e7142a6e2938'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2013-04-08 21:35:28 local time. Event: San Cisco and Chaos Chaos."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-04-08-san-cisco
@@ -2675,11 +2675,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5169db37e4b01ebd2c72242b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5169db37e4b01ebd2c72242b'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2013-04-13 18:24:55 local time."
   notes: No artist in check-in.
   id: 2013-04-13-artist-unresolved
   photo_match: null
@@ -2691,11 +2691,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5181be88498e5b513f19ee5d
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5181be88498e5b513f19ee5d'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2013-05-01 21:16:56 local time. Event: Daughter."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-05-01-daughter
@@ -2725,11 +2725,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/518f0afc498e20471010ed1e
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '518f0afc498e20471010ed1e'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2013-05-11 23:22:36 local time. Event: Lady Lamb the Beekeeper and Slothrust."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-05-11-lady-lamb-the-beekeeper
@@ -2754,11 +2754,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51943bb8498ee9e63247798b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51943bb8498ee9e63247798b'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2013-05-15 21:51:52 local time. Event: MS MR."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-05-15-ms-mr
@@ -2771,11 +2771,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51b3e209498ebff2470d33b9
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51b3e209498ebff2470d33b9'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2013-06-08 22:01:45 local time. Event: Sea Wolf."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-06-08-sea-wolf
@@ -2811,11 +2811,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51c39623498ebe7ff71882f4
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51c39623498ebe7ff71882f4'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2013-06-20 19:54:11 local time. Event: Pacific Air."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-06-20-pacific-air
@@ -2828,11 +2828,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/51c4e265498edf95255b7785
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '51c4e265498edf95255b7785'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Garden at Studio Square at 2013-06-21 19:31:49 local time."
   notes: No artist in check-in.
   id: 2013-06-21-artist-unresolved
   photo_match: null
@@ -2844,11 +2844,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/520d965f498ebc21cc4a5d74
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '520d965f498ebc21cc4a5d74'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Bowl at 2013-08-15 23:02:55 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-08-15-talib-kweli
@@ -2861,11 +2861,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/521571dc11d21b71daafa956
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '521571dc11d21b71daafa956'
+    id_note: "Recovered from Swarm history on 2026-11-07; Pianos at 2013-08-21 22:05:16 local time. Event: Monogold, The Canon Logic, Modern Rivals and Tashaki Miyaki."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-08-21-monogold-the-canon-logic-modern-rivals-tashaki-miyaki
@@ -2887,11 +2887,11 @@ concerts:
     subject: Your Ticketmaster Order  (4-49128/NY1)
     rfc822_message_id: <1409-1377106917243011-751375263133674@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/523908c611d245548db0804f
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '523908c611d245548db0804f'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2013-09-17 21:58:30 local time. Event: Deerhunter and Mas Ysa."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-09-17-deerhunter
@@ -2925,11 +2925,11 @@ concerts:
     subject: Your Ticketfly Order (098472646246)
     rfc822_message_id: <1206081123.10975.1379778669518.JavaMail.j2ee-backstage@bks03.sc.tfly-internal.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/523e4fae11d20d2494125669
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '523e4fae11d20d2494125669'
+    id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2013-09-21 22:02:22 local time. Event: Alex Winston, Echo Friendly and Connor Hanwick."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-09-21-alex-winston
@@ -2942,11 +2942,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5250fae211d2c47afe4bb53b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5250fae211d2c47afe4bb53b'
+    id_note: "Recovered from Swarm history on 2026-11-07; Le Poisson Rouge at 2013-10-06 01:53:38 local time. Event: Sleigh Bells."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-10-06-sleigh-bells
@@ -2993,11 +2993,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/525dcafb11d2dbbe979bbf70
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '525dcafb11d2dbbe979bbf70'
+    id_note: "Recovered from Swarm history on 2026-11-07; Knitting Factory at 2013-10-15 19:08:43 local time."
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=XzYxMjM4aDlvNmdyMzJiOWs4ZDJqNmI5azhjcTM0YjlvODRvazJiOWo3MHBqMmRobjYxMWthY2E0OGcgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -3053,11 +3053,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/525d785711d2754f5bc0f47c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '525d785711d2754f5bc0f47c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Pianos at 2013-10-15 13:16:07 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-10-15-ginger-and-the-ghost
@@ -3133,11 +3133,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/525f5fd711d24a931646b51f
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '525f5fd711d24a931646b51f'
+    id_note: "Recovered from Swarm history on 2026-11-07; Knitting Factory at 2013-10-16 23:56:07 local time. Event: Saint Rich, Panache Booking Cmj Showcase, Arp, Yamantaka // Sonic Titan and 3 more."
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=bzQzNTdsZjNqZWJrZjhoZnA0MjVtMjJqNjAgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -3217,11 +3217,11 @@ concerts:
     subject: Order Confirmation (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <25972160.1381873204062.JavaMail.tmweb@app4.tweb.twprod1.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5260968b11d28d6683e694ba
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5260968b11d28d6683e694ba'
+    id_note: "Recovered from Swarm history on 2026-11-07; Santos Party House at 2013-10-17 22:01:47 local time. Event: The New Shapes, HAERTS, Kodaline, Little Daylight and 2 more."
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=Xzc0czM0Z2hpOGtzazJiOXA4OTEzMGI5azg4cTM4YmEyODkwajZiYTQ3NHA0NmgxaThkMjNhZHBwNzQgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -3341,11 +3341,11 @@ concerts:
     subject: Your Ticketmaster Order  (31-22630/NY1)
     rfc822_message_id: <10902-1380900432553002-269608031908643@reply.ticketmaster.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/529fea7611d20d93b9cde57c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '529fea7611d20d93b9cde57c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2013-12-04 21:52:38 local time. Event: Phantogram and Weeknight."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2013-12-04-phantogram
@@ -3411,11 +3411,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/52e9d5bf498ecdb2dcac09e8
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '52e9d5bf498ecdb2dcac09e8'
+    id_note: "Recovered from Swarm history on 2026-11-07; Cake Shop at 2014-01-29 23:31:59 local time."
   notes: 'Swarm caption: Latersquare. Kmck’s concert. Band name is not established.'
   id: 2014-01-29-artist-unresolved
   photo_match: null
@@ -3436,11 +3436,11 @@ concerts:
     subject: Jesse Zryb sent you tickets
     rfc822_message_id: <20140307230344.2E35310D2FE@rnd2.tct.phx2.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/531a87bb498ed93a9a7343c3
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '531a87bb498ed93a9a7343c3'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2014-03-07 22:00:11 local time. Event: Broken Bells."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-03-07-broken-bells
@@ -3453,11 +3453,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/533368ac498e66bd2bc1a38f
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '533368ac498e66bd2bc1a38f'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2014-03-26 19:54:20 local time. Event: Grouplove, MS MR and Alex Winston."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-03-26-grouplove
@@ -3480,11 +3480,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5389391411d220d048e5e7e9
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5389391411d220d048e5e7e9'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Night Bazaar at 2014-05-30 22:06:12 local time."
   notes: No artist in check-in.
   id: 2014-05-30-artist-unresolved
   photo_match: null
@@ -3496,11 +3496,11 @@ concerts:
   status: Excluded
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/53bf5c26498e1e1ada93fc1d
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '53bf5c26498e1e1ada93fc1d'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2014-07-10 23:38:14 local time. Event: DIIV."
   notes: Swarm says Wrong day of Diiv; actual concert check-in July 11.
   id: 2014-07-10-diiv
   photo_match: null
@@ -3521,11 +3521,11 @@ concerts:
     subject: Your Ticketmaster Order for DIIV
     rfc822_message_id: <1876554469.7450431400777096746.JavaMail.tmweb@app4.notify.jetson1.coresys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/53c0a3f2498ebd9ba67f58b7
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '53c0a3f2498ebd9ba67f58b7'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2014-07-11 22:56:50 local time. Event: DIIV."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven. July 10 check-in says wrong day; July 11 says Try 2. Only July 11 counted."
   id: 2014-07-11-diiv
@@ -3557,11 +3557,11 @@ concerts:
   status: DJ event
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/53d46775498ef69454db3e41
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '53d46775498ef69454db3e41'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bell House at 2014-07-26 22:44:05 local time. Event: The Rub."
   notes: Swarm confirms a DJ/dance night; kept separate from live concerts.
   id: 2014-07-26-the-rub
   photo_match: null
@@ -3582,11 +3582,11 @@ concerts:
     subject: Alastair Coote sent you tickets
     rfc822_message_id: <20140823220222.03EAD10D323@rnd1.tct.phx1.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/53f93712498ec8d45c5b16ca
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '53f93712498ec8d45c5b16ca'
+    id_note: "Recovered from Swarm history on 2026-11-07; Barclays Center at 2014-08-23 20:51:30 local time. Event: Arcade Fire: Reflektor Tour."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-08-23-arcade-fire
@@ -3608,11 +3608,11 @@ concerts:
     subject: Your Ticketmaster Order for Little Daylight
     rfc822_message_id: <1513763314.2751381405096040139.JavaMail.tmweb@app1.notify.jetson1.coresys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5418fb3c498e15ad162bac08
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5418fb3c498e15ad162bac08'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rough Trade at 2014-09-16 23:08:44 local time. Event: Little Daylight."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-09-16-little-daylight
@@ -3654,11 +3654,11 @@ concerts:
     subject: Order Confirmation (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <30273044.1411435681929.JavaMail.tmweb@app6.tweb.twprod2.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/542cb119498ea23a744b7cbd
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '542cb119498ea23a744b7cbd'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2014-10-01 21:57:45 local time. Event: Tove Lo and Linus Young."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-10-01-tove-lo
@@ -3671,11 +3671,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/542df2e9498e8ca021e9c9a6
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '542df2e9498e8ca021e9c9a6'
+    id_note: "Recovered from Swarm history on 2026-11-07; Irving Plaza at 2014-10-02 20:50:49 local time. Event: Jungle."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-10-02-jungle
@@ -3750,11 +3750,11 @@ concerts:
     subject: Order Confirmation
     rfc822_message_id: <25482814.1407557882640.JavaMail.tmweb@app9.tweb.twprod2.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5445cbfa498eab18b03a3747
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5445cbfa498eab18b03a3747'
+    id_note: "Recovered from Swarm history on 2026-11-07; Knitting Factory at 2014-10-20 22:59:06 local time. Event: K.Flay and Step Rockets."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2014-10-20-k-flay
@@ -3881,11 +3881,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/54498c90498efe68f43fa515
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '54498c90498efe68f43fa515'
+    id_note: "Recovered from Swarm history on 2026-11-07; Santos Party House at 2014-10-23 19:17:36 local time. Event: Kate Boy, Made in Heights, Fenech-Soler, George Maple and 9 more."
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=bmI2ZjFma3AxNTV2OThjOWRodGI1YmI0Ym8gc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -3928,11 +3928,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5449c3d8498e7cc0006aef97
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5449c3d8498e7cc0006aef97'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2014-10-23 23:13:28 local time. Event: The Kills, Moon Duo, The Nuns and Slothrust."
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=dDhmaDdoN2Y1bGhvbHMwdDI4NWNwMGljazggc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -4012,11 +4012,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5488e89a498e115800688c80
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5488e89a498e115800688c80'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Night Bazaar at 2014-12-10 19:43:06 local time."
   notes: No artist in check-in.
   id: 2014-12-10-artist-unresolved
   photo_match: null
@@ -4028,11 +4028,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/54e53983498ee5fcc9e211e5
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '54e53983498ee5fcc9e211e5'
+    id_note: "Recovered from Swarm history on 2026-11-07; Cake Shop at 2015-02-18 20:16:51 local time."
   notes: No artist in check-in.
   id: 2015-02-18-artist-unresolved
   photo_match: null
@@ -4091,11 +4091,11 @@ concerts:
     subject: Order Confirmation (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <4769649.1434124927283.JavaMail.tmweb@app19.tweb.twprod2.websys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/55a9998d498e9760eb53ab85
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '55a9998d498e9760eb53ab85'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2015-07-17 20:10:53 local time. Event: Ratatat W/ Hot Sugar - Sold Out."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2015-07-17-ratatat
@@ -4151,11 +4151,11 @@ concerts:
     subject: Your Ticketmaster Order for Edward Sharpe and the Magnetic Zeros
     rfc822_message_id: <1911000188.5915121427116482481.JavaMail.tmweb@app6.notify.jetson1.coresys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/55c15e65498e0b4150814be2
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '55c15e65498e0b4150814be2'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bandshell / Celebrate Brooklyn! at 2015-08-04 20:52:53 local time. Event: Edward Sharpe and the Magnetic Zeros."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2015-08-04-edward-sharpe-the-magnetic-zeros
@@ -4187,11 +4187,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5600b05c498ee2939c73c371
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5600b05c498ee2939c73c371'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rough Trade at 2015-09-21 21:35:24 local time. Event: Youth Lagoon."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2015-09-21-youth-lagoon
@@ -4247,11 +4247,11 @@ concerts:
     subject: Your Ticketmaster Order for Of Monsters and Men
     rfc822_message_id: <1947500138.5013721433430069794.JavaMail.tmweb@app6.notify.jetson4.coresys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/560496d8498e53ac5b0cbeb1
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '560496d8498e53ac5b0cbeb1'
+    id_note: "Recovered from Swarm history on 2026-11-07; Kings Theatre at 2015-09-24 20:35:36 local time. Event: Of Monsters and Men."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2015-09-24-of-monsters-and-men
@@ -4287,11 +4287,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/561d7955498e4d51d5418ff4
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '561d7955498e4d51d5418ff4'
+    id_note: "Recovered from Swarm history on 2026-11-07; Pianos at 2015-10-13 17:36:21 local time. Event: Banners Presents CMJ Party At Pianos."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2015-10-13-banners-presents-cmj-party
@@ -4316,11 +4316,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/564e78e4498e102a07c7594d
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '564e78e4498e102a07c7594d'
+    id_note: "Recovered from Swarm history on 2026-11-07; Jazz Standard at 2015-11-19 20:35:32 local time. Event: Dave Douglas Quintet."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2015-11-19-dave-douglas-quintet
@@ -4333,11 +4333,11 @@ concerts:
   status: Needs review
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/569599b1498e2baa04da7888
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '569599b1498e2baa04da7888'
+    id_note: "Recovered from Swarm history on 2026-11-07; Hill Country Barbecue Market at 2016-01-12 19:26:25 local time."
   notes: Swarm says Featherbottom reunion at Hill Country; unclear whether this denotes a performance.
   id: 2016-01-12-featherbottom
   photo_match: null
@@ -4349,11 +4349,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/56985165498eec4523ebaf38
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '56985165498eec4523ebaf38'
+    id_note: "Recovered from Swarm history on 2026-11-07; Hammerstein Ballroom at Manhattan Center at 2016-01-14 20:54:45 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-01-14-ratatat
@@ -4400,11 +4400,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/56b161ae498e6fc914bd5203
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '56b161ae498e6fc914bd5203'
+    id_note: "Recovered from Swarm history on 2026-11-07; Knitting Factory at 2016-02-02 21:10:54 local time. Event: The Peach Kings, Monogold, Heartracer."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-02-02-the-peach-kings
@@ -4440,11 +4440,11 @@ concerts:
   status: Needs review
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/56f9dc09cd108861e3ad2802
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '56f9dc09cd108861e3ad2802'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2016-03-28 21:36:09 local time. Event: LCD Soundsystem."
   notes: Swarm says Tryin to scalp; entry not established.
   id: 2016-03-28-lcd-soundsystem
   photo_match: null
@@ -4456,11 +4456,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/570dbd93498e0ccba31d9f83
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '570dbd93498e0ccba31d9f83'
+    id_note: "Recovered from Swarm history on 2026-11-07; Warsaw at 2016-04-12 23:31:31 local time. Event: The Kills."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-04-12-the-kills
@@ -4526,11 +4526,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/573bd627498e6f4b5e400564
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '573bd627498e6f4b5e400564'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2016-05-17 22:40:39 local time. Event: Steve Madden Music Presents: The Kills."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-05-17-the-kills
@@ -4686,11 +4686,11 @@ concerts:
     subject: Your Ticketmaster Order for Zella Day
     rfc822_message_id: <627473090.10116471467918372210.JavaMail.tmweb@app6.notify.jetson4.coresys.tmcs>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/577f0ae2498e50bdcc06e634
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '577f0ae2498e50bdcc06e634'
+    id_note: "Recovered from Swarm history on 2026-11-07; Rough Trade at 2016-07-07 22:07:30 local time. Event: Zella Day."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-07-07-zella-day
@@ -4737,11 +4737,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/57c23800498e3803b5726a18
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '57c23800498e3803b5726a18'
+    id_note: "Recovered from Swarm history on 2026-11-07; Shea Stadium at 2016-08-27 21:01:52 local time."
   notes: Swarm says seeing friend Elise play; band not identified.
   id: 2016-08-27-artist-unresolved
   photo_match: Visually reviewed concert image; matched by event date and venue/context. Individual pictured sets
@@ -4776,11 +4776,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/57d2108c38faf2c1db1cc46c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '57d2108c38faf2c1db1cc46c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Le Poisson Rouge at 2016-09-08 21:29:48 local time. Event: Sleigh Bells."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-09-08-sleigh-bells
@@ -4884,11 +4884,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/582503d1d79459397a5015ce
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '582503d1d79459397a5015ce'
+    id_note: "Recovered from Swarm history on 2026-11-07; Hill Country Barbecue Market at 2016-11-10 18:33:37 local time."
   notes: 'Swarm caption: Later square. Band name is not established.'
   id: 2016-11-10-artist-unresolved
   photo_match: null
@@ -4900,11 +4900,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/583e478e297c16261a21f347
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '583e478e297c16261a21f347'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2016-11-29 22:29:18 local time. Event: Metric and New Myths."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2016-11-29-metric
@@ -4960,11 +4960,11 @@ concerts:
     subject: Thank you for purchasing tickets online!
     rfc822_message_id: <58e43a4a.866e630a.6a8c7.46b2SMTPIN_ADDED_MISSING@mx.google.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/58e5936913bb7713427982a2
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '58e5936913bb7713427982a2'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2017-04-05 21:01:29 local time. Event: Crystal Fighters."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2017-04-05-crystal-fighters
@@ -5183,11 +5183,11 @@ concerts:
     subject: Thank you for purchasing tickets online!
     rfc822_message_id: <58dd2cfc.cdd9540a.2ffe.fcc3SMTPIN_ADDED_MISSING@mx.google.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/58ec41539c439d17be139334
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '58ec41539c439d17be139334'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Steel at 2017-04-10 22:37:07 local time. Event: LCD Soundsystem."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2017-04-10-lcd-soundsystem
@@ -5217,11 +5217,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/59cb00d56f0aa215300e6190
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '59cb00d56f0aa215300e6190'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Steel at 2017-09-26 21:37:25 local time. Event: Oh Wonder."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2017-09-26-oh-wonder
@@ -5268,11 +5268,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5a026481b37e2b1fa511e325
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5a026481b37e2b1fa511e325'
+    id_note: "Recovered from Swarm history on 2026-11-07; Kings Theatre at 2017-11-07 20:57:21 local time. Event: Yeah Yeah Yeahs."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2017-11-07-yeah-yeah-yeahs
@@ -5319,11 +5319,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5a237cd41b0ea5700095dfa2
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5a237cd41b0ea5700095dfa2'
+    id_note: "Recovered from Swarm history on 2026-11-07; Elsewhere at 2017-12-02 23:25:56 local time. Event: Jungle."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2017-12-02-jungle
@@ -5379,11 +5379,11 @@ concerts:
     subject: Your TicketWeb Order Confirmation for Order# MYXRR84YL (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <20180130171510.E24322FE6DE@standard-tct-render-standard-2882443279-0lsqn.localdomain>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5ab1bce49deb7d2193473b1c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5ab1bce49deb7d2193473b1c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Warsaw at 2018-03-20 22:01:08 local time. Event: K.Flay."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2018-03-20-k-flay
@@ -5458,11 +5458,11 @@ concerts:
     subject: Your order for Chromeo with Pomo is pending confirmation
     rfc822_message_id: <F5.8E.25409.243E91B5@e.mta1vrest.cc.prd.sparkpost>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5b25c5829411f2002c3341c9
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5b25c5829411f2002c3341c9'
+    id_note: "Recovered from Swarm history on 2026-11-07; Music Hall of Williamsburg at 2018-06-16 22:20:50 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2018-06-16-chromeo
@@ -5518,11 +5518,11 @@ concerts:
     subject: Thank you for purchasing tickets online!
     rfc822_message_id: <5aaefcfc.1c69fb81.57008.0893SMTPIN_ADDED_MISSING@mx.google.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5b2854156fa81f002c48f451
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5b2854156fa81f002c48f451'
+    id_note: "Recovered from Swarm history on 2026-11-07; Brooklyn Steel at 2018-06-18 20:53:41 local time. Event: Jungle."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2018-06-18-jungle
@@ -5622,11 +5622,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/5ce34e4ff2554e002c22295f
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '5ce34e4ff2554e002c22295f'
+    id_note: "Recovered from Swarm history on 2026-11-07; Webster Hall at 2019-05-20 21:03:11 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2019-05-20-chromeo-with-live-band
@@ -5844,11 +5844,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/63645a5a2860ac1ff8322d63
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '63645a5a2860ac1ff8322d63'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2022-11-03 20:18:34 local time. Event: Tove Styrke: HARD US Club Tour."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2022-11-03-tove-styrke
@@ -5870,11 +5870,11 @@ concerts:
     subject: Here are your Tickets
     rfc822_message_id: <WqlqqYWLSdqdwKeZupzy4A@geopod-ismtpd-4-1>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/641e4635d9de9a0244a52ca7
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '641e4635d9de9a0244a52ca7'
+    id_note: "Recovered from Swarm history on 2026-11-07; Baby's All Right at 2023-03-24 20:54:13 local time. Event: Dragonette."
   - type: research
     label: Photos
     url: research/recent-contact-sheet.jpg
@@ -6068,11 +6068,11 @@ concerts:
   status: Unidentified
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/653465b9a417b05cfc5511ad
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '653465b9a417b05cfc5511ad'
+    id_note: "Recovered from Swarm history on 2026-11-07; Zone One at 2023-10-21 19:58:49 local time."
   notes: Venue check-in. Public listing suggests Hoax, but artist identity is not corroborated.
   id: 2023-10-21-artist-unresolved
   photo_match: Visually reviewed concert image; matched by event date and venue/context. Individual pictured sets
@@ -6187,11 +6187,11 @@ concerts:
     subject: 'Order confirmation (Order #2956ACC1)'
     rfc822_message_id: <8beecd51-ac74-42a0-a473-c6b961758dde@mtasv.net>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/65ee5c1c4962720904d244ca
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '65ee5c1c4962720904d244ca'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bowery Ballroom at 2024-03-10 21:19:24 local time. Event: K.Flay."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2024-03-10-k-flay
@@ -6268,11 +6268,11 @@ concerts:
     subject: 'Your tickets: ANIMA!'
     rfc822_message_id: <30201406.20240310013844.65ed0f2444b529.89548664@mail177-245.suw61.mandrillapp.com>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/66245ab9e6055b341555bc2e
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '66245ab9e6055b341555bc2e'
+    id_note: "Recovered from Swarm history on 2026-11-07; Public Records at 2024-04-20 20:15:53 local time."
   - type: research
     label: Photos
     url: research/recent-contact-sheet.jpg
@@ -6323,11 +6323,11 @@ concerts:
     subject: Thank you for your order for Glass Animals
     rfc822_message_id: <6RaqCOL3ShK6OwGxTew3zw@geopod-ismtpd-11>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/669b1965ea9b124eef5678c0
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '669b1965ea9b124eef5678c0'
+    id_note: "Recovered from Swarm history on 2026-11-07; Racket NYC at 2024-07-19 21:56:53 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2024-07-19-glass-animals
@@ -6402,11 +6402,11 @@ concerts:
     subject: Your ticket has been confirmed!
     rfc822_message_id: <98.BB.26691.C9DE6276@gz.mta1vrest.cc.prd.sparkpost>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/6733f40193671b5e0fb023d0
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '6733f40193671b5e0fb023d0'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2024-11-12 19:34:09 local time. Event: Snow Wife."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2024-11-12-snow-wife
@@ -6462,11 +6462,11 @@ concerts:
     subject: Thank you for your order for Qveen Herby
     rfc822_message_id: <M6XLbvLXSvO14ILmylhg6w@geopod-ismtpd-2>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/67394e1f74c38201323e9116
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '67394e1f74c38201323e9116'
+    id_note: "Recovered from Swarm history on 2026-11-07; Terminal 5 at 2024-11-16 20:59:59 local time. Event: Qveen Herby."
   - type: research
     label: Photos
     url: research/recent-contact-sheet.jpg
@@ -6516,11 +6516,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm
+    label: Swarm check-in
     url: https://www.swarmapp.com/user/9203/checkin/679c134baf61f22a0e104e60
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '679c134baf61f22a0e104e60'
+    id_note: "Recovered from Swarm history on 2026-11-07; Racket NYC at 2025-01-30 19:03:23 local time."
   - type: web
     label: WFUV headliner/date
     url: https://wfuv.org/content/joe-p-racket-2025
@@ -6579,11 +6579,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/67d8c93b1d3b5f701569e66b
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '67d8c93b1d3b5f701569e66b'
+    id_note: "Recovered from Swarm history on 2026-11-07; Baby's All Right at 2025-03-17 21:15:39 local time."
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=M2FzZmJ1ZzR1dmdob3JjczZwZDVjbHJ2bWMgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -6636,11 +6636,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/67df5de40e18ea4c5b0b4cf9
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '67df5de40e18ea4c5b0b4cf9'
+    id_note: "Recovered from Swarm history on 2026-11-07; Irving Plaza at 2025-03-22 21:03:32 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2025-03-22-emei
@@ -6760,11 +6760,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm
+    label: Swarm check-in
     url: https://www.swarmapp.com/user/9203/checkin/688ea9eb65e6ce0c65c2338f
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '688ea9eb65e6ce0c65c2338f'
+    id_note: "Recovered from Swarm history on 2026-11-07; The Bandshell / Celebrate Brooklyn! at 2025-08-02 20:14:35 local time."
   - type: web
     label: BRIC lineup
     url: https://bricartsmedia.org/about/news/press-release/bric-celebrate-brooklyn-announces-2025-season-where-brooklyn-meets-the-world/
@@ -6828,11 +6828,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/68e1b058b3347149adccd92f
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '68e1b058b3347149adccd92f'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2025-10-04 19:40:08 local time."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2025-10-04-the-cave
@@ -6948,11 +6948,11 @@ concerts:
   status: Check-in confirmed
   sources:
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/69a4e825c5f4ec725e5305c6
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '69a4e825c5f4ec725e5305c6'
+    id_note: "Recovered from Swarm history on 2026-11-07; Blue Note at 2026-03-01 20:30:13 local time. Event: Lizzo."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2026-03-01-lizzo
@@ -6974,11 +6974,11 @@ concerts:
     subject: You Got Tickets To EMELINE - Emotional Virgin World Tour 2026
     rfc822_message_id: <7dbe1001-1311-499f-9841-335b629c4ffc@atl1s07mta2759.xt.local>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/69f53665afd84612e45efd0c
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '69f53665afd84612e45efd0c'
+    id_note: "Recovered from Swarm history on 2026-11-07; Mercury Lounge at 2026-05-01 19:25:25 local time. Event: EMELINE - Emotional Virgin World Tour 2026."
   - type: research
     label: Photos
     url: research/recent-contact-sheet.jpg
@@ -7185,11 +7185,11 @@ concerts:
     subject: Your tickets are ready - order# 656911617
     rfc822_message_id: <e4emdygpTVqbLNHrthz1XQ@geopod-ismtpd-22>
   - type: checkin
-    label: Swarm history
-    url: https://www.swarmapp.com/history
+    label: Swarm check-in
+    url: https://www.swarmapp.com/user/9203/checkin/6add6167f834a51cca9085d6
     provider: swarm
-    checkin_id: null
-    id_note: Original review captured history entries; individual check-in IDs were not recorded.
+    checkin_id: '6add6167f834a51cca9085d6'
+    id_note: "Recovered from Swarm history on 2026-11-07; Baby's All Right at 2026-10-24 21:54:47 local time. Event: Chinchilla (18 and Over)."
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
     \ not proven."
   id: 2026-10-24-chinchilla
