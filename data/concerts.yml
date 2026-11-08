@@ -2924,6 +2924,67 @@ concerts:
   id: 2013-05-15-ms-mr
   photo_match: null
   photos: []
+- date: '2013-05-17'
+  artist: Yeah Yeah Yeahs / The Flaming Lips
+  support: The Darkness
+  venue: Prospect Park (Nethermead), Great GoogaMooga
+  status: Photo corroborated
+  sources:
+  - type: email
+    label: Eventbrite order for the Friday Night Kickoff Concert (2 GA, forwarded by Allie)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/13dc328a0faacad7
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '13dc328a0faacad7'
+    thread_id: '13dc328a0faacad7'
+    subject: 'Fwd: Order Confirmation for Great GoogaMooga 2013 - Friday Night Kickoff Concert Tickets'
+  - type: email
+    label: Know Before You Go email (forwarded by Allie)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/13ea9e5a273af75b
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '13ea9e5a273af75b'
+    thread_id: '13ea9e5a273af75b'
+    subject: 'Fwd: Great GoogaMooga Friday Night Kickoff Concert - Know Before You Go!'
+  - type: email
+    label: Calendar invitation from Allie
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/13e900322fe06f87
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '13e900322fe06f87'
+    thread_id: '13e900322fe06f87'
+    subject: 'Invitation: GoogaMooga @ Fri May 17 5pm - Sat May 18, 2013 8pm (Tal Atlas)'
+  - type: web
+    label: GoogaMooga 2013 lineup announcement
+    url: https://music.mxdwn.com/2013/03/28/news/great-googamooga-festival-announces-2013-lineup-including-yeah-yeah-yeahs-the-flaming-lips-sharon-von-etten-and-more/amp/
+  notes: 'Friday-night kickoff concert of the Great GoogaMooga food festival, 4-10 PM. Billed set times: The Darkness
+    4:45-5:30, The Flaming Lips 6:15-7:45, Yeah Yeah Yeahs 8:30-10:00. The ticket also included free entry on
+    Saturday, and nothing shows whether Tal went that day. Supporting acts are billed acts; arrival for every set is not proven.'
+  id: 2013-05-17-yeah-yeah-yeahs-the-flaming-lips
+  photo_match: 'Visually reviewed concert images: both Google Photos items from the evening (8:34 PM), during the Yeah Yeah Yeahs'' billed 8:30-10 PM set. Matched to Apple Photos by capture time and Prospect Park GPS.'
+  photos:
+  - captured: '2013-05-17T20:34:47-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPLz36fiyHCLlD-DDvpYoAcXzn4bUKnAqyrJE53
+    kind: Photo
+    id: 451FE33D-CA99-4448-AC19-FAB1D12AD68E
+    asset: data/photos/451FE33D-CA99-4448-AC19-FAB1D12AD68E.webp
+    references:
+    - provider: apple_photos
+      photo_id: 451FE33D-CA99-4448-AC19-FAB1D12AD68E
+    - provider: google_photos
+      photo_id: AF1QipPLz36fiyHCLlD-DDvpYoAcXzn4bUKnAqyrJE53
+  - captured: '2013-05-17T20:34:50-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMTMfrhP5VW-g_9NAxozHJdc5HsgaEpklOLdrnK
+    kind: Photo
+    id: C2E67A52-C731-4994-8206-1BDA479E28C2
+    asset: data/photos/C2E67A52-C731-4994-8206-1BDA479E28C2.webp
+    references:
+    - provider: apple_photos
+      photo_id: C2E67A52-C731-4994-8206-1BDA479E28C2
+    - provider: google_photos
+      photo_id: AF1QipMTMfrhP5VW-g_9NAxozHJdc5HsgaEpklOLdrnK
 - date: '2013-06-08'
   artist: Sea Wolf
   support: ''
@@ -3095,6 +3156,103 @@ concerts:
   id: 2013-09-21-alex-winston
   photo_match: null
   photos: []
+- date: '2013-09-26'
+  artist: Grouplove
+  support: ''
+  venue: The McKittrick Hotel (Manderley Bar)
+  status: Photo corroborated
+  sources:
+  - type: email
+    label: Tal's RSVP asking for room at "the group love show on thursday"
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1414dd9b20a321f0
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1414dd9b20a321f0'
+    thread_id: '1414dd9b20a321f0'
+    subject: Grouplove
+  - type: email
+    label: Manderley Bar RSVP confirmation
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1414dd9c4c203f27
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1414dd9c4c203f27'
+    thread_id: '1414dd9c4c203f27'
+    subject: Your Evening at the Manderley
+  - type: web
+    label: Grouplove Seesaw Tour dates (Sept 26, McKittrick Hotel)
+    url: https://music.mxdwn.com/2013/07/29/news/grouplove-announce-the-seesaw-tour-fall-2013-tour-dates/
+  notes: 'Small show the night after their Bowery Ballroom date; a QRO review calls it the acoustic show, but the
+    photos show a full drum kit and electric guitars. Apple Photos GPS for the 8:28-9:13 PM shots is 530 W 27th St,
+    the McKittrick Hotel.'
+  id: 2013-09-26-grouplove
+  photo_match: 'Visually reviewed concert images: all 6 Google Photos items from the evening (8:28-9:13 PM). Matched to Apple Photos by capture time; GPS is the McKittrick Hotel.'
+  photos:
+  - captured: '2013-09-26T20:28:12-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOV7Sig8iKwJbMdZemVPD8G8FSfBQeQPiSFp10m
+    kind: Photo
+    id: 6CE4EA16-4CD8-4A91-9C12-D3780AD03612
+    asset: data/photos/6CE4EA16-4CD8-4A91-9C12-D3780AD03612.webp
+    references:
+    - provider: apple_photos
+      photo_id: 6CE4EA16-4CD8-4A91-9C12-D3780AD03612
+    - provider: google_photos
+      photo_id: AF1QipOV7Sig8iKwJbMdZemVPD8G8FSfBQeQPiSFp10m
+  - captured: '2013-09-26T20:28:14-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNlwIWNcKFFdG3So7cjl4rpdTr2TycGxBjvn17M
+    kind: Photo
+    id: DF0C1CB3-29C4-464B-80A6-1777604801B1
+    asset: data/photos/DF0C1CB3-29C4-464B-80A6-1777604801B1.webp
+    references:
+    - provider: apple_photos
+      photo_id: DF0C1CB3-29C4-464B-80A6-1777604801B1
+    - provider: google_photos
+      photo_id: AF1QipNlwIWNcKFFdG3So7cjl4rpdTr2TycGxBjvn17M
+  - captured: '2013-09-26T20:29:50-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNPNWj1ER-ZugfwjSDBK4TIdnJrWZM_rTtubr8B
+    kind: Photo
+    id: B05C280D-7BF0-4063-946E-FF595E6DE24A
+    asset: data/photos/B05C280D-7BF0-4063-946E-FF595E6DE24A.webp
+    references:
+    - provider: apple_photos
+      photo_id: B05C280D-7BF0-4063-946E-FF595E6DE24A
+    - provider: google_photos
+      photo_id: AF1QipNPNWj1ER-ZugfwjSDBK4TIdnJrWZM_rTtubr8B
+  - captured: '2013-09-26T20:29:54-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOGE_vpGsmv1HzPN9bbS7Tq1nyFys7aoozbJTF-
+    kind: Photo
+    id: 4CC9DBF5-E13A-424B-B973-076B4E93DC45
+    asset: data/photos/4CC9DBF5-E13A-424B-B973-076B4E93DC45.webp
+    references:
+    - provider: apple_photos
+      photo_id: 4CC9DBF5-E13A-424B-B973-076B4E93DC45
+    - provider: google_photos
+      photo_id: AF1QipOGE_vpGsmv1HzPN9bbS7Tq1nyFys7aoozbJTF-
+  - captured: '2013-09-26T21:09:56-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMSZTVoQZesDz9RpAI-zUntR3XSUZUCx-Bv4hMT
+    kind: Photo
+    id: 5B1EAEDA-E9E2-4DA1-BBF7-1B4E6927A68A
+    asset: data/photos/5B1EAEDA-E9E2-4DA1-BBF7-1B4E6927A68A.webp
+    references:
+    - provider: apple_photos
+      photo_id: 5B1EAEDA-E9E2-4DA1-BBF7-1B4E6927A68A
+    - provider: google_photos
+      photo_id: AF1QipMSZTVoQZesDz9RpAI-zUntR3XSUZUCx-Bv4hMT
+  - captured: '2013-09-26T21:13:14-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPoa7e0Lb1jmeji1GQAQYW5Mp3hUlxiMLC0A_U5
+    kind: Photo
+    id: CEA02818-68FC-4C96-B0FD-9C48B9E42B17
+    asset: data/photos/CEA02818-68FC-4C96-B0FD-9C48B9E42B17.webp
+    references:
+    - provider: apple_photos
+      photo_id: CEA02818-68FC-4C96-B0FD-9C48B9E42B17
+    - provider: google_photos
+      photo_id: AF1QipPoa7e0Lb1jmeji1GQAQYW5Mp3hUlxiMLC0A_U5
 - date: '2013-10-05'
   artist: Sleigh Bells
   support: ''
@@ -3666,6 +3824,118 @@ concerts:
   id: 2014-05-30-artist-unresolved
   photo_match: null
   photos: []
+- date: '2014-06-07'
+  artist: Governors Ball Music Festival
+  support: Jack White; The Strokes; Skrillex; Disclosure; Spoon; Broken Bells; Childish Gambino; Sleigh Bells; The
+    Naked and Famous; Fitz and the Tantrums; The Glitch Mob; Chance the Rapper; Lucius; RJD2; Tanlines
+  venue: Randall’s Island
+  status: Photo corroborated
+  sources:
+  - type: attendee
+    label: Tal confirmed seeing Broken Bells, Sleigh Bells and Lucius
+    statement: Tal remembers seeing Broken Bells, Sleigh Bells and Lucius at Governors Ball 2014.
+    confirmed_on: '2026-11-07'
+  - type: email
+    label: Eventbrite tickets (2 GA)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/145232a4fdd94146
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '145232a4fdd94146'
+    thread_id: '145232a4fdd94146'
+    subject: Your Tickets for The Governors Ball Music Festival 2014
+  - type: email
+    label: Governors Ball app ticket claim
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1466abc951774b59
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1466abc951774b59'
+    thread_id: '1466abc951774b59'
+    subject: Governors Ball Pin
+  - type: email
+    label: On-site photo booth emails (10:33 PM on Jun 7)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1467952a51358908
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1467952a51358908'
+    thread_id: '1467952a51358908'
+    subject: "You're Doing Great!  #GovBallNYC"
+  notes: 'Festival ran Jun 6-8. Photos and the on-site photo booth emails put Tal there on Saturday Jun 7. Billed
+    festival artists are not treated as individually seen, except Broken Bells, Sleigh Bells and Lucius, which
+    Tal remembers seeing (all three were on the Saturday bill).'
+  id: 2014-06-07-governors-ball-music-festival
+  photo_match: 'Visually reviewed concert images: 7 picked from 17 Google Photos items taken 7:10-9:54 PM, with Randall''s Island GPS. Skipped a selfie, Google-made variants and duplicate copies. Pictured sets are not identified.'
+  photos:
+  - captured: '2014-06-07T20:07:49.948788-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMZncnrbwegzmivMdIP7RhPc7ljtJEqRUIKGGJ5
+    kind: Photo
+    id: 3093E0A5-8596-4C0E-B063-CBFAC871A19F
+    asset: data/photos/3093E0A5-8596-4C0E-B063-CBFAC871A19F.webp
+    references:
+    - provider: apple_photos
+      photo_id: 3093E0A5-8596-4C0E-B063-CBFAC871A19F
+    - provider: google_photos
+      photo_id: AF1QipMZncnrbwegzmivMdIP7RhPc7ljtJEqRUIKGGJ5
+  - captured: '2014-06-07T20:07:55.184818-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNzZIL5OeRIyuSNElSVvI6tNsZV5c-ncomBMqcJ
+    kind: Photo
+    id: F098ECCA-5D94-4AFE-81CE-8AC18CCB6B0E
+    asset: data/photos/F098ECCA-5D94-4AFE-81CE-8AC18CCB6B0E.webp
+    references:
+    - provider: apple_photos
+      photo_id: F098ECCA-5D94-4AFE-81CE-8AC18CCB6B0E
+    - provider: google_photos
+      photo_id: AF1QipNzZIL5OeRIyuSNElSVvI6tNsZV5c-ncomBMqcJ
+  - captured: '2014-06-07T20:08:04.700630-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN1spoxO4ssgwC01u2ZATgExKfzZ-3ivIEuCSfo
+    kind: Photo
+    id: C762180F-EE71-4CAF-8F52-E861C7BB96D1
+    asset: data/photos/C762180F-EE71-4CAF-8F52-E861C7BB96D1.webp
+    references:
+    - provider: apple_photos
+      photo_id: C762180F-EE71-4CAF-8F52-E861C7BB96D1
+    - provider: google_photos
+      photo_id: AF1QipN1spoxO4ssgwC01u2ZATgExKfzZ-3ivIEuCSfo
+  - captured: '2014-06-07T21:06:44-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipOGv-XnDDgbLpTIPanzXcJwQrA91kmq59P5ayxb
+    kind: Photo
+    id: AF1QipOGv-XnDDgbLpTIPanzXcJwQrA91kmq59P5ayxb
+    asset: data/photos/AF1QipOGv-XnDDgbLpTIPanzXcJwQrA91kmq59P5ayxb.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipOGv-XnDDgbLpTIPanzXcJwQrA91kmq59P5ayxb
+  - captured: '2014-06-07T21:07:01-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipPTrWBxvSFRcBVePmi7AAUhStfmFh1Op2u0TuhT
+    kind: Photo
+    id: AF1QipPTrWBxvSFRcBVePmi7AAUhStfmFh1Op2u0TuhT
+    asset: data/photos/AF1QipPTrWBxvSFRcBVePmi7AAUhStfmFh1Op2u0TuhT.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipPTrWBxvSFRcBVePmi7AAUhStfmFh1Op2u0TuhT
+  - captured: '2014-06-07T21:54:36-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipPF_9OqSCSLCz3jy2DtE-8DwYl19JQ1wsKG1S7D
+    kind: Photo
+    id: AF1QipPF_9OqSCSLCz3jy2DtE-8DwYl19JQ1wsKG1S7D
+    asset: data/photos/AF1QipPF_9OqSCSLCz3jy2DtE-8DwYl19JQ1wsKG1S7D.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipPF_9OqSCSLCz3jy2DtE-8DwYl19JQ1wsKG1S7D
+  - captured: '2014-06-07T21:54:54.147410-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPNWSm1elBHES-bF7WvOuunGQ1W7SR_DHNy-84C
+    kind: Photo
+    id: B072039F-68FE-4039-8BEC-2B018F7CFFCA
+    asset: data/photos/B072039F-68FE-4039-8BEC-2B018F7CFFCA.webp
+    references:
+    - provider: apple_photos
+      photo_id: B072039F-68FE-4039-8BEC-2B018F7CFFCA
+    - provider: google_photos
+      photo_id: AF1QipPNWSm1elBHES-bF7WvOuunGQ1W7SR_DHNy-84C
 - date: '2014-07-10'
   artist: DIIV
   support: ''
@@ -4320,6 +4590,111 @@ concerts:
   id: 2015-05-20-tv-on-the-radio
   photo_match: null
   photos: []
+- date: '2015-06-05'
+  artist: Governors Ball Music Festival
+  support: Drake; Florence + the Machine; My Morning Jacket; Chromeo; St. Vincent; The Decemberists; Ratatat; Death
+    From Above 1979; Charli XCX; ODESZA; Rudimental; Twin Shadow; Vance Joy; Future; MØ; DIIV
+  venue: Randall’s Island
+  status: Photo corroborated
+  sources:
+  - type: attendee
+    label: Tal confirmed Friday only, seeing MØ, DIIV, Ratatat, Chromeo and Florence + the Machine
+    statement: Tal is pretty sure they only went to Governors Ball 2015 on Friday Jun 5, and would have seen MØ, DIIV, Ratatat, Chromeo and Florence + the Machine.
+    confirmed_on: '2026-11-08'
+  - type: email
+    label: Eventbrite tickets (2 GA)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/14d91f1e86b56865
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '14d91f1e86b56865'
+    thread_id: '14d91f1e86b56865'
+    subject: Your Tickets for The Governors Ball Music Festival 2015
+  - type: email
+    label: Transportation tickets bought on the day
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/14dc187e0cc8bbe7
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '14dc187e0cc8bbe7'
+    thread_id: '14dc187e0cc8bbe7'
+    subject: Your Order Confirmation for The Governors Ball Music Festival 2015 - Transportation Tickets
+  - type: email
+    label: Friday shuttle pass from a friend
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/14dc12cedca1389d
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '14dc12cedca1389d'
+    thread_id: '14dc12cedca1389d'
+    subject: Gov Ball - Friday Shuttle Pass
+  notes: 'Festival ran Jun 5-7. Tal attended Friday Jun 5 only, as far as Tal remembers; photos, the shuttle pass and
+    the transport tickets also put Tal there that day. The only photos are from one tent-stage set at 9:19-9:24 PM.
+    The act is not identifiable from them, but Ratatat is the likely match: they had the last Gotham Tent slot (8:30).
+    Billed festival artists are not treated as individually seen, except MØ, DIIV, Ratatat, Chromeo and Florence + the
+    Machine, which Tal remembers seeing.'
+  id: 2015-06-05-governors-ball-music-festival
+  photo_match: 'Visually reviewed concert images: 4 picked from 6 Google Photos items taken 9:19-9:34 PM, all from one tent-stage set (act not identified), with Randall''s Island GPS. Skipped a near-black frame and an Uber screenshot.'
+  photos:
+  - captured: '2015-06-05T21:19:21.785331-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNc4X9T9UcSTi7cokRKAS7LMNIQT0nPbb42JXiX
+    kind: Photo
+    id: 2923A743-62FC-4577-9689-52D0C4D12EEE
+    asset: data/photos/2923A743-62FC-4577-9689-52D0C4D12EEE.webp
+    references:
+    - provider: apple_photos
+      photo_id: 2923A743-62FC-4577-9689-52D0C4D12EEE
+    - provider: google_photos
+      photo_id: AF1QipNc4X9T9UcSTi7cokRKAS7LMNIQT0nPbb42JXiX
+  - captured: '2015-06-05T21:19:22.523506-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMWSwZnP4Oa_MXz-tPH8RE2ncv_srzIqU7gA8zu
+    kind: Photo
+    id: 96058B35-24CE-43A5-AA3B-3B9100C04AC0
+    asset: data/photos/96058B35-24CE-43A5-AA3B-3B9100C04AC0.webp
+    references:
+    - provider: apple_photos
+      photo_id: 96058B35-24CE-43A5-AA3B-3B9100C04AC0
+    - provider: google_photos
+      photo_id: AF1QipMWSwZnP4Oa_MXz-tPH8RE2ncv_srzIqU7gA8zu
+  - captured: '2015-06-05T21:23:07.966856-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNNf_78xxLoJ01Bqkh_LRmGqabRqGA9YlzfArJ6
+    kind: Video still
+    id: 1C635B2C-C110-468B-B10C-09E1B1D75EC8
+    asset: data/photos/1C635B2C-C110-468B-B10C-09E1B1D75EC8.webp
+    references:
+    - provider: apple_photos
+      photo_id: 1C635B2C-C110-468B-B10C-09E1B1D75EC8
+    - provider: google_photos
+      photo_id: AF1QipNNf_78xxLoJ01Bqkh_LRmGqabRqGA9YlzfArJ6
+  - captured: '2015-06-05T21:23:59-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMfE9XLVv5fqnP_gKVM0YHXU6xwP5YlOhUhSrwB
+    kind: Video still
+    id: 211D22A3-3159-4526-90F3-5A050154BDCE
+    asset: data/photos/211D22A3-3159-4526-90F3-5A050154BDCE.webp
+    references:
+    - provider: apple_photos
+      photo_id: 211D22A3-3159-4526-90F3-5A050154BDCE
+    - provider: google_photos
+      photo_id: AF1QipMfE9XLVv5fqnP_gKVM0YHXU6xwP5YlOhUhSrwB
+- date: '2015-06-14'
+  artist: Run The Jewels
+  support: Vince Staples; Sleigh Bells
+  venue: 50 Kent Ave
+  status: Ticket evidence
+  sources:
+  - type: email
+    label: Songkick Tickets order (2, will call)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/14d9644d85e104d9
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '14d9644d85e104d9'
+    thread_id: '14d9644d85e104d9'
+    subject: Your tickets for Run The Jewels with Vince Staples and Sleigh Bells at 50 Kent Ave, 14 Jun (SKBMDRRU9X)
+  notes: 'Ticket purchase; no check-in or photo found. Supporting acts are billed acts; arrival for every set is not proven.'
+  id: 2015-06-14-run-the-jewels
+  photo_match: null
+  photos: []
 - date: '2015-07-17'
   artist: Ratatat
   support: Hot Sugar
@@ -4554,6 +4929,24 @@ concerts:
       photo_id: ADD9D724-2840-47B8-8CAB-918CDEC8E9DF
     - provider: google_photos
       photo_id: AF1QipPzb1IrIBvweKfgayY3zOxNpGny1nFsh5FVB56l
+- date: '2015-11-08'
+  artist: DIIV
+  support: No Joy; Sunflower Bean
+  venue: Webster Hall
+  status: Ticket evidence
+  sources:
+  - type: email
+    label: Songkick Tickets order (2, will call)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/14fe329251f1f3d3
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '14fe329251f1f3d3'
+    thread_id: '14fe329251f1f3d3'
+    subject: Your tickets for DIIV with No Joy and Sunflower Bean at Webster Hall, 08 Nov (SK9U7J679B)
+  notes: 'Ticket purchase; no check-in or photo found. Supporting acts are billed acts; arrival for every set is not proven.'
+  id: 2015-11-08-diiv
+  photo_match: null
+  photos: []
 - date: '2015-11-19'
   artist: Dave Douglas Quintet
   support: ''
@@ -5915,8 +6308,12 @@ concerts:
   artist: Lord Huron
   support: ''
   venue: Pier 17
-  status: Calendar only
+  status: Attendee confirmed
   sources:
+  - type: attendee
+    label: Tal confirmed attending
+    statement: Tal went to the show, even though they had offered both tickets to the parents group that afternoon.
+    confirmed_on: '2026-11-07'
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=Xzg1MjQ4Z2hwNmNvM2FiYTQ4aDJrNmI5azY4b2pjYjlvNjBza2NiYTE2aDFrMmMyNThjcmplZ2hqNjQgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -5924,7 +6321,26 @@ concerts:
     event_id: _85248ghp6co3aba48h2k6b9k68ojcb9o60skcba16h1k2c258crjeghj64
     calendar_id: swimming.bird@gmail.com
     url_eid: Xzg1MjQ4Z2hwNmNvM2FiYTQ4aDJrNmI5azY4b2pjYjlvNjBza2NiYTE2aDFrMmMyNThjcmplZ2hqNjQgc3dpbW1pbmcuYmlyZEBt
-  notes: Calendar entry; attendance not established.
+  - type: email
+    label: Ticketmaster mobile-ticket instructions
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/17bd624f99acb5d7
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '17bd624f99acb5d7'
+    thread_id: '17bd624f99acb5d7'
+    subject: Important ticket instructions for your upcoming Lord Huron event
+  - type: email
+    label: Ticket giveaway offer to the parents group (same day)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/17bf0a67cad2e5f4
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '17bf0a67cad2e5f4'
+    thread_id: '17bf0a67cad2e5f4'
+    subject: 'Free: Lord Huron @ Pier 17 tonight'
+  notes: 'Conflict, kept on purpose: at about 6 PM on the day, Tal emailed the Seward Park parents group offering both
+    tickets ("Anyone want 2 tickets to lord Huron tonight"). Tal says they went anyway. No check-in or photo from the
+    show has been found.'
+  previous_status: Calendar only
   id: 2021-09-16-lord-huron
   photo_match: null
   photos: []
@@ -6018,6 +6434,33 @@ concerts:
   id: 2021-10-08-jungle
   photo_match: null
   photos: []
+- date: '2021-10-21'
+  artist: Mating Ritual
+  support: Low Hum; Sean McVerry
+  venue: Market Hotel
+  status: Ticket evidence
+  sources:
+  - type: email
+    label: Eventbrite tickets (2, AdHoc Presents)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/17a547497df5714c
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '17a547497df5714c'
+    thread_id: '17a547497df5714c'
+    subject: Your Tickets for Mating Ritual
+  - type: email
+    label: Eventbrite reminder
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/17c9b3792cafb334
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '17c9b3792cafb334'
+    thread_id: '17c9b3792cafb334'
+    subject: Reminder for Mating Ritual, Low Hum, Sean McVerry
+  notes: 'Ticket purchase for 9 PM; no check-in or photo found. Supporting acts are billed acts; arrival for every set
+    is not proven.'
+  id: 2021-10-21-mating-ritual
+  photo_match: null
+  photos: []
 - date: '2022-02-17'
   artist: K.Flay
   support: ''
@@ -6035,6 +6478,124 @@ concerts:
   id: 2022-02-17-k-flay
   photo_match: null
   photos: []
+- date: '2022-08-09'
+  artist: Glass Animals
+  support: ''
+  venue: The Brooklyn Mirage at Avant Gardner
+  status: Photo corroborated
+  sources:
+  - type: email
+    label: DICE ticket confirmation (GLASS ANIMALS IRL)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/181ba1292b5f3677
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '181ba1292b5f3677'
+    thread_id: '181ba1292b5f3677'
+    subject: GLASS ANIMALS IRL
+  - type: calendar
+    label: Family calendar
+    url: https://www.google.com/calendar/event?eid=XzhsMmphZ3BuNzRxamliYTQ2aDJqZWI5azhncTNlYjlvNjhwNDRiOWg2MHJqaWdxNTZwMjQ2ZHBuNzQgZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
+    provider: google_calendar
+    event_id: _8l2jagpn74qjiba46h2jeb9k8gq3eb9o68p44b9h60rjigq56p246dpn74
+    calendar_id: family07260733676432264048@group.calendar.google.com
+    url_eid: XzhsMmphZ3BuNzRxamliYTQ2aDJqZWI5azhncTNlYjlvNjhwNDRiOWg2MHJqaWdxNTZwMjQ2ZHBuNzQgZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
+  notes: 'GLASS ANIMALS IRL show. Calendar entry for 4 PM (all-afternoon block) plus DICE tickets.'
+  id: 2022-08-09-glass-animals
+  photo_match: 'Visually reviewed concert images: 9 picked from 32 Google Photos items taken 6:57-9:23 PM, showing the DREAMLAND stage set. Google times run about 0.6 s ahead of Apple Photos, so matches allow 1 s. Skipped selfies, sunset-only frames and 9:23 PM re-saved copies. The 7:52 PM shot may be an opener.'
+  photos:
+  - captured: '2022-08-09T19:52:48.762000-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMYl9ebtWf0Z_yauIaniLyqOMIeckmHrfJGzIif
+    kind: Photo
+    id: EA9983EE-2F28-4F96-A9CE-30317F9DF6CC
+    asset: data/photos/EA9983EE-2F28-4F96-A9CE-30317F9DF6CC.webp
+    references:
+    - provider: apple_photos
+      photo_id: EA9983EE-2F28-4F96-A9CE-30317F9DF6CC
+    - provider: google_photos
+      photo_id: AF1QipMYl9ebtWf0Z_yauIaniLyqOMIeckmHrfJGzIif
+  - captured: '2022-08-09T19:58:58-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipMDKQS5vjOzDviJdp2QJY8NDv21S3JJSh8AYjER
+    kind: Photo
+    id: AF1QipMDKQS5vjOzDviJdp2QJY8NDv21S3JJSh8AYjER
+    asset: data/photos/AF1QipMDKQS5vjOzDviJdp2QJY8NDv21S3JJSh8AYjER.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipMDKQS5vjOzDviJdp2QJY8NDv21S3JJSh8AYjER
+  - captured: '2022-08-09T20:04:21.339000-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOeBIig2ghfdfHs_MLD8b1Go2U-9KP4_Tbd_KMr
+    kind: Photo
+    id: CF32B462-8DDC-410C-B0EE-72134BF9A4FD
+    asset: data/photos/CF32B462-8DDC-410C-B0EE-72134BF9A4FD.webp
+    references:
+    - provider: apple_photos
+      photo_id: CF32B462-8DDC-410C-B0EE-72134BF9A4FD
+    - provider: google_photos
+      photo_id: AF1QipOeBIig2ghfdfHs_MLD8b1Go2U-9KP4_Tbd_KMr
+  - captured: '2022-08-09T20:04:41.363000-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOYeGZZ0YYUdQEmgwMGa8OCgDhYgUpMIZUdeQhM
+    kind: Photo
+    id: 57312F98-BB13-452E-8681-EE28A0C1D99B
+    asset: data/photos/57312F98-BB13-452E-8681-EE28A0C1D99B.webp
+    references:
+    - provider: apple_photos
+      photo_id: 57312F98-BB13-452E-8681-EE28A0C1D99B
+    - provider: google_photos
+      photo_id: AF1QipOYeGZZ0YYUdQEmgwMGa8OCgDhYgUpMIZUdeQhM
+  - captured: '2022-08-09T20:04:57-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipM1622SH43F2v8qqCdkeJquZZnSmT7t1YL5r-th
+    kind: Photo
+    id: AF1QipM1622SH43F2v8qqCdkeJquZZnSmT7t1YL5r-th
+    asset: data/photos/AF1QipM1622SH43F2v8qqCdkeJquZZnSmT7t1YL5r-th.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipM1622SH43F2v8qqCdkeJquZZnSmT7t1YL5r-th
+  - captured: '2022-08-09T20:16:32-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipO69eTST9-uCM27ZNexwkUe99FH8uShc3ATPhK-
+    kind: Video still
+    id: AF1QipO69eTST9-uCM27ZNexwkUe99FH8uShc3ATPhK-
+    asset: data/photos/AF1QipO69eTST9-uCM27ZNexwkUe99FH8uShc3ATPhK-.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipO69eTST9-uCM27ZNexwkUe99FH8uShc3ATPhK-
+  - captured: '2022-08-09T20:30:41.871000-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPDyZWruNP0n2os-iEkYBgxLcdAu0PuJWyOtkmw
+    kind: Photo
+    id: 34A24377-7006-454D-A9C2-1AD14E00D507
+    asset: data/photos/34A24377-7006-454D-A9C2-1AD14E00D507.webp
+    references:
+    - provider: apple_photos
+      photo_id: 34A24377-7006-454D-A9C2-1AD14E00D507
+    - provider: google_photos
+      photo_id: AF1QipPDyZWruNP0n2os-iEkYBgxLcdAu0PuJWyOtkmw
+  - captured: '2022-08-09T20:31:07-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNO13rwIe_cyZ0y2Xu457tR2rBg_SuOyPjFJPLk
+    kind: Video still
+    id: 0B08B222-5A7D-4D70-A0CF-9FC6459DBD3D
+    asset: data/photos/0B08B222-5A7D-4D70-A0CF-9FC6459DBD3D.webp
+    references:
+    - provider: apple_photos
+      photo_id: 0B08B222-5A7D-4D70-A0CF-9FC6459DBD3D
+    - provider: google_photos
+      photo_id: AF1QipNO13rwIe_cyZ0y2Xu457tR2rBg_SuOyPjFJPLk
+  - captured: '2022-08-09T20:33:13-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNynrq07fpGD_aTD58Pe4GixcnBnDnpbuug5OTK
+    kind: Video still
+    id: 2CDB90FF-21D1-45D2-84AE-FB8C3C1A8CAA
+    asset: data/photos/2CDB90FF-21D1-45D2-84AE-FB8C3C1A8CAA.webp
+    references:
+    - provider: apple_photos
+      photo_id: 2CDB90FF-21D1-45D2-84AE-FB8C3C1A8CAA
+    - provider: google_photos
+      photo_id: AF1QipNynrq07fpGD_aTD58Pe4GixcnBnDnpbuug5OTK
 - date: '2022-08-25'
   artist: Sleigh Bells
   support: N3ptune
@@ -7078,6 +7639,144 @@ concerts:
   id: 2025-09-21-dua-lipa
   photo_match: null
   photos: []
+- date: '2025-09-24'
+  artist: Chappell Roan
+  support: Japanese Breakfast
+  venue: Forest Hills Stadium
+  status: Photo corroborated
+  sources:
+  - type: calendar
+    label: 'Family calendar: Ticket: Chappell Roan - Admissions'
+    url: https://www.google.com/calendar/event?eid=XzZncms2Z3EzNmgxazZiOW82b280Y2I5azZvb2oyYmExNzBxazZiOW42b29qMGRoazg1MGs0YzltNjggZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
+    provider: google_calendar
+    event_id: _6grk6gq36h1k6b9o6oo4cb9k6ooj2ba170qk6b9n6ooj0dhk850k4c9m68
+    calendar_id: family07260733676432264048@group.calendar.google.com
+    url_eid: XzZncms2Z3EzNmgxazZiOW82b280Y2I5azZvb2oyYmExNzBxazZiOW42b29qMGRoazg1MGs0YzltNjggZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
+  - type: web
+    label: JamBase show page (Sept 24, with Japanese Breakfast)
+    url: https://www.jambase.com/show/chappell-roan-forest-hills-stadium-20250924
+  notes: 'Last of four Forest Hills nights (Sept 20-24). The calendar entry was added by Allie; no receipt in Tal''s Gmail. Supporting
+    acts are billed acts; arrival for every set is not proven.'
+  id: 2025-09-24-chappell-roan
+  photo_match: 'Visually reviewed concert images: 11 picked from 23 Google Photos items taken 5:00-9:38 PM, showing Chappell Roan''s castle set. Skipped posed group shots, near-black frames and duplicate copies. Individual pictured sets may include support acts.'
+  photos:
+  - captured: '2025-09-24T20:27:24-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipM-TrnM7gdKjnJa0LYKLek0Ko1IAX2lpBpfHIaj
+    kind: Video still
+    id: FB57AF43-428E-426A-9CB3-1530B7DD8AC3
+    asset: data/photos/FB57AF43-428E-426A-9CB3-1530B7DD8AC3.webp
+    references:
+    - provider: apple_photos
+      photo_id: FB57AF43-428E-426A-9CB3-1530B7DD8AC3
+    - provider: google_photos
+      photo_id: AF1QipM-TrnM7gdKjnJa0LYKLek0Ko1IAX2lpBpfHIaj
+  - captured: '2025-09-24T20:30:15-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOZoMNJegFKw4VtMVqUp9bx34OzCcdi6fUmOJKN
+    kind: Video still
+    id: 5ECB7FEF-B0B6-4FA8-A960-6DEB368059B4
+    asset: data/photos/5ECB7FEF-B0B6-4FA8-A960-6DEB368059B4.webp
+    references:
+    - provider: apple_photos
+      photo_id: 5ECB7FEF-B0B6-4FA8-A960-6DEB368059B4
+    - provider: google_photos
+      photo_id: AF1QipOZoMNJegFKw4VtMVqUp9bx34OzCcdi6fUmOJKN
+  - captured: '2025-09-24T20:42:53-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPl60HU-q7joADBDmfCfM7eouE8I3WNYjWuXYot
+    kind: Video still
+    id: 5D1271A6-E1CA-45ED-8C37-7FDEB20624AD
+    asset: data/photos/5D1271A6-E1CA-45ED-8C37-7FDEB20624AD.webp
+    references:
+    - provider: apple_photos
+      photo_id: 5D1271A6-E1CA-45ED-8C37-7FDEB20624AD
+    - provider: google_photos
+      photo_id: AF1QipPl60HU-q7joADBDmfCfM7eouE8I3WNYjWuXYot
+  - captured: '2025-09-24T20:44:02-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOcdMGPMxOmzJh-5RQo2lWV6f0i6MasbxQ0efkg
+    kind: Video still
+    id: 41772CB5-6229-4268-9D9E-FCEAD69A28D8
+    asset: data/photos/41772CB5-6229-4268-9D9E-FCEAD69A28D8.webp
+    references:
+    - provider: apple_photos
+      photo_id: 41772CB5-6229-4268-9D9E-FCEAD69A28D8
+    - provider: google_photos
+      photo_id: AF1QipOcdMGPMxOmzJh-5RQo2lWV6f0i6MasbxQ0efkg
+  - captured: '2025-09-24T20:54:04-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipMwJqimXqconGmjZLvDvk0cNQeVJSWy04In3a9r
+    kind: Video still
+    id: FD6E5214-00F4-4490-891B-E12798AFF86B
+    asset: data/photos/FD6E5214-00F4-4490-891B-E12798AFF86B.webp
+    references:
+    - provider: apple_photos
+      photo_id: FD6E5214-00F4-4490-891B-E12798AFF86B
+    - provider: google_photos
+      photo_id: AF1QipMwJqimXqconGmjZLvDvk0cNQeVJSWy04In3a9r
+  - captured: '2025-09-24T20:58:17.686000-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipP1K1e7i1O_qYZOu-SY73wwge1LMzvw2L1o_Bni
+    kind: Photo
+    id: 951C5195-AB6B-4939-9167-30A436E5C1C5
+    asset: data/photos/951C5195-AB6B-4939-9167-30A436E5C1C5.webp
+    references:
+    - provider: apple_photos
+      photo_id: 951C5195-AB6B-4939-9167-30A436E5C1C5
+    - provider: google_photos
+      photo_id: AF1QipP1K1e7i1O_qYZOu-SY73wwge1LMzvw2L1o_Bni
+  - captured: '2025-09-24T20:58:20-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipP3p9rBrrkNLkV69JKa2p-JHm3aBTucLpuAVOoT
+    kind: Video still
+    id: EF88228E-E351-4F75-BC74-D30E2CF291B7
+    asset: data/photos/EF88228E-E351-4F75-BC74-D30E2CF291B7.webp
+    references:
+    - provider: apple_photos
+      photo_id: EF88228E-E351-4F75-BC74-D30E2CF291B7
+    - provider: google_photos
+      photo_id: AF1QipP3p9rBrrkNLkV69JKa2p-JHm3aBTucLpuAVOoT
+  - captured: '2025-09-24T21:01:24-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipMvjZ2kOYmJ2jkDA7N2LiPEeqb5nJb-kdttoaMY
+    kind: Photo
+    id: AF1QipMvjZ2kOYmJ2jkDA7N2LiPEeqb5nJb-kdttoaMY
+    asset: data/photos/AF1QipMvjZ2kOYmJ2jkDA7N2LiPEeqb5nJb-kdttoaMY.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipMvjZ2kOYmJ2jkDA7N2LiPEeqb5nJb-kdttoaMY
+  - captured: '2025-09-24T21:05:52-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNupCVdurSmgOuESqVbwCjdeYtyHFzvaYJdku8S
+    kind: Video still
+    id: AB6D0364-EA7F-4BC3-B59C-1A597C9746BF
+    asset: data/photos/AB6D0364-EA7F-4BC3-B59C-1A597C9746BF.webp
+    references:
+    - provider: apple_photos
+      photo_id: AB6D0364-EA7F-4BC3-B59C-1A597C9746BF
+    - provider: google_photos
+      photo_id: AF1QipNupCVdurSmgOuESqVbwCjdeYtyHFzvaYJdku8S
+  - captured: '2025-09-24T21:35:37-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipPB9mqUflmyJgMqcjYFcO-gVedesQUCBntUo9Vb
+    kind: Photo
+    id: AF1QipPB9mqUflmyJgMqcjYFcO-gVedesQUCBntUo9Vb
+    asset: data/photos/AF1QipPB9mqUflmyJgMqcjYFcO-gVedesQUCBntUo9Vb.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipPB9mqUflmyJgMqcjYFcO-gVedesQUCBntUo9Vb
+  - captured: '2025-09-24T21:38:43-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipN2R0csAhSMAoqRDl7zY5FaAgvvMvBKZVuv2noF
+    kind: Video still
+    id: DC545D1A-661C-44BC-BCC3-23CE29F9D523
+    asset: data/photos/DC545D1A-661C-44BC-BCC3-23CE29F9D523.webp
+    references:
+    - provider: apple_photos
+      photo_id: DC545D1A-661C-44BC-BCC3-23CE29F9D523
+    - provider: google_photos
+      photo_id: AF1QipN2R0csAhSMAoqRDl7zY5FaAgvvMvBKZVuv2noF
 - date: '2025-10-04'
   artist: The Cave
   support: ''
@@ -7151,6 +7850,32 @@ concerts:
     url_eid: YTU1anR1amV1MDh0aW1sOG80bnRqdmxobDAgc3dpbW1pbmcuYmlyZEBt
   notes: Calendar entry; attendance not established.
   id: 2025-10-15-midnight-generation
+  photo_match: null
+  photos: []
+- date: '2025-10-16'
+  artist: ANIMA!
+  support: ''
+  venue: Public Records
+  status: Ticket evidence
+  sources:
+  - type: email
+    label: DICE post-show feedback request
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/199fe100f4dd31d7
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '199fe100f4dd31d7'
+    thread_id: '199fe100f4dd31d7'
+    subject: What did you think of ANIMA!?
+  - type: email
+    label: Songkick reminder
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/199e82932c8ca505
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '199e82932c8ca505'
+    thread_id: '199e82932c8ca505'
+    subject: 'Happening soon: ANIMA! (US)'
+  notes: 'No purchase email was found. DICE only sends the feedback request to ticket holders on its app.'
+  id: 2025-10-16-anima
   photo_match: null
   photos: []
 - date: '2025-11-01'
@@ -7241,6 +7966,138 @@ concerts:
   id: 2026-03-01-lizzo
   photo_match: null
   photos: []
+- date: '2026-04-14'
+  artist: Lily Allen
+  support: ''
+  venue: Radio City Music Hall
+  status: Photo corroborated
+  sources:
+  - type: attendee
+    label: Tal confirmed attending
+    statement: Tal confirmed attending Lily Allen at Radio City Music Hall on this date.
+    confirmed_on: '2026-11-07'
+  - type: web
+    label: Lily Allen ticket listing (Apr 14, 2026, 8 PM)
+    url: https://www.etickets.com/concerts/pop-rock/lily-allen-new-york-ny-04-14-2026/7609031/t
+  notes: 'No ticket email was found. Dinner nearby at Gaia (6:30 PM, in Tal''s calendar) came first. Photos run from
+    8:59 PM in the auditorium to the 10:14 PM marquee ("Tonight sold out Lily Allen").'
+  id: 2026-04-14-lily-allen
+  photo_match: 'Visually reviewed concert images: 12 picked from 25 Google Photos items taken 8:59-10:14 PM, showing Lily Allen''s West End Girl staging and the Radio City marquee (''Tonight sold out Lily Allen''). Skipped selfies, posed shots and near-duplicates.'
+  photos:
+  - captured: '2026-04-14T20:59:31-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipOJUK0KIw5Kr2dyF53TBh8iZCiBp3hJCbbA8yna
+    kind: Photo
+    id: AF1QipOJUK0KIw5Kr2dyF53TBh8iZCiBp3hJCbbA8yna
+    asset: data/photos/AF1QipOJUK0KIw5Kr2dyF53TBh8iZCiBp3hJCbbA8yna.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipOJUK0KIw5Kr2dyF53TBh8iZCiBp3hJCbbA8yna
+  - captured: '2026-04-14T21:12:55-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipM00zE3AFe-K34pTdI0i1XPuQJbKUt6MDALKA3v
+    kind: Photo
+    id: AF1QipM00zE3AFe-K34pTdI0i1XPuQJbKUt6MDALKA3v
+    asset: data/photos/AF1QipM00zE3AFe-K34pTdI0i1XPuQJbKUt6MDALKA3v.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipM00zE3AFe-K34pTdI0i1XPuQJbKUt6MDALKA3v
+  - captured: '2026-04-14T21:13:05-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipNTuXZ8wiTkfhQIaHiAgT1b_8lEtJ5Cpe8NHUYx
+    kind: Video still
+    id: CEA3E373-95A3-4EE9-8F65-49FAC1879224
+    asset: data/photos/CEA3E373-95A3-4EE9-8F65-49FAC1879224.webp
+    references:
+    - provider: apple_photos
+      photo_id: CEA3E373-95A3-4EE9-8F65-49FAC1879224
+    - provider: google_photos
+      photo_id: AF1QipNTuXZ8wiTkfhQIaHiAgT1b_8lEtJ5Cpe8NHUYx
+  - captured: '2026-04-14T21:14:05-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipOlrqhxkuV2ouUMDbSbGy41VC5ZFE2GZEgiZF7d
+    kind: Video still
+    id: AF1QipOlrqhxkuV2ouUMDbSbGy41VC5ZFE2GZEgiZF7d
+    asset: data/photos/AF1QipOlrqhxkuV2ouUMDbSbGy41VC5ZFE2GZEgiZF7d.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipOlrqhxkuV2ouUMDbSbGy41VC5ZFE2GZEgiZF7d
+  - captured: '2026-04-14T21:17:34.810000-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipPZBoRWp3d0NnUPIMqVbcCQqvAOfu6CA4Wb9dSM
+    kind: Photo
+    id: ABCE7DB9-86F5-484C-B3CE-F20FEB72DE77
+    asset: data/photos/ABCE7DB9-86F5-484C-B3CE-F20FEB72DE77.webp
+    references:
+    - provider: apple_photos
+      photo_id: ABCE7DB9-86F5-484C-B3CE-F20FEB72DE77
+    - provider: google_photos
+      photo_id: AF1QipPZBoRWp3d0NnUPIMqVbcCQqvAOfu6CA4Wb9dSM
+  - captured: '2026-04-14T21:17:45-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipNZRZ3KsOqM3n2yUEEOaLAHYKVqX0KVVszc285_
+    kind: Photo
+    id: AF1QipNZRZ3KsOqM3n2yUEEOaLAHYKVqX0KVVszc285_
+    asset: data/photos/AF1QipNZRZ3KsOqM3n2yUEEOaLAHYKVqX0KVVszc285_.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipNZRZ3KsOqM3n2yUEEOaLAHYKVqX0KVVszc285_
+  - captured: '2026-04-14T21:27:03-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipNNgsJlD0Xg0q-7RaztI6LKk4Gbp_7U2lXJqs6O
+    kind: Photo
+    id: AF1QipNNgsJlD0Xg0q-7RaztI6LKk4Gbp_7U2lXJqs6O
+    asset: data/photos/AF1QipNNgsJlD0Xg0q-7RaztI6LKk4Gbp_7U2lXJqs6O.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipNNgsJlD0Xg0q-7RaztI6LKk4Gbp_7U2lXJqs6O
+  - captured: '2026-04-14T21:27:52-04:00'
+    source: Google Photos + Apple Photos
+    url: https://photos.google.com/photo/AF1QipOXUnNTdTUVJBEYaZzx7xyhYHyU4y_of_3dV3q6
+    kind: Video still
+    id: E831AC4B-3C69-4F73-819E-96DFACFE669F
+    asset: data/photos/E831AC4B-3C69-4F73-819E-96DFACFE669F.webp
+    references:
+    - provider: apple_photos
+      photo_id: E831AC4B-3C69-4F73-819E-96DFACFE669F
+    - provider: google_photos
+      photo_id: AF1QipOXUnNTdTUVJBEYaZzx7xyhYHyU4y_of_3dV3q6
+  - captured: '2026-04-14T21:32:26-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipMG0jBB-1Shb2SGpHyY4m3XTlgvz_5QuScnG3bs
+    kind: Video still
+    id: AF1QipMG0jBB-1Shb2SGpHyY4m3XTlgvz_5QuScnG3bs
+    asset: data/photos/AF1QipMG0jBB-1Shb2SGpHyY4m3XTlgvz_5QuScnG3bs.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipMG0jBB-1Shb2SGpHyY4m3XTlgvz_5QuScnG3bs
+  - captured: '2026-04-14T21:42:37-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipOEFkbxb-WU7VNoHOc5fZB7DDBvEx_s3SMPrLw8
+    kind: Photo
+    id: AF1QipOEFkbxb-WU7VNoHOc5fZB7DDBvEx_s3SMPrLw8
+    asset: data/photos/AF1QipOEFkbxb-WU7VNoHOc5fZB7DDBvEx_s3SMPrLw8.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipOEFkbxb-WU7VNoHOc5fZB7DDBvEx_s3SMPrLw8
+  - captured: '2026-04-14T22:04:28-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipN5yT6v4MRVnHQypXIqXiQnYKtM-WcOAVn7TGtj
+    kind: Photo
+    id: AF1QipN5yT6v4MRVnHQypXIqXiQnYKtM-WcOAVn7TGtj
+    asset: data/photos/AF1QipN5yT6v4MRVnHQypXIqXiQnYKtM-WcOAVn7TGtj.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipN5yT6v4MRVnHQypXIqXiQnYKtM-WcOAVn7TGtj
+  - captured: '2026-04-14T22:14:50-04:00'
+    source: Google Photos
+    url: https://photos.google.com/photo/AF1QipM0Idic8XwPdkdGAb0knA8C3GlMeDZjyHkfWuin
+    kind: Photo
+    id: AF1QipM0Idic8XwPdkdGAb0knA8C3GlMeDZjyHkfWuin
+    asset: data/photos/AF1QipM0Idic8XwPdkdGAb0knA8C3GlMeDZjyHkfWuin.webp
+    references:
+    - provider: google_photos
+      photo_id: AF1QipM0Idic8XwPdkdGAb0knA8C3GlMeDZjyHkfWuin
 - date: '2026-05-01'
   artist: EMELINE
   support: ''
