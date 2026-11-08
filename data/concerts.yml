@@ -1659,6 +1659,10 @@ concerts:
   venue: Highline Ballroom
   status: Ticket evidence
   sources:
+  - type: attendee
+    label: Tal thinks they saw Graffiti6 (show unsure)
+    statement: Tal thinks they saw Graffiti6 but is not sure whether it was this Highline Ballroom show.
+    confirmed_on: '2026-11-07'
   - type: email
     label: Email
     url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1373ce65069d8859
@@ -1668,8 +1672,84 @@ concerts:
     thread_id: 1373ce65069d8859
     subject: Order Confirmation (THIS IS NOT YOUR TICKET)
     rfc822_message_id: <1883427.1336756555171.JavaMail.tmweb@app11.tweb.els1.stratsys.tmcs>
-  notes: ''
+  notes: 'CONFLICT: on 2012-06-04 Tal emailed "Free tix to Graffiti6" (thread 137b98306fee691e), giving these
+    tickets away because they had just bought Bonnaroo tickets. Tal was at Bonnaroo Jun 7-10, so this show was
+    probably not attended. On 2026-11-07 Tal said they think they saw Graffiti6 but is not sure which show; Graffiti6
+    was not on the 2012 Bonnaroo bill. Left as-is.'
   id: 2012-06-07-graffiti6
+  photo_match: null
+  photos: []
+- date: '2012-06-09'
+  artist: Bonnaroo Music & Arts Festival
+  support: Radiohead; Red Hot Chili Peppers; Two Door Cinema Club; tUnE-yArDs; Electric Guest; Dale Earnhardt Jr. Jr.;
+    Moon Taxi; Oberhofer; Chappo; Flogging Molly; Art vs. Science
+  venue: Great Stage Park, Manchester, TN
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal confirmed seeing Art vs. Science
+    statement: Tal remembers seeing Art vs. Science at Bonnaroo, at the Great Taste Lounge set rather than the Sonic
+      Stage one, as well as at Governors Ball and Brooklyn Bowl.
+    confirmed_on: '2026-11-07'
+  - type: attendee
+    label: Tal recalls seeing Flogging Molly
+    statement: Tal recalls Flogging Molly at Bonnaroo 2012 (That Tent, Saturday Jun 9).
+    confirmed_on: '2026-11-07'
+  - type: attendee
+    label: Tal picked more acts from the 2012 lineup
+    statement: 'From the 2012 lineup Tal thinks they saw Dale Earnhardt Jr. Jr., Moon Taxi, Radiohead, Electric Guest,
+      tUnE-yArDs, Two Door Cinema Club, Oberhofer and Red Hot Chili Peppers. Tal does not think they saw Grouplove there.'
+    confirmed_on: '2026-11-07'
+  - type: attendee
+    label: Tal thinks they saw Chappo
+    statement: Tal thinks they saw Chappo at Bonnaroo 2012.
+    confirmed_on: '2026-11-07'
+  - type: email
+    label: Bonnaroo 2012 RFID wristband registration
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/137b80d85f6c93fd
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '137b80d85f6c93fd'
+    thread_id: '137b80d85f6c93fd'
+    subject: Bonnaroo wristband personalization confirmation
+  - type: email
+    label: Tal giving away Graffiti6 tickets because of Bonnaroo (Jun 4)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/137b98306fee691e
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '137b98306fee691e'
+    thread_id: '137b98306fee691e'
+    subject: Free tix to Graffiti6
+  - type: email
+    label: Tal leaving before Phish's Sunday set (Jun 6)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/137c259059652038
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '137c259059652038'
+    thread_id: '137c259059652038'
+    subject: check it out
+  - type: email
+    label: '"Was out of cell service at Bonnaroo for a week" (Jun 11)'
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/137c6c4637d349db
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '137c6c4637d349db'
+    thread_id: '137c6c4637d349db'
+    subject: Hey, it's Allie's Friend Lindsay
+  - type: web
+    label: Art vs. Science at Bonnaroo 2012 (Sonic Stage Sat Jun 9, Great Taste Lounge at midnight)
+    url: https://concertphotosmagazine.com/2013/02/art-vs-science-bonnaroo-debates-music.html
+  - type: web
+    label: 2012 Bonnaroo lineup by day and stage (Wikipedia)
+    url: https://en.wikipedia.org/wiki/2012_Bonnaroo_Music_Festival
+  notes: 'Festival ran Jun 7-10, 2012. Tal bought a resale wristband on Jun 4 and drove down, leaving before Phish
+    closed Sunday night. Dated to Sat Jun 9, when Art vs. Science played a 30-minute afternoon set on the Sonic Stage
+    and a midnight set at the Great Taste Lounge; Tal saw the Great Taste Lounge set. Flogging Molly played That Tent
+    the same day. Days of the other acts Tal picked: Radiohead, Electric Guest, tUnE-yArDs and Two Door Cinema Club
+    Fri Jun 8; Red Hot Chili Peppers Sat Jun 9; Oberhofer Fri Jun 8 (Great Taste Lounge) and Sat Jun 9 (Sonic Stage);
+    Dale Earnhardt Jr. Jr. and Moon Taxi Thu Jun 7 (tents) and Fri Jun 8 (Sonic Stage), so Tal was there Fri and Sat
+    at least. Chappo played Cafe Where Fri Jun 8 and the Sonic Stage Sun Jun 10. Tal does not think they saw Grouplove (Sun). Other billed artists are not treated as individually seen.'
+  id: 2012-06-09-bonnaroo-music-arts-festival
   photo_match: null
   photos: []
 - date: '2012-06-13'
@@ -1757,12 +1837,39 @@ concerts:
   id: 2012-06-21-the-canon-logic
   photo_match: null
   photos: []
+- date: '2012-06-23'
+  artist: Governors Ball Music Festival
+  support: Art vs. Science
+  venue: Randall’s Island
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal confirmed seeing Art vs. Science
+    statement: Tal remembers seeing Art vs. Science at Governors Ball, as well as at Bonnaroo and Brooklyn Bowl.
+    confirmed_on: '2026-11-07'
+  - type: web
+    label: Governors Ball line-ups (Wikipedia)
+    url: https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups
+  - type: web
+    label: QRO Governors Ball 2012 recap (Art vs. Science on Saturday)
+    url: https://qromag.com/governors_ball_2012_recap
+  notes: 'Festival ran Jun 23-24, 2012. Art vs. Science played Saturday Jun 23 on the Hype Machine Stage (about
+    12:15-12:45 PM), the night before Tal''s Brooklyn Bowl check-in for Art vs. Science and Penguin Prison. No ticket
+    email or check-in was found; in April 2012 Tal told a friend they might go "day 2 only" if tickets were cheap.
+    Other billed artists are not treated as individually seen.'
+  id: 2012-06-23-governors-ball-music-festival
+  photo_match: null
+  photos: []
 - date: '2012-06-24'
   artist: Art vs Science / Penguin Prison
   support: ''
   venue: Brooklyn Bowl
   status: Check-in confirmed
   sources:
+  - type: attendee
+    label: Tal confirmed seeing Art vs. Science
+    statement: Tal remembers seeing Art vs. Science at Brooklyn Bowl, as well as at Governors Ball and Bonnaroo.
+    confirmed_on: '2026-11-07'
   - type: checkin
     label: Swarm check-in
     url: https://www.swarmapp.com/user/9203/checkin/4fe7b90be4b08674cae736ef
