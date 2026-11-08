@@ -7,7 +7,7 @@
   "scripts": {
     "build": "bun src/build.ts",
     "typecheck": "tsc --noEmit",
-    "open": "open dist/concert-history.html"
+    "open": "if [ -n \"$ORCA_TERMINAL_HANDLE\" ]; then orca tab create --url \"file://$PWD/dist/concert-history.html\"; else open dist/concert-history.html; fi"
   },
   "devDependencies": {
     "@types/bun": "^1.4.4",

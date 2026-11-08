@@ -7,7 +7,7 @@ A personal concert archive with artist histories, evidence, and embedded photo g
 ```sh
 bun install
 bun run build
-bun run open        # open dist/concert-history.html
+bun run open        # open dist/concert-history.html (Orca browser tab inside Orca, default browser otherwise)
 bun run typecheck
 ```
 
