@@ -1,0 +1,14 @@
+# Release config for the tal:deploy skill (`/deploy <target> <channel>`).
+# Generic keys and defaults: the deploy skill's SKILL.md §2.
+# Target keys: the deploy skill's targets/<target>.md.
+# No secrets here: env var names and key paths only.
+
+portainer:
+  # PORTAINER_HOST / _USERNAME / _PASSWORD live in darr-manager's .env.
+  env_file: $HOME/Projects/darr-manager/.env
+  tls: insecure            # Portainer on bee1:9443 uses a self-signed cert
+  endpoint_id: "2"         # bee1 (local)
+  channels:
+    production:
+      stack_id: "43"       # concert-history
+      health_url: https://concerts.tal.by/
