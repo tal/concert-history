@@ -1,0 +1,26 @@
+{
+  "name": "Neon Archive",
+  "project": "concert-history",
+  "source": "Sampled from the /artists/rub/ page screenshot and src/site.css tokens; distribution kept: near-black violet field, plum glow for day, magenta on frames, cyan on small labels",
+  "variants": {
+    "day": { "background": "#230d1b", "foreground": "#f4effc", "cursor": "#27e3f0" },
+    "night": { "background": "#0c0b11", "foreground": "#f4effc", "cursor": "#ff2f92" }
+  },
+  "palette": [
+    "#2c2639", "#ff5a5f", "#60c868", "#ffb627",
+    "#a784ff", "#ff2f92", "#27e3f0", "#d9d2e8",
+    "#8a819f", "#ff8a8d", "#8fe596", "#ffd072",
+    "#c7b1ff", "#ff7ab8", "#8ff2f8", "#ffffff"
+  ],
+  "claudeCode": {
+    "slug": "concert-history-night",
+    "base": "dark",
+    "inactive": "#aea6c1",
+    "statusName": "#27e3f0",
+    "overrides": {
+      "promptBorder": "#ff2f92",
+      "promptBorderShimmer": "#ff7ab8",
+      "claude": "#27e3f0"
+    }
+  }
+}
