@@ -16641,8 +16641,13 @@ concerts:
   artist: Qveen Herby
   support: ''
   venue: Brooklyn Paramount
-  status: Calendar only
+  status: Excluded
+  previous_status: Calendar only
   sources:
+  - type: attendee
+    label: Tal did not attend this show
+    statement: Tal says they did not attend Qveen Herby at Brooklyn Paramount on 2026-08-08.
+    confirmed_on: '2026-11-08'
   - type: calendar
     label: Family calendar
     url: https://www.google.com/calendar/event?eid=NXRwNHV2NXZtaHA4dHA5dGF1NzdkcTB2cHEgZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw&ctz=America/Los_Angeles
@@ -16650,7 +16655,7 @@ concerts:
     event_id: 5tp4uv5vmhp8tp9tau77dq0vpq
     calendar_id: family07260733676432264048@group.calendar.google.com
     url_eid: NXRwNHV2NXZtaHA4dHA5dGF1NzdkcTB2cHEgZmFtaWx5MDcyNjA3MzM2NzY0MzIyNjQwNDhAZw
-  notes: Isle of Qveen Tour entry in Family calendar. Attendance not established.
+  notes: Isle of Qveen Tour entry in Family calendar, but Tal says they did not attend.
   id: 2026-08-08-qveen-herby
   photo_match: null
   photos: []
