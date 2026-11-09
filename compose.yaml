@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    pull_policy: build
+    ports:
+      - "127.0.0.1:8765:80"
+    restart: unless-stopped

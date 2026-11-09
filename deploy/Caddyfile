@@ -1,0 +1,17 @@
+# Serves the built site inside the container. TLS and the public hostname are
+# handled by the central Caddy on bee1, which proxies to this container.
+{
+	admin off
+	auto_https off
+}
+
+:80 {
+	root * /srv
+	encode zstd gzip
+	file_server
+
+	handle_errors 404 {
+		rewrite * /404.html
+		file_server
+	}
+}
