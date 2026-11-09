@@ -6403,8 +6403,13 @@ concerts:
   artist: Not Blood Paint
   support: ''
   venue: Glasslands Gallery
-  status: Calendar only
+  status: Attendee confirmed
   sources:
+  - type: attendee
+    label: Tal vividly remembers this artist + music show
+    statement: Tal vividly remembers going to this. Tal recalls it being a special artist + music show, where a person
+      drew on a screen that was projected on the band and played with them in that way.
+    confirmed_on: '2026-11-08'
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=XzYwcms4ZHE1OHAya2FiOWc4Z29qMmI5azZncjM0YjlwNjhyMzhiOW02a3IzaWQyNTZwMmthZ3BsNjQgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -6412,7 +6417,8 @@ concerts:
     event_id: _60rk8dq58p2kab9g8goj2b9k6gr34b9p68r38b9m6kr3id256p2kagpl64
     calendar_id: swimming.bird@gmail.com
     url_eid: XzYwcms4ZHE1OHAya2FiOWc4Z29qMmI5azZncjM0YjlwNjhyMzhiOW02a3IzaWQyNTZwMmthZ3BsNjQgc3dpbW1pbmcuYmlyZEBt
-  notes: Calendar entry; attendance not established.
+  notes: Logged on Tal's memory plus a calendar entry. Web searches on 2026-11-08 found no listing for this show and no
+    source describing the live-drawn projection; sources do describe Not Blood Paint's live shows as theatrical.
   id: 2013-05-03-not-blood-paint
   photo_match: null
   photos: []
