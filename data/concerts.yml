@@ -1431,6 +1431,11 @@ concerts:
   venue: Williamsburg Waterfront
   status: Check-in confirmed
   sources:
+  - type: attendee
+    label: Tal remembers seeing Broken Social Scene and TV on the Radio in Williamsburg
+    statement: Tal recalls seeing Broken Social Scene and TV on the Radio at East River park in Williamsburg. This
+      venue was in what was then East River State Park.
+    confirmed_on: '2026-11-08'
   - type: checkin
     label: Swarm check-in
     url: https://www.swarmapp.com/user/9203/checkin/4e6977a97d8b143eb6b0bb80
