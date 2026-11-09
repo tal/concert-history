@@ -1,0 +1,3395 @@
+schema_version: 1
+artists:
+  - slug: acrylics
+    name: Acrylics
+    aliases: []
+    spotify_id: 4lJu25zcD4FJOa854waUxX
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/c820e227a7b243da97081cdc7e56fff016de3dd0
+    description: null
+    wikipedia: null
+  - slug: active-child
+    name: Active Child
+    aliases: []
+    spotify_id: 54KTsBl98buzGkELjGlnuU
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517468253c43821251986d665214
+    description: Patrick James Grossi (born May 28, 1983), better known by his stage name Active Child, is an American singer, songwriter, and record producer. His debut album, You Are All I See, was released in 2011 and produced by Ariel Rechtshaid, and garnered substantial reviews from media outlets like Pitchfork Media and Drowned in Sound.
+    wikipedia: https://en.wikipedia.org/wiki/Active_Child
+  - slug: afrojack
+    name: Afrojack
+    aliases: []
+    spotify_id: 4D75GcNG95ebPtNvoNVXhz
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517456591d5d8219e6e506096c41
+    description: 'Nick Leonardus van de Wall (Dutch: [ˈnɪk leːjoːˈnɑrdʏs fɑn də ˈʋɑl]; born 9 September 1987), known professionally as Afrojack (stylized in all caps), is a Dutch DJ, record producer and remixer. In 2007, he founded the record label Wall Recordings; his debut album Forget the World was released in 2014.'
+    wikipedia: https://en.wikipedia.org/wiki/Afrojack
+  - slug: alabama-shakes
+    name: Alabama Shakes
+    aliases: []
+    spotify_id: 16GcWuvvybAoaHr0NqT8Eh
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517447cd9b4b6b21e5b8adbe216b
+    description: Alabama Shakes is an American rock band formed in Athens, Alabama, in 2009.
+    wikipedia: https://en.wikipedia.org/wiki/Alabama_Shakes
+  - slug: alex-winston
+    name: Alex Winston
+    aliases: []
+    spotify_id: 3REwdws53wUuid8AatTTMh
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174877f3c1b0ed67e3b9416cd37
+    description: Alexandra Leigh Winston (born September 28, 1987) is an American indie pop rock singer-songwriter and multi-instrumentalist from Bloomfield Hills, Michigan.
+    wikipedia: https://en.wikipedia.org/wiki/Alex_Winston
+  - slug: amanda-palmer
+    name: Amanda Palmer
+    aliases: []
+    spotify_id: 726Dh6A5VyDfAAQxilT6A0
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051744028f837434bb6a8f25cf85c
+    description: Amanda MacKinnon Palmer (born April 30, 1976) is an American singer, songwriter, musician, and performance artist who is the lead vocalist, pianist, and lyricist of the duo the Dresden Dolls.
+    wikipedia: https://en.wikipedia.org/wiki/Amanda_Palmer
+  - slug: anima
+    name: ANIMA!
+    aliases: []
+    spotify_id: 3xbmS6qcRWTyILBoaqAPT4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174013356cb26e27040b7e4a751
+    description: null
+    wikipedia: null
+  - slug: arcade-fire
+    name: Arcade Fire
+    aliases: []
+    spotify_id: 3kjuyTCjPG1WMFCiyc5IuB
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517457c6e5fa2170e9a938f4a880
+    description: Arcade Fire is a Canadian indie rock band from Montreal, Quebec. The band consists of multi-instrumentalists Win Butler, Régine Chassagne, Richard Reed Parry, Tim Kingsbury, and Jeremy Gara.
+    wikipedia: https://en.wikipedia.org/wiki/Arcade_Fire
+  - slug: architects
+    name: The Architects
+    aliases: []
+    spotify_id: 3ZztVuWxHzNpl0THurTFCv
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051745423e7cde58a13ccde7d8c99
+    description: null
+    wikipedia: null
+  - slug: arctic-monkeys
+    name: Arctic Monkeys
+    aliases: []
+    spotify_id: 7Ln80lUS6He07XvHI8qqHH
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051747da39dea0a72f581535fb11f
+    description: Arctic Monkeys are an English rock band formed in Sheffield in 2002. They comprise lead singer and guitarist Alex Turner, drummer Matt Helders, guitarist Jamie Cook and bassist Nick O'Malley, who replaced co-founder and original bassist Andy Nicholson in 2006.
+    wikipedia: https://en.wikipedia.org/wiki/Arctic_Monkeys
+  - slug: arny-margret
+    name: Arny Margret
+    aliases: []
+    spotify_id: 0is0GJzcvwz5jg1qVZyOwW
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740a81e0691f19b0d3bf513bdc
+    description: Árný Margrét Sævarsdóttir is an Icelandic musician.
+    wikipedia: https://en.wikipedia.org/wiki/%C3%81rn%C3%BD_Margr%C3%A9t
+  - slug: arp
+    name: Arp
+    aliases: []
+    spotify_id: 3nmCWNVgTseDuX2OyUeTsX
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051745121db1f5b00790466ca3325
+    description: null
+    wikipedia: null
+  - slug: art-vs-science
+    name: Art vs. Science
+    aliases:
+      - Art vs Science
+    spotify_id: 4MlrZKzgi3UuZi2iDKjOar
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174cefe47498687a09dc4a1bfb1
+    description: Art vs. Science are an Australian electronic dance band based in Sydney. Formed in February 2008, the three-piece consists of James Finn (styled as Jim) on vocals and keyboards; Daniel McNamee (styled as Dan Mac) on vocals, guitars and keyboards; and Daniel Williams (styled as Dan W.) on drums and vocals.
+    wikipedia: https://en.wikipedia.org/wiki/Art_vs._Science
+  - slug: astr
+    name: ASTR
+    aliases: []
+    spotify_id: 3GJhraAgCA8s8XHENnDsXq
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f60198daa0a3499f34cb57fb
+    description: ASTR is the solo project of American electronic R&B vocalist Zoe Silverman, originally formed with producer Adam Pallin. Their debut EP, Varsity, was named the twentieth best album of 2014 by Spin.
+    wikipedia: https://en.wikipedia.org/wiki/ASTR
+  - slug: au-revoir-simone
+    name: Au Revoir Simone
+    aliases: []
+    spotify_id: 0X0TajZO1RmY3D8u1JymYq
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174d5226701fc34cccb65bc523e
+    description: Au Revoir Simone is an American indie pop band from Williamsburg, Brooklyn, New York, formed in 2003.
+    wikipedia: https://en.wikipedia.org/wiki/Au_Revoir_Simone
+  - slug: augustines
+    name: Augustines
+    aliases: []
+    spotify_id: 0p1LdP1XicX0UA5GNA2DWc
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/581c59d805ff19240077686575ed57cc287d41d2
+    description: 'Augustines (formerly: We Are Augustines) is an American indie rock band based in Brooklyn, New York consisting of guitarist William McCarthy, multi-instrumentalist Eric Sanderson and drummer Rob Allen. Augustines are known for their intense shows and heavy interaction with the audience.'
+    wikipedia: https://en.wikipedia.org/wiki/Augustines_(band)
+  - slug: aurora
+    name: Aurora
+    aliases: []
+    spotify_id: 1WgXqy2Dd70QQOU7Ay074N
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174eefc6f13cec94fe613a6c1c8
+    description: Aurora Aksnes (born 15 June 1996), known mononymously as AURORA (stylised in all capital letters), is a Norwegian singer, songwriter and record producer. Known for blending electropop, folk, and art pop, she has been described as a pioneer of the Norwegian art pop scene and dubbed the "Fairy of Pop".
+    wikipedia: https://en.wikipedia.org/wiki/Aurora_(singer)
+  - slug: aviation-orange
+    name: Aviation Orange
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: ayer
+    name: Ayer
+    aliases: []
+    spotify_id: 5qL11uHhk8QM2IUnxggWqy
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174bb6d2daf9ca31e7da0868a42
+    description: null
+    wikipedia: null
+  - slug: backwords
+    name: Backwords
+    aliases: []
+    spotify_id: 5KskOzqlX7PIpA7KcoCHg7
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/2be01efcf84654c10e63fb6c8452bbc623605a6a
+    description: null
+    wikipedia: null
+  - slug: bad-suns
+    name: Bad Suns
+    aliases: []
+    spotify_id: 0YhUSm86okLWldQVwJkLlP
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517414bdca85282f9980069cc350
+    description: Bad Suns is an American rock band from Woodland Hills, California, formed in 2010. The band currently consists of Christo Bowman, Gavin Bennett, and Miles Morris.
+    wikipedia: https://en.wikipedia.org/wiki/Bad_Suns
+  - slug: badboxes
+    name: Badboxes
+    aliases: []
+    spotify_id: 3ywZ0iIxZu0Aa1pimUA7Hd
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749a32cd2e512317e570572aad
+    description: null
+    wikipedia: null
+  - slug: band-of-horses
+    name: Band of Horses
+    aliases: []
+    spotify_id: 0OdUWJ0sBjDrqHygGUXeCF
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051742cb57b092374b2f975ee9adc
+    description: Band of Horses is an American rock band formed in 2004 in Seattle, Washington.
+    wikipedia: https://en.wikipedia.org/wiki/Band_of_Horses
+  - slug: baths
+    name: Baths
+    aliases: []
+    spotify_id: 5zS8r5hRRk1jzD41yYS1NO
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174008147163c182db72f80e2d5
+    description: William Boris Wiesenfeld (born April 16, 1989), better known by his stage name Baths, is an American electronic musician. He was born in the Tarzana neighborhood of Los Angeles and was raised in Woodland Hills, Los Angeles.
+    wikipedia: https://en.wikipedia.org/wiki/Baths_(musician)
+  - slug: beast-make-bomb
+    name: Beast Make Bomb
+    aliases: []
+    spotify_id: 46cyAQF1bnJ5gQKBCBPiBu
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0290f199260b1295f7520cbe95
+    description: null
+    wikipedia: null
+  - slug: beaty-heart
+    name: Beaty Heart
+    aliases: []
+    spotify_id: 6o8nNDpxD7uM7QnBmcSzgf
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b8d2b7351bb6709912f21c1f
+    description: null
+    wikipedia: null
+  - slug: beautiful-buzzz
+    name: Beautiful Buzzz
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: beck
+    name: Beck
+    aliases: []
+    spotify_id: 3vbKDsSS70ZX9D2OcvbZmS
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ca0e2c67ba619791fec07dfa
+    description: Beck David Hansen (born Bek David Campbell; July 8, 1970), known mononymously as Beck, is an American singer, songwriter, and record producer. He rose to fame in the early 1990s with his experimental and lo-fi style, and became known for creating musical collages of wide-ranging genres.
+    wikipedia: https://en.wikipedia.org/wiki/Beck
+  - slug: bettye-lavette
+    name: Bettye LaVette
+    aliases: []
+    spotify_id: 55U998XxmxjicLMKDSz6R3
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051741dbdb1a340c7fcad71936975
+    description: Bettye LaVette (born Betty Jo Haskins, January 29, 1946) is an American soul singer who made her first record at sixteen, but achieved only intermittent fame until 2005, when her album I've Got My Own Hell to Raise was released to widespread critical acclaim, and was named on many critics' "Best of 2005" lists.
+    wikipedia: https://en.wikipedia.org/wiki/Bettye_LaVette
+  - slug: big-boi
+    name: Big Boi
+    aliases: []
+    spotify_id: 2ht3wxeT69CzyKFChNnNAB
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051747f3c0dffb5229c8734ff60b2
+    description: Antwan André Patton (born February 1, 1975), known professionally as Big Boi, is an American rapper and record producer. Born in Savannah, Georgia, and raised in Atlanta, he was one half of the Southern hip-hop duo Outkast along with rapper André 3000, which the two formed in 1992.
+    wikipedia: https://en.wikipedia.org/wiki/Big_Boi
+  - slug: big-grams
+    name: Big Grams
+    aliases: []
+    spotify_id: 4jU68Hm8np6WNZXMqi7rz3
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/83507725452a7ddf5d87a9edbb5f1494d4c66459
+    description: null
+    wikipedia: null
+  - slug: billy-bragg
+    name: Billy Bragg
+    aliases: []
+    spotify_id: 5yXAFDZNUNyO92l5WTImkO
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c23d0e19d887a9d67a77ea9b
+    description: Stephen William Bragg (born 20 December 1957) is an English singer, songwriter, musician, author and political activist. His music blends elements of folk music, punk rock and protest songs, with lyrics that mostly span political or romantic themes.
+    wikipedia: https://en.wikipedia.org/wiki/Billy_Bragg
+  - slug: black-bananas
+    name: Black Bananas
+    aliases: []
+    spotify_id: 1yRYwSKXUmGWweTDQSubmg
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051749c482f4135f7fdb243837d69
+    description: null
+    wikipedia: null
+  - slug: black-joe-lewis-and-the-honeybears
+    name: Black Joe Lewis & the Honeybears
+    aliases: []
+    spotify_id: 6kbzJ40luXJ5IKnSpWr7SD
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e33f8ac4208ad68680645aee
+    description: Black Joe Lewis (born Tucson, Arizona, United States) is an American blues, funk and soul artist influenced by Howlin' Wolf and James Brown. He formed Black Joe Lewis & The Honeybears in Austin, Texas, in 2007.
+    wikipedia: https://en.wikipedia.org/wiki/Black_Joe_Lewis_%26_the_Honeybears
+  - slug: black-keys
+    name: The Black Keys
+    aliases: []
+    spotify_id: 7mnBLXK823vNxN3UWB7Gfz
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174d2fa0ed935325ca36d334c40
+    description: The Black Keys are an American rock duo formed in Akron, Ohio, in 2001. The group consists of Dan Auerbach (guitar, vocals) and Patrick Carney (drums).
+    wikipedia: https://en.wikipedia.org/wiki/The_Black_Keys
+  - slug: black-pus
+    name: Black Pus
+    aliases: []
+    spotify_id: 4C9qhOkWrX1N9vYvzrD5fe
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/304791697010261ec4ada0b9a91de70ca5ff2efe
+    description: null
+    wikipedia: null
+  - slug: blackbird-blackbird
+    name: Blackbird Blackbird
+    aliases: []
+    spotify_id: 2TWKl87Jnmd5MApKEpVCxA
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174fd10a2859e425da76b6f53c3
+    description: null
+    wikipedia: null
+  - slug: bloc-party
+    name: Bloc Party
+    aliases: []
+    spotify_id: 3MM8mtgFzaEJsqbjZBSsHJ
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174aa55c33dd7e8d3f5e24c3e3c
+    description: Bloc Party are an English rock band that was formed in London in 1999 by co-founders Kele Okereke (lead vocals, rhythm guitar, piano, sampler) and Russell Lissack (lead guitar). Their first four albums all featured Gordon Moakes (bass, keyboards) and Matt Tong (drums), who have since left the band.
+    wikipedia: https://en.wikipedia.org/wiki/Bloc_Party
+  - slug: blonde-redhead
+    name: Blonde Redhead
+    aliases: []
+    spotify_id: 5isqImG0rLfAgBJSPMEVXF
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051746f63ec3b0dd0c229ed8459a9
+    description: Blonde Redhead is an American alternative rock band composed of Kazu Makino (vocals, keyboards, rhythm guitar) and identical twin brothers Simone Pace (drums, keyboards) and Amedeo Pace (lead guitar, bass, keyboards, vocals) that formed in New York City in 1993.
+    wikipedia: https://en.wikipedia.org/wiki/Blonde_Redhead
+  - slug: blue-hawaii
+    name: Blue Hawaii
+    aliases: []
+    spotify_id: 41y1iPh0WqB7tyGdzyeinZ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051741a884d3cbcc716b109df3311
+    description: Blue Hawaii are a Canadian electronic music duo from Montreal, Quebec, composed of Braids member Raphaelle "Ra" Standell-Preston and Alexander Kirby (also known as Agor).
+    wikipedia: https://en.wikipedia.org/wiki/Blue_Hawaii_(band)
+  - slug: bob-moses
+    name: Bob Moses
+    aliases: []
+    spotify_id: 6LHsnRBUYhFyt01PdKXAF5
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174bf9efd924a1190400c641905
+    description: Bob Moses is a Canadian electronic music duo based in Vancouver, British Columbia. Formed in New York City, the band consists of Tom Howie and Jimmy Vallance.
+    wikipedia: https://en.wikipedia.org/wiki/Bob_Moses_(band)
+  - slug: bobby-birdman
+    name: Bobby Birdman
+    aliases: []
+    spotify_id: 5HcabOq7seoCh5P0Hy9kOy
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/b48c3d80766d42f4e4ef7ff41e0a870890751940
+    description: Robert John Kieswetter, better known by his stage name Bobby Birdman, is an American musician. Kieswetter is originally from Nevada City, California, and lives in Los Angeles, California.
+    wikipedia: https://en.wikipedia.org/wiki/Bobby_Birdman
+  - slug: bombay-bicycle-club
+    name: Bombay Bicycle Club
+    aliases: []
+    spotify_id: 3pTE9iaJTkWns3mxpNQlJV
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e210b053175600ecb893bf93
+    description: Bombay Bicycle Club are an English indie rock band from Crouch End, London, consisting of Jack Steadman, Jamie MacColl, Suren de Saram, and Ed Nash. They are guitar-fronted and have experimented with different genres, including folk, electronica, world music and indie rock.
+    wikipedia: https://en.wikipedia.org/wiki/Bombay_Bicycle_Club
+  - slug: born-gold
+    name: Born Gold
+    aliases: []
+    spotify_id: 4kcBC4iBlBVFSutQ2FcWkG
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0276813b50c99e96b4e268022f
+    description: null
+    wikipedia: null
+  - slug: braids
+    name: Braids
+    aliases: []
+    spotify_id: 6JX35IQ1Yw84Yjzq2Y5p5i
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174db8208a792bb3dfdf5b9a066
+    description: Braids (formerly stylized as BRAIDS) is a Canadian art rock band originating from Calgary, Alberta and based in Montréal, Québec for most of their career. Braids currently consists of Raphaelle Standell-Preston, Austin Tufts and Taylor Smith.
+    wikipedia: https://en.wikipedia.org/wiki/Braids_(band)
+  - slug: brika
+    name: Brika
+    aliases: []
+    spotify_id: 3FMbhaYng6VoeCltbwqmtG
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517475461352f81ae429b7802cd8
+    description: Briana Alexa Martinez, commonly known by her stage name Brika, is an American singer and songwriter. She currently releases music under independent record label Art House Records.
+    wikipedia: https://en.wikipedia.org/wiki/Brika
+  - slug: broken-bells
+    name: Broken Bells
+    aliases: []
+    spotify_id: 6dgwEwnK0YtDfS9XhRwBTG
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174cafd2875af0609eed7b8422e
+    description: Broken Bells is an American indie rock band composed of artist-producer Brian Burton (better known as Danger Mouse) and James Mercer, the lead vocalist and guitarist for the indie rock band The Shins. Broken Bells compose and create as a duo, but are joined by Dan Elkan and Jon Sortland when performing live.
+    wikipedia: https://en.wikipedia.org/wiki/Broken_Bells
+  - slug: broken-social-scene
+    name: Broken Social Scene
+    aliases: []
+    spotify_id: 7lOJ7WXyopaxri0dbOiZkd
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517485ef4d26c9b37ee7c0fe1397
+    description: Broken Social Scene is a Canadian indie rock band and musical collective including as few as six and as many as nineteen members, formed by Kevin Drew (vocals, guitar) and Brendan Canning (vocals, bass) in 1999.
+    wikipedia: https://en.wikipedia.org/wiki/Broken_Social_Scene
+  - slug: cait-oriordan
+    name: Cáit O'Riordan
+    aliases: []
+    spotify_id: 6bzpUKEkJGltX0UvwxL6FS
+    spotify_match: ambiguous
+    description: Caitlín O'Riordan (born 4 January 1965) is a British musician. She played bass guitar for the Pogues from 1983 to 1986.
+    wikipedia: https://en.wikipedia.org/wiki/Cait_O%27Riordan
+  - slug: calvin-love
+    name: Calvin Love
+    aliases: []
+    spotify_id: 4BGm5j3zsc5NU2BM1ihlA4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051742949114db394e15e0fee087e
+    description: null
+    wikipedia: null
+  - slug: cam-kahin
+    name: Cam Kahin
+    aliases: []
+    spotify_id: 1RZPdKEZaw9Mz2r0HNYiSw
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174f6a51131c1cf18c800eaff44
+    description: null
+    wikipedia: null
+  - slug: canon-logic
+    name: The Canon Logic
+    aliases: []
+    spotify_id: 08BGQeyzjwQubPoIfTc3RK
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0253ec0adc8f54141b2f6b9441
+    description: null
+    wikipedia: null
+  - slug: cardiknox
+    name: Cardiknox
+    aliases: []
+    spotify_id: 68xcbQiyjcmPsgRChCm2wj
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174544bed239717a606c8a38fbe
+    description: Cardiknox was an American indie pop band. Formed in 2013, the duo consisted of Lonnie Angle (vocals) and Thomas Dutton (backup vocals and keyboard).
+    wikipedia: https://en.wikipedia.org/wiki/Cardiknox
+  - slug: carousel
+    name: Carousel
+    aliases: []
+    spotify_id: 0oYWECmtozBZGjnklDFPTH
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020b53f4d9fc87c05de1b8fe58
+    description: Carousel is a Latvian band that represented their country in the Eurovision Song Contest 2019 in Tel Aviv. The band was originally a duo consisting of founding members Sabīne Žuga and Mārcis Vasiļevskis.
+    wikipedia: https://en.wikipedia.org/wiki/Carousel_(band)
+  - slug: casey-shea
+    name: Casey Shea
+    aliases: []
+    spotify_id: 6mqqIghQOdM9bkNCMNaapK
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174fcf80f783b6ec9e17d3a80f5
+    description: null
+    wikipedia: null
+  - slug: cat-power
+    name: Cat Power
+    aliases: []
+    spotify_id: 6G7OerKc3eBO9sVkRNopFC
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174da19135d5733a4ceaca360f7
+    description: Charlyn Marie "Chan" Marshall ( SHAWN; born January 21, 1972), better known by her stage name Cat Power, is an American singer-songwriter. Cat Power was originally the name of her first band, but has become her stage name as a solo artist.
+    wikipedia: https://en.wikipedia.org/wiki/Cat_Power
+  - slug: cathedrals
+    name: Cathedrals
+    aliases: []
+    spotify_id: 7HIjKw4rHS0MtmV0cqSlpB
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174ab090c87e248deea3674edce
+    description: null
+    wikipedia: null
+  - slug: cavallo
+    name: Cavallo
+    aliases: []
+    spotify_id: 6gDEzqT4SyISGrrjnHvdM8
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e5ec354ed232587d0d159ee2
+    description: null
+    wikipedia: null
+  - slug: cave
+    name: The Cave
+    aliases: []
+    spotify_id: 2mW9rNrxyKxGj4GC53hVAH
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c121f031e086b2a3fea6c403
+    description: null
+    wikipedia: null
+  - slug: chad-valley
+    name: Chad Valley
+    aliases: []
+    spotify_id: 1rzpgMqxYjRQo4UmWZimFc
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051741880ac5ae4d1fd3cd05342d8
+    description: Hugo Manuel, better known by his stage name Chad Valley, is an English electronic recording artist and singer.
+    wikipedia: https://en.wikipedia.org/wiki/Chad_Valley_(musician)
+  - slug: chance-the-rapper
+    name: Chance the Rapper
+    aliases: []
+    spotify_id: 1anyVhU62p31KFi8MEzkbf
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174d4d18d62a36a26fe36b70e2a
+    description: Chancelor Jonathan Bennett (born April 16, 1993), known professionally as Chance the Rapper, is an American rapper. He gained widespread recognition with his second mixtape, Acid Rap (2013), which helped establish him as a leading figure in Chicago hip-hop and among independent artists.
+    wikipedia: https://en.wikipedia.org/wiki/Chance_the_Rapper
+  - slug: chaos-chaos
+    name: Chaos Chaos
+    aliases: []
+    spotify_id: 6D6rjLdxyE5vwhMlkuQq0E
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517492c76b7f30e49c5a002642e0
+    description: Chaos Chaos are an American indie synthpop band based in Brooklyn, New York. The band was formed in Seattle under the name Smoosh in 2000 and adopted their current name in 2012.
+    wikipedia: https://en.wikipedia.org/wiki/Chaos_Chaos
+  - slug: chappell-roan
+    name: Chappell Roan
+    aliases: []
+    spotify_id: 7GlBOeep6PqTfFi59PTUUN
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174d258ecb0d66244e6300bcf64
+    description: Kayleigh Rose Amstutz (born February 19, 1998), known professionally as Chappell Roan ( CHAP-əl ROHN), is an American singer and songwriter. She is known for her camp and drag queen-influenced style.
+    wikipedia: https://en.wikipedia.org/wiki/Chappell_Roan
+  - slug: chappo
+    name: Chappo
+    aliases: []
+    spotify_id: 0fdMBzQuX9TIF6t6N8fwg6
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174cd719197d43f95bbd60e20c1
+    description: null
+    wikipedia: null
+  - slug: charles-bradley
+    name: Charles Bradley
+    aliases: []
+    spotify_id: 462T0buQ5ScBUQCRpodDRf
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051745b855b0ad3f90d4addabf7f2
+    description: Charles Edward Bradley (November 5, 1948 – September 23, 2017) was an American funk and soul singer. After years of obscurity and a part-time music career, Bradley came to prominence in the early 2000s.
+    wikipedia: https://en.wikipedia.org/wiki/Charles_Bradley_(singer)
+  - slug: charli-xcx
+    name: Charli XCX
+    aliases: []
+    spotify_id: 25uiPmTg16RbhZWAqwLBy5
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051746fa76436a2bba83b9f1d6fd1
+    description: Charlotte Emma Aitchison ( AYTCH-ih-sən; born 2 August 1992), known professionally as Charli XCX, is a British singer, songwriter, and actress. She began posting songs on Myspace in 2008 before entering the London rave scene.
+    wikipedia: https://en.wikipedia.org/wiki/Charli_XCX
+  - slug: childish-gambino
+    name: Childish Gambino
+    aliases: []
+    spotify_id: 73sIBHcqh3Z3NyqHKZ7FOL
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c3dc5429b676b16d451e5f77
+    description: null
+    wikipedia: null
+  - slug: chinchilla
+    name: CHINCHILLA
+    aliases: []
+    spotify_id: 7iNrvS80wnHDGVxw3qNRiI
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051749e944dd9c5ae89a0b22ce700
+    description: null
+    wikipedia: null
+  - slug: choir-of-young-believers
+    name: Choir of Young Believers
+    aliases: []
+    spotify_id: 4aXPrNXYJLziXeH7Obkea7
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/21fd07eaf7801d302e4ac807ebe0447ba080989b
+    description: Choir of Young Believers was the musical project of singer, writer and guitarist Jannis Noya Makrigiannis from Copenhagen, Denmark.
+    wikipedia: https://en.wikipedia.org/wiki/Choir_of_Young_Believers
+  - slug: christine-and-the-queens
+    name: Christine and the Queens
+    aliases: []
+    spotify_id: 04vj3iPUiVh5melWr0w3xT
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517465af94ae1c1f25993345950f
+    description: null
+    wikipedia: null
+  - slug: chromeo
+    name: Chromeo
+    aliases: []
+    spotify_id: 2mV8aJphiSHYJf43DxL7Gt
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174017399838e5064b16f01e4c1
+    description: Chromeo is a Canadian electro-funk duo from Montreal, formed in 2002 by musicians David "Dave 1" Macklovitch and Patrick "P-Thugg" Gemayel. Their sound draws from soul music, dance music, rock, synth-pop, disco and funk.
+    wikipedia: https://en.wikipedia.org/wiki/Chromeo
+  - slug: cil
+    name: CIL
+    aliases: []
+    spotify_id: 1bBo1QjmPP5CfMiEsxmZxU
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743cf430d58842e59409b49baf
+    description: null
+    wikipedia: null
+  - slug: circa-waves
+    name: Circa Waves
+    aliases: []
+    spotify_id: 6hl5k4gLl1p3sjhHcb57t2
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749a2562902da09e868585a2d3
+    description: Circa Waves are an English indie rock band formed in Liverpool in 2013.
+    wikipedia: https://en.wikipedia.org/wiki/Circa_Waves
+  - slug: city-and-horses
+    name: The City & Horses
+    aliases: []
+    spotify_id: 5lRgRKBK8dh6ak8UYqLMqh
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b107d705910a4e9fed745cf0
+    description: null
+    wikipedia: null
+  - slug: cobrah
+    name: Cobrah
+    aliases: []
+    spotify_id: 1AHswQqsDNmu1xaE8KpBne
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174de3de14c12807415634467b5
+    description: Clara Christensen (born 15 October 1996), known professionally as Cobrah (formerly stylized in all caps), is a Swedish singer, songwriter and record producer. Prior to releasing music, Christensen worked as a primary school music teacher.
+    wikipedia: https://en.wikipedia.org/wiki/Cobrah
+  - slug: connor-hanwick-and-peggy-wang-dj-sets
+    name: Connor Hanwick & Peggy Wang DJ sets
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: conveyor
+    name: Conveyor
+    aliases: []
+    spotify_id: 7L8eBvf0c42hnpV5LGjEsu
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/9c18ace57851eec1bedb1feb3c9ac943462e4208
+    description: Conveyor is an American art rock band from Brooklyn, New York. The band consists of T.J. Masters (vocals, guitar), Alan Busch (vocals, guitar), Evan Garfield (backing vocals, drums), and Michael Pedron (backing vocals, bass).
+    wikipedia: https://en.wikipedia.org/wiki/Conveyor_(band)
+  - slug: corook
+    name: corook
+    aliases: []
+    spotify_id: 1rNVlQNJSIESCd5mixdqMt
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c985945dfe9c1cf85657bf5e
+    description: Corinne Savage (born January 24, 1995), known professionally as Corook, is an American singer-songwriter, producer, and multi-instrumentalist based in Nashville, Tennessee. Active since 2021, their debut EP, achoo!, was released on April 1, 2022, via Atlantic Records.
+    wikipedia: https://en.wikipedia.org/wiki/Corook
+  - slug: courtney-barnett
+    name: Courtney Barnett
+    aliases: []
+    spotify_id: 4OOlG5eBXSkSAAEeKjJb5Y
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743ed0d3cdb91f128a8d7636d0
+    description: Courtney Melba Barnett (born 3 November 1987) is an Australian singer, songwriter, and musician. Known for her deadpan singing style and witty, rambling lyrics, she attracted attention with the release of her debut EP I've Got a Friend Called Emily Ferris in 2012.
+    wikipedia: https://en.wikipedia.org/wiki/Courtney_Barnett
+  - slug: craig-finn
+    name: Craig Finn
+    aliases: []
+    spotify_id: 78DZaDfOK3i88eRVPkzZu2
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174542595e9692059079766f43e
+    description: Craig A. Finn (born August 22, 1971) is an American singer, songwriter and musician. He is best known as the frontman of the American indie rock band the Hold Steady, with whom he has recorded nine studio albums.
+    wikipedia: https://en.wikipedia.org/wiki/Craig_Finn
+  - slug: crystal-fighters
+    name: Crystal Fighters
+    aliases: []
+    spotify_id: 75EZuo5MHV2572NRpMWotC
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174dfebb0fd90a920e471751001
+    description: Crystal Fighters are an English-American electronic music band formed in London in 2007. Their debut album, Star of Love, was released in October 2010 in the UK and was released in the US through Atlantic Records in April 2012.
+    wikipedia: https://en.wikipedia.org/wiki/Crystal_Fighters
+  - slug: cultfever
+    name: Cultfever
+    aliases: []
+    spotify_id: 0SAEbY4lhDTnDYyGi6f5Cs
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174ccf59c9beadf35d7b9859319
+    description: null
+    wikipedia: null
+  - slug: daft-punk
+    name: Daft Punk
+    aliases: []
+    spotify_id: 4tZwfgrHOc3mvqYlEYSvVi
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174d3aa7cc0e419b6c459b08e8e
+    description: Daft Punk were a French electronic music duo formed in 1993 in Paris by Thomas Bangalter and Guy-Manuel de Homem-Christo. They achieved popularity in the late 1990s as part of the French house movement, combining elements of house, funk, disco, techno and rock.
+    wikipedia: https://en.wikipedia.org/wiki/Daft_Punk
+  - slug: dale-earnhardt-jr-jr
+    name: Dale Earnhardt Jr. Jr.
+    aliases: []
+    spotify_id: 6X6VFu9IYSpXuiFiCLpxQj
+    spotify_match: exact
+    description: null
+    wikipedia: null
+  - slug: dan-croll
+    name: Dan Croll
+    aliases: []
+    spotify_id: 5Rr15NSbi1Xjno1AEP9u21
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517452010fbceecc48307208bf16
+    description: Daniel Francis Croll (born 18 July 1990) is an English singer-songwriter. He is known for his songs "From Nowhere," "Compliment Your Soul," "Home," and "Yesterday." Often associated with indie pop and folktronica, his work also spans indie folk, folk-pop, rock music, and 1970s-style R&B and soft rock.
+    wikipedia: https://en.wikipedia.org/wiki/Dan_Croll
+  - slug: dan-deacon
+    name: Dan Deacon
+    aliases: []
+    spotify_id: 5Z3IWpvwOvoaWodujHw7xh
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174be862dadd4231c1735bb452a
+    description: Daniel Deacon (born August 28, 1981) is an American composer and electronic musician based in Baltimore, Maryland. Deacon is known for his live shows, where large-scale audience participation and interaction are often major elements of the performance.
+    wikipedia: https://en.wikipedia.org/wiki/Dan_Deacon
+  - slug: darkness
+    name: The Darkness
+    aliases: []
+    spotify_id: 5r1bdqzhgRoHC3YcCV6N5a
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517423ad3dc93f4e2cad03f726be
+    description: The Darkness are a British hard rock band formed in Lowestoft in 2000. The band consists of the brothers Justin (vocals, guitar) and Dan Hawkins (guitar), as well as Frankie Poullain (bass) and Rufus Tiger Taylor (drums).
+    wikipedia: https://en.wikipedia.org/wiki/The_Darkness_(band)
+  - slug: das-racist
+    name: Das Racist
+    aliases: []
+    spotify_id: 4iqAeIP1ynbt71G0Oi8VIt
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/e9b1a2314ac432857e7ec28121a8fab27420fca2
+    description: null
+    wikipedia: null
+  - slug: daughter
+    name: Daughter
+    aliases: []
+    spotify_id: 46CitWgnWrvF9t70C2p1Me
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740df313bc99b24276ea978437
+    description: Daughter is a European indie folk trio. Fronted by North London native Elena Tonra, the band was formed in 2010 after the addition of American-born Swiss guitarist Igor Haefeli and French drummer Remi Aguilella.
+    wikipedia: https://en.wikipedia.org/wiki/Daughter_(band)
+  - slug: dave-douglas-quintet
+    name: Dave Douglas Quintet
+    aliases: []
+    spotify_id: 47a6PDcqoGixzRNY0SDdj5
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c497c0a005ae4495bd47881b
+    description: null
+    wikipedia: null
+  - slug: dave-hause
+    name: Dave Hause
+    aliases: []
+    spotify_id: 6b58ZzXRHPakxMhPx7xHAx
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517429a6438889f4794b0fa84179
+    description: Dave Hause (born March 12, 1978) is an American singer-songwriter. He currently performs both solo and with his band The Mermaid.
+    wikipedia: https://en.wikipedia.org/wiki/Dave_Hause
+  - slug: david-byrne
+    name: David Byrne
+    aliases: []
+    spotify_id: 20vuBdFblWUo2FCOvUzusB
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174da1661b56190449e92327438
+    description: David Byrne (; born May 14, 1952) is an American musician, writer, visual artist, and filmmaker. He was a founding member and the principal songwriter, lead vocalist, and guitarist of the rock band Talking Heads.
+    wikipedia: https://en.wikipedia.org/wiki/David_Byrne
+  - slug: david-gray
+    name: David Gray
+    aliases: []
+    spotify_id: 7J2lZBANizgPNfUzux31PV
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ad195e6f0f6f25b5d072e445
+    description: null
+    wikipedia: null
+  - slug: de-la-soul
+    name: De La Soul
+    aliases: []
+    spotify_id: 1Z8ODXyhEBi3WynYw0Rya6
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c443011311dcf7f6eeaf507d
+    description: null
+    wikipedia: null
+  - slug: dead-kenny-gs
+    name: The Dead Kenny G's
+    aliases: []
+    spotify_id: 1fVIAZTbwbOKfXYm2DSyZi
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/ee46385e88000cebf2c3a078ead8794b7246ae57
+    description: null
+    wikipedia: null
+  - slug: deadmau5
+    name: deadmau5
+    aliases: []
+    spotify_id: 2CIMQHirSU0MQqyYHq0eOx
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517489ffabe57a25cedeca3309e7
+    description: Joel Thomas Zimmerman (born January 5, 1981), known professionally as Deadmau5, is a Canadian electronic music producer and DJ. His musical style primarily includes progressive house and electro house, though he also produces and DJs other electronic music genres, including techno under the alias Testpilot.
+    wikipedia: https://en.wikipedia.org/wiki/Deadmau5
+  - slug: death-blues
+    name: Death Blues
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: death-from-above-1979
+    name: Death From Above 1979
+    aliases: []
+    spotify_id: 18H0sAptzdwid08XGg1Lcj
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174d01c630feb7554584387b969
+    description: Death from Above 1979 (also known as Death from Above or DFA 1979) is a Canadian rock duo from Toronto, Ontario, formed in 2001 by bassist Jesse F. Keeler and drummer and vocalist Sebastien Grainger. The band released their debut album, You're a Woman, I'm a Machine, in 2004 and broke up in 2006.
+    wikipedia: https://en.wikipedia.org/wiki/Death_from_Above_1979
+  - slug: debo-band
+    name: The Debo Band
+    aliases: []
+    spotify_id: 2PNJIaILxBrRzWUciB8r11
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/f5642ce651a2b342281ef6ada530a3119cc0d3d5
+    description: null
+    wikipedia: null
+  - slug: decemberists
+    name: The Decemberists
+    aliases: []
+    spotify_id: 7ITd48RbLVpUfheE7B86o2
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517498bedc4e1c0b1be33ee7da6d
+    description: The Decemberists are an American indie rock band from Portland, Oregon, formed in 2000. The band consists of Colin Meloy (lead vocals, guitar), Chris Funk (guitar, multi-instrumentalist), Jenny Conlee (piano, keyboards, accordion, backing vocals), Nate Query (bass), and John Moen (drums).
+    wikipedia: https://en.wikipedia.org/wiki/The_Decemberists
+  - slug: deerhunter
+    name: Deerhunter
+    aliases: []
+    spotify_id: 38zTZcuN7nFvVJ6auhc6V3
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749e2ec521b797dfccae2110d9
+    description: Deerhunter is an American indie rock band from Atlanta, Georgia, that was formed in 2001 by vocalist-guitarist Bradford Cox and drummer Moses Archuleta. Its most recent lineup comprised Cox, Archuleta, guitarist-keyboardist Lockett Pundt, bassist Josh McKay, and keyboardist-saxophonist Javier Morales.
+    wikipedia: https://en.wikipedia.org/wiki/Deerhunter
+  - slug: dent-may
+    name: Dent May
+    aliases: []
+    spotify_id: 34me8hAxavRmcDIwhxa3b7
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749e21095fa6c110ad924624a6
+    description: James Dent May Jr. (born May 6, 1985) known by his stage name Dent May, is an American singer-songwriter based in Los Angeles, California, United States.
+    wikipedia: https://en.wikipedia.org/wiki/Dent_May
+  - slug: devil-makes-three
+    name: The Devil Makes Three
+    aliases: []
+    spotify_id: 63knPlGzLHTNDf1J78Fvte
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174b357e133592f09da06c0f660
+    description: The Devil Makes Three is an Americana band from Santa Cruz, California, United States. The group blends Americana, folk, bluegrass, old time, country, blues, jazz, punk and ragtime music.
+    wikipedia: https://en.wikipedia.org/wiki/The_Devil_Makes_Three_(band)
+  - slug: devotchka
+    name: DeVotchKa
+    aliases: []
+    spotify_id: 0hk8VgR64voU5ueK96W2DI
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517407262e03a466ec8692d2e4c1
+    description: DeVotchKa is an American multi-instrumental and vocal ensemble formed in Denver, Colorado, in 1997. The band consists of Nick Urata (vocals, guitar, theremin, bouzouki, piano, trumpet), Tom Hagerman (violin, accordion, piano), Jeanie Schroder (sousaphone, double bass, backing vocals, flute) and Shawn King (drums, percussion, trumpet).
+    wikipedia: https://en.wikipedia.org/wiki/DeVotchKa
+  - slug: dezi
+    name: DEZI
+    aliases: []
+    spotify_id: 3X9hlPTLBIZ9pEONCQnjTm
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740415a59ce6225e0c3918cb22
+    description: null
+    wikipedia: null
+  - slug: die-antwoord
+    name: Die Antwoord
+    aliases: []
+    spotify_id: 6urkHDoIVO1WO8vNIwcJmM
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ac1b321bd7506485f85e9b3f
+    description: 'Die Antwoord (Afrikaans: [di ˈantvuərt]; Afrikaans for ''The Answer'') is a South African hip hop duo formed in Cape Town in 2008. The duo consists of rappers Ninja and Yolandi Visser (also spelled Yo-Landi Visser and stylized as ¥o-Landi Vi$$er).'
+    wikipedia: https://en.wikipedia.org/wiki/Die_Antwoord
+  - slug: diiv
+    name: DIIV
+    aliases: []
+    spotify_id: 4OrizGCKhOrW6iDDJHN9xd
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517496cc7952a38d7e9f7276bb4a
+    description: DIIV (pronounced and formerly known as Dive) is an American rock band from Brooklyn, New York City, formed in 2011. The band consists of Zachary Cole Smith (vocals, guitar), Andrew Bailey (guitar), Colin Caulfield (bass, keyboards, guitar, vocals) and Ben Newman (drums).
+    wikipedia: https://en.wikipedia.org/wiki/DIIV
+  - slug: dinosaur-feathers
+    name: Dinosaur Feathers
+    aliases: []
+    spotify_id: 1QNdxNxH8h3X2VxPXaUuwk
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f746272959fc9fed685f7c3c1e6
+    description: null
+    wikipedia: null
+  - slug: dirty-projectors
+    name: Dirty Projectors
+    aliases: []
+    spotify_id: 5VF0YkVLeVD4ytyiyVSIiF
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051745a1ed286c90e264ea77a0c61
+    description: null
+    wikipedia: null
+  - slug: disclosure
+    name: Disclosure
+    aliases: []
+    spotify_id: 6nS5roXSAGhTGr34W6n7Et
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051740b084ede947f009beade9a6a
+    description: Disclosure is an English electronic music duo consisting of two brothers Howard (born 11 May 1994) and Guy Lawrence (born 25 May 1991). They grew up in Reigate, Surrey.
+    wikipedia: https://en.wikipedia.org/wiki/Disclosure_(band)
+  - slug: dj-dog-dick
+    name: DJ Dog Dick
+    aliases: []
+    spotify_id: 6cKAIvYmrBA2cDtyRH55Jv
+    spotify_match: exact
+    description: null
+    wikipedia: null
+  - slug: dom
+    name: Dom
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: DoM is an American pop / electronic solo musical project by Dominic Cournoyer originating from Worcester, Massachusetts.
+    wikipedia: https://en.wikipedia.org/wiki/DOM_(band)
+  - slug: doov
+    name: Doov
+    aliases: []
+    spotify_id: 5HRGHEtYLGW78bYOxCmhnm
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174a0bf2b521765d213ca93b429
+    description: null
+    wikipedia: null
+  - slug: dragonette
+    name: Dragonette
+    aliases: []
+    spotify_id: 4GLJPBj5Cdr9AgLKvLWM4n
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174dbb0067119b09b909bf288e8
+    description: Dragonette is the stage name of Canadian singer-songwriter Martina Sorbara. Originally an electronic music band from Toronto, Ontario, formed in 2005, the band consisted of Sorbara with her then husband Dan Kurtz as bassist and producer (also in The New Deal) and drummer Joel Stouffer.
+    wikipedia: https://en.wikipedia.org/wiki/Dragonette
+  - slug: drake
+    name: Drake
+    aliases: []
+    spotify_id: 3TVXtAsR1Inumwj472S9r4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744293385d324db8558179afd9
+    description: Aubrey Drake Graham (born October 24, 1986) is a Canadian rapper, singer and actor. He is considered as one of the greatest rappers of all time and is credited with popularizing R&B sensibilities in hip-hop.
+    wikipedia: https://en.wikipedia.org/wiki/Drake_(musician)
+  - slug: dropkick-murphys
+    name: Dropkick Murphys
+    aliases: []
+    spotify_id: 7w9jdhcgHNdiPeNPUoFSlx
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a7fe49ff5b2dd8bfec205fe4
+    description: Dropkick Murphys are an American Celtic punk band formed in Quincy, Massachusetts, in 1996.
+    wikipedia: https://en.wikipedia.org/wiki/Dropkick_Murphys
+  - slug: drowning-men
+    name: The Drowning Men
+    aliases: []
+    spotify_id: 5OvG8gjToeK9z4vIuQ2ogy
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/7d1a539f5ae6121cf0f1e80440871f7d52233ebe
+    description: null
+    wikipedia: null
+  - slug: dua-lipa
+    name: Dua Lipa
+    aliases: []
+    spotify_id: 6M2wZ9GZgrQXHCFfjv46we
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740c68f6c95232e716f0abee8d
+    description: 'Dua Lipa ( DOO-ə LEE-pə; Albanian: [ˈdua ˈlipa] ; born 22 August 1995) is an English singer and songwriter. Her accolades include seven Brit Awards and three Grammy Awards.'
+    wikipedia: https://en.wikipedia.org/wiki/Dua_Lipa
+  - slug: duke-dumont
+    name: Duke Dumont
+    aliases: []
+    spotify_id: 61lyPtntblHJvA7FMMhi7E
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c0791f9c2d17dfd58e301c91
+    description: Adam George Dyment (born 1982), better known by his stage name Duke Dumont, is an English DJ and music producer. He is best known for his hit singles "Need U (100%)", "I Got U", "Won't Look Back" and "Ocean Drive", which reached number one, number one, number two and number forty-two on the UK singles chart, respectively.
+    wikipedia: https://en.wikipedia.org/wiki/Duke_Dumont
+  - slug: duunes
+    name: DUUNES
+    aliases: []
+    spotify_id: 42naoAm7826YcWJsnXlNhk
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743f2f968f66f0835849bf9a91
+    description: null
+    wikipedia: null
+  - slug: echo-friendly
+    name: The Echo Friendly
+    aliases: []
+    spotify_id: 3s9wPwDWqeBbmcZk11ZLx7
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/ca7bf531284fd25c6b3f9a8a53292ff08aafba89
+    description: null
+    wikipedia: null
+  - slug: edward-sharpe-and-the-magnetic-zeros
+    name: Edward Sharpe & the Magnetic Zeros
+    aliases: []
+    spotify_id: 7giUHu5pv6YTZgSkxxCcgh
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a9557581d591dcb5dbf174df
+    description: Edward Sharpe and the Magnetic Zeros were an American folk rock band formed in Los Angeles, California, in 2005. The group was led by singer Alex Ebert.
+    wikipedia: https://en.wikipedia.org/wiki/Edward_Sharpe_and_the_Magnetic_Zeros
+  - slug: electric-guest
+    name: Electric Guest
+    aliases: []
+    spotify_id: 7sgWBYtJpblXpJl2lU5WVs
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517427f9d4b1787f1e468991281e
+    description: Electric Guest is a Los Angeles–based band formed in 2011. The group comprises Asa Taccone and Matthew "Cornbread" Compton.
+    wikipedia: https://en.wikipedia.org/wiki/Electric_Guest
+  - slug: ella-red
+    name: Ella Red
+    aliases: []
+    spotify_id: 1hH4ajSTZKIBhwRymnZi5R
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517439b0de9171e1e5ff2d8a39cb
+    description: Ella Red (born September 3, 2003) is an American singer-songwriter. She began releasing music independently in 2023 and gained wider attention with the singles "Put Your Money Where Your Mouth Is" and "I Like You Best," the latter of which accumulated millions of streams.
+    wikipedia: https://en.wikipedia.org/wiki/Ella_Red
+  - slug: elle-king
+    name: Elle King
+    aliases: []
+    spotify_id: 3bhu7P5PfngueRHiB9hjcx
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517498f1e053c254d51c7ebb9831
+    description: Tanner Elle Schneider (born July 3, 1989), known professionally as Elle King, is an American singer, songwriter, and actress. Her musical style is influenced by country, rock, and blues.
+    wikipedia: https://en.wikipedia.org/wiki/Elle_King
+  - slug: emancipator
+    name: Emancipator
+    aliases: []
+    spotify_id: 6HCnsY0Rxi3cg53xreoAIm
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174209cbc779adeb3b9df6e2635
+    description: Douglas Appling (born May 27, 1987), better known by his stage name, Emancipator, is an American producer and DJ based in Portland, Oregon, United States. He launched his music career by self-releasing his debut album, Soon It Will Be Cold Enough, in 2006 while he was a college student.
+    wikipedia: https://en.wikipedia.org/wiki/Emancipator_(musician)
+  - slug: emei
+    name: Emei
+    aliases: []
+    spotify_id: 7E2aQQjErJocovYFjYLzWU
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174bab37c0ac4adff05c23f853b
+    description: Emily Li (born October 3, 1999), professionally known as Emei, is an American alternative pop musician based in Los Angeles, California.
+    wikipedia: https://en.wikipedia.org/wiki/Emei_(musician)
+  - slug: emeline
+    name: EMELINE
+    aliases: []
+    spotify_id: 4S38gbKfKkEbty2YAIDIlV
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051747b45f411c3891f71af8af2b1
+    description: null
+    wikipedia: null
+  - slug: empire-of-the-sun
+    name: Empire of the Sun
+    aliases: []
+    spotify_id: 67hb7towEyKvt5Z8Bx306c
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c806f3e714afa21861e20248
+    description: Empire of the Sun are an Australian electronic music duo formed in 2007. The duo is a collaboration between Luke Steele of alternative rock band The Sleepy Jackson, and Nick Littlemore of electronic dance band Pnau.
+    wikipedia: https://en.wikipedia.org/wiki/Empire_of_the_Sun_(band)
+  - slug: endless-boogie
+    name: Endless Boogie
+    aliases: []
+    spotify_id: 4TxcjvZlQLya9wdPYrjxkc
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/2339a9df814c0a2b42bb85adc74b26dca1f23c89
+    description: Endless Boogie is an American rock band, formed in 1997 in Brooklyn, New York. The current line-up of the band consists of Paul Major (vocals, guitar), Jesper Eklow (guitar), Marc Razo (bass) and Harry Druzd (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Endless_Boogie_(band)
+  - slug: erika-spring
+    name: Erika Spring
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: erol-alkan
+    name: Erol Alkan
+    aliases: []
+    spotify_id: 3jQ8hpdQo3TCEnb5gmOtH5
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a454af2e4ae2cbf2dc7471ae
+    description: Erol Alkan (born 30 May 1974) is an English DJ and producer of Turkish Cypriot descent.
+    wikipedia: https://en.wikipedia.org/wiki/Erol_Alkan
+  - slug: escort
+    name: Escort
+    aliases: []
+    spotify_id: 4zkiM9DSLNAOmoS5WtSQDt
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c3c5eca6076c58c4147b76a5
+    description: Escort is an American nu-disco band based out of Brooklyn, New York. Founded by Dan Balis, Eugene Cho and Darius Maghen including (previous) lead vocalist Adeline Michèle, they are known for their modern and live dance music sound.
+    wikipedia: https://en.wikipedia.org/wiki/Escort_(band)
+  - slug: eugene-hutz
+    name: Eugene Hütz
+    aliases: []
+    spotify_id: 6hLp3QOcALIstV34cAeovh
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a21a44b20ed09ba6d881f178
+    description: 'Eugene Hütz (German: [hʏts]; born Yevhen Oleksandrovych Nikolaiev-Symonov, September 6, 1972) is a Ukrainian-American singer, composer, disc jockey and actor, most notable as the frontman of the Gypsy punk band Gogol Bordello.'
+    wikipedia: https://en.wikipedia.org/wiki/Eugene_H%C3%BCtz
+  - slug: eula
+    name: Eula
+    aliases: []
+    spotify_id: 0WmZwvr8L5YNmgsZOUTEsq
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e218f274f32ad9ca43696cba
+    description: null
+    wikipedia: null
+  - slug: evan-voytas
+    name: Evan Voytas
+    aliases: []
+    spotify_id: 5t9QHNN39TTxd8TKp1FFOV
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/c48a56f347b2c1ec22a7f756b31e908e3178e150
+    description: null
+    wikipedia: null
+  - slug: evergrey
+    name: Evergrey
+    aliases: []
+    spotify_id: 4S0foX2r0RlC12KBW8u73D
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174508c02089af4867be1f7e066
+    description: Evergrey is a Swedish progressive metal band from Gothenburg, formed in 1993 by guitarist and vocalist Tom S. Englund and guitarist Dan Bronell. The band is known for combining progressive metal and power metal with dark lyrical themes and imagery.
+    wikipedia: https://en.wikipedia.org/wiki/Evergrey
+  - slug: exitmusic
+    name: Exitmusic
+    aliases: []
+    spotify_id: 1sLflvP9XBFyDA0l6iFNjE
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517438ac610d9a9ca2c8581230f0
+    description: null
+    wikipedia: null
+  - slug: father-john-misty
+    name: Father John Misty
+    aliases: []
+    spotify_id: 2kGBy2WHvF0VdZyqiVCkDT
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051748a78e4e37d117b9cc90a6363
+    description: Joshua Michael Tillman (born May 3, 1981), better known by his stage name Father John Misty, is an American musician. He is known for his satirical lyrics and eccentric performance style.
+    wikipedia: https://en.wikipedia.org/wiki/Father_John_Misty
+  - slug: featherbottom
+    name: Featherbottom
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: fenechsoler
+    name: Fenech-Soler
+    aliases: []
+    spotify_id: 5GqAhBdaiG5StP2EHhmw8B
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743b06bf40c7cc7213924728e2
+    description: Fenech-Soler were an English electropop band from King's Cliffe, Northamptonshire, England, that formed in 2006. They were originally a four-member band and consisting of brothers Ross and Ben Duffy, Daniel Fenech-Soler and Andrew Lindsay.
+    wikipedia: https://en.wikipedia.org/wiki/Fenech-Soler
+  - slug: field-mouse
+    name: Field Mouse
+    aliases: []
+    spotify_id: 12zk67ZbWo5veMLDzNvzix
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174cdb8bb229601d1308d5b77c9
+    description: Field Mouse are an American dream pop band from Philadelphia, Pennsylvania and Brooklyn, New York.
+    wikipedia: https://en.wikipedia.org/wiki/Field_Mouse_(band)
+  - slug: filligar
+    name: Filligar
+    aliases: []
+    spotify_id: 3RHq5zTzuaD6J8uqiDrV2d
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c7343fdae34bb18a89b16c2d
+    description: null
+    wikipedia: null
+  - slug: fitz-and-the-tantrums
+    name: Fitz and the Tantrums
+    aliases: []
+    spotify_id: 4AcHt3JxKy59IX7JNNlZn4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174756717e6695fbaeb236857a2
+    description: Fitz and the Tantrums are an American indie pop and neo soul band from Los Angeles, California, that formed in 2008.
+    wikipedia: https://en.wikipedia.org/wiki/Fitz_and_the_Tantrums
+  - slug: flaming-lips
+    name: The Flaming Lips
+    aliases: []
+    spotify_id: 16eRpMNXSQ15wuJoeqguaB
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a7a6761a68d56694e42addac
+    description: The Flaming Lips are an American psychedelic rock band formed in 1983 in Oklahoma City, Oklahoma.
+    wikipedia: https://en.wikipedia.org/wiki/The_Flaming_Lips
+  - slug: flogging-molly
+    name: Flogging Molly
+    aliases: []
+    spotify_id: 5kQGFREO5FzMBMsAO3cEtj
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740024ccb466aa62503fa9f3e2
+    description: Flogging Molly is an Irish-American seven-piece Celtic punk band formed in Los Angeles in 1994, led by Irish vocalist Dave King, formerly of the hard rock band Fastway.
+    wikipedia: https://en.wikipedia.org/wiki/Flogging_Molly
+  - slug: florence-and-the-machine
+    name: Florence + the Machine
+    aliases: []
+    spotify_id: 1moxjboGR7GNWYIMWsRjgG
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174836eb0a7a82eb8f4133ee04d
+    description: Florence and the Machine (stylised as Florence + the Machine) are an English indie rock band formed in London in 2007 by lead vocalist Florence Welch, keyboardist Isabella Summers, guitarist Rob Ackroyd, drummer Christopher Lloyd Hayden and harpist Tom Monger.
+    wikipedia: https://en.wikipedia.org/wiki/Florence_and_the_Machine
+  - slug: foxygen
+    name: Foxygen
+    aliases: []
+    spotify_id: 55LHFEtIplWhsfyWZUwkf4
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174b97b6eeada9335c77f7be193
+    description: Foxygen is an American indie rock duo from Westlake Village, California, formed in 2005. The band consists of multi-instrumentalist Jonathan Rado and vocalist Sam France.
+    wikipedia: https://en.wikipedia.org/wiki/Foxygen
+  - slug: frank-turner
+    name: Frank Turner
+    aliases: []
+    spotify_id: 27M9shmwhIjRo7WntpT9Rp
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517415bc846cba5e7daed061cb0c
+    description: Francis Edward Turner (born 28 December 1981) is an English punk and folk singer-songwriter. He began his career as the vocalist of post-hardcore band Million Dead, then embarked upon a primarily acoustic-based solo career following the band's split in 2005.
+    wikipedia: https://en.wikipedia.org/wiki/Frank_Turner
+  - slug: friends
+    name: Friends
+    aliases: []
+    spotify_id: 2EumY6nN7MHbpDFeROPuqV
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051746fdb2519a9397e800fd65b00
+    description: null
+    wikipedia: null
+  - slug: future
+    name: Future
+    aliases: []
+    spotify_id: 1RyvyyTE3xzB2ZywiAwp0i
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051742c472c891062acb4f3068583
+    description: Nayvadius DeMun Cash (né Wilburn; born November 20, 1983), known professionally as Future, is an American rapper, singer-songwriter, and record producer. Known for his mumble-style, rap-singing and prolific output, Future is credited with helping pioneer the use of Auto-Tuned delivery in trap music.
+    wikipedia: https://en.wikipedia.org/wiki/Future_(rapper)
+  - slug: g-flip
+    name: G Flip
+    aliases: []
+    spotify_id: 4SdIXLzfabqU61iK7SnKAU
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517477b9ae4945e9f784253b2af0
+    description: Georgia Claire Flipo (born 22 September 1993), known professionally as G Flip, is an Australian singer, songwriter, multi-instrumentalist and producer from Melbourne, Victoria. Their debut studio album, About Us, was released on 30 August 2019.
+    wikipedia: https://en.wikipedia.org/wiki/G_Flip
+  - slug: george-maple
+    name: George Maple
+    aliases: []
+    spotify_id: 19m3oZKjGSLzVW0OGIAcNg
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c3aafb1930542c6c386090d3
+    description: George Maple, is an Australian-born recording artist, songwriter and record producer. As an artist, ghostwriter and producer, she has over 1.4 billion " streams.
+    wikipedia: https://en.wikipedia.org/wiki/George_Maple
+  - slug: ginger-and-the-ghost
+    name: Ginger & The Ghost
+    aliases:
+      - Ginger and the Ghost
+    spotify_id: 1z7cN0JTVRMl1T7YMxpzth
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749511ba135928faaa60eb341c
+    description: null
+    wikipedia: null
+  - slug: girl-talk
+    name: Girl Talk
+    aliases: []
+    spotify_id: 6awzBEyEEwWHOjLox1DkLr
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517404448970e3353ab9b51d1ad5
+    description: Gregg Michael Gillis (born October 26, 1981), known professionally as Girl Talk, is an American disc jockey who specializes in mash-ups and digital sampling. He blends elements from a vast array of pop, hip-hop, and electronic music, creating dense, danceable tracks.
+    wikipedia: https://en.wikipedia.org/wiki/Girl_Talk_(musician)
+  - slug: glass-animals
+    name: Glass Animals
+    aliases: []
+    spotify_id: 4yvcSjfu4PC0CYQyLy4wSq
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174eb2cc96b0ed023c5e3675b6f
+    description: Glass Animals are an English indie rock band formed in Oxford, England in 2010. The band's line-up consists of Dave Bayley (vocals, guitar, keyboards, drums, songwriting), Drew MacFarlane (guitar, keyboards, backing vocals), Edmund Irwin-Singer (bass, keyboards, backing vocals), and Joe Seaward (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Glass_Animals
+  - slug: glen-hansard
+    name: Glen Hansard
+    aliases: []
+    spotify_id: 3Caot8EtHX6wLpNF2wRzS0
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a7ceef9771c8bacac8a9be55
+    description: Glen James Hansard (21 April 1970 – 29 July 2026) was an Irish musician. From Ballymun in northern Dublin, he busked from his teens.
+    wikipedia: https://en.wikipedia.org/wiki/Glen_Hansard
+  - slug: glitch-mob
+    name: The Glitch Mob
+    aliases: []
+    spotify_id: 3a9qv6NLHnsVxJUtKOMHvD
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c6571fd463203a0bf67e229d
+    description: The Glitch Mob is an American electronic music duo from Los Angeles, California. It consists of edIT (Edward Ma) and Ooah (Josh Mayer).
+    wikipedia: https://en.wikipedia.org/wiki/The_Glitch_Mob
+  - slug: glorious-veins
+    name: The Glorious Veins
+    aliases: []
+    spotify_id: 4kmDGWc2ECnDFaYKJatvqg
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029bb50272d38f700571016947
+    description: null
+    wikipedia: null
+  - slug: gogol-bordello
+    name: Gogol Bordello
+    aliases: []
+    spotify_id: 2SVw939fwuqSobLjF8u78b
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051748fa64d362faa0baa10776df5
+    description: Gogol Bordello is an American punk rock band from the Lower East Side of Manhattan, formed in 1999 by musicians from all over the world and known for theatrical stage shows and persistent touring.
+    wikipedia: https://en.wikipedia.org/wiki/Gogol_Bordello
+  - slug: gordon-gano
+    name: Gordon Gano
+    aliases: []
+    spotify_id: 2vaRNo2C9WlMNgKN2LJOL4
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/f760f33a36be4608167403bdeebe9668b984ea18
+    description: Gordon James Gano (born June 7, 1963) is an American musician who is the singer, guitarist and songwriter of American folk punk band Violent Femmes.
+    wikipedia: https://en.wikipedia.org/wiki/Gordon_Gano
+  - slug: graffiti6
+    name: Graffiti6
+    aliases: []
+    spotify_id: 45q5PZHs50HeLBDRgio4GQ
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/ebbf9e4c8109b0bfa6795681b9a22511ec696469
+    description: null
+    wikipedia: null
+  - slug: grimes
+    name: Grimes
+    aliases: []
+    spotify_id: 053q0ukIDRgzwTr4vNSwab
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517461e52a36dfb35ebab422edac
+    description: 'Claire Elise Boucher ( boo-SHAY, Canadian French: [buʃe]; born March 17, 1988), known professionally as Grimes, is a Canadian singer, songwriter, and record producer. Her work often invokes themes of science fiction, feminism, and fantasy.'
+    wikipedia: https://en.wikipedia.org/wiki/Grimes
+  - slug: group-of-the-altos
+    name: Group of the Altos
+    aliases: []
+    spotify_id: 5VmdfxwTEUYFKPKqbfdgA1
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246ae32865b48a303e5f79592
+    description: null
+    wikipedia: null
+  - slug: grouplove
+    name: Grouplove
+    aliases: []
+    spotify_id: 3kVUvbeRdcrqQ3oHk5hPdx
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174212e97916d72380d77a9db17
+    description: Grouplove (often typeset as GROUPLOVE) is an American alternative rock band formed in 2009 by Christian Zucconi (lead vocals, rhythm guitar), Hannah Hooper (lead vocals, keyboards), Sean Gadd (bass), Andrew Wessen (lead guitar, backing vocals), and Ryan Rabin (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Grouplove
+  - slug: guards
+    name: Guards
+    aliases: []
+    spotify_id: 0Zsp7eS6zZEDnEsZaJtr7U
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b19dc13c24aa4829c126d5c8
+    description: Guards is an American rock band consisting of Richie Follin, Loren Humphrey, and Kaylie Church.
+    wikipedia: https://en.wikipedia.org/wiki/Guards_(band)
+  - slug: haerts
+    name: HAERTS
+    aliases: []
+    spotify_id: 7pww8JMPMj1SxUfJ8wN5Kt
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517469752d647ee926ddf1f8445c
+    description: Haerts (stylized as HAERTS) is a German indie pop music duo, formed in 2011 in New York. The band consists of Nini Fabi (vocals) and Ben Gebert (keyboards, guitars).
+    wikipedia: https://en.wikipedia.org/wiki/Haerts
+  - slug: hard-mix
+    name: Hard Mix
+    aliases: []
+    spotify_id: 16VGnqXIwxBGxmeShTvFKE
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517453b84979f7176ff6893bb500
+    description: null
+    wikipedia: null
+  - slug: heartracer
+    name: Heartracer
+    aliases: []
+    spotify_id: 0aJJxKQmV9ALSM6kPWzBS4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f8806ad8e0b7ecf1ce58465c
+    description: null
+    wikipedia: null
+  - slug: heartsrevolution
+    name: Heartsrevolution
+    aliases: []
+    spotify_id: 3iW3xACztLZanYgwCXSYAx
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/4897ca6ffa53f21b8c53cd51533dcecbfcdcdeba
+    description: HEARTSREVOLUTION is a New York-based band, described by NME as "the model for the modern pop group." The band consists of Ben Pollock and Leyla 'Lo' Safai, joined for live performances by drummer Terry 'Prince Terrence' Campbell, who has also performed with post-hardcore bands Christiansen and Your Highness Electric, as well as Santigold and Spank Rock.
+    wikipedia: https://en.wikipedia.org/wiki/HeartsRevolution
+  - slug: here-we-go-magic
+    name: Here We Go Magic
+    aliases: []
+    spotify_id: 4WxjrOJGIngO2hJnlCeK7f
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517449337a05bb924e819a82e95c
+    description: Here We Go Magic was an American indie rock band based in Brooklyn, New York. It was formed by core members Luke Temple, Michael Bloch and Peter Hale, in late 2008.
+    wikipedia: https://en.wikipedia.org/wiki/Here_We_Go_Magic
+  - slug: hey-marseilles
+    name: Hey Marseilles
+    aliases: []
+    spotify_id: 3PMXHMqW4MNj8usJ0fxAlj
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/87b5af5142918a311b94e45b5e880bdd017a6292
+    description: null
+    wikipedia: null
+  - slug: highasakite
+    name: Highasakite
+    aliases: []
+    spotify_id: 5awQWdBpLqN2KFVRN8w56T
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174be5a9d495e15bbd9441acd8b
+    description: Highasakite is an indie pop and indie rock band from Trondheim, Norway. The band formed when vocalist and songwriter Ingrid Helene Håvik met drummer Trond Bersu whilst studying jazz at the Trondheim Jazz Conservatory.
+    wikipedia: https://en.wikipedia.org/wiki/Highasakite
+  - slug: holly-miranda
+    name: Holly Miranda
+    aliases: []
+    spotify_id: 0CNehpGYdxk87YYMiBpnyP
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ab380abd640ff26d2db1eae0
+    description: Holly Miranda (born 21 September 1982) is an American singer-songwriter and musician. Besides being trained in piano, Holly is a self-taught guitar and trumpet player.
+    wikipedia: https://en.wikipedia.org/wiki/Holly_Miranda
+  - slug: hoodlem
+    name: Hoodlem
+    aliases: []
+    spotify_id: 2q3oBSUd6168xchW5JIiHN
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051748c7b908d3a75be212867acfe
+    description: null
+    wikipedia: null
+  - slug: hot-sugar
+    name: Hot Sugar
+    aliases: []
+    spotify_id: 5doDInHCvRMOOapyaos2AE
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174feddcb954713215ad2fd8af3
+    description: Nick Koenig, better known by his stage name Hot Sugar, is an American record producer from New York City, New York. He is the owner of the Noise Collector record label.
+    wikipedia: https://en.wikipedia.org/wiki/Hot_Sugar_(musician)
+  - slug: hundred-in-the-hands
+    name: The Hundred in the Hands
+    aliases: []
+    spotify_id: 1zFFPge0OhBC34dMGOrvcT
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/3fddef7b7f8f3ea8ecfa52fed63fc2f1cc4875c5
+    description: The Hundred in the Hands (sometimes abbreviated as THITH) is an American electronic music duo from Brooklyn, New York City, formed in 2008. The band consists of Eleanore Everdell (vocals, keyboards) and Jason Friedman (guitar, programming).
+    wikipedia: https://en.wikipedia.org/wiki/The_Hundred_in_the_Hands
+  - slug: hundred-waters
+    name: Hundred Waters
+    aliases: []
+    spotify_id: 108ugtkRFQzP9nGgNiyERO
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174646202f3c1efde2e775cc8ec
+    description: Hundred Waters is an American band formed in Gainesville, Florida in October 2011, composed of Nicole Miglis (vocals, piano, production, flute), Trayer Tryon (production, electronics, bass) and Zach Tetreault (drums, percussion, trumpet).
+    wikipedia: https://en.wikipedia.org/wiki/Hundred_Waters
+  - slug: i-am-lightyear
+    name: I Am Lightyear
+    aliases: []
+    spotify_id: 7t0ntnhs1INu7NPLx8zX92
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020bde4c1448eb4218cdf0a897
+    description: null
+    wikipedia: null
+  - slug: icona-pop
+    name: Icona Pop
+    aliases: []
+    spotify_id: 1VBflYyxBhnDc9uVib98rw
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743c3015e7b1373e344d93893b
+    description: 'Icona Pop (English: eye-KON-ə POP) are a Swedish synth-pop duo that formed in 2009, with electro house and indie pop music influences.'
+    wikipedia: https://en.wikipedia.org/wiki/Icona_Pop
+  - slug: imelda-may
+    name: Imelda May
+    aliases: []
+    spotify_id: 6AnjHMqEAps8VJdHU8RykH
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517405e7fbb041780e87e8a625d2
+    description: Imelda Mary Higham (née Clabby; born 10 July 1974), professionally known as Imelda May, is an Irish singer, songwriter, television presenter and multi-instrumentalist. She became known for her musical style of rockabilly revival and has also been compared to female jazz musicians such as Billie Holiday.
+    wikipedia: https://en.wikipedia.org/wiki/Imelda_May
+  - slug: in-flames
+    name: In Flames
+    aliases: []
+    spotify_id: 57ylwQTnFnIhJh4nu4rxCs
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051745c3bd919d1344a738af14136
+    description: In Flames is a Swedish heavy metal band from Gothenburg, formed in 1990. They are considered pioneers of the Gothenburg metal scene, which also includes bands such as At the Gates and Dark Tranquillity.
+    wikipedia: https://en.wikipedia.org/wiki/In_Flames
+  - slug: incendiary-device
+    name: Incendiary Device
+    aliases: []
+    spotify_id: 1DRrD4zggZW6I0R2eHRU9Z
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517415bb1e12ea5ba4cef4342baa
+    description: null
+    wikipedia: null
+  - slug: indian-rebound
+    name: Indian Rebound
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: inflight-safety
+    name: In-Flight Safety
+    aliases: []
+    spotify_id: 6wpZAhpG3JoTfaI92xdU4k
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ae64bcd63a624ae57f90a9f5
+    description: In-Flight Safety is a Canadian indie rock band formed in 2003. In-Flight Safety was nominated for a 2007 Juno Award for Video of the Year for "Coast Is Clear".
+    wikipedia: https://en.wikipedia.org/wiki/In-Flight_Safety
+  - slug: isle-of-rhodes
+    name: Isle Of Rhodes
+    aliases: []
+    spotify_id: 2bosDib9AWn7Kzajor19eS
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028ce03940599d29e4b974abe5
+    description: null
+    wikipedia: null
+  - slug: jacco-gardner
+    name: Jacco Gardner
+    aliases: []
+    spotify_id: 5RfKXXQQn2OhZiT5iSggZn
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744b0cf8ec351b0ad38480e6d9
+    description: null
+    wikipedia: null
+  - slug: jack-white
+    name: Jack White
+    aliases: []
+    spotify_id: 4FZ3j1oH43e7cukCALsCwf
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174719889798a431c8dc1dacbec
+    description: John Anthony White (né Gillis; born July 9, 1975) is an American musician who was the guitarist and lead vocalist of the rock duo the White Stripes. He was a key artist of the 2000s indie and garage rock movements, noted for his musical techniques, eccentricity, and use of analog technology.
+    wikipedia: https://en.wikipedia.org/wiki/Jack_White
+  - slug: jacques-renault
+    name: Jacques Renault
+    aliases: []
+    spotify_id: 0Gh7afAT1qZJGDdS6xDskN
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f6b4f7718151f4d54ad2e5a4
+    description: null
+    wikipedia: null
+  - slug: jamie-xx
+    name: Jamie xx
+    aliases: []
+    spotify_id: 7A0awCXkE1FtSU8B0qwOJQ
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051745b2ba819fa89b17d6ae81567
+    description: James Thomas Smith (born 28 October 1988), known professionally as Jamie xx, is an English musician, DJ, record producer, and remixer. He is known for both his solo work and as a member of the indie pop band the xx.
+    wikipedia: https://en.wikipedia.org/wiki/Jamie_xx
+  - slug: japanese-breakfast
+    name: Japanese Breakfast
+    aliases: []
+    spotify_id: 7MoIc5s9KXolCBH1fy9kkw
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174679cee0110b7cc128a496431
+    description: Japanese Breakfast is an American indie pop band from Philadelphia, Pennsylvania, formed in 2013.
+    wikipedia: https://en.wikipedia.org/wiki/Japanese_Breakfast
+  - slug: jay-arner
+    name: Jay Arner
+    aliases: []
+    spotify_id: 6crQDsQSmr4hlmhb9nkGQ4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f916f47df0c9aab6be485c06
+    description: Jay Arner is a Canadian multi-instrumentalist, singer-songwriter, and record producer based in Vancouver, British Columbia. She is known for her solo work on Mint Records and as one half of the synth-pop duo Energy Slime alongside wife Jessica Delisle.
+    wikipedia: https://en.wikipedia.org/wiki/Jay_Arner
+  - slug: jaymes-young
+    name: Jaymes Young
+    aliases: []
+    spotify_id: 6QrQ7OrISRYIfS5mtacaw2
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517487528aedec4b8d5586768014
+    description: Jaymes Young (born Jaymes McFarland; September 1, 1991) is an American singer-songwriter and musician. On September 9, 2013, he debuted his first extended play, Dark Star.
+    wikipedia: https://en.wikipedia.org/wiki/Jaymes_Young
+  - slug: jdh-and-dave-p
+    name: JDH & Dave P
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: joan-as-police-woman
+    name: Joan as Police Woman
+    aliases: []
+    spotify_id: 6PBv8t9YTLggA9ZMwpeoqj
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517443a1ebad4484009ecdeb1c26
+    description: Joan Wasser (born July 26, 1970) is an American musician, singer-songwriter and producer who releases music as Joan As Police Woman. She began her career playing violin with the Dambuilders and played with Black Beetle, Antony and the Johnsons, and Those Bastard Souls.
+    wikipedia: https://en.wikipedia.org/wiki/Joan_As_Police_Woman
+  - slug: joe-p
+    name: Joe P
+    aliases: []
+    spotify_id: 3pIwImfumJioKb0zHHP61x
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517474e16f9edd5695c91d9e777f
+    description: null
+    wikipedia: null
+  - slug: joesef
+    name: Joesef
+    aliases: []
+    spotify_id: 28EyduqESEOVMO6vglvaUZ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517496aef8722e690891a2b2dbf0
+    description: Joseph Traynor, known professionally as Joesef, is a Scottish singer from Glasgow.
+    wikipedia: https://en.wikipedia.org/wiki/Joesef
+  - slug: jonquil
+    name: Jonquil
+    aliases: []
+    spotify_id: 3BBNWCgge2AufwNCB5rmuR
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024ee462a7ff31b8920df1fbb3
+    description: null
+    wikipedia: null
+  - slug: josh-ritter
+    name: Josh Ritter
+    aliases: []
+    spotify_id: 6igfLpd8s6DBBAuwebRUuo
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ed624c42a7ab27a828d43e0e
+    description: Joshua B. Ritter (born October 21, 1976) is an American singer, songwriter, musician, and author who performs and records with the Royal City Band. Ritter is known for his distinctive Americana style and narrative lyrics.
+    wikipedia: https://en.wikipedia.org/wiki/Josh_Ritter
+  - slug: joywave
+    name: Joywave
+    aliases: []
+    spotify_id: 1UfzhwcOR4yfX7yHTPfC9m
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051741e490640504ca496c21ac010
+    description: Joywave is an American band from Rochester, New York, formed in 2010. Their lineup consists of Daniel Armbruster (vocals), Joseph Morinelli (guitar), and Paul Brenner (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Joywave
+  - slug: juan-maclean
+    name: The Juan MacLean
+    aliases: []
+    spotify_id: 7gG6LkU3pCSQmCIPR4aSBt
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/d914e8f8f3e054babd4d6cb21d24eb32bedc39c3
+    description: John MacLean, better known by the stage name of the Juan MacLean, is an American electronic musician.
+    wikipedia: https://en.wikipedia.org/wiki/The_Juan_MacLean
+  - slug: julia-cumming
+    name: Julia Cumming
+    aliases: []
+    spotify_id: 7hIHeaaT8TkaHpFDT9QZfR
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744757a388c6892d3e1e585505
+    description: Julia Rachel Harden Cumming (born January 16, 1996) is an American singer-songwriter who is the frontwoman and bass player of the Brooklyn-based band Sunflower Bean. Cumming models occasionally, including for several well-known designers, and appeared in global campaigns for H&M and Diesel.
+    wikipedia: https://en.wikipedia.org/wiki/Julia_Cumming
+  - slug: jungle
+    name: Jungle
+    aliases: []
+    spotify_id: 59oA5WbbQvomJz2BuRG071
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517421f6e9ccd576bb2ef541a3fe
+    description: 'Jungle are a British band formed in early 2013 by London-based producers Josh Lloyd-Watson and Tom McFarland. Jungle have released five studio albums: Jungle (2014), which was shortlisted for the Mercury Prize; For Ever (2018); Loving in Stereo (2021); Volcano (2023); and Sunshine (2026).'
+    wikipedia: https://en.wikipedia.org/wiki/Jungle_(band)
+  - slug: kat-edmonson
+    name: Kat Edmonson
+    aliases: []
+    spotify_id: 6WxegST7d2jCYjq7SR8Bds
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517447aaeef2f2b88ebef017e5bd
+    description: Kat Edmonson (born August 3, 1983) is an American singer and songwriter.
+    wikipedia: https://en.wikipedia.org/wiki/Kat_Edmonson
+  - slug: kate-boy
+    name: Kate Boy
+    aliases: []
+    spotify_id: 6puqyrpoPdFNxDJ8KPy2pE
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051747b767d8934041e513c63edf8
+    description: Kate Boy are a Swedish synth-pop duo from Stockholm. The group was founded by Kate Akhurst, from Australia, and Markus Dextegen, from Sweden, together with former Swedish members Hampus Nordgren Hemlin and Oskar Sikow.
+    wikipedia: https://en.wikipedia.org/wiki/Kate_Boy
+  - slug: kflay
+    name: K.Flay
+    aliases: []
+    spotify_id: 0pCNk4D3E2xtszsm6hMsWr
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517474deac70eb3bd9b644c2269e
+    description: 'Kristine Meredith Flaherty (born June 30, 1985), better known as K.Flay, is an American singer, musician, songwriter, and rapper. She has released five studio albums: Life as a Dog (2014), Every Where Is Some Where (2017), Solutions (2019), Inside Voices / Outside Voices (2022), and Mono (2023).'
+    wikipedia: https://en.wikipedia.org/wiki/K.Flay
+  - slug: kills
+    name: The Kills
+    aliases: []
+    spotify_id: 5BYuBzqmTXwUDw2rYkwExr
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174dc72312190b3742e1ff2783a
+    description: The Kills are an English-American rock duo formed by American singer Alison "VV" Mosshart and English guitarist Jamie "Hotel" Hince. They are signed to Domino Records.
+    wikipedia: https://en.wikipedia.org/wiki/The_Kills
+  - slug: kim-and-the-created
+    name: Kim and the Created
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: kitheory
+    name: Ki:Theory
+    aliases: []
+    spotify_id: 1mB4aweE1XGdjbFVFC8i5m
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b4cea602771d4a707bfa3f87
+    description: null
+    wikipedia: null
+  - slug: kodaline
+    name: Kodaline
+    aliases: []
+    spotify_id: 4BxCuXFJrSWGi1KHcVqaU4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b56a61c1c5b7a361300ac2ca
+    description: Kodaline () are an Irish rock band. Originally known as 21 Demands, the band adopted their current name in 2012 to coincide with the changing of their music.
+    wikipedia: https://en.wikipedia.org/wiki/Kodaline
+  - slug: kongos
+    name: KONGOS
+    aliases: []
+    spotify_id: 58R5LHkK3vkmEyGUPOR5kS
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e54d734fe364fca10f54a3be
+    description: Kongos (often styled as KONGOS) is a South African-American band, now based in Austin, Texas.
+    wikipedia: https://en.wikipedia.org/wiki/Kongos_(band)
+  - slug: lady-lamb
+    name: Lady Lamb
+    aliases:
+      - Lady Lamb the Beekeeper
+    spotify_id: 39mV5QuJ6KBRqwHc3H2ggW
+    spotify_match: exact
+    description: null
+    wikipedia: null
+  - slug: ladyhawke
+    name: Ladyhawke
+    aliases: []
+    spotify_id: 5TfnQ0Ai1cEbKY5katFK14
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174df443cc72adfec5fee099d10
+    description: Phillipa Margaret "Pip" Brown (born 13 July 1979), better known by her stage name Ladyhawke, is a New Zealand singer-songwriter and multi-instrumentalist. She took her stage name from Richard Donner's 1985 film Ladyhawke.
+    wikipedia: https://en.wikipedia.org/wiki/Ladyhawke_(musician)
+  - slug: lake-street-dive
+    name: Lake Street Dive
+    aliases: []
+    spotify_id: 3nuc29fYGlQbIrwh4yrNWd
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749826193e19ab2a9ebe0b28e1
+    description: Lake Street Dive is an American multi-genre band that was formed in 2004 at the New England Conservatory of Music in Boston. The band's founding members are Rachael Price, Mike "McDuck" Olson, Bridget Kearney, and Mike Calabrese.
+    wikipedia: https://en.wikipedia.org/wiki/Lake_Street_Dive
+  - slug: laura-marling
+    name: Laura Marling
+    aliases: []
+    spotify_id: 7B2edU3Q7btJoNsoHCNohM
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051741e98336455c666cfbc5f2518
+    description: Laura Beatrice Marling (born 1 February 1990) is an English folk singer-songwriter. She won the Brit Award for Best British Female Solo Artist at the 2011 Brit Awards and was nominated for the same award at the 2012, 2014, 2016, and 2018 Brit Awards.
+    wikipedia: https://en.wikipedia.org/wiki/Laura_Marling
+  - slug: lay-low
+    name: Lay Low
+    aliases: []
+    spotify_id: 1fVuAu44fmm57gZh10lbDZ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c8938d9f3de0ac843d3ad603
+    description: Lovísa Elísabet Sigrúnardóttir (born 10 September 1982), better known by her stage name, Lay Low, is an Icelandic musician and singer.
+    wikipedia: https://en.wikipedia.org/wiki/Lay_Low_(musician)
+  - slug: lcd-soundsystem
+    name: LCD Soundsystem
+    aliases: []
+    spotify_id: 066X20Nz7iquqkkCW6Jxy6
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051746a0838a408f8c9cf82915ac8
+    description: LCD Soundsystem is an American rock band formed in 2002 in Brooklyn, New York, by James Murphy.
+    wikipedia: https://en.wikipedia.org/wiki/LCD_Soundsystem
+  - slug: lean-hounds
+    name: Lean Hounds
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: lily-allen
+    name: Lily Allen
+    aliases: []
+    spotify_id: 13saZpZnCDWOI9D4IJhp1f
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517418ae32afa3fea1e57c168fa3
+    description: Lily Rose Beatrice Allen (born 2 May 1985) is an English singer-songwriter and actress. Her accolades include a Brit Award as well as nominations for a Grammy Award and a Laurence Olivier Award.
+    wikipedia: https://en.wikipedia.org/wiki/Lily_Allen
+  - slug: linda-lindas
+    name: The Linda Lindas
+    aliases: []
+    spotify_id: 13dTrWNNrnZ3AkgNyQNKP5
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174548a4dadf461160e484b1820
+    description: The Linda Lindas is an American punk rock band from Los Angeles. The group comprises Eloise Wong, sisters Lucia and Mila de la Garza, and Bela Salazar.
+    wikipedia: https://en.wikipedia.org/wiki/The_Linda_Lindas
+  - slug: linus-young
+    name: Linus Young
+    aliases: []
+    spotify_id: 2RlEGFSPhk4ynTXUJgRY5T
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/221a50a27b21ba6a04e8726c1c629b2e7b82a8fe
+    description: null
+    wikipedia: null
+  - slug: lisa-hannigan
+    name: Lisa Hannigan
+    aliases: []
+    spotify_id: 0z7Yuv7DuDQ5SaVn4VSlLt
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517445c0f559e90489af64359a59
+    description: Lisa Margaret Hannigan (born 12 February 1981) is an Irish musician, singer, composer, and voice actress. She began her musical career as a member of Damien Rice's band.
+    wikipedia: https://en.wikipedia.org/wiki/Lisa_Hannigan
+  - slug: little-daylight
+    name: Little Daylight
+    aliases: []
+    spotify_id: 63aFY9yQyFDJtGkInMUris
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/9ed7ae40d54929edeebd9ed578214abc7847175d
+    description: Little Daylight was an American alternative pop group from Brooklyn, New York.
+    wikipedia: https://en.wikipedia.org/wiki/Little_Daylight_(band)
+  - slug: little-green-cars
+    name: Little Green Cars
+    aliases: []
+    spotify_id: 2Vz3AN2wY3xjS2jCaGMVsy
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174dfa09cf91121feb0cbc08aa1
+    description: Little Green Cars was an Irish indie rock band formed in Dublin in 2008. The band announced on 21 March 2019 that they were disbanding.
+    wikipedia: https://en.wikipedia.org/wiki/Little_Green_Cars
+  - slug: little-people
+    name: Little People
+    aliases: []
+    spotify_id: 3cbU0WxlZJTFLTfXEUB433
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517496dbc6bb932a99701a43b373
+    description: null
+    wikipedia: null
+  - slug: lizzo
+    name: Lizzo
+    aliases: []
+    spotify_id: 56oDRnqbIiwx4mymNEv7dS
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051745f899fad97d04c35bfb8d561
+    description: Melissa Viviane Jefferson (born April 27, 1988), known professionally as Lizzo (), is an American singer, rapper, songwriter, and actress. Born in Detroit, Michigan, she moved to Houston, Texas, with her family at the age of 10.
+    wikipedia: https://en.wikipedia.org/wiki/Lizzo
+  - slug: lodro
+    name: LODRO
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: lonely-forest
+    name: The Lonely Forest
+    aliases: []
+    spotify_id: 4Xo1N4V7w6qX23OHAPcLCe
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/c6b29129f00fc751e8f343ac2492bd2d9741865a
+    description: The Lonely Forest was an American indie rock band from Anacortes, Washington with two EPs and four studio albums. In 2011, lead singer John Van Deusen was selected for Seattle Weekly’s best male vocalist award, and the band appeared on Jimmy Kimmel Live!.
+    wikipedia: https://en.wikipedia.org/wiki/The_Lonely_Forest
+  - slug: lonnie-holley
+    name: Lonnie Holley
+    aliases: []
+    spotify_id: 7dgLSJ4HaXx0dy5V2BMQe5
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174fd389b5fc630668aeb5b82f2
+    description: null
+    wikipedia: null
+  - slug: loom
+    name: The Loom
+    aliases: []
+    spotify_id: 4KGTsbxGKk332cuL6dAqAi
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e5292cab3312a4946db8176d
+    description: The Loom is a Brooklyn-based indie rock band. Formed in New York City in 2006, the band consists of members playing a variety of instruments, including guitars, mandolin, French horn, trumpet, banjo, ukulele, percussion, keyboards, and male/female vocals.
+    wikipedia: https://en.wikipedia.org/wiki/The_Loom
+  - slug: lord-huron
+    name: Lord Huron
+    aliases: []
+    spotify_id: 6ltzsmQQbmdoHHbLZ4ZN25
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740d4d3bb72e9375017fd94f71
+    description: Lord Huron is a Los Angeles-based American indie rock band composed of Mark Barry (drums, percussion), Miguel Briseño (bass, keyboard, theremin), Tom Renaud (guitar), and founder Ben Schneider (guitar, lead vocals).
+    wikipedia: https://en.wikipedia.org/wiki/Lord_Huron
+  - slug: low-hum
+    name: Low Hum
+    aliases: []
+    spotify_id: 7AfmYGPRYiNkwKfV8LrqLd
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749f27b38816795fb9ae92322c
+    description: null
+    wikipedia: null
+  - slug: lpx
+    name: LPX
+    aliases: []
+    spotify_id: 7xmK7SfecrmjqsiIoSa1uf
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174cb227efe3b9a55c7d8c097a2
+    description: null
+    wikipedia: null
+  - slug: lucius
+    name: Lucius
+    aliases: []
+    spotify_id: 1WrqUPWlHN5FXCRcQgrkas
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051749163fce69614abb80f290dc7
+    description: Lucius is an American four-piece indie pop band. The group was founded in 2007 by lead vocalists Jess Wolfe and Holly Laessig, joined by drummer Dan Molad, guitarist Peter Lalish, and, formerly, multi-instrumentalist Andrew Burri.
+    wikipedia: https://en.wikipedia.org/wiki/Lucius_(band)
+  - slug: lupe-fiasco
+    name: Lupe Fiasco
+    aliases: []
+    spotify_id: 01QTIT5P1pFP3QnnFSdsJf
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517417e0a43f3aaa0c48410c4b68
+    description: Wasalu Muhammad Jaco (born February 16, 1982), better known by his stage name Lupe Fiasco ( LOO-pay), is an American rapper, singer, record producer and music educator.
+    wikipedia: https://en.wikipedia.org/wiki/Lupe_Fiasco
+  - slug: mac-miller
+    name: Mac Miller
+    aliases: []
+    spotify_id: 4LLpKhyESsyAXpc4laK94U
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ed3b89aa602145fde71a163a
+    description: Malcolm James McCormick (January 19, 1992 – September 7, 2018), known by the stage name Mac Miller, was an American rapper, songwriter, and record producer. He began his career in Pittsburgh's local hip-hop scene in 2007, at the age of 15.
+    wikipedia: https://en.wikipedia.org/wiki/Mac_Miller
+  - slug: made-in-heights
+    name: Made in Heights
+    aliases: []
+    spotify_id: 71zBpZsf6YDEBfWayKdAOA
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/253202313c39a511f0eae50b42fe2f06ebe9587b
+    description: null
+    wikipedia: null
+  - slug: madelline
+    name: Madelline
+    aliases: []
+    spotify_id: 7t6dcfG1BhMh3LTAXhxmeL
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051747245a363b561c355cd8a94d2
+    description: null
+    wikipedia: null
+  - slug: magic-man
+    name: Magic Man
+    aliases: []
+    spotify_id: 6ejhZKxWJr9apHAzj74DHv
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/2cbc39685e26967b901422b5f83cdef9a8ba3b08
+    description: Magic Man was a two-piece American major label electronic rock band from Boston, formed in 2010 by Alex Caplow (vocals) and Sam Lee (guitars and keyboard).
+    wikipedia: https://en.wikipedia.org/wiki/Magic_Man_(band)
+  - slug: makeness
+    name: Makeness
+    aliases: []
+    spotify_id: 5xQkKp2z5Kt3OYoOcla503
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174907a89680504e22577ec4688
+    description: null
+    wikipedia: null
+  - slug: mallrat
+    name: Mallrat
+    aliases: []
+    spotify_id: 4OSArit7O2Jaj4mgf3YN7A
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174f7ef38779e30293c3bdb658e
+    description: 'Grace Kathleen Elizabeth Shaw (born 25 September 1998), known professionally as Mallrat, is an Australian musician, singer, and rapper from Brisbane. Mallrat has released three EPs: Uninvited (2016), In the Sky (2018) and Driving Music (2019).'
+    wikipedia: https://en.wikipedia.org/wiki/Mallrat
+  - slug: man-man
+    name: Man Man
+    aliases: []
+    spotify_id: 0zprAu7NrzRehc0Q0Jc7mL
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174fd2406e142b86af9598c914f
+    description: Man Man is an American experimental rock band from Philadelphia currently based in Brooklyn. Lead singer, songwriter, multi-instrumentalist Honus Honus (Ryan Kattner) is accompanied by a revolving collective of multi-instrumentalist musicians and vocalists.
+    wikipedia: https://en.wikipedia.org/wiki/Man_Man
+  - slug: mas-ysa
+    name: Mas Ysa
+    aliases: []
+    spotify_id: 5jAM13raJQEWieVLbknvCs
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174dee354373b4bf397b4a5e831
+    description: Mas Ysa MAHS EE-sə is the stage name of Thomas Arsenault, an artist. A native of Montreal, Mas Ysa began writing electronic music in high school while living in São Paulo, Brazil and later attended the Oberlin Conservatory of Music where he studied Modern Composition.
+    wikipedia: https://en.wikipedia.org/wiki/Mas_Ysa
+  - slug: mating-ritual
+    name: Mating Ritual
+    aliases: []
+    spotify_id: 4ZeB1hzT2mSZrf7wszOqHs
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a234ce8caf615b474ab67ee5
+    description: null
+    wikipedia: null
+  - slug: matt-and-kim
+    name: Matt and Kim
+    aliases: []
+    spotify_id: 4MSMDY0ClgWqXApU53I1L1
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174495d9462a061ff93ccb84c27
+    description: Matt and Kim (sometimes stylized MATT and KIM) are an American indie electronic duo from Brooklyn, New York City. The group formed in 2004 and consists of Matt Johnson (vocals/keyboards) and Kim Schifino (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Matt_and_Kim
+  - slug: maus-haus
+    name: Maus Haus
+    aliases: []
+    spotify_id: 7iEdCBYWlsafMAitS8gaUt
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174261716bd47f2160146b49ce0
+    description: null
+    wikipedia: null
+  - slug: max-frost
+    name: Max Frost
+    aliases: []
+    spotify_id: 7r8xR0LmnaAM623MmRDn1V
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174097010b6dd69f98a4f89e7f3
+    description: Matthew Alexander "Max" Frost (born July 5, 1992) is an American singer, songwriter, producer and multi-instrumentalist from Austin, Texas, who is signed to Atlantic Records.
+    wikipedia: https://en.wikipedia.org/wiki/Max_Frost
+  - slug: may-rio
+    name: May Rio
+    aliases: []
+    spotify_id: 1SlT1K1OULPzNSwmieTA2w
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174fec4451148889a46d9897a03
+    description: null
+    wikipedia: null
+  - slug: megafaun
+    name: Megafaun
+    aliases: []
+    spotify_id: 0o1wK6uAmkrixovsE80lMR
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/2fa2ac013b6924473cb7d5ad24a56eb8917e283d
+    description: Megafaun is an American psychedelic folk band based in Durham, North Carolina.
+    wikipedia: https://en.wikipedia.org/wiki/Megafaun
+  - slug: metric
+    name: Metric
+    aliases: []
+    spotify_id: 1rCIEwPp5OnXW0ornlSsRl
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174fdc7806f10147bd3c99d57ba
+    description: Metric is a Canadian indie rock band founded in 1998 in Toronto, Ontario. The band consists of Emily Haines (lead vocals, synthesizers, guitar, tambourine, harmonica, piano), James Shaw (guitar, synthesizers, theremin, backing vocals), Joshua Winstead (bass, synthesizers, backing vocals), and Joules Scott-Key (drums, percussion).
+    wikipedia: https://en.wikipedia.org/wiki/Metric_(band)
+  - slug: miami-horror
+    name: Miami Horror
+    aliases: []
+    spotify_id: 0Z5pcmXDCKTrFWLnDChC37
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174690bc942cdf24658258fd39d
+    description: Miami Horror are an Australian electronic music group from Melbourne, Victoria. Benjamin Plant, the producer and DJ, formed Miami Horror initially as a solo project.
+    wikipedia: https://en.wikipedia.org/wiki/Miami_Horror
+  - slug: midnight-generation
+    name: Midnight Generation
+    aliases: []
+    spotify_id: 4CKIGHCZRzNoiNDSaW5eaq
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174d778fdcbdeb3b703fcd71b6d
+    description: null
+    wikipedia: null
+  - slug: miike-snow
+    name: Miike Snow
+    aliases: []
+    spotify_id: 4l1cKWYW591xnwEGxpUg3J
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051744c4eb4999b61bca344c03a7b
+    description: Miike Snow is an indie pop trio formed in Stockholm in 2007, consisting of Swedish production and songwriting duo Bloodshy & Avant (Christian Karlsson and Pontus Winnberg) and American singer Andrew Wyatt. A silhouette of a jackalope is often used as the band's logo.
+    wikipedia: https://en.wikipedia.org/wiki/Miike_Snow
+  - slug: mikhael-paskalev
+    name: Mikhael Paskalev
+    aliases: []
+    spotify_id: 1OF5i5CAr2Ay72z8N42KkQ
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517451f3d9dfa2d1f1dd67355c02
+    description: Jean Mikhael Paskalev Skaaden (born 24 May 1987), better known as Mikhael Paskalev is a Norwegian singer, songwriter and guitarist from Ålesund.
+    wikipedia: https://en.wikipedia.org/wiki/Mikhael_Paskalev
+  - slug: miya-folick
+    name: Miya Folick
+    aliases: []
+    spotify_id: 1jFVu6Z7wmwywivOeBTSIV
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051741f5ead72ecf9375de04f6656
+    description: Miya Folick ( MEE-yə FOH-lik; born June 9, 1989) is an American singer-songwriter based in Los Angeles, California.
+    wikipedia: https://en.wikipedia.org/wiki/Miya_Folick
+  - slug: mmoths
+    name: Mmoths
+    aliases: []
+    spotify_id: 0MLOZd8nYoXxHpOzDH0vXJ
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/3bfaae1f44c5e9c772a9c633caa8d69eb1ab59c8
+    description: null
+    wikipedia: null
+  - slug: mndr
+    name: MNDR
+    aliases: []
+    spotify_id: 7gQNLR8mykA1KjGClbPYHe
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749b6658185724a92cb2ddc4dc
+    description: Amanda Lucille Warner (born September 12, 1982), known professionally as MNDR, is an American singer, songwriter, and record producer.
+    wikipedia: https://en.wikipedia.org/wiki/MNDR
+  - slug: mo
+    name: MØ
+    aliases: []
+    spotify_id: 0bdfiayQAKewqEvaU6rXCv
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ea088fc970f0b2e7e49422c0
+    description: 'Karen Marie Aagaard Ørsted Andersen (Danish pronunciation: [ˈkɑːɑn mɑˈʁiˀə ˈɔːˀkɒˀ ˈɶɐ̯steð ˈɑnɐsn̩]; born 13 August 1988), known professionally as MØ (pronounced [ˈmøˀ] ) is a Danish singer and songwriter.'
+    wikipedia: https://en.wikipedia.org/wiki/M%C3%98
+  - slug: modern-rivals
+    name: Modern Rivals
+    aliases: []
+    spotify_id: 5BTe2AqTGoMst2vHQrH4y1
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024abf298df3017fd5322c7feb
+    description: null
+    wikipedia: null
+  - slug: moneybrother
+    name: Moneybrother
+    aliases: []
+    spotify_id: 6O6kWwVAL4xK4G8SBcsNJR
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174822e42339ddce449bdc0b05a
+    description: null
+    wikipedia: null
+  - slug: monogold
+    name: Monogold
+    aliases: []
+    spotify_id: 2wGhGSeh5I4vq4cnRaZIXP
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02baf02d8adee70d652dceebab
+    description: null
+    wikipedia: null
+  - slug: monsters-calling-home
+    name: Monsters Calling Home
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: moon-duo
+    name: Moon Duo
+    aliases: []
+    spotify_id: 4ipKeGoyPCcpEblETS4qLu
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/e5303f4ced7f0237468156087b31eb19d379dbaa
+    description: Moon Duo is a psychedelic rock band from San Francisco, California formed in 2009 by Wooden Shjips guitarist Ripley Johnson and Sanae Yamada.
+    wikipedia: https://en.wikipedia.org/wiki/Moon_Duo
+  - slug: moon-king
+    name: Moon King
+    aliases: []
+    spotify_id: 6hTzDsb4gaKGZMNtfC70c5
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051748a0a49548a66c829c43ea7b9
+    description: Moon King is the synth-pop project of Canadian songwriter and producer Daniel Benjamin. Moon King's music has been described as dream pop, electronic pop or indie rock, incorporating influences from disco, synthpop and house music.
+    wikipedia: https://en.wikipedia.org/wiki/Moon_King
+  - slug: moon-taxi
+    name: Moon Taxi
+    aliases: []
+    spotify_id: 5DK8eK7fjvRsziXzyr3sFA
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e4a467894067abadd18e6775
+    description: Moon Taxi is an American alternative rock band based in Nashville, Tennessee. The band was founded in 2006 by Trevor Terndrup (vocals, guitar), Tommy Putnam (bass), Spencer Thomson (guitar, programming), Tyler Ritter (drums), and Wes Bailey (keys) while attending Belmont University.
+    wikipedia: https://en.wikipedia.org/wiki/Moon_Taxi
+  - slug: morning-parade
+    name: Morning Parade
+    aliases: []
+    spotify_id: 6IQkN7kM66NACkh1RMGihG
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/0242fbff26a807fed9d4d9255ef684060e1156ca
+    description: Morning Parade were an English five-piece alternative rock band from Harlow, Essex that formed in 2007 before signing with Parlophone in 2010. Its self-titled debut album was released early in 2012.
+    wikipedia: https://en.wikipedia.org/wiki/Morning_Parade
+  - slug: mothxr
+    name: Mothxr
+    aliases: []
+    spotify_id: 3R4ghTFr16VfqxYeDyERee
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051744ec49914e3c27bf129914b5f
+    description: Mothxr (stylized as MOTHXR) is an American synth-pop band from Brooklyn, New York. Formed in late 2013, the group makes synth-heavy pop music influenced by new wave and R&B. The four-piece features vocalist Penn Badgley, producer Jimmy Giannopoulos, guitarist Simon Oscroft, and bassist Darren Will.
+    wikipedia: https://en.wikipedia.org/wiki/Mothxr
+  - slug: motopony
+    name: Motopony
+    aliases: []
+    spotify_id: 5urVI6ZUTzPlsqQoHVwc9s
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f668ecee35efda024c53c353
+    description: Motopony is a Seattle-based alt-psych band led by singer Daniel Blue. With the success of their previous full-length albums and a recording journey to the iconic Abbey Road Studios, Motopony has toured around the world playing festivals including SXSW, India's NH-7 Weekender and Bumbershoot, with U.S. tours and dates all across the UK.
+    wikipedia: https://en.wikipedia.org/wiki/Motopony
+  - slug: mountain-goats
+    name: The Mountain Goats
+    aliases:
+      - The Mountain Goats (John Darnielle)
+    spotify_id: 3hyGGjxu73JuzBa757H6R5
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c60cc791f8b4212187e36d16
+    description: The Mountain Goats are an American indie folk band formed in Claremont, California, by singer-songwriter John Darnielle. Since 2003, the band has been based in Durham, North Carolina.
+    wikipedia: https://en.wikipedia.org/wiki/The_Mountain_Goats
+  - slug: mountain-man
+    name: Mountain Man
+    aliases: []
+    spotify_id: 5kmPNusdo1mCTyz4u1uEGm
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051747221fe84238a98a3665fbd97
+    description: Mountain Man is an American singing trio described as "nestled in the tradition of American folk" with a traditional Appalachian folk sound. They have earned acclaim from a number of music critics.
+    wikipedia: https://en.wikipedia.org/wiki/Mountain_Man_(band)
+  - slug: ms-mr
+    name: MS MR
+    aliases: []
+    spotify_id: 4XaUmUGjidSklcDHxv3XWf
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/bf9cdde7d6a0abf3d6db4245dd744200902ed15d
+    description: MS MR (pronounced Miz Mister) was a New York-based American pop duo, consisting of vocalist Lizzy Plapinger and producer Max Hershenow. The duo were signed to Iamsound, Kitsuné and Columbia Records.
+    wikipedia: https://en.wikipedia.org/wiki/MS_MR
+  - slug: murals
+    name: Murals
+    aliases: []
+    spotify_id: 6libAjMW8fzYwSN8iuWUtu
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517402c488cb109250a6bad9e421
+    description: null
+    wikipedia: null
+  - slug: my-morning-jacket
+    name: My Morning Jacket
+    aliases: []
+    spotify_id: 43O3c6wewpzPKwVaGEEtBM
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174eaaa18ce5578767a30348673
+    description: My Morning Jacket is an American rock band formed in Louisville, Kentucky, in 1998. The band consists of vocalist/guitarist Jim James, bassist Tom Blankenship, drummer Patrick Hallahan, guitarist Carl Broemel, and keyboardist Bo Koster.
+    wikipedia: https://en.wikipedia.org/wiki/My_Morning_Jacket
+  - slug: n3ptune
+    name: N3ptune
+    aliases: []
+    spotify_id: 0Kt3k5975Iq6wW9cuutIZn
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740564c8a60d33a22dda76c0c7
+    description: null
+    wikipedia: null
+  - slug: naked-and-famous
+    name: The Naked and Famous
+    aliases: []
+    spotify_id: 0oeUpvxWsC8bWS6SnpU8b9
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051748a92672c058a150fd6aeb567
+    description: The Naked and Famous are a New Zealand indie electronic band from Auckland, formed in 2007. The band currently consists of Alisa Xayalith (vocals, keyboards) and Thom Powers (vocals, guitars).
+    wikipedia: https://en.wikipedia.org/wiki/The_Naked_and_Famous
+  - slug: natasha-kmeto
+    name: Natasha Kmeto
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: natureboy
+    name: Natureboy
+    aliases: []
+    spotify_id: 4opfLJCtrgETqDATL1XOI2
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020b992c50eeab3be02925c99e
+    description: null
+    wikipedia: null
+  - slug: neon-indian
+    name: Neon Indian
+    aliases: []
+    spotify_id: 0KydPQPUUoTNhmiHKOg5Er
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ea85158edf79ac07013811b0
+    description: Neon Indian is an American electronic music band from Denton, Texas. The music is composed by Alan Palomo (born July 24, 1988), who is also part of the band Ghosthustler and releases solo music under his birth name and the stage name VEGA.
+    wikipedia: https://en.wikipedia.org/wiki/Neon_Indian
+  - slug: nevermore
+    name: Nevermore
+    aliases: []
+    spotify_id: 1wUArE0NhHB8M1bU2WSplY
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517449a84a14847a6ddb4c3e8494
+    description: Nevermore is an American heavy metal band formed in Seattle, Washington, in 1992. The band emerged following the dissolution of Sanctuary, whose final line-up included vocalist Warrel Dane, bassist Jim Sheppard and guitarist Jeff Loomis.
+    wikipedia: https://en.wikipedia.org/wiki/Nevermore
+  - slug: new-myths
+    name: New Myths
+    aliases: []
+    spotify_id: 48IerrmtCAgBztkjXM02Kb
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517492d30b85a9feaaba99335a05
+    description: null
+    wikipedia: null
+  - slug: night-drive
+    name: Night Drive
+    aliases: []
+    spotify_id: 2n8weaczXlWFffGanDH4Xc
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517486f4866a7f0fc2318ae480e9
+    description: null
+    wikipedia: null
+  - slug: night-moves
+    name: Night Moves
+    aliases: []
+    spotify_id: 6Pled8lBAODAviS574l1Q4
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174649d1ade50e88ee057b54a35
+    description: Night Moves are an American indie rock band from Minneapolis.
+    wikipedia: https://en.wikipedia.org/wiki/Night_Moves_(band)
+  - slug: night-terrors-of-1927
+    name: Night Terrors of 1927
+    aliases: []
+    spotify_id: 7m3fe3erw9iO9gs4AeLSG8
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/3a46a05d1f4215c32e919c5d15c765c281b177d1
+    description: null
+    wikipedia: null
+  - slug: no-joy
+    name: No Joy
+    aliases: []
+    spotify_id: 5N7DAaXV1EVXS8h2wyYrx2
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174d2084d4585014a643e19bb57
+    description: No Joy are a Canadian shoegaze band from Montreal formed in late 2009 by Jasamine White-Gluz.
+    wikipedia: https://en.wikipedia.org/wiki/No_Joy
+  - slug: not-blood-paint
+    name: Not Blood Paint
+    aliases: []
+    spotify_id: 1xWM4SZpNz4cBpWk7Eus9s
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/49d750f94a3f79468b33da25b6c17577a4a6bfa8
+    description: null
+    wikipedia: null
+  - slug: nothing-but-thieves
+    name: Nothing But Thieves
+    aliases: []
+    spotify_id: 1kDGbuxWknIKx4FlgWxiSp
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744ac4e37dd1914f5bb575e248
+    description: Nothing but Thieves are an English rock band, formed in 2012 in Southend-on-Sea, Essex consisting of lead vocalist and guitarist Conor Mason, guitarist Joe Langridge-Brown, guitarist and keyboardist Dominic Craik, bassist Philip Blake, and drummer James Price.
+    wikipedia: https://en.wikipedia.org/wiki/Nothing_but_Thieves
+  - slug: nuns
+    name: The Nuns
+    aliases: []
+    spotify_id: 4lbdX52isOilRhdB9Zzs1y
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/86c8a869e8a4d8a1d85075f64c1a2fc00bbdbc19
+    description: The Nuns was an American rock band based in San Francisco and New York City. Best known as one of the founding acts of the early San Francisco punk scene, the band went through a number of hiatuses and periodic reunions, lineup changes, and changes in style.
+    wikipedia: https://en.wikipedia.org/wiki/The_Nuns
+  - slug: oberhofer
+    name: Oberhofer
+    aliases: []
+    spotify_id: 5zb7wVUx1vTXLB6HX26EnX
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517455ac122e097450218e3d3bd8
+    description: Oberhofer is a band from Brooklyn, New York City, formed in 2008 to perform the music of its founder and frontman Brad Oberhofer. Current members are Brad Oberhofer on synths, guitar and vocals, Zöe Brecher on drums, Dylan Treleven on bass, and Ben Roth on guitar.
+    wikipedia: https://en.wikipedia.org/wiki/Oberhofer
+  - slug: odesza
+    name: ODESZA
+    aliases: []
+    spotify_id: 21mKp7DqtSNHhCAU2ugvUw
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051749f4a0cbfcc9b274344681ccb
+    description: Odesza (; stylized in all caps) is an American electronic music duo originating from Bellingham, Washington. It consists of Harrison Mills and Clayton Knight, known individually as Catacombkid and BeachesBeaches.
+    wikipedia: https://en.wikipedia.org/wiki/Odesza
+  - slug: of-monsters-and-men
+    name: Of Monsters and Men
+    aliases: []
+    spotify_id: 4dwdTW1Lfiq0cM8nBAqIIz
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e4dd88af4c7ea59464728229
+    description: Of Monsters and Men is an Icelandic indie folk/rock band formed in Garðabær in 2010. It consists of lead singer and guitarist Nanna Bryndís Hilmarsdóttir, singer and guitarist Ragnar "Raggi" Þórhallsson, lead guitarist Brynjar Leifsson, drummer Arnar Rósenkranz Hilmarsson, and bassist Kristján Páll Kristjánsson.
+    wikipedia: https://en.wikipedia.org/wiki/Of_Monsters_and_Men
+  - slug: oh-wonder
+    name: Oh Wonder
+    aliases: []
+    spotify_id: 5cIc3SBFuBLVxJz58W2tU9
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051741e05eabfda111faeaf820100
+    description: Oh Wonder are an English, London-based alt-pop duo consisting of Anthony Vander West (né West) and Josephine Vander West (née Vander Gucht). Since releasing their debut album, they have seen international success with their alt-pop singles.
+    wikipedia: https://en.wikipedia.org/wiki/Oh_Wonder
+  - slug: omar-souleyman
+    name: Omar Souleyman
+    aliases: []
+    spotify_id: 11dMqVZY4PHgVL80tejvHK
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f3dee11070298d80c10f05b1
+    description: 'Omar Almasikh (Arabic: عمر المسيخ; born 1966), better known by his stage name Omar Souleyman (عمر سليمان), is a Syrian singer. He began his career in 1994 singing at weddings and has since released numerous records and performed all over the world.'
+    wikipedia: https://en.wikipedia.org/wiki/Omar_Souleyman
+  - slug: orwells
+    name: The Orwells
+    aliases: []
+    spotify_id: 7ia4FaCVsbXvhVwagCJk7l
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051743bb81e8c384243ba1e3535cc
+    description: The Orwells are an American rock band from Elmhurst, a suburb west of Chicago, Illinois, United States. The members include Mario Cuomo (vocals), Dominic Corso (guitar), Grant Brinner (bass), and Henry Brinner (drums).
+    wikipedia: https://en.wikipedia.org/wiki/The_Orwells
+  - slug: outasight
+    name: Outasight
+    aliases: []
+    spotify_id: 1zuG3w1Zgeou53fb3Vu3bO
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517469638a8bca51f174202763c0
+    description: Richard Andrew Conte (born February 17, 1983), better known by his stage name Outasight, is an American singer-songwriter, rapper, and record producer born and raised in Yonkers, New York. Though he is considered a pop artist, he is influenced by other genres such as hip hop, rock, and soul music.
+    wikipedia: https://en.wikipedia.org/wiki/Outasight
+  - slug: pacific-air
+    name: Pacific Air
+    aliases: []
+    spotify_id: 3LedjkHgJTjLJfDTM5YgmD
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/fa05ea886336f6124446b468a70fdda6051dfa3e
+    description: Pacific Air was an American indie pop band formed in 2012. The band consisted of brothers Ryan and Taylor Lawhon.
+    wikipedia: https://en.wikipedia.org/wiki/Pacific_Air
+  - slug: painted-palms
+    name: Painted Palms
+    aliases: []
+    spotify_id: 3oIEbctIZz40aH60PJemFK
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f7415c7e75f3ddcec8fa36e2234
+    description: null
+    wikipedia: null
+  - slug: paper-route
+    name: Paper Route
+    aliases: []
+    spotify_id: 2EoJ4ILZNAHjVtZgmWBaID
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743a1b539a453deaaa4a961928
+    description: Paper Route is an American experimental indie rock and indie pop band from Nashville, Tennessee formed in 2004. It consists of JT Daly (vocals, keyboards, percussion, samplers), Chad Howat (bass, piano, programming), and Nick Aranda (guitars).
+    wikipedia: https://en.wikipedia.org/wiki/Paper_Route_(band)
+  - slug: paranoyds
+    name: The Paranoyds
+    aliases: []
+    spotify_id: 34ji1NPhqjImjXwOb2kwg4
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517441bc1cf6e0f11b6c5a383059
+    description: null
+    wikipedia: null
+  - slug: parenthetical-girls
+    name: Parenthetical Girls
+    aliases: []
+    spotify_id: 3AwMKTSUPiXf1ksyOziWAG
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517491490ac92c80478fd24ac897
+    description: Parenthetical Girls was an experimental pop band formed in Everett, Washington in 2002, and disbanded in 2013.
+    wikipedia: https://en.wikipedia.org/wiki/Parenthetical_Girls
+  - slug: passion-pit
+    name: Passion Pit
+    aliases:
+      - Passion Pit (DJ set)
+    spotify_id: 7gjAu1qr5C2grXeQFFOGeh
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051746273d3707ef2fc8a53922068
+    description: Passion Pit is an American indie pop band from Cambridge, Massachusetts. Formed in 2007, frontman and keyboardist Michael Angelakos is the band's primary recording member.
+    wikipedia: https://en.wikipedia.org/wiki/Passion_Pit
+  - slug: peach-kings
+    name: The Peach Kings
+    aliases: []
+    spotify_id: 6Lt0qzVmaKAw52vpXMTT3i
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744f8c4211d6a2dc4504e271f8
+    description: The Peach Kings are an American rock band that formed in 2010 by Texas-born Paige Wood and Los Angeles native Steven Dies.
+    wikipedia: https://en.wikipedia.org/wiki/The_Peach_Kings
+  - slug: peggy
+    name: PEGGY
+    aliases: []
+    spotify_id: 1E6ADXoD9nUhFEwKgwjEdh
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174caa38311d6d6b62d790c6289
+    description: null
+    wikipedia: null
+  - slug: penguin-prison
+    name: Penguin Prison
+    aliases: []
+    spotify_id: 5VsOThWOagH8C8gCvIy13k
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e3c74f0f4e15a8c8cb259d6c
+    description: Penguin Prison (born 1983) is an electropop project composed solely of New York City singer, musician, producer and remixer Chris Glover. His stage name comes from a freestyle rap he created with his friend about George W. Bush when they started saying "He's a penguin vision, he went to the penguin prison, and assumed a penguin position".
+    wikipedia: https://en.wikipedia.org/wiki/Penguin_Prison
+  - slug: penrose
+    name: Penrose
+    aliases: []
+    spotify_id: 3OPQomw4XDvkWCjgOgtf4X
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051741924045a9f46c05397592e99
+    description: null
+    wikipedia: null
+  - slug: people-under-the-stairs
+    name: People Under the Stairs
+    aliases: []
+    spotify_id: 0av074qUwLn5eyzwqoq3xh
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/b95c7fe573c82590884a2e7a80a02947c12d9b69
+    description: People Under the Stairs was an American hip hop duo from Los Angeles, California, formed in 1997 and disbanded in 2019. Since their inception, the group consisted solely of Christopher Portugal (Thes One) and Michael Turner (Double K).
+    wikipedia: https://en.wikipedia.org/wiki/People_Under_the_Stairs
+  - slug: pepper-rabbit
+    name: Pepper Rabbit
+    aliases: []
+    spotify_id: 2qzeT1di9ABANEoqIYH4cy
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/dff751c3d5440a2d198b4b68aaa85e9bfae4b6ec
+    description: null
+    wikipedia: null
+  - slug: perfume-genius
+    name: Perfume Genius
+    aliases: []
+    spotify_id: 2ueoLVCXQ948OfhVvAy3Nn
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174d9ab607b9fa17351b50d5e91
+    description: Michael Alden Hadreas (born September 25, 1981), better known by his stage name Perfume Genius, is an American singer, songwriter, and musician. Hadreas's indie music stylistically explores pop and rock with various influences and atmospheres.
+    wikipedia: https://en.wikipedia.org/wiki/Perfume_Genius
+  - slug: phantogram
+    name: Phantogram
+    aliases: []
+    spotify_id: 1l9d7B8W0IHy3LqWsxP2SH
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740fcb5946f9fea8be6ae5e858
+    description: Phantogram is an American music duo from Greenwich, New York, formed in 2007 and consisting of multi-instrumentalists and vocalists Sarah Barthel and Josh Carter. Since 2009, the band has released five studio albums, four EPs, and numerous singles.
+    wikipedia: https://en.wikipedia.org/wiki/Phantogram_(band)
+  - slug: phoenix
+    name: Phoenix
+    aliases: []
+    spotify_id: 1xU878Z1QtBldR7ru9owdU
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174722051daeb10119e2e039724
+    description: null
+    wikipedia: null
+  - slug: pillar-point
+    name: Pillar Point
+    aliases: []
+    spotify_id: 1kS52jCnMYq4n46ZX9zqw7
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/4935d0765e3886128cad9a79aee284b7672606ab
+    description: Pillar Point is an American indie pop, synthpop band based out of Seattle, Washington, United States.
+    wikipedia: https://en.wikipedia.org/wiki/Pillar_Point_(band)
+  - slug: plants-and-animals
+    name: Plants and Animals
+    aliases: []
+    spotify_id: 1pzNRIDRT064HEdW1nG59c
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051748e6145a436405a2bfabd66c4
+    description: Plants and Animals are a Canadian indie-rock band from Montreal (featuring two members originally from Nova Scotia) which comprises guitarist-vocalists Warren Spicer and Nic Basque and drummer-vocalist Matthew Woody Woodley.
+    wikipedia: https://en.wikipedia.org/wiki/Plants_and_Animals
+  - slug: pokey-lafarge-and-the-south-city-three
+    name: Pokey LaFarge and the South City Three
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: pomo
+    name: Pomo
+    aliases: []
+    spotify_id: 6YtlR8MLfO6azxwOKAvEi3
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a5c53b212c388132366d7461
+    description: null
+    wikipedia: null
+  - slug: pons
+    name: Pons
+    aliases: []
+    spotify_id: 3yrEFe2spoZ15eOUuWFvph
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c672485c7ec85e972b61c347
+    description: null
+    wikipedia: null
+  - slug: poor-moon
+    name: Poor Moon
+    aliases: []
+    spotify_id: 50IPvQjKz8UULlrpWTmQbO
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f74dddd75115be3c8f5691f59c3
+    description: Poor Moon is an American indie folk band, formed in Seattle in 2012, composed of Christian Wargo, Casey Wescott, and Ian and Peter Murray. Poor Moon is a side project of Wargo and Wescott, who are members of Fleet Foxes, Poor Moon is signed to record label Bella Union (UK) and Sub Pop Records.
+    wikipedia: https://en.wikipedia.org/wiki/Poor_Moon_(band)
+  - slug: porcelain-raft
+    name: Porcelain Raft
+    aliases: []
+    spotify_id: 0l5fDpqfSweuzhaAtWa76A
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174b20ec4f6e0c75a048b0e6a41
+    description: Porcelain Raft is Mauro Remiddi's main music project. The New York-based musician began his long, prolific career in Italy, the place of his birth, playing for small, local projects.
+    wikipedia: https://en.wikipedia.org/wiki/Porcelain_Raft
+  - slug: pre-war
+    name: Pre War
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: preatures
+    name: The Preatures
+    aliases: []
+    spotify_id: 5gcDZA9xXCOspWgQilUYIu
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ba948a99b83f295399b06d6c
+    description: The Preatures are an Australian indie rock band from Sydney, New South Wales. They formed in 2010 and disbanded in 2021, following the launch of lead vocalist and keyboardist Isabella "Izzi" Manfredi's solo career.
+    wikipedia: https://en.wikipedia.org/wiki/The_Preatures
+  - slug: pree
+    name: Pree
+    aliases: []
+    spotify_id: 3W8LIPSZQQF7ZZbFcrhnjO
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051742d8c3a7a696253775d6c2cc7
+    description: null
+    wikipedia: null
+  - slug: preservation-hall-jazz-band
+    name: Preservation Hall Jazz Band
+    aliases: []
+    spotify_id: 2S0rCVs10P1Q0v51wmOrM5
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c3b3ad51c473ca28f1b3519c
+    description: The Preservation Hall Jazz Band is a New Orleans jazz band founded in New Orleans by tuba player Allan Jaffe in the early 1960s. The band derives its name from Preservation Hall in the French Quarter.
+    wikipedia: https://en.wikipedia.org/wiki/Preservation_Hall_Jazz_Band
+  - slug: pretty-lights
+    name: Pretty Lights
+    aliases: []
+    spotify_id: 4iVhFmG8YCCEHANGeUUS9q
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517445758c3902a4e261169dfa18
+    description: Derek Vincent Smith (born November 25, 1981), known by his stage name Pretty Lights, is an American electronic music producer. Pretty Lights was originally a music project consisting of Smith and Michal Menert, who left after the release of their first album and returned in 2023.
+    wikipedia: https://en.wikipedia.org/wiki/Pretty_Lights
+  - slug: priests
+    name: Priests
+    aliases: []
+    spotify_id: 5DT78nxI4rAHYddufPUOBx
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f74f24ef6a1c825bf826553f165
+    description: Priests are a post-punk band from Washington, D.C., formed in 2012 and composed of Katie Alice Greer (vocals), Daniele Daniele (drums), and G.L. Jaguar (guitar).
+    wikipedia: https://en.wikipedia.org/wiki/Priests_(band)
+  - slug: primus
+    name: Primus
+    aliases: []
+    spotify_id: 64mPnRMMeudAet0E62ypkx
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517454ed648a0c70ed8910840f4a
+    description: Primus ( PRY-məs) is an American rock band formed in El Sobrante, California, in 1984. As of 2026, the band consists of bassist/vocalist Les Claypool, guitarist Larry "Ler" LaLonde, and drummer John "Hoffer" Hoffman.
+    wikipedia: https://en.wikipedia.org/wiki/Primus_(band)
+  - slug: psychic-twin
+    name: Psychic Twin
+    aliases: []
+    spotify_id: 2kYGhtpk80ssZY8FRQH5Xo
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/84940e42d078b2cf92496af80e59e13965aef03c
+    description: null
+    wikipedia: null
+  - slug: punches
+    name: The Punches
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: puzzled-panther
+    name: Puzzled Panther
+    aliases: []
+    spotify_id: 6eLqAV3aTYejiXgejCe3ME
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517475f00192394d1468fa58fdf5
+    description: null
+    wikipedia: null
+  - slug: pyyramids
+    name: PYYRAMIDS
+    aliases: []
+    spotify_id: 74VvqIKQpg8xY39N5LxdvV
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/9540921b2cc2741a238d00d1985bbf29547f872b
+    description: null
+    wikipedia: null
+  - slug: qveen-herby
+    name: Qveen Herby
+    aliases: []
+    spotify_id: 4o4tLTIJ3eWMFerz73atcT
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517448d3f42ce243d6cb92025929
+    description: Amy Renee Heidemann Noonan (born April 29, 1986), better known professionally as Qveen Herby, is an American rapper, singer, songwriter, and entrepreneur. Born and raised in Seward, Nebraska, she first gained fame as part of the music duo Karmin, with which she released two studio albums.
+    wikipedia: https://en.wikipedia.org/wiki/Qveen_Herby
+  - slug: radiohead
+    name: Radiohead
+    aliases: []
+    spotify_id: 4Z8W4fKeB5YxbusRsdQVPb
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174959527d2fabc9c64287e57b9
+    description: Radiohead are an English rock band formed in Abingdon, Oxfordshire, in 1985. The members are Thom Yorke (vocals, guitar, keyboards); brothers Jonny Greenwood (guitar, keyboards) and Colin Greenwood (bass); Ed O'Brien (guitar, backing vocals); and Philip Selway (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Radiohead
+  - slug: rafiq-bhatia
+    name: Rafiq Bhatia
+    aliases: []
+    spotify_id: 29uBPqNiTiQxmLadKstqWP
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174888095bdf9dafdce522ef507
+    description: Rafiq Bhatia (born 21 August 1987) is an American musician, composer, guitarist, and producer. He is the guitarist and fellow producer of the American experimental rock band Son Lux, having been a touring member prior.
+    wikipedia: https://en.wikipedia.org/wiki/Rafiq_Bhatia
+  - slug: ratatat
+    name: Ratatat
+    aliases: []
+    spotify_id: 57dN52uHvrHOxijzpIgu3E
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/4e55ca05d4f336a2fa0e3062a7ec9778a201e8bc
+    description: Ratatat ( RAT-ə-tat) is an American electronic rock duo consisting of Mike Stroud (guitar, melodica, synthesizers, percussion) and producer Evan Mast (bass, synthesizers, percussion).
+    wikipedia: https://en.wikipedia.org/wiki/Ratatat
+  - slug: ravens-and-chimes
+    name: Ravens & Chimes
+    aliases: []
+    spotify_id: 2FTXnRfMt9sq5zoveM2X8h
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174dc7995d810459d09a32a61ba
+    description: Ravens & Chimes is an indie art rock band from New York City.
+    wikipedia: https://en.wikipedia.org/wiki/Ravens_%26_Chimes
+  - slug: red-hot-chili-peppers
+    name: Red Hot Chili Peppers
+    aliases: []
+    spotify_id: 0L8ExT028jH3ddEcZwqJJ5
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c33cc15260b767ddec982ce8
+    description: The Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1982, consisting of Flea (bass), Anthony Kiedis (vocals), Chad Smith (drums), and John Frusciante (guitar).
+    wikipedia: https://en.wikipedia.org/wiki/Red_Hot_Chili_Peppers
+  - slug: regal-degal
+    name: Regal Degal
+    aliases: []
+    spotify_id: 6rKgTX6InOA1sby8DmR8Lg
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/0937cb23e380f6c9fdf878eb3d9379f8dd58d92f
+    description: null
+    wikipedia: null
+  - slug: reptar
+    name: Reptar
+    aliases: []
+    spotify_id: 5dMNVzCPRLL5QUGvvrNW9P
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/a891dd5154773e695549dc60e6701d897cfa4213
+    description: Reptar is an American band from Athens, Georgia founded by members Graham Ulicny (guitar, vocals), Ryan Engelberger (bass), William Kennedy (keyboards) and Andrew McFarland (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Reptar_(band)
+  - slug: resistance-revival-chorus
+    name: Resistance Revival Chorus
+    aliases: []
+    spotify_id: 5GAZngXqtUrssaaExOGeT1
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174e745ba40a001182200a46c96
+    description: null
+    wikipedia: null
+  - slug: ric-wilson
+    name: Ric Wilson
+    aliases: []
+    spotify_id: 34zbMuAgXxsgqnGXSxWvCR
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051746b6afcd9772ecaf3542b0c2e
+    description: null
+    wikipedia: null
+  - slug: rjd2
+    name: RJD2
+    aliases: []
+    spotify_id: 1O3ZOjqFLEnbpZexcRjocn
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f7416219753479e23ca12c34c46
+    description: Ramble Jon Krohn (born May 27, 1976), better known by his stage name RJD2, is an American musician and record producer based in Columbus, Ohio. He is the owner of record label RJ's Electrical Connections.
+    wikipedia: https://en.wikipedia.org/wiki/RJD2
+  - slug: robyn
+    name: Robyn
+    aliases: []
+    spotify_id: 6UE7nl9mha6s8z0wFQFIZ2
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051742c3e32b43bbec423c3f0051e
+    description: 'Robin Miriam Carlsson (Swedish pronunciation: [ˈrɔ̌bːɪn ˈkɑ̌ːɭsɔn]; born 12 June 1979), known professionally as Robyn (pronounced [ˈrɔ̌bːʏn]), is a Swedish pop singer, songwriter and producer.'
+    wikipedia: https://en.wikipedia.org/wiki/Robyn
+  - slug: roisin-waters
+    name: Roisin Waters
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: rub
+    name: The Rub
+    aliases: []
+    spotify_id: 14oiY1cXN4ak7WjgDhfpjU
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02307d97cbb1e550af01f9d38c
+    description: The Rub were an English rock band, formed in 1998 in Whalley Range, Manchester by former Stone Roses drummer Alan "Reni" Wren. The band's line up featured Reni on vocals and lead guitar along with rhythm guitarist and backing vocalist Casey Longden, bassist and backing vocalist Neil Nisbet and drummer Mik Grant.
+    wikipedia: https://en.wikipedia.org/wiki/The_Rub
+  - slug: rudimental
+    name: Rudimental
+    aliases: []
+    spotify_id: 4WN5naL3ofxrVBgFpguzKo
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f74070a7e4a3e7743f68b058
+    description: Rudimental are a British drum and bass band and production team, signed to Asylum Records, Atlantic Records and Black Butter Records. The band consists of Piers Aggett, Kesi Dryden and Leon "Locksmith" Rolle.
+    wikipedia: https://en.wikipedia.org/wiki/Rudimental
+  - slug: rumors
+    name: Rumors
+    aliases: []
+    spotify_id: 41hte6PS2wzmLT4MZ8yMXZ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c1d4ddf232c161a0b6543d0a
+    description: null
+    wikipedia: null
+  - slug: run-the-jewels
+    name: Run The Jewels
+    aliases: []
+    spotify_id: 4RnBFZRiMLRyZy0AzzTg2C
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ea5eda58996c7f08d423d522
+    description: null
+    wikipedia: null
+  - slug: saint-mela
+    name: Saint Mela
+    aliases: []
+    spotify_id: 5kJ3NDWOOVjlS2HFSYzjay
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174307fac9be5bf873e58b91f73
+    description: null
+    wikipedia: null
+  - slug: saint-rich
+    name: Saint Rich
+    aliases: []
+    spotify_id: 4I7NC3iBuwKVtfUyqccelL
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/7df0b49d1d2ca40aa3f01a53f5a69138ef75744d
+    description: null
+    wikipedia: null
+  - slug: san-cisco
+    name: San Cisco
+    aliases: []
+    spotify_id: 0Ou0138wEd8XWebhc4j7O0
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174940683234b94e03629478d71
+    description: San Cisco are an Australian indie pop band that formed in 2009 in Fremantle, Western Australia. The band are a three-piece, and currently consist of Jordi Davieson (guitar, lead vocals), Josh Biondillo (guitar, vocals) and Scarlett Stevens (drums, vocals).
+    wikipedia: https://en.wikipedia.org/wiki/San_Cisco
+  - slug: san-fermin
+    name: San Fermin
+    aliases: []
+    spotify_id: 7fSnislKgW9Mz0YIqWQmGt
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517407903afcccb2417c15229f35
+    description: San Fermin is an American indie rock collective, led by Brooklyn-based composer and songwriter Ellis Ludwig-Leone. Known for combining indie rock, pop, and classical influences into lush compositions, they released their debut album San Fermin on Downtown Records in 2013.
+    wikipedia: https://en.wikipedia.org/wiki/San_Fermin_(band)
+  - slug: savages
+    name: Savages
+    aliases: []
+    spotify_id: 1WFsBUAgQmrGQQEUyFKS60
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f74545b9f4e811a3290805bfc81
+    description: Savages were an English rock band formed in 2011 in London. The band consisted of Jehnny Beth (vocals), Gemma Thompson (guitars), Ayse Hassan (bass), and Fay Milton (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Savages_(band)
+  - slug: school-of-seven-bells
+    name: School of Seven Bells
+    aliases: []
+    spotify_id: 1mBdei7fcRpbUEYHgsQN9H
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/959d8b6a3429beb7653214bee864c876ab4a2619
+    description: School of Seven Bells (often stylized as SVIIB) was an American indie rock band from New York City, formed in 2007. It originally consisted of Alejandra Deheza (vocals, guitar), her sister Claudia Deheza (keyboards, vocals) and Benjamin Curtis (guitar, synthesizers, vocals).
+    wikipedia: https://en.wikipedia.org/wiki/School_of_Seven_Bells
+  - slug: sea-wolf
+    name: Sea Wolf
+    aliases: []
+    spotify_id: 3ZllGjNdP5pS8UFnT5Jj2x
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174a5bb602593514f42b0044a0a
+    description: Sea Wolf is an American band led by Alex Brown Church, an indie folk musician based in Los Angeles, California, United States.
+    wikipedia: https://en.wikipedia.org/wiki/Sea_Wolf_(band)
+  - slug: sean-mcverry
+    name: Sean McVerry
+    aliases: []
+    spotify_id: 7sAXoFldVGlGtZ5LPVtAYD
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174fe7c68aa2fd6ce27a0aa1202
+    description: null
+    wikipedia: null
+  - slug: seinabo-sey
+    name: Seinabo Sey
+    aliases: []
+    spotify_id: 4X0v8sFoDZ6rIfkeOeVm2i
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051748821a7b681f30a78f23544a5
+    description: Seinabo Sey (born 7 October 1990) is a Swedish soul and pop singer, best known for her international hit song "Younger".
+    wikipedia: https://en.wikipedia.org/wiki/Seinabo_Sey
+  - slug: shapes
+    name: Shapes
+    aliases: []
+    spotify_id: 7tCEW9f8MAsArgPDCxsWzk
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517445fc18d5672ff617260af21a
+    description: null
+    wikipedia: null
+  - slug: skerik
+    name: Skerik
+    aliases: []
+    spotify_id: 00uSjAOZMB626Y0W2ij3Md
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/55cecfa970ce96f6990ee1bf6b185851044913d2
+    description: Eric "Skerik" Walton (born November 19, 1964) is an American saxophonist from Seattle, Washington. Performing on the tenor and baritone saxophone, often with electronics and loops, he is a pioneer in a playing style that has been called saxophonics.
+    wikipedia: https://en.wikipedia.org/wiki/Skerik
+  - slug: skinny-lister
+    name: Skinny Lister
+    aliases: []
+    spotify_id: 30VFmfxKlxl2LmNe6rtMis
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174057475e9426ddd157a5f653e
+    description: Skinny Lister are a British band formed in London in 2009. They were a five-piece band until October 2013 when a drummer was added.
+    wikipedia: https://en.wikipedia.org/wiki/Skinny_Lister
+  - slug: skrillex
+    name: Skrillex
+    aliases: []
+    spotify_id: 5he5w2lnU9x7JFhnwcekXX
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517409a2575e4cfa8af8bce207d1
+    description: Sonny John Moore (born January 15, 1988), known professionally as Skrillex, is an American DJ, record producer, singer, and musician. Raised in Northeast Los Angeles and Northern California, he began his career in 2004 as the lead vocalist of the post-hardcore band From First to Last.
+    wikipedia: https://en.wikipedia.org/wiki/Skrillex
+  - slug: sky-ferreira
+    name: Sky Ferreira
+    aliases: []
+    spotify_id: 7pyhre5oEEFMqcgMEvJY7q
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c9eceb126fe58104c719d25a
+    description: Sky Tonia Ferreira ( fə-RAIR-ə; born July 8, 1992) is an American singer-songwriter, model, and actress. As a teenager, Ferreira began uploading videos on Myspace of herself singing songs she had written, which led to her discovery by producers Bloodshy & Avant and a recording contract with Parlophone in 2009.
+    wikipedia: https://en.wikipedia.org/wiki/Sky_Ferreira
+  - slug: slam-donahue
+    name: Slam Donahue
+    aliases: []
+    spotify_id: 1YYQCJYmnlYQEydWnaYZWp
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/cbf240da7f4e7137684fae62f6e2afea8f1bd286
+    description: null
+    wikipedia: null
+  - slug: sleigh-bells
+    name: Sleigh Bells
+    aliases: []
+    spotify_id: 59pWgeY26Q6yJy37QvJflh
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c56e88ccf8834b613acc300c
+    description: Sleigh Bells is an American musical duo based in Brooklyn, New York, formed in 2008 and consisting of vocalist Alexis Krauss and guitarist/producer Derek Miller. The group became known for its overdriven style of noise pop, which incorporates elements from various genres, including pop, hip hop, metal, and punk.
+    wikipedia: https://en.wikipedia.org/wiki/Sleigh_Bells_(band)
+  - slug: slothrust
+    name: Slothrust
+    aliases: []
+    spotify_id: 6Nwhmo3adbTqPMCsgBgkf4
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517496954571aa1a17a70f905786
+    description: 'Slothrust (pronounced "sloth-rust"'', IPA: [ˈslɔθ.ɹʌst]) is an American alternative rock band from Boston, Massachusetts, formed in 2010.'
+    wikipedia: https://en.wikipedia.org/wiki/Slothrust
+  - slug: snow-wife
+    name: Snow Wife
+    aliases: []
+    spotify_id: 7CV3dQkhJB2dEqb85ICD33
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174681a91ad4b94d4034e0b7fbe
+    description: Emily Leann Snow, known professionally as Snow Wife, is an American singer.
+    wikipedia: https://en.wikipedia.org/wiki/Snow_Wife
+  - slug: solid-gold
+    name: Solid Gold
+    aliases: []
+    spotify_id: 1COxCh7Ij2fF66qWno7B44
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517418ecab8da16dd3150d0d6f46
+    description: null
+    wikipedia: null
+  - slug: spoon
+    name: Spoon
+    aliases: []
+    spotify_id: 0K1q0nXQ8is36PzOKAMbNe
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051740973020fd7390db68e5ebf1c
+    description: Spoon is an American rock band from Austin, Texas, consisting of members Britt Daniel (vocals, guitar), Jim Eno (drums), Alex Fischel (keyboards, guitar), and Ben Trokan (bass, keyboards). The band was formed in Austin in October 1993 by Daniel and Eno.
+    wikipedia: https://en.wikipedia.org/wiki/Spoon_(band)
+  - slug: st-vincent
+    name: St. Vincent
+    aliases: []
+    spotify_id: 7bcbShaqKdcyjnmv4Ix8j6
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174bb8bc9aace3d4d39d7cfd6f1
+    description: Anne Erin Clark (born September 28, 1982), known professionally as St. Vincent, is an American musician and singer-songwriter. Her guitar-playing has been praised for its melodic style and use of distortion.
+    wikipedia: https://en.wikipedia.org/wiki/St._Vincent_(musician)
+  - slug: stagnant-pools
+    name: Stagnant Pools
+    aliases: []
+    spotify_id: 0W4yFpFnKGz5frAszrMrM3
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/60bc653cb180397f9cf3b1d58af6f75f21e9afbb
+    description: Stagnant Pools are an American two-piece band from Bloomington, Indiana, United States, who have been compared to acts such as Sonic Youth and Joy Division by the Chicago Reader, and Pitchfork. The ensemble consists of Bryan and Douglass Enas.
+    wikipedia: https://en.wikipedia.org/wiki/Stagnant_Pools
+  - slug: star-slinger
+    name: Star Slinger
+    aliases: []
+    spotify_id: 4GyYa2wB1SohURhDwDCCnQ
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174990fdf3bef5c79c3728c8b3f
+    description: Star Slinger (born Darren Williams) is an electronic music producer and DJ based in Manchester, UK, taking influences mainly from house and hip hop. Star Slinger first came to attention after self-releasing a beat tape in the summer of 2010 entitled "Volume 1".
+    wikipedia: https://en.wikipedia.org/wiki/Star_Slinger
+  - slug: step-rockets
+    name: Step Rockets
+    aliases: []
+    spotify_id: 13NBINjChpGTx6AXEZ73O7
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174f3641af9510cae3369c75e73
+    description: null
+    wikipedia: null
+  - slug: steve-earle
+    name: Steve Earle
+    aliases: []
+    spotify_id: 2UBTfUoLI07iRqGeUrwhZh
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051749df7776d38d37e7543548cad
+    description: Stephen Fain Earle (; born January 17, 1955) is an American country, rock, and folk singer-songwriter and actor. He began his career as a songwriter in Nashville.
+    wikipedia: https://en.wikipedia.org/wiki/Steve_Earle
+  - slug: story-of-the-running-wolf
+    name: Story of the Running Wolf
+    aliases: []
+    spotify_id: 3Y6A4XTkADcLR5MvdYbVk7
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174351d9100aa36f49c72ebf233
+    description: null
+    wikipedia: null
+  - slug: strange-talk
+    name: Strange Talk
+    aliases: []
+    spotify_id: 0trBqRcZ4lXqh8FERL5ZMa
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051741b19b03f72d8e82d35f8372b
+    description: Strange Talk is an Australian synthpop duo from Melbourne, Victoria, consisting of Gerard Sidhu and Stephen Docker. Formed in 2010, their sound has been likened to that of Cut Copy, Passion Pit, Phoenix and Yeasayer.
+    wikipedia: https://en.wikipedia.org/wiki/Strange_Talk
+  - slug: strokes
+    name: The Strokes
+    aliases: []
+    spotify_id: 0epOFNiUfyON9EYx7Tpr6V
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517498856eea770468af6dd999d9
+    description: 'The Strokes is an American rock band from New York City that formed in 1998. It has maintained the same lineup since inception: lead vocalist and primary songwriter Julian Casablancas; guitarists Nick Valensi and Albert Hammond Jr.; bassist Nikolai Fraiture; and drummer Fabrizio Moretti.'
+    wikipedia: https://en.wikipedia.org/wiki/The_Strokes
+  - slug: sub-urban
+    name: Sub Urban
+    aliases: []
+    spotify_id: 7gXb99Sf9nNmpNYeAgIQFG
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517401416c642b9c96ef45b1986c
+    description: Daniel Virgil Maisonneuve (born October 22 , 1999), known professionally as Sub Urban, is an American singer-songwriter and producer. Born in Nyack, New York and raised in Ridgewood, New Jersey, he started producing and writing songs at fifteen.
+    wikipedia: https://en.wikipedia.org/wiki/Sub_Urban_(musician)
+  - slug: submarines
+    name: The Submarines
+    aliases: []
+    spotify_id: 6D9Y5lqXKgJv8CV6Ur59oS
+    spotify_match: exact
+    image_url: https://i.scdn.co/image/8d220a520cb77e267a5572c93aa9d284871e98e7
+    description: The Submarines are an American indie rock band from Los Angeles formed in 2006.
+    wikipedia: https://en.wikipedia.org/wiki/The_Submarines
+  - slug: sunflower-bean
+    name: Sunflower Bean
+    aliases: []
+    spotify_id: 1xVcjJ5YsYOClO2Unt3Rm8
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517473f893a47be3a2fc3ace2e92
+    description: Sunflower Bean is an American rock band from Glen Head, New York and Brooklyn founded in 2013. The band consists of Julia Cumming (bass, lead vocals), Nick Kivlen (guitars, backing vocals), and Olive Faber (drums).
+    wikipedia: https://en.wikipedia.org/wiki/Sunflower_Bean
+  - slug: talib-kweli
+    name: Talib Kweli
+    aliases: []
+    spotify_id: 0lEssBAxQl2In4RpaB1C2Y
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174aa21eb7ae46564e77e8ec4bf
+    description: Talib Kweli Greene ( ta-LIHB kwa-LEE; born October 3, 1975) is an American rapper. He is one half of the hip-hop duo Black Star, which he formed in 1997 with fellow Brooklyn rapper Yasiin Bey.
+    wikipedia: https://en.wikipedia.org/wiki/Talib_Kweli
+  - slug: tanlines
+    name: Tanlines
+    aliases: []
+    spotify_id: 7pW390CJdmhakvtcGZIqGP
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051743fd3ce5c8ac07131dbd2ecd2
+    description: Tanlines is an American electronic music and indie rock duo from Brooklyn, New York composed of percussionist Jesse Cohen and guitarist and vocalist Eric Emm. Their influence is drawn from various genres including pop, indie, dance and world music.
+    wikipedia: https://en.wikipedia.org/wiki/Tanlines
+  - slug: tashaki-miyaki
+    name: Tashaki Miyaki
+    aliases: []
+    spotify_id: 2nBESHLVErh34gRaXhIB18
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744916815ad870874ff8581b04
+    description: Tashaki Miyaki is an American rock band from Los Angeles, California. Formed in 2011, they immediately began to garner the attention of taste makers such as The Guardian, NME, Mojo Magazine, KCRW and The New York Times for their paisley underground/dream pop–inspired sound and cinematic videos.
+    wikipedia: https://en.wikipedia.org/wiki/Tashaki_Miyaki
+  - slug: team-spirit
+    name: Team Spirit
+    aliases: []
+    spotify_id: 6NsxutdEGJrHbtzKuCBAIT
+    spotify_match: ambiguous
+    image_url: https://i.scdn.co/image/9adc2fad2da70d9a32f62aabb541bd2d4dbf04a6
+    description: null
+    wikipedia: null
+  - slug: thief
+    name: Thief
+    aliases: []
+    spotify_id: 4fNrJgOft931IHhayBWZoo
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab676161000051743af5fde116f471453e78eac9
+    description: null
+    wikipedia: null
+  - slug: throwdown
+    name: Throwdown
+    aliases: []
+    spotify_id: 18jFO6Z2Bpdv5jp8mXfChN
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051740de303d9fbed6d0156a30313
+    description: Throwdown is an American hardcore and metal band from Orange County, California. Formed in 1997, the band has endured numerous lineup changes such that no original members remain.
+    wikipedia: https://en.wikipedia.org/wiki/Throwdown_(band)
+  - slug: ting-tings
+    name: The Ting Tings
+    aliases: []
+    spotify_id: 2wvUfjKGoXvcnDHq7GgMOa
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174275695a1290cd9429f564f8b
+    description: The Ting Tings are an English indie pop duo formed in Salford, Greater Manchester, in 2007. The band consists of Katie White (vocals, guitar, bass drums, bass guitar, cowbells) and Jules De Martino (drums, lead guitar, bass guitar, keyboards, vocals).
+    wikipedia: https://en.wikipedia.org/wiki/The_Ting_Tings
+  - slug: torres
+    name: Torres
+    aliases: []
+    spotify_id: 3lrDYjsghBMfUTiLziD9q9
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174e0b009e47d420027f80ace99
+    description: Mackenzie Ruth Scott (born January 23, 1991), known professionally as Torres, is an American indie rock singer-songwriter.
+    wikipedia: https://en.wikipedia.org/wiki/Torres_(musician)
+  - slug: tove-lo
+    name: Tove Lo
+    aliases: []
+    spotify_id: 4NHQUGzhtTLFvgF5SZesLK
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174052316e437e3525c9f9b473b
+    description: 'Ebba Tove Elsa Nilsson (born 29 October 1987), known professionally as Tove Lo ( TOH-və LOH; Swedish: [ˈtûːvɛ ˈluː]), is a Swedish singer-songwriter. She is known for her raw, grunge-influenced take on pop music.'
+    wikipedia: https://en.wikipedia.org/wiki/Tove_Lo
+  - slug: tove-styrke
+    name: Tove Styrke
+    aliases: []
+    spotify_id: 2QSPrJfYeRXaltEEiriXN9
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174cabb2541dc49b59fc73443ea
+    description: 'Tove Anna Linnéa Östman Styrke (Swedish pronunciation: [ˈtǔːvɛ ˈstʏ̂rːkɛ]; born 19 November 1992) is a Swedish singer and songwriter. She gained popularity as a contestant on Swedish Idol 2009, finishing in third place.'
+    wikipedia: https://en.wikipedia.org/wiki/Tove_Styrke
+  - slug: town-hall
+    name: Town Hall
+    aliases: []
+    spotify_id: 3LJ7j0QZUab0rdlaHidlqQ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b670ea87466bd2928f487def
+    description: null
+    wikipedia: null
+  - slug: triathalon
+    name: Triathalon
+    aliases: []
+    spotify_id: 2SaIA1enj83vEmJikZdjQ3
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174dc4ef3bad352c23825623deb
+    description: null
+    wikipedia: null
+  - slug: triple-hex
+    name: Triple Hex
+    aliases: []
+    spotify_id: 5gL174yx9Si1oZ4tzKMRrO
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0240a7e21313229299ca2887fb
+    description: null
+    wikipedia: null
+  - slug: tuneyards
+    name: tUnE-yArDs
+    aliases: []
+    spotify_id: 0asVlqTLu3TimnYVyY5Jxi
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174369ea373b242c2ac2238439a
+    description: Tune-Yards (stylized as tUnE-yArDs) is the Oakland, California–based music project of Merrill Garbus (vocals, various instruments) and Nate Brenner (bass, various instruments). Garbus's music draws from an eclectic variety of sources and uses elements such as loop pedals, ukulele, vocals, and lo-fi percussion.
+    wikipedia: https://en.wikipedia.org/wiki/Tune-Yards
+  - slug: tv-on-the-radio
+    name: TV on the Radio
+    aliases: []
+    spotify_id: 3HJIB8sYPyxrFGuwvKXSLR
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517404300b05fd57eab7c68e7213
+    description: TV on the Radio (TVOTR) is an American rock band from Brooklyn, New York, formed in 2001. The band consists of Tunde Adebimpe (vocals, loops), Dave Sitek (guitars, keyboards, loops), Kyp Malone (vocals, guitars, bass, loops), and Jaleel Bunton (drums, bass, vocals, loops, guitars).
+    wikipedia: https://en.wikipedia.org/wiki/TV_on_the_Radio
+  - slug: twin-peaks
+    name: Twin Peaks
+    aliases: []
+    spotify_id: 1xD85sp0kecIVuMwUHShxs
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174326e48a9ab8ffb6718ab448f
+    description: Twin Peaks is an American indie rock band from Chicago, Illinois.
+    wikipedia: https://en.wikipedia.org/wiki/Twin_Peaks_(band)
+  - slug: twin-shadow
+    name: Twin Shadow
+    aliases: []
+    spotify_id: 6fLrPFLWLSCrp7gcTZXcKb
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b2fd051e3d780aa0ab294f06
+    description: George William Lewis Jr. (born March 30, 1983), better known by his stage name Twin Shadow, is a Dominican-born American musician, producer, and actor.
+    wikipedia: https://en.wikipedia.org/wiki/Twin_Shadow
+  - slug: two-door-cinema-club
+    name: Two Door Cinema Club
+    aliases: []
+    spotify_id: 536BYVgOnRky0xjsPT96zl
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517486faeb97a905a571b2c361a0
+    description: Two Door Cinema Club are a Northern Irish rock band formed in Bangor, County Down, in 2007. The band consists of Alex Trimble (vocals, rhythm guitar, beats, synths), Sam Halliday (lead guitar, backing vocals), and Kevin Baird (bass, synths, backing vocals).
+    wikipedia: https://en.wikipedia.org/wiki/Two_Door_Cinema_Club
+  - slug: unicorns
+    name: The Unicorns
+    aliases: []
+    spotify_id: 7L5HH5QtkDe7u2hJ1FUKFo
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022561bfe95a05d5f1b84156b0
+    description: The Unicorns were a Canadian rock band formed in the year 2000 by Nicholas Thorburn (Nick Diamonds) of British Columbia and Alden Penner (Alden Ginger) of Quebec. J'aime Tambeur joined in December 2003.
+    wikipedia: https://en.wikipedia.org/wiki/The_Unicorns
+  - slug: until-the-ribbon-breaks
+    name: Until the Ribbon Breaks
+    aliases: []
+    spotify_id: 0PFM64sKw3GG4Sk8kqNIcp
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051746f67529f79689c407611232f
+    description: Until the Ribbon Breaks (often abbreviated to UTRB), is a Welsh band consisting of the frontman Pete Lawrie-Winfield (lead vocals, keyboards, programming, percussion, brass, guitar) and Elliot Wall (drums, programming, backing vocals).
+    wikipedia: https://en.wikipedia.org/wiki/Until_the_Ribbon_Breaks
+  - slug: upsahl
+    name: UPSAHL
+    aliases: []
+    spotify_id: 1294QqYm1VuxxjRiL9M0h9
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174c064939b0966ee7acf448f9a
+    description: Taylor Cameron Upsahl ( ; born November 28, 1998), known mononymously as Upsahl (stylized as UPSAHL), is an American singer-songwriter from Phoenix, Arizona. She began releasing music during her early teens using her full name, with her first single "Disturbance" released in 2011.
+    wikipedia: https://en.wikipedia.org/wiki/Upsahl
+  - slug: values-here
+    name: Values Here
+    aliases: []
+    spotify_id: 0epBQSh5Of962gKfmjAc8V
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051748fc419de11ceeb80c4998c77
+    description: null
+    wikipedia: null
+  - slug: vance-joy
+    name: Vance Joy
+    aliases: []
+    spotify_id: 10exVja0key0uqUkk6LJRT
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051744be87c6d504aa62024a87f48
+    description: James Gabriel Keogh (born 1 December 1987), known professionally as Vance Joy, is an Australian singer, songwriter, musician, and former Australian rules footballer. He is best known for his 2013 hit song "Riptide".
+    wikipedia: https://en.wikipedia.org/wiki/Vance_Joy
+  - slug: verite
+    name: Verite
+    aliases: []
+    spotify_id: 1Fr6agZ6iSM5Ynn2k4C8sc
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ab4fd4b23be3d9756217d3d4
+    description: null
+    wikipedia: null
+  - slug: vince-staples
+    name: Vince Staples
+    aliases: []
+    spotify_id: 68kEuyFKyqrdQQLLsmiatm
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174d90bf111a0acbcb98fc6569d
+    description: Vincent Jamal Staples (born July 2, 1993) is an American rapper, singer, songwriter, and actor. He first became known for his appearances on the projects from Odd Future members and affiliates, including Earl Sweatshirt's Earl (2010) and Doris (2013), Mike G.’s Ali (2010) and The Jet Age of Tomorrow's Journey to the 5th Echelon (2010).
+    wikipedia: https://en.wikipedia.org/wiki/Vince_Staples
+  - slug: viva-brother
+    name: Viva Brother
+    aliases: []
+    spotify_id: 1Ie3ozKcTRximBMmQQeVJb
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517417fbed5839828ba0de99fc36
+    description: Viva Brother are an English rock band from Burnham, Berkshire. Previously known as Brother, they signed to Geffen Records in October and EMI Publishing in November 2010.
+    wikipedia: https://en.wikipedia.org/wiki/Viva_Brother
+  - slug: viva-mayday
+    name: Viva Mayday
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: viva-viva
+    name: Viva Viva
+    aliases: []
+    spotify_id: 5RT9jddAw8h3qzndvCssOH
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174afee5a74eda8d8ac424cb177
+    description: null
+    wikipedia: null
+  - slug: voidz
+    name: The Voidz
+    aliases: []
+    spotify_id: 4nUBBtLtzqZGpdiynTJbYJ
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174eaba75f7647db1ab146c9162
+    description: The Voidz (formerly Julian Casablancas + The Voidz) are an experimental rock band. They consist of Julian Casablancas (vocals), Jeramy "Beardo" Gritter (guitar), Amir Yaghmai (guitar), Jacob "Jake" Bercovici (bass, synthesizers), Alex Carapetis (drums), and Jeff Kite (keyboards).
+    wikipedia: https://en.wikipedia.org/wiki/The_Voidz
+  - slug: vorhees
+    name: Vorhees
+    aliases: []
+    spotify_id: 20PG7QR1QZnkPj8AQXw0wz
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174028e3c66ccf95aaf52fa8442
+    description: null
+    wikipedia: null
+  - slug: walk-the-moon
+    name: Walk the Moon
+    aliases: []
+    spotify_id: 6DIS6PRrLS3wbnZsf7vYic
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174ab9610e36fae856c0fd9b46b
+    description: Walk the Moon (stylized in all-caps) is an American rock band based in Cincinnati, Ohio. Lead singer Nicholas Petricca started the band in 2006, while a student at Kenyon College, deriving the band's name from the song "Walking on the Moon" by The Police.
+    wikipedia: https://en.wikipedia.org/wiki/Walk_the_Moon
+  - slug: watermelon
+    name: Watermelon
+    aliases: []
+    spotify_id: 7n0HXsmV3564SP9DZ61dwg
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028b5e1486642555c60bb11b65
+    description: null
+    wikipedia: null
+  - slug: wavves
+    name: Wavves
+    aliases: []
+    spotify_id: 6bUJpbekaIlq2fT5FMV2mQ
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517478eb659fbba3b198cc2f4160
+    description: Wavves is an American rock band based in San Diego, California.
+    wikipedia: https://en.wikipedia.org/wiki/Wavves
+  - slug: weekend
+    name: Weekend
+    aliases: []
+    spotify_id: 4ypou4nriO8G6UiKe570cz
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517477ed3aa150e78e2b484df1d7
+    description: null
+    wikipedia: null
+  - slug: weeknight
+    name: Weeknight
+    aliases: []
+    spotify_id: 0KXJYyAnIGM0UOlwuvwAjF
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174831a92e7bc03eb164c089076
+    description: null
+    wikipedia: null
+  - slug: wet-witch
+    name: Wet Witch
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: wildlife
+    name: Wildlife
+    aliases: []
+    spotify_id: 4ulonkGlELgtzTjNxsMIaQ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab6761610000517453345bd9f925f09397dd99a5
+    description: Wildlife are a Canadian indie rock band formed in 2005. The band is currently based in Toronto.
+    wikipedia: https://en.wikipedia.org/wiki/Wildlife_(band)
+  - slug: xenia-rubinos
+    name: Xenia Rubinos
+    aliases: []
+    spotify_id: 17UUkxLWmRP5P47W5kwVVb
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174b9a1be708ac8bd35b0243056
+    description: Xenia Rubinos (born July 24, 1985) is an American singer-songwriter and multi-instrumentalist.
+    wikipedia: https://en.wikipedia.org/wiki/Xenia_Rubinos
+  - slug: xray-eyeballs
+    name: X-Ray Eyeballs
+    aliases: []
+    spotify_id: 3dyE7OilZZAJZyAeI5MfEJ
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67726900008f745cf91de2821c7090f10798fd
+    description: null
+    wikipedia: null
+  - slug: xylos
+    name: Xylos
+    aliases: []
+    spotify_id: 7llevqWsrSrjkQghJnbpEL
+    spotify_match: exact
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02eaba3ad8b269f9940e166a76
+    description: null
+    wikipedia: null
+  - slug: yamantaka-sonic-titan
+    name: Yamantaka // Sonic Titan
+    aliases: []
+    spotify_id: 2QRoohviRnCgnokZ6KI7mc
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051746f797deb51bb4731d25dc42b
+    description: Yamantaka // Sonic Titan is a Canadian experimental music and performance art collective.
+    wikipedia: https://en.wikipedia.org/wiki/Yamantaka_//_Sonic_Titan
+  - slug: yeah-yeah-yeahs
+    name: Yeah Yeah Yeahs
+    aliases: []
+    spotify_id: 3TNt4aUIxgfy9aoaft5Jj2
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174c4f717ba98edb3a4371066aa
+    description: Yeah Yeah Yeahs (often abbreviated as YYYs) are an American indie rock band formed in New York City in 2000 by Karen O (vocals), Nick Zinner (guitars, keyboards), and Brian Chase (drums, percussion). They rose to fame during the 2000s garage rock and post-punk revivals, noted for their evolving musical style and energetic performances.
+    wikipedia: https://en.wikipedia.org/wiki/Yeah_Yeah_Yeahs
+  - slug: years-and-years
+    name: Years & Years
+    aliases: []
+    spotify_id: 2oIcjNC5uuagLRLRS1fE7c
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f9f4fc0993fd74b0f726a319
+    description: Years & Years were an English electropop band formed in London in 2010. The band rose to fame after their single "King" (2015) topped the UK Singles Chart and entered the top ten hit in thirteen other regions.
+    wikipedia: https://en.wikipedia.org/wiki/Years_%26_Years
+  - slug: young-magic
+    name: Young Magic
+    aliases: []
+    spotify_id: 2zvHdumCVk0uFT5vRMcehZ
+    spotify_match: ambiguous
+    image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174f81990fe52f7f51910134854
+    description: Young Magic is an American electronic music group from Brooklyn, New York, formed in 2010. The project consists of multi-instrumentalists and producers Melati Malay and Isaac Emmanuel.
+    wikipedia: https://en.wikipedia.org/wiki/Young_Magic
+  - slug: youth-lagoon
+    name: Youth Lagoon
+    aliases: []
+    spotify_id: 1Z2KInfSmPOzAIYyiaXeti
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517480ffcc90627f708b01a549f1
+    description: null
+    wikipedia: null
+  - slug: yuna
+    name: Yuna
+    aliases: []
+    spotify_id: 3kHVioJpVxlazAAKQ64pC1
+    spotify_match: ambiguous
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174332583960ae0f0a1aa243dea
+    description: null
+    wikipedia: null
+  - slug: yvette
+    name: Yvette
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null
+  - slug: zella-day
+    name: Zella Day
+    aliases: []
+    spotify_id: 100sLnojEpcadRx4edEBA6
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051747bf1e7319e02b8b5cb0b3fcc
+    description: Zella Day Kerr (born March 13, 1995) is an American singer, songwriter, and musician. Day independently released her debut album, Powered by Love (2009), at age 14.
+    wikipedia: https://en.wikipedia.org/wiki/Zella_Day
+  - slug: zulu-pearls
+    name: Zulu Pearls
+    aliases: []
+    spotify_id: null
+    spotify_match: none
+    image_url: null
+    description: null
+    wikipedia: null

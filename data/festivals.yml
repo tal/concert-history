@@ -1,0 +1,646 @@
+schema_version: 1
+festivals:
+  - concert_id: "2011-06-18-governors-ball-music-festival"
+    name: Governors Ball Music Festival 2011
+    start_date: '2011-06-18'
+    end_date: '2011-06-18'
+    days:
+      - date: '2011-06-18'
+        attendance: unknown
+        attendance_basis: "Only evidence is a Ticketfly order email (status Ticket evidence). The record has no attendee statement or photos, and its notes say listed artists are not proof each set was seen."
+        lineup:
+          - Pretty Lights
+          - Empire of the Sun
+          - Girl Talk
+          - Neon Indian
+          - Miami Horror
+          - Das Racist
+          - Reptar
+          - Big Boi
+          - People Under the Stairs
+          - Mac Miller
+          - "Passion Pit (DJ set)"
+          - Outasight
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2011"
+        lineup_status: complete
+    seen: []
+    unplaced: []
+  - concert_id: "2012-06-09-bonnaroo-music-arts-festival"
+    name: Bonnaroo Music & Arts Festival 2012
+    start_date: '2012-06-07'
+    end_date: '2012-06-10'
+    lineup_note: "Music stages only (What, Which, the three tents, Café Where, Great Taste Lounge, Sonic Stage, Silent Disco). Comedy, Cinema Tent and Solar Stage programming is excluded."
+    days:
+      - date: '2012-06-07'
+        attendance: unknown
+        attendance_basis: "The record only establishes Fri and Sat. Dale Earnhardt Jr. Jr. and Moon Taxi also played Fri, so Tal picking them does not place Tal on site Thursday."
+        lineup:
+          - Alabama Shakes
+          - Kendrick Lamar
+          - Yelawolf
+          - Danny Brown
+          - The Lonely Forest
+          - The Dirty Guv'nahs
+          - Big Gigantic
+          - SOJA
+          - Moon Taxi
+          - Orgone
+          - Mariachi El Bronx
+          - K.Flay
+          - MiMosa
+          - Phantogram
+          - White Denim
+          - Dale Earnhardt Jr. Jr.
+          - The Cave Singers
+          - EMA
+          - Cherub
+          - Glossary
+          - Marina Orchestra
+          - MonstrO
+          - Hudost
+          - The Casey Driessen Singularity
+          - Water Knot
+          - Rollin' In The Hay
+          - Fort Atlantic
+          - Jared Dietch
+          - Quickie Mart
+          - DJ Equal
+          - "K-Flay (DJ set)"
+          - DJ XSV
+        lineup_source: "https://en.wikipedia.org/wiki/2012_Bonnaroo_Music_Festival"
+        lineup_status: complete
+      - date: '2012-06-08'
+        attendance: attended
+        attendance_basis: "Tal picked Radiohead, Electric Guest, tUnE-yArDs and Two Door Cinema Club, all of which the record notes place on Fri Jun 8 only."
+        lineup:
+          - Radiohead
+          - Rodrigo y Gabriela and C.U.B.A.
+          - The Avett Brothers
+          - Sharon Jones & The Dap-Kings
+          - The Soul Rebels
+          - Foster the People
+          - Feist
+          - AfroCubism
+          - Needtobreathe
+          - The Kooks
+          - Umphrey's McGee
+          - Major Lazer
+          - Ludacris
+          - Little Dragon
+          - Two Door Cinema Club
+          - tUnE-yArDs
+          - Electric Guest
+          - Flying Lotus
+          - Black Star
+          - St. Vincent
+          - Fitz and the Tantrums
+          - Laura Marling
+          - Ben Howard
+          - Michael Kiwanuka
+          - Big Freedia
+          - Ivan Neville's Dumpstaphunk
+          - The Word
+          - Dawes
+          - Trampled by Turtles
+          - Sam Bush
+          - The Infamous Stringdusters
+          - Steven Bernstein's MTO Plays SLY
+          - The Deep Dark Woods
+          - Chappo
+          - Claire and the Reasons
+          - Paladino
+          - Valient Thorr
+          - Rubblebucket
+          - Pujol
+          - Sara Watkins
+          - Oberhofer
+          - "Hey Rosetta!"
+          - Caitlin Rose
+          - Katie Herzig
+          - Trixie Whitley
+          - Shahidah Omar
+          - Punch Brothers
+          - Colin Hay
+          - Moon Taxi
+          - The Dirty Guv'nahs
+          - Dale Earnhardt Jr. Jr.
+          - Jared Dietch
+          - Wyllys
+          - DJ Equal
+          - Quickie Mart
+          - Mark Foster of Foster the People
+          - DJ XSV
+          - "K-Flay (DJ set)"
+        lineup_source: "https://en.wikipedia.org/wiki/2012_Bonnaroo_Music_Festival"
+        lineup_status: complete
+      - date: '2012-06-09'
+        attendance: attended
+        attendance_basis: "Tal saw Art vs. Science at the Great Taste Lounge and recalls Flogging Molly (attendee sources); Tal also picked Red Hot Chili Peppers. The record notes place all three on Sat Jun 9."
+        lineup:
+          - Red Hot Chili Peppers
+          - The Roots
+          - Santigold
+          - The Temper Trap
+          - Charles Bradley and His Extraordinaires
+          - Skrillex
+          - Dispatch
+          - Childish Gambino
+          - Punch Brothers
+          - Blind Pilot
+          - The Devil Makes Three
+          - "GZA performing \"Liquid Swords\" backed by Grupo Fantasma"
+          - "Superjam ft. ?uestlove and very special guests"
+          - Mogwai
+          - SBTRKT
+          - Battles
+          - Das Racist
+          - Darondo
+          - "Unchained \"The Mighty Van Halen Tribute\""
+          - Alice Cooper
+          - Danzig Legacy
+          - Puscifer
+          - Flogging Molly
+          - Bad Brains
+          - Pelican
+          - Pedrito Martinez Group
+          - Spectrum Road
+          - Red Baraat
+          - La-33
+          - Khaira Arby & Her Band
+          - Debo Band
+          - Janka Nabay & the Bubu Gang
+          - James Wallace & the Naked Light
+          - Jukebox the Ghost
+          - Sister Sparrow & the Dirty Birds
+          - Bhi Bhiman
+          - Art vs. Science
+          - We Are Augustines
+          - The Stooges Brass Band
+          - Robert Ellis
+          - Chuck Mead
+          - Tauk
+          - LP
+          - Wild Cub
+          - Cosmic Suckerpunch
+          - The Main Squeeze
+          - Gary Clark Jr.
+          - North Mississippi Allstars Duo
+          - Oberhofer
+          - Trampled by Turtles
+          - "Hey Rosetta!"
+          - Dawes
+          - Trixie Whitley
+          - The Casey Driessen Singularity
+          - Brenton Duvall
+          - "Penguin Prison (DJ set)"
+          - "Body Language (DJ set)"
+          - Wyllys
+        lineup_source: "https://en.wikipedia.org/wiki/2012_Bonnaroo_Music_Festival"
+        lineup_status: complete
+      - date: '2012-06-10'
+        attendance: unknown
+        attendance_basis: "Notes say Tal left before Phish closed Sunday night, but the source is a Jun 6 email written before the festival and no act places Tal on site Sunday: Chappo also played Fri, and Tal does not think they saw Grouplove."
+        lineup:
+          - Phish
+          - Bon Iver
+          - The Beach Boys
+          - Gary Clark Jr.
+          - The Shins
+          - Ben Folds Five
+          - Mac Miller
+          - The Black Lips
+          - Delta Spirit
+          - Young the Giant
+          - The Joy Formidable
+          - The War on Drugs
+          - Grouplove
+          - ALO
+          - fun.
+          - Kurt Vile and the Violators
+          - The Antlers
+          - Here We Go Magic
+          - Fruit Bats
+          - Black Box Revelation
+          - The Civil Wars
+          - Kenny Rogers
+          - City and Colour
+          - Kathleen Edwards
+          - Sarah Jarosz
+          - Machines Are People Too
+          - Robert Francis
+          - Matt Sucich
+          - Bethesda
+          - The Staves
+          - Yuna
+          - The Silent Comedy
+          - "By Lightning!"
+          - Honey Island Swamp Band
+          - Fly Golden Eagle
+          - Brownout
+          - Chappo
+          - We Are Augustines
+          - Blind Pilot
+          - Red Baraat
+          - Sister Sparrow & the Dirty Birds
+          - "Body Language (DJ set)"
+        lineup_source: "https://en.wikipedia.org/wiki/2012_Bonnaroo_Music_Festival"
+        lineup_status: complete
+    seen:
+      - artist: Radiohead
+        date: '2012-06-08'
+        basis: "attendee_confirmed"
+      - artist: Electric Guest
+        date: '2012-06-08'
+        basis: "attendee_confirmed"
+      - artist: tUnE-yArDs
+        date: '2012-06-08'
+        basis: "attendee_confirmed"
+      - artist: Two Door Cinema Club
+        date: '2012-06-08'
+        basis: "attendee_confirmed"
+      - artist: Red Hot Chili Peppers
+        date: '2012-06-09'
+        basis: "attendee_confirmed"
+      - artist: Flogging Molly
+        date: '2012-06-09'
+        basis: "attendee_confirmed"
+      - artist: Art vs. Science
+        date: '2012-06-09'
+        basis: "attendee_confirmed"
+      - artist: Dale Earnhardt Jr. Jr.
+        date: null
+        possible_dates: ['2012-06-07', '2012-06-08']
+        basis: "attendee_confirmed"
+      - artist: Moon Taxi
+        date: null
+        possible_dates: ['2012-06-07', '2012-06-08']
+        basis: "attendee_confirmed"
+      - artist: Oberhofer
+        date: null
+        possible_dates: ['2012-06-08', '2012-06-09']
+        basis: "attendee_confirmed"
+      - artist: Chappo
+        date: null
+        possible_dates: ['2012-06-08', '2012-06-10']
+        basis: "attendee_confirmed"
+    unplaced: []
+  - concert_id: "2012-06-23-governors-ball-music-festival"
+    name: Governors Ball Music Festival 2012
+    start_date: '2012-06-23'
+    end_date: '2012-06-24'
+    days:
+      - date: '2012-06-23'
+        attendance: attended
+        attendance_basis: "Tal remembers seeing Art vs. Science at Governors Ball (attendee source), and the record notes place that set on Sat Jun 23."
+        lineup:
+          - Passion Pit
+          - Chromeo
+          - Kid Cudi
+          - Major Lazer
+          - Santigold
+          - Penguin Prison
+          - Art vs. Science
+          - Duck Sauce
+          - Atmosphere
+          - "Special Disco Version (James Murphy & Pat Mahoney)"
+          - Big Gigantic
+          - Walk the Moon
+          - K.Flay
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2012"
+        lineup_status: complete
+        not_on_final_schedule:
+          - Nobody Beats the Drum
+      - date: '2012-06-24'
+        attendance: unknown
+        attendance_basis: "The record has no ticket or check-in for either day. In April 2012 Tal said they might go \"day 2 only\" if tickets were cheap, and the notes put Tal at Brooklyn Bowl on the night of Jun 24, so Sunday is unresolved."
+        lineup:
+          - Modest Mouse
+          - Beck
+          - Explosions in the Sky
+          - Fiona Apple
+          - Built to Spill
+          - Cults
+          - Freelance Whales
+          - Alberta Cross
+          - Cage the Elephant
+          - Devendra Banhart
+          - Phantogram
+          - The Jezabels
+          - Turf War
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2012"
+        lineup_status: complete
+    seen:
+      - artist: Art vs. Science
+        date: '2012-06-23'
+        basis: "attendee_confirmed"
+    unplaced: []
+  - concert_id: "2014-06-07-governors-ball-music-festival"
+    name: Governors Ball Music Festival 2014
+    start_date: '2014-06-06'
+    end_date: '2014-06-08'
+    days:
+      - date: '2014-06-06'
+        attendance: unknown
+        attendance_basis: The record only places Tal on Sat Jun 7. It does not say whether the 2 GA Eventbrite tickets covered Friday or whether Tal went.
+        lineup:
+          - Outkast
+          - Phoenix
+          - TV on the Radio
+          - Julian Casablancas + The Voidz
+          - Janelle Monáe
+          - Jason Isbell
+          - Haerts
+          - Neko Case
+          - Bastille
+          - Kurt Vile and the Violators
+          - Drowners
+          - Damon Albarn
+          - "Damian \"Jr. Gong\" Marley"
+          - Jenny Lewis
+          - The 1975
+          - Run the Jewels
+          - Little Comets
+          - Grimes
+          - La Roux
+          - Washed Out
+          - Ratking
+          - Little Daylight
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2014"
+        lineup_status: partial
+      - date: '2014-06-07'
+        attendance: attended
+        attendance_basis: "Notes: photos (7:10-9:54 PM, Randall's Island GPS) and the on-site photo booth emails put Tal there on Sat Jun 7."
+        lineup:
+          - Jack White
+          - The Strokes
+          - Skrillex
+          - Broken Bells
+          - Lucius
+          - PAPA
+          - Hunter Hunted
+          - Spoon
+          - The Naked and Famous
+          - Fitz and the Tantrums
+          - Tanlines
+          - Diarrhea Planet
+          - Childish Gambino
+          - Disclosure
+          - Classixx
+          - RJD2
+          - Catfish and the Bottlemen
+          - Sleigh Bells
+          - The Glitch Mob
+          - Chance the Rapper
+          - Deafheaven
+          - The Internet
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2014"
+        lineup_status: complete
+      - date: '2014-06-08'
+        attendance: unknown
+        attendance_basis: The record only places Tal on Sat Jun 7. It does not say whether the 2 GA Eventbrite tickets covered Sunday or whether Tal went.
+        lineup:
+          - Vampire Weekend
+          - Axwell Λ Ingrosso
+          - Foster the People
+          - The Head and the Heart
+          - Frank Turner
+          - Bleachers
+          - Meg Myers
+          - Interpol
+          - The Kills
+          - "Tyler, the Creator"
+          - Wild Belle
+          - Half Moon Run
+          - James Blake
+          - J. Cole
+          - Earl Sweatshirt
+          - Skaters
+          - Cris Cab
+          - Empire of the Sun
+          - "The Bloody Beetroots (Live)"
+          - AlunaGeorge
+          - Banks
+          - Cayucas
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2014"
+        lineup_status: partial
+    seen:
+      - artist: Broken Bells
+        date: '2014-06-07'
+        basis: "attendee_confirmed"
+      - artist: Sleigh Bells
+        date: '2014-06-07'
+        basis: "attendee_confirmed"
+      - artist: Lucius
+        date: '2014-06-07'
+        basis: "attendee_confirmed"
+    unplaced:
+      - Tourist
+      - The Chain Gang of 1974
+      - Ben Cameron
+    unplaced_note: "Not record acts. The official by-day poster has Tourist and Ben Cameron on Fri and The Chain Gang of 1974 on Sun; Wikipedia has The Chain Gang of 1974 on Fri and Ben Cameron on Sun and omits Tourist. The published set-time grid could not be read."
+  - concert_id: "2015-06-05-governors-ball-music-festival"
+    name: Governors Ball Music Festival 2015
+    start_date: '2015-06-05'
+    end_date: '2015-06-07'
+    days:
+      - date: '2015-06-05'
+        attendance: attended
+        attendance_basis: "Tal is pretty sure they only went on Fri Jun 5 (attendee source). Photos, the Friday shuttle pass and same-day transport tickets also place Tal there."
+        lineup:
+          - Drake
+          - Florence + the Machine
+          - Chromeo
+          - Future
+          - Rae Sremmurd
+          - Priory
+          - St. Vincent
+          - Death From Above 1979
+          - Rudimental
+          - Benjamin Booker
+          - Black Pistol Fire
+          - My Morning Jacket
+          - The Decemberists
+          - Vance Joy
+          - Charli XCX
+          - DIIV
+          - The Districts
+          - Ratatat
+          - ODESZA
+          - MØ
+          - "Gorgon City (Live)"
+          - People Under the Stairs
+        lineup_source: "https://www.timeout.com/newyork/blog/heres-the-full-govball-schedule-for-this-weekend"
+        lineup_status: complete
+        not_on_final_schedule:
+          - Twin Shadow
+      - date: '2015-06-06'
+        attendance: "not_attended"
+        attendance_basis: "Tal is pretty sure they only went on Fri Jun 5 (attendee source, confirmed 2026-11-08)."
+        lineup:
+          - deadmau5
+          - Björk
+          - Little Dragon
+          - Marina and the Diamonds
+          - Clean Bandit
+          - Holychild
+          - Flume
+          - Atmosphere
+          - Sharon Van Etten
+          - J. Roddy Walston & The Business
+          - Kate Tempest
+          - Ryan Adams
+          - Conor Oberst
+          - Angus & Julia Stone
+          - Moon Taxi
+          - White Lung
+          - Charlotte OC
+          - SBTRKT
+          - Future Islands
+          - Kiesza
+          - Rustie
+          - ASTR
+        lineup_source: "https://www.timeout.com/newyork/blog/heres-the-full-govball-schedule-for-this-weekend"
+        lineup_status: complete
+      - date: '2015-06-07'
+        attendance: "not_attended"
+        attendance_basis: "Tal is pretty sure they only went on Fri Jun 5 (attendee source, confirmed 2026-11-08)."
+        lineup:
+          - The Black Keys
+          - Lana Del Rey
+          - Noel Gallagher's High Flying Birds
+          - Tame Impala
+          - Sturgill Simpson
+          - Echosmith
+          - Streets of Laredo
+          - Hot Chip
+          - The War on Drugs
+          - Royal Blood
+          - Chronixx and the Zincfence Redemption
+          - DMA's
+          - Big Gigantic
+          - A-Trak
+          - Logic
+          - Strand of Oaks
+          - The Picturebooks
+          - Flying Lotus
+          - "\"Weird Al\" Yankovic"
+          - Mayer Hawthorne
+          - Hermitude
+          - Bishop Nehru
+        lineup_source: "https://www.timeout.com/newyork/blog/heres-the-full-govball-schedule-for-this-weekend"
+        lineup_status: complete
+        not_on_final_schedule:
+          - Kaytranada
+    seen:
+      - artist: MØ
+        date: '2015-06-05'
+        basis: "attendee_confirmed"
+      - artist: DIIV
+        date: '2015-06-05'
+        basis: "attendee_confirmed"
+      - artist: Ratatat
+        date: '2015-06-05'
+        basis: "attendee_confirmed"
+      - artist: Chromeo
+        date: '2015-06-05'
+        basis: "attendee_confirmed"
+      - artist: Florence + the Machine
+        date: '2015-06-05'
+        basis: "attendee_confirmed"
+    unplaced: []
+  - concert_id: "2016-06-03-governors-ball-music-festival"
+    name: Governors Ball Music Festival 2016
+    start_date: '2016-06-03'
+    end_date: '2016-06-05'
+    days:
+      - date: '2016-06-03'
+        attendance: unknown
+        attendance_basis: "Notes say ticket type and exact days attended require review. All three photos in the record were captured Jun 3 (6:52-7:35 PM), which points to Friday but has not been resolved in the record."
+        lineup:
+          - The Strokes
+          - Beck
+          - Of Monsters and Men
+          - Christine and the Queens
+          - Elle King
+          - The London Souls
+          - Bloc Party
+          - Father John Misty
+          - Action Bronson
+          - Bully
+          - Public Access T.V.
+          - Robyn
+          - Matt and Kim
+          - Big Grams
+          - Years & Years
+          - Meg Mac
+          - Transviolet
+          - Jamie xx
+          - Duke Dumont
+          - Bob Moses
+          - Boogie
+          - Black Pistol Fire
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2016"
+        lineup_status: complete
+      - date: '2016-06-04'
+        attendance: unknown
+        attendance_basis: Notes say ticket type and exact days attended require review. No photo or attendee statement covers Saturday.
+        lineup:
+          - The Killers
+          - Haim
+          - Lord Huron
+          - Catfish and the Bottlemen
+          - Marian Hill
+          - Eliot Sumner
+          - Miike Snow
+          - De La Soul
+          - MisterWives
+          - Jon Bellion
+          - Nothing
+          - M83
+          - Miguel
+          - Mac Miller
+          - Albert Hammond Jr.
+          - Torres
+          - Holly Miranda
+          - Purity Ring
+          - "Against Me!"
+          - Thundercat
+          - The Knocks
+          - Louis the Child
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2016"
+        lineup_status: complete
+      - date: '2016-06-05'
+        attendance: unknown
+        attendance_basis: "Notes say ticket type and exact days attended require review. The whole day was cancelled for weather, so this bill never played."
+        event_status: cancelled
+        event_status_source: "https://www.jambase.com/article/governors-ball-cancels-final-day"
+        lineup:
+          - Kanye West
+          - Two Door Cinema Club
+          - CHVRCHES
+          - Cold War Kids
+          - Betty Who
+          - Tor Miller
+          - Chet Faker
+          - Courtney Barnett
+          - Eagles of Death Metal
+          - Fidlar
+          - Whitney
+          - Death Cab for Cutie
+          - Gary Clark Jr.
+          - "Joey Bada$$"
+          - Vince Staples
+          - Whilk & Misky
+          - Blank Range
+          - Thomas Jack
+          - Prophets of Rage
+          - Galantis
+          - Vic Mensa
+          - Bat for Lashes
+          - Day Wave
+        lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2016"
+        lineup_status: complete
+        not_on_final_schedule:
+          - Circa Waves
+    seen: []
+    unplaced: []

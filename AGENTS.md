@@ -2,6 +2,16 @@
 
 `data/concerts.yml` is the source of truth; see `README.md` for the schema. Other sessions may edit it concurrently, so merge by concert `id` and never overwrite the whole file from a stale copy.
 
+## New artists and venues
+
+A concert that brings a new venue string or performer needs an entry too, or the build warns and the page has no map, picture or link:
+
+- Add the raw `venue` string to the right venue's `aliases` in `data/venues.yml`, or add the venue.
+- Add performers to `data/artists.yml`. Take the Spotify ID from the Spotify connector and only accept an exact name match; mark it `ambiguous` if several artists share the name.
+- A festival needs a `data/festivals.yml` entry. Attendance and `seen` only ever come from the record's own evidence.
+- The site is public: only freely licensed images are stored locally, Spotify images are hotlinked, and other third-party images are hotlinked with a credit.
+- When fetching, send a plain client identity such as `concert-history-site/1.0`. If a site challenges or refuses the request, leave that site alone; don't disguise the client. setlist.fm needs its official API key.
+
 ## Every concert gets a web search
 
 Whenever a concert is added (or its artist/date/venue is corrected), search the web for all three of these and record the outcome, even when nothing turns up:

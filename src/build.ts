@@ -1,56 +1,30 @@
-// Build the self-contained archive in dist/ from data/concerts.yml and data/photos/.
-import { rm } from 'node:fs/promises';
+// Builds the static site in dist/ from the YAML files in data/.
+import { cp, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
-import {
-  STATUSES,
-  SUPPORTED_STATUSES,
-  type ArchiveData,
-  type ArtistName,
-  type Concert,
-  type PagePayload,
-  type RenderedConcert,
-  type Status,
-} from './types';
+import { loadSite, type Site } from './model';
+import { STATUSES, type Concert } from './types';
+import { waveformTile } from './render/art';
+import { artistPage, artistsIndex, aboutPage, concertPage, homePage, publicSourceUrl, venuePage, venuesIndex } from './render/pages';
 
 const ROOT = path.resolve(import.meta.dir, '..');
 const DATA = path.join(ROOT, 'data');
 const PHOTOS = path.join(DATA, 'photos');
 const POSTERS = path.join(DATA, 'posters');
+const VENUE_IMAGES = path.join(DATA, 'venues');
 const DIST = path.join(ROOT, 'dist');
+const ASSETS = path.join(DIST, 'assets');
 const SRC = import.meta.dir;
+const MODULES = path.join(ROOT, 'node_modules');
 
 const isInside = (child: string, parent: string) => {
   const rel = path.relative(parent, child);
   return rel !== '' && !rel.startsWith('..') && !path.isAbsolute(rel);
 };
 
-/** Data stores local links relative to the project root; outputs live in dist/. */
-const fromDist = (url: string) =>
-  /^[a-z][a-z\d+.-]*:|^[#/]/i.test(url) ? url : path.relative(DIST, path.join(ROOT, url));
-
-const escapeHtml = (s: string) =>
-  s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#x27;' })[c]!);
-
-export function artistNames(raw: string, aliases: Record<string, string>): ArtistName[] {
-  let text = raw.replace(/^(?:CMJ showcase:|Also billed:|Billed:)\s*/, '');
-  const billedPrefix = 'Billed performers included ';
-  if (text.startsWith(billedPrefix)) {
-    text = text.slice(billedPrefix.length).replaceAll(' and others', '').replaceAll(', ', '; ');
-  }
-  const parts = text === 'David Byrne & St. Vincent' ? ['David Byrne', 'St. Vincent'] : text.split(/;\s*| \/ /);
-  const names: ArtistName[] = [];
-  for (const part of parts) {
-    let name = part.trim();
-    if (!name || /further|not named|unresolved|showcase|CMJ party|Festival|Celebration/i.test(name)) continue;
-    name = name.replace(/^special guests /, '');
-    names.push({ label: name, key: (aliases[name.toLowerCase()] ?? name).toLowerCase() });
-  }
-  return names;
-}
-
-function validate(concert: Concert, seen: Set<string>) {
+export function validate(concert: Concert, seen: Set<string>) {
   if (seen.has(concert.id)) throw new Error(`Duplicate concert ID: ${concert.id}`);
   seen.add(concert.id);
+  if (!/^[a-z0-9-]+$/.test(concert.id)) throw new Error(`Concert ID is not URL-safe: ${concert.id}`);
   if (!STATUSES.includes(concert.status)) throw new Error(`Unknown status "${concert.status}": ${concert.id}`);
   for (const source of concert.sources) {
     if (source.type === 'email' && typeof source.message_id !== 'string') {
@@ -70,6 +44,15 @@ function validate(concert: Concert, seen: Set<string>) {
       throw new Error(`Setlist needs artist, url and songs: ${concert.id}`);
     }
   }
+  for (const photo of concert.photos) {
+    if (!isInside(path.resolve(ROOT, photo.asset), PHOTOS)) throw new Error(`Photo asset outside data/photos: ${photo.asset}`);
+    if (!photo.references.length || photo.references.some((ref) => !ref.photo_id)) {
+      throw new Error(`Missing photo reference ID: ${photo.id}`);
+    }
+  }
+  if (concert.poster && !isInside(path.resolve(ROOT, concert.poster.asset), POSTERS)) {
+    throw new Error(`Poster asset outside data/posters: ${concert.poster.asset}`);
+  }
   const research = concert.web_research;
   if (research) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(research.searched_on ?? '')) {
@@ -84,54 +67,60 @@ function validate(concert: Concert, seen: Set<string>) {
   }
 }
 
-async function loadPoster(concert: Concert, images: Record<string, string>) {
-  if (!concert.poster) return;
-  const asset = path.resolve(ROOT, concert.poster.asset);
-  if (!isInside(asset, POSTERS)) throw new Error(`Poster asset outside data/posters: ${asset}`);
-  const bytes = await Bun.file(asset).bytes();
-  images[`poster:${concert.id}`] = 'data:image/webp;base64,' + Buffer.from(bytes).toString('base64');
+async function bundle(entry: string, name: string) {
+  const result = await Bun.build({ entrypoints: [path.join(SRC, 'client', entry)], target: 'browser', format: 'iife', minify: true });
+  if (!result.success) throw new AggregateError(result.logs, `Bundling ${entry} failed`);
+  await Bun.write(path.join(ASSETS, name), await result.outputs[0]!.text());
 }
 
-async function loadImages(concert: Concert, images: Record<string, string>) {
-  for (const photo of concert.photos) {
-    const asset = path.resolve(ROOT, photo.asset);
-    if (!isInside(asset, PHOTOS)) throw new Error(`Photo asset outside data/photos: ${asset}`);
-    if (!photo.references.length || photo.references.some((ref) => !ref.photo_id)) {
-      throw new Error(`Missing photo reference ID: ${photo.id}`);
+async function copyInto(directory: string, file: string) {
+  await mkdir(directory, { recursive: true });
+  await cp(path.resolve(ROOT, file), path.join(directory, path.basename(file)));
+}
+
+async function copyAssets(site: Site) {
+  await mkdir(path.join(ASSETS, 'fonts'), { recursive: true });
+  const fonts: [string, string][] = [
+    ['@fontsource/tilt-neon/files/tilt-neon-latin-400-normal.woff2', 'tilt-neon.woff2'],
+    ['@fontsource-variable/figtree/files/figtree-latin-wght-normal.woff2', 'figtree.woff2'],
+    ['@fontsource/dm-mono/files/dm-mono-latin-400-normal.woff2', 'dm-mono.woff2'],
+  ];
+  for (const [from, to] of fonts) await cp(path.join(MODULES, from), path.join(ASSETS, 'fonts', to));
+  await cp(path.join(MODULES, 'leaflet/dist/leaflet.css'), path.join(ASSETS, 'leaflet.css'));
+  await cp(path.join(SRC, 'site.css'), path.join(ASSETS, 'site.css'));
+  await Bun.write(path.join(ASSETS, 'waveform.svg'), waveformTile());
+
+  for (const show of site.shows) {
+    for (const photo of show.concert.photos) await copyInto(path.join(ASSETS, 'photos'), photo.asset);
+    if (show.concert.poster) await copyInto(path.join(ASSETS, 'posters'), show.concert.poster.asset);
+  }
+  for (const venue of site.venues) {
+    for (const image of venue.images) {
+      if (image.view !== 'exterior' && image.view !== 'interior') throw new Error(`Venue image needs view exterior or interior: ${venue.slug}`);
+      if (!image.asset) continue;
+      if (!isInside(path.resolve(ROOT, image.asset), VENUE_IMAGES)) throw new Error(`Venue image outside data/venues: ${image.asset}`);
+      await copyInto(path.join(ASSETS, 'venues'), image.asset);
     }
-    const bytes = await Bun.file(asset).bytes();
-    const image = 'data:image/webp;base64,' + Buffer.from(bytes).toString('base64');
-    if (photo.id in images && images[photo.id] !== image) throw new Error(`Conflicting image ID: ${photo.id}`);
-    images[photo.id] = image;
   }
 }
 
-async function bundleClient() {
-  const result = await Bun.build({
-    entrypoints: [path.join(SRC, 'client/archive.ts')],
-    target: 'browser',
-    format: 'iife',
-    minify: true,
-  });
-  if (!result.success) throw new AggregateError(result.logs, 'Client bundle failed');
-  // Keep the inline <script> from closing early.
-  return (await result.outputs[0]!.text()).replace(/<\/(script)/gi, '<\\/$1');
-}
-
-/** JSON safe to inline in <script type="application/json">. */
-const inlineJson = (value: unknown) => JSON.stringify(value).replaceAll('<', '\\u003c');
-
-function markdown(data: ArchiveData, supported: number, galleries: number) {
+function markdown(site: Site, published: Concert[]) {
+  const confirmed = site.shows.filter((s) => s.evidence === 'confirmed').length;
   const lines = [
-    '# ' + data.title,
+    '# ' + site.data.title,
     '',
-    `${supported} check-in/photo/attendee supported events; ${galleries} events with image galleries.`,
+    `${confirmed} check-in/photo/attendee supported events; ${published.filter((c) => c.photos.length).length} events with image galleries.`,
     '',
     '| Date | Artist / event | Supporting / billed acts | Venue | Evidence and notes | Images | Setlist | Poster |',
     '|---|---|---|---|---|---|---|---|',
   ];
-  for (const row of data.concerts.toReversed()) {
-    const refs = row.sources.map((s) => (s.url ? `[${s.label}](${fromDist(s.url)})` : s.label)).join('; ');
+  for (const row of published.toReversed()) {
+    const refs = row.sources
+      .map((s) => {
+        const url = publicSourceUrl(s.url);
+        return url ? `[${s.label}](${url})` : s.label;
+      })
+      .join('; ');
     const values = [
       row.date,
       row.artist,
@@ -140,84 +129,47 @@ function markdown(data: ArchiveData, supported: number, galleries: number) {
       `${row.status} — ${refs} — ${row.notes}`,
       row.photos.length || 'No match',
       row.setlists?.map((l) => `[${l.artist} (${l.songs.length} songs)](${l.url})`).join('; ') || '—',
-      row.poster ? `[Poster](${fromDist(row.poster.asset)})` : '—',
+      row.poster ? `[Poster](assets/posters/${path.basename(row.poster.asset)})` : '—',
     ];
     lines.push('| ' + values.map((v) => String(v).replaceAll('|', '/').replaceAll('\n', ' ')).join(' | ') + ' |');
   }
   return lines.join('\n') + '\n';
 }
 
+const writePage = (relative: string, html: string) => Bun.write(path.join(DIST, relative, 'index.html'), html);
+
 async function build() {
-  const data = Bun.YAML.parse(await Bun.file(path.join(DATA, 'concerts.yml')).text()) as ArchiveData;
-  if (data.schema_version !== 1) throw new Error('Unsupported YAML schema version');
-  const { concerts } = data;
-
+  const site = await loadSite(DATA);
   const seen = new Set<string>();
-  const images: Record<string, string> = {};
-  const events: RenderedConcert[] = [];
-  const catalog: Pick<Concert, 'id' | 'date' | 'artist' | 'venue' | 'photos' | 'photo_match'>[] = [];
-  for (const [index, concert] of concerts.entries()) {
-    validate(concert, seen);
-    await loadImages(concert, images);
-    await loadPoster(concert, images);
-    const row = structuredClone(concert);
-    events.push({
-      ...row,
-      archive_id: row.id,
-      id: index,
-      headliners: artistNames(row.artist, data.artist_aliases),
-      supportArtists: artistNames(row.support, data.artist_aliases),
-      sourceRefs: row.sources,
-      sources: row.sources.map((s) => [s.label, s.url ? fromDist(s.url) : null]),
-      photoMatch:
-        row.photo_match ||
-        'No photo confidently matched in this search. This does not establish that no photos exist.',
-    });
-    if (concert.photos.length) {
-      const { id, date, artist, venue, photos, photo_match } = concert;
-      catalog.push({ id, date, artist, venue, photos, photo_match });
-    }
-  }
-
-  const counts = new Map<Status, number>();
-  for (const { status } of concerts) counts.set(status, (counts.get(status) ?? 0) + 1);
-  const count = (status: Status) => counts.get(status) ?? 0;
-  const supported = SUPPORTED_STATUSES.reduce((sum, status) => sum + count(status), 0);
-  const years = [...new Set(concerts.map((r) => r.date.slice(0, 4)))].sort().reverse();
-
-  const payload: PagePayload = { events, images };
-  const replacements: Record<string, string> = {
-    SCRIPT:
-      `<script type="application/json" id="archive-data">${inlineJson(payload)}</script>` +
-      `<script>${await bundleClient()}</script>`,
-    SUPPORTED: String(supported),
-    TICKETS: String(count('Ticket evidence')),
-    CALENDARS: String(count('Calendar only')),
-    GALLERIES: String(catalog.length),
-    COUNT: String(concerts.length),
-    YEARS: years.map((y) => `<option>${escapeHtml(y)}</option>`).join(''),
-  };
-  let page = await Bun.file(path.join(SRC, 'archive.html')).text();
-  for (const [key, value] of Object.entries(replacements)) page = page.replaceAll(`{{${key}}}`, value);
+  for (const concert of site.concerts) validate(concert, seen);
 
   await rm(DIST, { recursive: true, force: true });
-  await Bun.write(path.join(DIST, 'concert-history.html'), page);
-  // JSON exports are generated compatibility files, never canonical inputs.
-  await Bun.write(path.join(DIST, 'concerts.json'), JSON.stringify(concerts, null, 2) + '\n');
+  await mkdir(ASSETS, { recursive: true });
+  await copyAssets(site);
+  await bundle('app.ts', 'app.js');
+  await bundle('map.ts', 'map.js');
+
+  await writePage('', homePage(site));
+  await writePage('about', aboutPage(site));
+  await writePage('artists', artistsIndex(site));
+  await writePage('venues', venuesIndex(site));
+  for (const artist of site.artists) await writePage(`artists/${artist.slug}`, artistPage(site, artist));
+  for (const venue of site.venues) await writePage(`venues/${venue.slug}`, venuePage(venue));
+  for (const show of site.shows) await writePage(`concerts/${show.id}`, concertPage(site, show));
+
+  // Exports follow the site: excluded records stay out of everything published.
+  const published = site.concerts.filter((c) => c.status !== 'Excluded');
+  const catalog = published.filter((c) => c.photos.length).map(({ id, date, artist, venue, photos, photo_match }) => ({ id, date, artist, venue, photos, photo_match }));
+  await Bun.write(path.join(DIST, 'concerts.json'), JSON.stringify(published, null, 2) + '\n');
   await Bun.write(path.join(DIST, 'photo-catalog.json'), JSON.stringify(catalog, null, 2) + '\n');
-  await Bun.write(path.join(DIST, 'concert-history.md'), markdown(data, supported, catalog.length));
-  console.log(
-    `Built ${concerts.length} concerts, ${catalog.length} galleries, ${Object.keys(images).length} embedded images.`,
-  );
-  const unresearched = concerts
+  await Bun.write(path.join(DIST, 'concert-history.md'), markdown(site, published));
+
+  console.log(`Built ${site.shows.length} concerts, ${site.artists.length} artists, ${site.venues.length} venues.`);
+  if (site.warnings.length) console.warn(`${site.warnings.length} warnings:\n  ${site.warnings.slice(0, 15).join('\n  ')}${site.warnings.length > 15 ? '\n  …' : ''}`);
+  const unresearched = site.concerts
     .filter((c) => !c.web_research || c.web_research.support === 'not_searched' || c.web_research.poster === 'not_searched')
     .map((c) => c.id);
-  if (unresearched.length) {
-    console.warn(
-      `${unresearched.length} concerts still need a web search for support acts, setlist and poster ` +
-        `(see AGENTS.md): ${unresearched.join(', ')}`,
-    );
-  }
+  if (unresearched.length) console.warn(`${unresearched.length} concerts still need a web search for support acts, setlist and poster (see AGENTS.md).`);
 }
 
 if (import.meta.main) await build();

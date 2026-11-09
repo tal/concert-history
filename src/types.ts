@@ -116,27 +116,114 @@ export interface ArchiveData {
   concerts: Concert[];
 }
 
-export interface ArtistName {
+export type VenueKind = 'club' | 'theater' | 'arena' | 'stadium' | 'park' | 'festival_grounds' | 'bar' | 'boat' | 'other';
+export type OperatingStatus = 'open' | 'closed' | 'unknown';
+
+export interface LinkedSource {
   label: string;
-  key: string;
+  url: string;
 }
 
-/** A concert as embedded in the page: indexed by position, with artists split out and links resolved. */
-export interface RenderedConcert extends Omit<Concert, 'id' | 'sources'> {
-  id: number;
-  archive_id: string;
-  headliners: ArtistName[];
-  supportArtists: ArtistName[];
-  sourceRefs: Source[];
-  /** [label, href] pairs, with local paths made relative to dist/. href is null for attendee statements. */
-  sources: [string, string | null][];
-  photoMatch: string;
+export type VenueImageView = 'exterior' | 'interior';
+
+export interface VenueImage {
+  view: VenueImageView;
+  /** Local file inside data/venues/; only for freely licensed images. */
+  asset?: string;
+  /** Hotlinked official image, used when no free image exists. */
+  url?: string;
+  credit: string;
+  license: string | null;
+  source_url: string;
 }
 
-export interface PagePayload {
-  events: RenderedConcert[];
-  /** Photo ID, or `poster:<concert id>`, → data: URI. */
-  images: Record<string, string>;
+export interface Venue {
+  slug: string;
+  name: string;
+  /** Every raw `venue` string in concerts.yml that means this place. */
+  aliases: string[];
+  kind: VenueKind;
+  city: string | null;
+  region: string | null;
+  country: string | null;
+  neighborhood: string | null;
+  address: string | null;
+  lat: number | null;
+  lon: number | null;
+  coordinates_source: 'wikipedia' | 'nominatim' | 'manual' | null;
+  operating_status: OperatingStatus;
+  closed_year: number | null;
+  description: string | null;
+  description_source: LinkedSource | null;
+  website: string | null;
+  wikipedia: string | null;
+  images: VenueImage[];
 }
 
-export type ArtistRole = 'headliner' | 'support';
+export interface VenuesFile {
+  schema_version: number;
+  venues: Venue[];
+}
+
+export type SpotifyMatch = 'exact' | 'ambiguous' | 'none';
+
+export interface Artist {
+  slug: string;
+  name: string;
+  /** Other spellings used on bills. */
+  aliases: string[];
+  spotify_id: string | null;
+  spotify_match: SpotifyMatch;
+  /** Hotlinked from Spotify, which is why it is a URL and not a file. */
+  image_url: string | null;
+  description: string | null;
+  wikipedia: string | null;
+}
+
+export interface ArtistsFile {
+  schema_version: number;
+  artists: Artist[];
+}
+
+export type DayAttendance = 'attended' | 'not_attended' | 'unknown';
+export type LineupStatus = 'complete' | 'partial' | 'not_found';
+export type SeenBasis = 'attendee_confirmed' | 'photo' | 'setlist';
+
+export interface FestivalDay {
+  date: string;
+  attendance: DayAttendance;
+  attendance_basis: string;
+  lineup: string[];
+  lineup_source: string | null;
+  lineup_status: LineupStatus;
+  /** Only set when the day did not go ahead as scheduled. */
+  event_status?: 'cancelled';
+  event_status_source?: string;
+  /** Acts that were announced for this day but never made the final schedule. */
+  not_on_final_schedule?: string[];
+}
+
+export interface FestivalSeen {
+  artist: string;
+  /** Null when the act played more than one day and the evidence can't narrow it down. */
+  date: string | null;
+  possible_dates?: string[];
+  basis: SeenBasis;
+}
+
+export interface Festival {
+  concert_id: string;
+  name: string;
+  start_date: string;
+  end_date: string;
+  days: FestivalDay[];
+  seen: FestivalSeen[];
+  unplaced?: string[];
+  unplaced_note?: string;
+  lineup_note?: string;
+}
+
+export interface FestivalsFile {
+  schema_version: number;
+  festivals: Festival[];
+}

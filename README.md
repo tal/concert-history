@@ -1,30 +1,37 @@
 # Concert history
 
-A personal concert archive with artist histories, evidence, and embedded photo galleries.
+A personal concert archive, built as a static multi-page site: a chronological timeline, plus a page for every concert, artist and venue. Always dark, by design.
 
-`data/concerts.yml` is the source of truth. Edit it and rebuild with [Bun](https://bun.sh):
+`data/concerts.yml` is the source of truth for shows. Edit the files in `data/` and rebuild with [Bun](https://bun.sh):
 
 ```sh
 bun install
 bun run build
-bun run open        # open dist/concert-history.html (Orca browser tab inside Orca, default browser otherwise)
+bun run preview     # serve dist/ at http://127.0.0.1:4173/
+bun run open        # the same, and open it (Orca browser tab inside Orca, default browser otherwise)
 bun run typecheck
 ```
 
-The generated HTML embeds its photos and JavaScript and can be opened directly from disk. Artist clicks show headlining, co-billed, and supporting appearances; evidence categories distinguish attended events from bookings, tentative plans, and exclusions.
+The site has real directory URLs (`/artists/lizzo/`), so view it through `preview` or a static host rather than opening the files from disk. Records with status `Excluded` are never published. Everything else appears, with unconfirmed shows drawn hollow.
 
 ## Layout
 
 | Path | Contents |
 |---|---|
 | `data/concerts.yml` | Canonical concert, source, and photo metadata |
-| `data/photos/` | Portable WebP image copies, embedded at build time |
-| `data/posters/` | Gig posters found on the web, as WebP, embedded at build time |
+| `data/venues.yml`, `data/venues/` | Venues: merged name variants, location, description, credited images |
+| `data/artists.yml` | Artists: Spotify ID, hotlinked Spotify image, Wikipedia description |
+| `data/festivals.yml` | Festival days: daily lineups, which days Tal attended, which acts were seen |
+| `data/photos/` | Portable WebP image copies |
+| `data/posters/` | Gig posters found on the web, as WebP |
 | `AGENTS.md` | Checklist for adding concerts, including the required web search |
 | `src/build.ts` | Validates the data and writes everything in `dist/` |
-| `src/types.ts` | Types shared by the build and the browser code |
-| `src/archive.html` | Page template and styles |
-| `src/client/archive.ts` | Browser code, bundled inline by `Bun.build` |
+| `src/model.ts` | Links concerts, artists, venues and festivals into what the pages render |
+| `src/types.ts` | Shapes of the YAML files |
+| `src/render/` | HTML for each page type, the shared timeline, and generated art (waveforms, fallback posters) |
+| `src/site.css` | All styles |
+| `src/client/` | Browser code: `app.ts` (filters, lightbox) and `map.ts` (Leaflet maps) |
+| `src/preview.ts` | Local server for `dist/` |
 | `dist/` | Generated output (Git ignores it) |
 | `research/` | Local raw exports and contact sheets (Git ignores it) |
 
@@ -41,14 +48,20 @@ Each concert has a stable `id`, date, artist, supporting acts, venue, status, no
 - `setlists` holds each headliner's songs from setlist.fm (`encore_start_index` marks the first encore song). `poster` points at a WebP in `data/posters/` with its `kind` (`show_poster`, `tour_admat` or `festival_lineup`) and source URLs.
 - `web_research` records the web search every concert gets for support acts, setlist and poster: the date searched and a `found` / `none_found` outcome for each (plus `matches_existing` for support and `empty_event` for an empty setlist.fm page). The build warns about concerts that have not been searched yet. See `AGENTS.md` for the checklist when adding a concert.
 - `photo_match` records the rationale for attaching a gallery. No matched image does not establish that no photos exist.
-- Local paths in the YAML (photo `asset`s and non-HTTP source `url`s such as `research/…` or `dist/photo-catalog.json`) are relative to the project root. The build rewrites links so they resolve from `dist/`.
+- Local paths in the YAML (photo `asset`s and non-HTTP source `url`s such as `research/…` or `dist/photo-catalog.json`) are relative to the project root. `research/` is never deployed, so those sources show as plain labels on the site.
+- `data/venues.yml`: every raw `venue` string in `concerts.yml` must be listed in exactly one venue's `aliases`. Only freely licensed images are ever stored locally. Most images are credited hotlinks, including Commons ones, because Wikimedia throttles bulk downloads. Each image has a `view` of `exterior` or `interior`, at most one of each, exterior first; open-air venues only get an exterior.
+- `data/artists.yml`: `spotify_match` is `exact`, `ambiguous` (several Spotify artists share the name, so the link may be wrong) or `none`. `image_url` is hotlinked from Spotify, never re-hosted.
+- `data/festivals.yml`: attendance and `seen` come only from a concert's own evidence. `seen[].date` is null when an act played two days and the evidence can't narrow it down.
 
 The `research/` directory preserves the original raw exports, saved pages, and contact sheets locally. Some older evidence links refer to these local contact sheets. The current build does not need raw research or access to the original Apple Photos library.
 
 ## Build output
 
-`bun run build` validates source identifiers, statuses, and photo assets, then writes:
+`bun run build` validates source identifiers, statuses, and photo assets, warns about any artist or venue missing from its YAML file, then writes:
 
-- `dist/concert-history.html`: the self-contained page. The data is in a `<script type="application/json">` tag, followed by the bundled `src/client/archive.ts`.
+- `dist/index.html`: the timeline.
+- `dist/artists/`, `dist/venues/`, `dist/concerts/`: an index and a page per item (concerts have no index; the timeline is it).
+- `dist/about/`: how the archive was reconstructed and how to read it.
+- `dist/assets/`: bundled JS, CSS, fonts and images.
 - `dist/concert-history.md`: a plain Markdown table.
 - `dist/concerts.json` and `dist/photo-catalog.json`: derived exports. These are compatibility files, never canonical inputs.

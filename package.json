@@ -7,10 +7,16 @@
   "scripts": {
     "build": "bun src/build.ts",
     "typecheck": "tsc --noEmit",
-    "open": "if [ -n \"$ORCA_TERMINAL_HANDLE\" ]; then orca tab create --url \"file://$PWD/dist/concert-history.html\"; else open dist/concert-history.html; fi"
+    "open": "bun src/preview.ts --open",
+    "preview": "bun src/preview.ts"
   },
   "devDependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource/dm-mono": "^5.3.0",
+    "@fontsource/tilt-neon": "^5.3.0",
     "@types/bun": "^1.4.4",
+    "@types/leaflet": "^1.9.22",
+    "leaflet": "^1.9.4",
     "typescript": "^7.0.2"
   }
 }

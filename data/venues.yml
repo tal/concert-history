@@ -1,0 +1,1945 @@
+schema_version: 1
+venues:
+  - slug: arlenes-grocery
+    name: Arlene's Grocery
+    aliases:
+      - Arlene’s Grocery
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 95 Stanton St
+    lat: 40.72133
+    lon: -73.98838
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A bar and live-music room on Stanton Street on the Lower East Side. A front bar leads to a separate back room where the bands play.
+    description_source: null
+    website: https://www.arlenesgrocerynyc.com/
+    wikipedia: https://en.wikipedia.org/wiki/Arlene's_Grocery
+    images:
+      - view: exterior
+        asset: data/venues/arlenes-grocery-1.webp
+        credit: Alex Lozupone
+        license: CC BY-SA 3.0
+        source_url: https://commons.wikimedia.org/wiki/File:Up_loz_arlene.png
+      - view: interior
+        url: https://images.squarespace-cdn.com/content/v1/6499c2092a462a4f3c160d4b/32be8c06-8f13-4fc0-adae-645132c399c2/arlenes+2.jpeg
+        credit: "Arlene's Grocery (official site)"
+        license: null
+        source_url: https://www.arlenesgrocerynyc.com/private-events-rentals-les
+  - slug: avant-gardner
+    name: Avant Gardner
+    aliases:
+      - Great Hall at Avant Gardner
+      - The Brooklyn Mirage at Avant Gardner
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Williamsburg
+    address: 140 Stewart Ave
+    lat: 40.71074
+    lon: -73.92574
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2025
+    description: A large events complex at 140 Stewart Avenue that combined the indoor Great Hall with the open-air Brooklyn Mirage. The Mirage failed to reopen in 2025 amid structural and safety problems, and the parent company filed for bankruptcy that August. The operators of the Pacha brand took over the site in 2026 and may not use the Mirage name.
+    description_source:
+      label: Brooklyn Paper
+      url: https://www.brooklynpaper.com/brooklyn-mirage-pacha-new-york-sale/
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Avant_Gardner
+    images:
+      - view: interior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Glass_Animals_-_Brooklyn_Mirage_2022_08.jpg?width=1600
+        credit: Legoktm
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Glass_Animals_-_Brooklyn_Mirage_2022_08.jpg
+  - slug: babys-all-right
+    name: Baby's All Right
+    aliases:
+      - Baby's All Right
+      - Baby’s All Right
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 146 Broadway
+    lat: 40.70996
+    lon: -73.96342
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A combined bar, restaurant and music venue at 146 Broadway in Williamsburg. Its back room books touring and emerging bands.
+    description_source:
+      label: Baby's All Right
+      url: https://babysallright.com/
+    website: https://babysallright.com/
+    wikipedia: https://en.wikipedia.org/wiki/Baby's_All_Right
+    images:
+      - view: interior
+        url: https://images.squarespace-cdn.com/content/v1/5248d4ece4b0bae68e5c1c11/1770781777032-SOYOMXZSM2IOB54IZ10E/A55F3AF0-F96F-4D32-8943-721B43F20578.jpeg?format=1500w
+        credit: "Baby's All Right (official site)"
+        license: null
+        source_url: https://babysallright.com/private-events
+  - slug: barclays-center
+    name: Barclays Center
+    aliases:
+      - Barclays Center
+    kind: arena
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Prospect Heights
+    address: 620 Atlantic Ave
+    lat: 40.68251
+    lon: -73.97525
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An indoor arena on Atlantic Avenue in Brooklyn that opened in 2012. It is the home court of the Brooklyn Nets and also stages concerts, boxing and college basketball.
+    description_source:
+      label: Barclays Center
+      url: https://www.barclayscenter.com/
+    website: https://www.barclayscenter.com/
+    wikipedia: https://en.wikipedia.org/wiki/Barclays_Center
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: Ajay Suresh
+        license: CC BY 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Barclays_Center_-_2026_(55268559424).jpg
+      - view: interior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Barclays_Center_Auditorium_(54458684497).jpg?width=1600
+        credit: "Eden, Janine and Jim from New York City"
+        license: CC BY 2.0
+        source_url: https://commons.wikimedia.org/wiki/File:Barclays_Center_Auditorium_(54458684497).jpg
+  - slug: beacon-theatre
+    name: Beacon Theatre
+    aliases:
+      - Beacon Theatre
+    kind: theater
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Upper West Side
+    address: 2124 Broadway
+    lat: 40.78049
+    lon: -73.98113
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A historic theater on Broadway on the Upper West Side, opened in 1929 as a movie and vaudeville house. It is now a seated concert hall operated by the Madison Square Garden group.
+    description_source: null
+    website: https://www.msg.com/beacon-theatre
+    wikipedia: https://en.wikipedia.org/wiki/Beacon_Theatre_(New_York_City)
+    images:
+      - view: exterior
+        url: https://platform-assets.msg.com/event-engine/MSGE-VenueAmenities-BT-WhereToStay_1749740624288.jpg
+        credit: Beacon Theatre / MSG Entertainment (official site)
+        license: null
+        source_url: https://www.msg.com/beacon-theatre
+      - view: interior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Beacon_Theatre_(6177609775).jpg?width=1600
+        credit: kaleidoscope.hearts
+        license: CC BY 2.0
+        source_url: https://commons.wikimedia.org/wiki/File:Beacon_Theatre_(6177609775).jpg
+  - slug: blue-note
+    name: Blue Note
+    aliases:
+      - Blue Note
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Greenwich Village
+    address: 131 W 3rd St
+    lat: 40.73083
+    lon: -74.00073
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A jazz club at 131 West 3rd Street in Greenwich Village. Audiences are served dinner and drinks at tables close to the stage during live sets.
+    description_source:
+      label: Blue Note New York
+      url: https://www.bluenotejazz.com/nyc/
+    website: https://www.bluenotejazz.com/nyc/
+    wikipedia: https://en.wikipedia.org/wiki/Blue_Note_Jazz_Club
+    images:
+      - view: exterior
+        url: https://www.bluenotejazz.com/nyc/wp-content/uploads/sites/2/2022/04/DSCF3146-scaled.jpeg
+        credit: Blue Note (official site)
+        license: null
+        source_url: https://www.bluenotejazz.com/nyc/about/
+      - view: interior
+        url: https://www.bluenotejazz.com/nyc/wp-content/uploads/sites/2/2025/07/Blue-Note-Jazz_NYC_featured_1200x630.jpg
+        credit: Blue Note
+        license: null
+        source_url: https://www.bluenotejazz.com/nyc/
+  - slug: bowery-ballroom
+    name: Bowery Ballroom
+    aliases:
+      - Bowery Ballroom, New York, NY
+      - Bowery Ballroom
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 6 Delancey St
+    lat: 40.72044
+    lon: -73.99333
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A mid-sized rock club at 6 Delancey Street, just off the Bowery on the Lower East Side. It is a sibling room of Mercury Lounge under the Mercury East Presents banner.
+    description_source:
+      label: Bowery Ballroom
+      url: https://www.boweryballroom.com/
+    website: https://www.boweryballroom.com/
+    wikipedia: https://en.wikipedia.org/wiki/Bowery_Ballroom
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Bowery_Ballroom_%2855381000744%29.jpg/1280px-Bowery_Ballroom_%2855381000744%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: Ajay Suresh
+        license: CC BY 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Bowery_Ballroom_(55381000744).jpg
+      - view: interior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/WTM_sheila_0019.jpg
+        credit: Wikipedia Takes Manhattan participant/team Sheila
+        license: CC BY-SA 3.0
+        source_url: https://commons.wikimedia.org/wiki/File:WTM_sheila_0019.jpg
+  - slug: bowery-electric
+    name: The Bowery Electric
+    aliases:
+      - Bowery Electric, 327 Bowery
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Village
+    address: 327 Bowery
+    lat: 40.7257
+    lon: -73.99167
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2026
+    description: A rock club at 327 Bowery in the East Village, co-owned by musician Jesse Malin, that ran for about 17 years. It closed on January 30, 2026, and the space reopened that February as the Bowery Palace, a small theater.
+    description_source:
+      label: Time Out New York
+      url: https://www.timeout.com/newyork/news/the-bowery-electric-is-officially-closing-and-becoming-the-bowery-palace-012026
+    website: https://www.theboweryelectric.com/
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://www.bowerypalace.com/wp-content/uploads/2022/10/be-interior-32-1024x683-1.jpeg
+        credit: "The Bowery Electric (official site, now Bowery Palace)"
+        license: null
+        source_url: https://www.bowerypalace.com/parties-rentals/
+  - slug: brooklyn-bowl
+    name: Brooklyn Bowl
+    aliases:
+      - 'Brooklyn Bowl '
+      - Brooklyn Bowl
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 61 Wythe Ave
+    lat: 40.72205
+    lon: -73.95755
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A bowling alley and live-music venue under one roof on Wythe Avenue in Williamsburg. Promoter Peter Shapiro co-founded it, and lanes and a concert stage share the same former industrial building.
+    description_source: null
+    website: https://www.brooklynbowl.com/brooklyn
+    wikipedia: https://en.wikipedia.org/wiki/Brooklyn_Bowl
+    images: []
+  - slug: brooklyn-fire-proof
+    name: Brooklyn Fire Proof
+    aliases:
+      - Brooklyn Fire Proof
+    kind: other
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Williamsburg
+    address: 119 Ingraham St
+    lat: 40.70763
+    lon: -73.92911
+    coordinates_source: nominatim
+    operating_status: unknown
+    closed_year: null
+    description: A complex at 119 Ingraham Street combining a cafe, gallery, work spaces and film stages. Its cafe closed in November 2014 after eight years, while the studio businesses carried on.
+    description_source:
+      label: Bushwick Daily
+      url: https://bushwickdaily.com/news/2732-brooklyn-fire-proof-closing/
+    website: null
+    wikipedia: null
+    images: []
+  - slug: brooklyn-night-bazaar
+    name: Brooklyn Night Bazaar
+    aliases:
+      - Brooklyn Night Bazaar
+    kind: other
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Greenpoint
+    address: 165 Banker St
+    lat: 40.72458
+    lon: -73.95512
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2016
+    description: A large indoor market on Banker Street in Greenpoint that mixed vendors, food and live music. It lost its short-term lease and left the site in 2016, and a later Greenpoint location shut in 2019.
+    description_source:
+      label: DNAinfo
+      url: https://www.dnainfo.com/new-york/20160302/greenpoint/owners-of-brooklyn-night-bazaar-want-reopen-on-greenpoint-avenue/
+    website: null
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://www.bkmag.com/wp-content/uploads/2013/12/120.jpg
+        credit: Austin McAllister / Brooklyn Magazine
+        license: null
+        source_url: https://www.bkmag.com/2013/12/10/brooklyn-night-bazaar-now-year-round-and-more-than-just-a-very-good-party/
+  - slug: brooklyn-paramount
+    name: Brooklyn Paramount
+    aliases:
+      - Brooklyn Paramount
+    kind: theater
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Downtown Brooklyn
+    address: 385 Flatbush Ave Ext
+    lat: 40.69021
+    lon: -73.98116
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A 1928 movie palace on Flatbush Avenue Extension in Downtown Brooklyn. Long Island University used the building for decades before it was restored and reopened as a concert hall in 2025.
+    description_source: null
+    website: https://www.brooklynparamount.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://assets.livenationcdn.com/uploads/fb3c8a4f-76c6-4ddc-8c02-ceb2c0c62948.jpg?width=1920
+        credit: Brooklyn Paramount (official site)
+        license: null
+        source_url: https://www.brooklynparamount.com/
+      - view: interior
+        url: https://assets.livenationcdn.com/uploads/1a7be41b-6748-439c-b529-3d1be90afe93.jpg?width=1920
+        credit: Brooklyn Paramount (official site)
+        license: null
+        source_url: https://www.brooklynparamount.com/private-events
+  - slug: brooklyn-steel
+    name: Brooklyn Steel
+    aliases:
+      - Brooklyn Steel
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Williamsburg
+    address: 319 Frost St
+    lat: 40.71939
+    lon: -73.93875
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A roughly 1,800-capacity concert hall that The Bowery Presents opened in April 2017 in a former steel plant on Frost Street. Some of the building's industrial equipment stayed, including a gantry crane used to reposition the sound system.
+    description_source:
+      label: L-Acoustics
+      url: https://www.l-acoustics.com/customer-stories/brooklyn-steel/
+    website: https://www.bowerypresents.com/brooklyn-steel/
+    wikipedia: https://en.wikipedia.org/wiki/Brooklyn_Steel
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/BK_Steel.png/1280px-BK_Steel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: Will Bonniker
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:BK_Steel.png
+      - view: interior
+        url: https://storage.googleapis.com/cms-org.media.aegpresents.com/venue-rentals/share-images/venues/brooklyn-steel-venue.jpg
+        credit: Brooklyn Steel / AEG Presents venue rentals (official)
+        license: null
+        source_url: https://aegsev.com/venues/venue-detail/index.php?venue=brooklyn-steel
+  - slug: cake-shop
+    name: Cake Shop
+    aliases:
+      - Cake Shop
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 152 Ludlow St
+    lat: 40.72082
+    lon: -73.98778
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2016
+    description: A small Ludlow Street music club that opened in 2005 and hosted early shows by Vampire Weekend and Dirty Projectors. It closed after a final New Year's Eve 2016 show, with its owners citing years of financial strain.
+    description_source:
+      label: Patch
+      url: https://patch.com/new-york/lower-east-side-chinatown/legendary-lower-east-side-music-venue-cake-shop-close-after-new
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://www.urban75.org/blog/wp-content/uploads/2012/02/cake-shop-ludlow-new-york-05.jpg
+        credit: urban75
+        license: null
+        source_url: https://www.urban75.org/blog/cake-shop-ludlow-street-new-york-photos-and-memories/
+      - view: interior
+        url: https://www.urban75.org/blog/wp-content/uploads/2014/01/cake-shop-ludlow-new-york-1.jpg
+        credit: urban75
+        license: null
+        source_url: https://www.urban75.org/blog/cake-shop-ludlow-street-new-york-photos-and-memories/
+  - slug: carnegie-hall
+    name: Carnegie Hall
+    aliases:
+      - Carnegie Hall
+    kind: theater
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Midtown
+    address: 881 7th Ave
+    lat: 40.76503
+    lon: -73.97989
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A landmark concert hall at Seventh Avenue and 57th Street, opened in 1891 with funding from industrialist Andrew Carnegie. It is one of the best-known classical and popular music stages in the world.
+    description_source: null
+    website: https://www.carnegiehall.org/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Carnegie_Hall_-_Full_%2848155558466%29.jpg/1280px-Carnegie_Hall_-_Full_%2848155558466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: "Ajay Suresh from New York, NY, USA"
+        license: CC BY 2.0
+        source_url: https://commons.wikimedia.org/wiki/File:Carnegie_Hall_-_Full_(48155558466).jpg
+      - view: interior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Isaac_Stern_Auditorium-Carnegie_Hall-2.jpg?width=1600
+        credit: Yair Haklai
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Isaac_Stern_Auditorium-Carnegie_Hall-2.jpg
+  - slug: central-park-summerstage
+    name: Central Park SummerStage
+    aliases:
+      - Central Park SummerStage
+      - Rumsey Playfield, Central Park
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Central Park
+    address: null
+    lat: 40.77259
+    lon: -73.9702
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An outdoor stage at Rumsey Playfield in Central Park and the flagship site of the City Parks Foundation's SummerStage festival. The festival marked its 40th anniversary season in 2026.
+    description_source:
+      label: City Parks Foundation
+      url: https://cityparksfoundation.org/summerstage/
+    website: https://cityparksfoundation.org/summerstage/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://cityparksfoundation.org/wp-content/uploads/2025/10/Copy-of-6.4.25_SummerStage_MarcusMiller_TankandtheBangas_TheSoulRebels_CentralPark_SeanJamar40.webp
+        credit: City Parks Foundation / Sean Jamar
+        license: null
+        source_url: https://cityparksfoundation.org/summerstage/
+  - slug: cmj-union
+    name: CMJ Union
+    aliases:
+      - CMJ Union
+    kind: other
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Union Square
+    address: 27 Union Square W
+    lat: 40.7364
+    lon: -73.99101
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: null
+    description: The CMJ Music Marathon's own venue and social hub during the 2012 festival, at 27 Union Square West. KEXP recorded live sessions there, including sets by Daughter and Little Green Cars.
+    description_source:
+      label: CMJ 2012 schedule
+      url: https://cmj2012.sched.com/list/descriptions/
+    website: null
+    wikipedia: null
+    images: []
+  - slug: cornucopia-majesty
+    name: Cornucopia Majesty
+    aliases:
+      - Cornucopia Majesty (Pier 36 boat cruise)
+    kind: boat
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: Pier 36, 299 South St
+    lat: 40.70944
+    lon: -73.98578
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A 210-foot party yacht that runs dance and concert cruises around New York Harbor. It began weekend sailings from Pier 36 on the East River around 2017, though recent listings also show other piers.
+    description_source:
+      label: The Lo-Down
+      url: https://www.thelodownny.com/leslog/2017/08/pier-36-becomes-party-boat-cruise-ship-destination.html
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://www.cornucopiacruise.com/wp-content/uploads/sites/3730/2020/01/75165922.jpg
+        credit: Cornucopia Cruise Line (official site)
+        license: null
+        source_url: https://www.cornucopiacruise.com/our-fleet/
+  - slug: elsewhere
+    name: Elsewhere
+    aliases:
+      - Elsewhere (Hall)
+      - Elsewhere - Zone One, 599 Johnson Avenue, Brooklyn, NY, 11237, US
+      - Elsewhere
+      - Zone One, Elsewhere
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Bushwick
+    address: 599 Johnson Ave
+    lat: 40.70948
+    lon: -73.92324
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A multi-room music venue and nightclub on Johnson Avenue in Bushwick, opened in 2017 by the team behind Glasslands Gallery. Its spaces include the Hall, the smaller Zone One and a rooftop.
+    description_source:
+      label: Earmilk
+      url: https://earmilk.com/news/the-team-behind-glasslands-gallery-and-popgun-presents-to-open-elsewhere-in-brooklyn/
+    website: https://www.elsewhere.club/
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://www.datocms-assets.com/46309/1708535301-favhall2.jpg
+        credit: Elsewhere (official site)
+        license: null
+        source_url: https://www.elsewhere.club/spaces/the-hall
+  - slug: fontanas
+    name: Fontana's
+    aliases:
+      - Fontana’s Bar
+    kind: bar
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 105 Eldridge St
+    lat: 40.71803
+    lon: -73.99215
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2016
+    description: A bar and performance space at 105 Eldridge Street on the Lower East Side. It closed in spring 2016 after about 12 years, with an owner blaming a rent that had more than tripled.
+    description_source:
+      label: DNAinfo
+      url: https://www.dnainfo.com/new-york/20160114/lower-east-side/fontanas-bar-closing-due-rent-hike-owner-says/
+    website: null
+    wikipedia: null
+    images: []
+  - slug: forest-hills-stadium
+    name: Forest Hills Stadium
+    aliases:
+      - Forest Hills Stadium
+    kind: stadium
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Forest Hills
+    address: 1 Tennis Pl
+    lat: 40.7197
+    lon: -73.85018
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An outdoor stadium in Forest Hills, Queens, built for tennis. It drew acts such as The Beatles, The Rolling Stones and Bob Dylan in the 1960s and 70s, and it has since been revived as a concert venue.
+    description_source:
+      label: Forest Hills Stadium
+      url: https://www.foresthillsstadium.com/
+    website: https://www.foresthillsstadium.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://aegwebprod.blob.core.windows.net/content/hero_carousel_images/122/pNBjVLJyfeAFZPtJ63pYtcuQc8kpalN4NtDzDYmo.jpeg
+        credit: Forest Hills Stadium (official site)
+        license: null
+        source_url: https://www.foresthillsstadium.com/about
+      - view: interior
+        url: https://aegwebprod.blob.core.windows.net/content/default_background_images/122/avbEE0mOvTkgM5SDpgXtVQYsetXNEDBjbiusIFfp.jpeg
+        credit: Forest Hills Stadium (official site)
+        license: null
+        source_url: https://www.foresthillsstadium.com/
+  - slug: glasslands-gallery
+    name: Glasslands Gallery
+    aliases:
+      - 'Glasslands '
+      - Glasslands Gallery
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 289 Kent Ave
+    lat: 40.715
+    lon: -73.96652
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2014
+    description: An independent music and art space at 289 Kent Avenue on the Williamsburg waterfront. It played its last night on New Year's Eve 2014, after which Vice Media took over the building, and its team later opened Elsewhere.
+    description_source:
+      label: NME
+      url: https://www.nme.com/news/music/various-artists-2921-1236375
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Glasslands_Gallery
+    images:
+      - view: interior
+        url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Keepaway_by_Dylan_Johnson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+        credit: BKmusicpix
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Keepaway_by_Dylan_Johnson.jpg
+  - slug: governors-island
+    name: Governors Island
+    aliases:
+      - Governors Island, South Island Field
+    kind: festival_grounds
+    city: New York
+    region: NY
+    country: US
+    neighborhood: null
+    address: null
+    lat: 40.68865
+    lon: -74.01828
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A former military base in New York Harbor, now a public park reached by ferry. The first Governors Ball Music Festival was held on its South Island field in 2011, before the event moved to Randall's Island.
+    description_source: null
+    website: https://www.govisland.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://gov-island-site.s3.amazonaws.com/homepage/2019_video_placeholder.jpg
+        credit: The Trust for Governors Island (official site)
+        license: null
+        source_url: https://www.govisland.com/
+  - slug: great-stage-park
+    name: Great Stage Park
+    aliases:
+      - Great Stage Park, Manchester, TN
+    kind: festival_grounds
+    city: Manchester
+    region: TN
+    country: US
+    neighborhood: null
+    address: null
+    lat: 35.47992
+    lon: -86.03189
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A permanent festival site on farmland in Manchester, Tennessee. It is best known as the home of the Bonnaroo Music and Arts Festival.
+    description_source: null
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://cdn.prod.website-files.com/671f413c248a1b1d237679e6/671f413c248a1b1d23767c08_65b7e5fbe64707dcc9a62298_06.14%2520What%2520Stage%2520By%2520Charles%2520Reagan%2520Hackleman%2520Bonnaroo%25202019%2520CRH_9433.webp
+        credit: Charles Reagan Hackleman for Bonnaroo (official site)
+        license: null
+        source_url: https://www.bonnaroo.com/
+  - slug: hammerstein-ballroom
+    name: Hammerstein Ballroom
+    aliases:
+      - Hammerstein Ballroom
+    kind: theater
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Garment District
+    address: 311 W 34th St
+    lat: 40.75294
+    lon: -73.99412
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A large ballroom inside the Manhattan Center at 311 West 34th Street. Opera impresario Oscar Hammerstein built the structure in the early 1900s as an opera house.
+    description_source: null
+    website: https://www.manhattancenter.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://www.themanhattancenter.com/wp-content/uploads/2024/12/MC-0273.jpg
+        credit: Manhattan Center (official site)
+        license: null
+        source_url: https://www.themanhattancenter.com/
+      - view: interior
+        url: https://www.themanhattancenter.com/wp-content/uploads/2026/08/ManhattanCenter_Rooms-7-scaled.jpg
+        credit: Manhattan Center (official site)
+        license: null
+        source_url: https://www.themanhattancenter.com/hammerstein-ballroom/
+  - slug: highline-ballroom
+    name: Highline Ballroom
+    aliases:
+      - Highline Ballroom
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Chelsea
+    address: 431 W 16th St
+    lat: 40.74305
+    lon: -74.00574
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2019
+    description: A Chelsea music club at 431 West 16th Street run by the Blue Note Entertainment Group. It closed in 2019, with The Roots playing the final show after the landlord declined to renew the lease, and the room later reopened as Racket.
+    description_source:
+      label: Gothamist
+      url: https://gothamist.com/arts-entertainment/new-venue-racket-takes-over-old-highline-ballroom-space-in-chelsea
+    website: null
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://www.amny.com/wp-content/uploads/2019/01/High-line-ballroom-to-close-01-1024x906.jpg
+        credit: Highline Ballroom via amNY (Instagram / Highline Ballroom)
+        license: null
+        source_url: https://www.amny.com/news/highline-ballroom-to-close-after-landlord-derails-lease-renewal
+  - slug: hill-country
+    name: Hill Country Barbecue Market
+    aliases:
+      - Hill Country Barbecue Market
+    kind: bar
+    city: New York
+    region: NY
+    country: US
+    neighborhood: NoMad
+    address: 30 W 26th St
+    lat: 40.74427
+    lon: -73.99043
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A Central Texas-style barbecue restaurant on West 26th Street that sells meat by the pound. Bands play in its downstairs bar on many nights of the week.
+    description_source:
+      label: Hill Country
+      url: https://www.hillcountry.com/location/new-york-city/
+    website: https://www.hillcountry.com/location/new-york-city/
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://images.getbento.com/accounts/8cfd46f2b4e6bfe2c6f53c25128c879b/media/images/36847Boot_Bar_Private_Event_NYC.jpeg
+        credit: Hill Country Barbecue Market (official site)
+        license: null
+        source_url: https://www.hillcountry.com/nyc-private-events/
+  - slug: irving-plaza
+    name: Irving Plaza
+    aliases:
+      - Irving Plaza, New York, New York
+      - Irving Plaza
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Gramercy
+    address: 17 Irving Pl
+    lat: 40.73491
+    lon: -73.98827
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A mid-sized concert hall at 17 Irving Place, a short walk from Union Square. The room books touring rock, pop and hip-hop acts.
+    description_source:
+      label: Irving Plaza
+      url: https://www.irvingplaza.com/
+    website: https://www.irvingplaza.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Irving_Plaza_-_October_2026_%2855634445820%29.jpg/1280px-Irving_Plaza_-_October_2026_%2855634445820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: ajay_suresh
+        license: CC BY 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Irving_Plaza_-_October_2026_(55634445820).jpg
+      - view: interior
+        url: https://assets.livenationcdn.com/uploads/private-events-marketing-rail-9.jpg
+        credit: Irving Plaza (official site)
+        license: null
+        source_url: https://www.irvingplaza.com/
+  - slug: jazz-standard
+    name: Jazz Standard
+    aliases:
+      - Jazz Standard
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Rose Hill
+    address: 116 E 27th St
+    lat: 40.74217
+    lon: -73.98382
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2020
+    description: A basement jazz club on East 27th Street, beneath a Blue Smoke restaurant owned by Danny Meyer. It closed for good in December 2020 after months without income during the pandemic.
+    description_source:
+      label: KPBS
+      url: https://www.kpbs.org/news/2020/12/02/jazz-standard-one-of-new-yorks-top-clubs-closes
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Jazz_Standard_(jazz_club)
+    images:
+      - view: interior
+        url: https://media.ffycdn.net/us/nyc-tourism/FSQDueaEybZpS1kGpsUA.jpg?cid=client-a2cq4jk567tqfgem&width=1440&quality=75&height=960
+        credit: Kate Glicksberg / NYC Tourism + Conventions
+        license: null
+        source_url: https://www.nyctourism.com/nightlife/jazz-standard/
+  - slug: kings-theatre
+    name: Kings Theatre
+    aliases:
+      - Kings Theatre
+    kind: theater
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Flatbush
+    address: 1027 Flatbush Ave
+    lat: 40.64601
+    lon: -73.95736
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An ornate 1929 movie palace on Flatbush Avenue in Brooklyn. It sat empty for decades before a restoration brought it back as a performing arts venue in 2015.
+    description_source: null
+    website: https://www.kingstheatre.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Kings_Theatre_Flatbush_finished_jeh.jpg?width=1600
+        credit: Jim.henderson
+        license: CC BY 3.0
+        source_url: https://commons.wikimedia.org/wiki/File:Kings_Theatre_Flatbush_finished_jeh.jpg
+      - view: interior
+        url: "https://res.cloudinary.com/dwzhqvxaz/image/upload/q_auto,f_auto/umbraco-prod/k4rb4tnj/kings-theatre-1-1900x1070.png"
+        credit: Kings Theatre / ATG Entertainment (official site)
+        license: null
+        source_url: https://us.atgtickets.com/venues/kings-theatre-brooklyn/venue-info/
+  - slug: knitting-factory-brooklyn
+    name: Knitting Factory Brooklyn
+    aliases:
+      - Knitting Factory Brooklyn
+      - Knitting Factory
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 361 Metropolitan Ave
+    lat: 40.71424
+    lon: -73.95584
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2022
+    description: The Brooklyn outpost of the Knitting Factory club brand, opened in 2009 at 361 Metropolitan Avenue in the former Luna Lounge space. Its final night was August 21, 2022.
+    description_source:
+      label: BKMAG
+      url: https://www.bkmag.com/2022/06/20/the-knitting-factory-is-closing-down-its-brooklyn-location/
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Knitting_Factory
+    images: []
+  - slug: le-poisson-rouge
+    name: Le Poisson Rouge
+    aliases:
+      - Le Poisson Rouge
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Greenwich Village
+    address: 158 Bleecker St
+    lat: 40.72843
+    lon: -73.99988
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A music venue and bar on Bleecker Street in Greenwich Village, open since 2008 in the basement once home to the Village Gate. Its calendar runs from classical and experimental music to indie rock.
+    description_source: null
+    website: https://lpr.com/
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://lpr.com/wp-content/uploads/2016/07/LPR-Main-Bar.jpg
+        credit: Le Poisson Rouge (official site)
+        license: null
+        source_url: https://lpr.com/rentals-private-events/
+  - slug: lena-horne-bandshell
+    name: Lena Horne Bandshell
+    aliases:
+      - Lena Horne Bandshell, Prospect Park
+      - Prospect Park Bandshell
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Prospect Park
+    address: null
+    lat: null
+    lon: null
+    coordinates_source: null
+    operating_status: open
+    closed_year: null
+    description: An outdoor amphitheater in Prospect Park, built in 1939 and home to BRIC's free Celebrate Brooklyn! summer festival. Long known as the Prospect Park Bandshell, it was renamed in 2021 for Brooklyn-born entertainer Lena Horne.
+    description_source:
+      label: Prospect Park Alliance
+      url: https://www.prospectpark.org/prospect-park-bandshell-renamed-lena-horne/
+    website: https://www.bricartsmedia.org/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://bricartsmedia.org/wp-content/uploads/2023/08/bric-lena-horne-bandshell-venue.jpg
+        credit: BRIC (official site)
+        license: null
+        source_url: https://bricartsmedia.org/events/
+  - slug: madison-square-garden
+    name: Madison Square Garden
+    aliases:
+      - Madison Square Garden, New York, NY
+      - Madison Square Garden
+    kind: arena
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Midtown
+    address: 4 Pennsylvania Plaza
+    lat: 40.75051
+    lon: -73.99352
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: The arena above Penn Station in Midtown Manhattan, opened in 1968 as the fourth building to carry the name. It is home to the Knicks and Rangers and is one of the busiest concert arenas in the world.
+    description_source: null
+    website: https://www.msg.com/madison-square-garden
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://assets.msg.com/vlp/images/Madison-Square-Garden.jpg
+        credit: Madison Square Garden
+        license: null
+        source_url: https://www.msg.com/madison-square-garden
+      - view: interior
+        url: https://platform-assets.msg.com/event-engine/NYR_051122_04408_1755528712522.jpg
+        credit: Madison Square Garden (official site)
+        license: null
+        source_url: https://www.msg.com/venue-tours/madison-square-garden
+  - slug: market-hotel
+    name: Market Hotel
+    aliases:
+      - Market Hotel
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Bushwick
+    address: 1140 Myrtle Ave
+    lat: 40.69693
+    lon: -73.93459
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A music venue at 1140 Myrtle Avenue in Bushwick, upstairs beside the elevated subway tracks. It grew out of the neighborhood's DIY scene.
+    description_source: null
+    website: https://www.markethotel.org/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://images.squarespace-cdn.com/content/v1/5b313e6df2e6b1a969e571ed/1661789324662-WDYKY13MOW692ZYT560S/IMG_9957+%281%29.jpg
+        credit: Market Hotel (official site)
+        license: null
+        source_url: https://www.markethotel.org/
+  - slug: matchless
+    name: Bar Matchless
+    aliases:
+      - Matcheless
+    kind: bar
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Greenpoint
+    address: 557 Manhattan Ave
+    lat: 40.72288
+    lon: -73.95039
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2018
+    description: A bar and live-music room at 557 Manhattan Avenue in Greenpoint that ran for about 14 years. It closed in early 2018 after the building was sold, and the structure was later demolished for condos.
+    description_source:
+      label: BKMAG
+      url: https://www.bkmag.com/2023/06/16/the-former-home-of-bar-matchless-in-greenpoint-has-finally-been-demolished/
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://forgotten-ny.com/wp-content/uploads/2011/12/matchless.jpg
+        credit: Kevin Walsh / Forgotten New York
+        license: null
+        source_url: https://forgotten-ny.com/2011/12/matchless/
+      - view: interior
+        url: https://greenpointers.com/wp-content/uploads/2022/11/bar-matchless-last-night-bar-greenpoint-brooklyn-2019-by-Julia-Moak.jpg
+        credit: Julia Moak / Greenpointers
+        license: null
+        source_url: https://greenpointers.com/2022/11/01/bar-matchless-construction-updates-a-look-back
+  - slug: mckittrick-hotel
+    name: The McKittrick Hotel
+    aliases:
+      - The McKittrick Hotel (Manderley Bar)
+      - The McKittrick Hotel
+    kind: other
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Chelsea
+    address: 530 W 27th St
+    lat: 40.75068
+    lon: -74.00381
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A converted West Chelsea warehouse dressed as a fictional 1930s hotel, created as the home of the immersive show Sleep No More. Its bars and rooms, including the Manderley Bar, also host live music.
+    description_source: null
+    website: https://mckittrickhotel.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/The_McKittrick_Hotel_1.jpg?width=1600
+        credit: Ahare63
+        license: CC0
+        source_url: https://commons.wikimedia.org/wiki/File:The_McKittrick_Hotel_1.jpg
+      - view: interior
+        url: https://mckittrickhotel.com/app/uploads/2024/01/The-Club-Car-bar-wide-DSC_9467.jpg
+        credit: The McKittrick Hotel (official site)
+        license: null
+        source_url: https://mckittrickhotel.com/private-events/
+  - slug: mercury-lounge
+    name: Mercury Lounge
+    aliases:
+      - Mercury Lounge
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 217 E Houston St
+    lat: 40.722
+    lon: -73.98682
+    coordinates_source: wikipedia
+    operating_status: open
+    closed_year: null
+    description: A 250-capacity rock club on East Houston Street on the Lower East Side and the sister room of the Bowery Ballroom. It has a long reputation for its sound and for giving rising indie bands an early New York stage.
+    description_source:
+      label: Wikipedia
+      url: https://en.wikipedia.org/wiki/Mercury_Lounge
+    website: https://www.mercuryeastpresents.com/mercurylounge/
+    wikipedia: https://en.wikipedia.org/wiki/Mercury_Lounge
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/WSTM_Team_Dustizeff_0082.jpg/1280px-WSTM_Team_Dustizeff_0082.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: This photo was taken by participant/team Team Dustizeff as part of the Commons:Wikis Take Manhattan project on October 4
+        license: CC BY-SA 3.0
+        source_url: https://commons.wikimedia.org/wiki/File:WSTM_Team_Dustizeff_0082.jpg
+      - view: interior
+        url: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Shivas_@_Mercury_Lounge,_New_York.jpg?width=1600"
+        credit: Vladimir
+        license: CC BY-SA 2.0
+        source_url: "https://commons.wikimedia.org/wiki/File:The_Shivas_@_Mercury_Lounge,_New_York.jpg"
+  - slug: music-hall-of-williamsburg
+    name: Music Hall of Williamsburg
+    aliases:
+      - Music Hall of Williamsburg
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 66 N 6th St
+    lat: 40.71915
+    lon: -73.96178
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A Bowery Presents club at 66 North 6th Street in Williamsburg. In December 2025 the company said the building's owners would not renew its lease beyond 2026, and no new location had been announced.
+    description_source:
+      label: Billboard
+      url: https://www.billboard.com/pro/music-hall-of-williamsburg-brooklyn-close-after-2026/
+    website: https://www.musichallofwilliamsburg.com/
+    wikipedia: https://en.wikipedia.org/wiki/Music_Hall_of_Williamsburg
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Music_Hall_of_Williamsburg_Exterior_%2726.jpg/1280px-Music_Hall_of_Williamsburg_Exterior_%2726.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: Kiki6679
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Music_Hall_of_Williamsburg_Exterior_%2726.jpg
+      - view: interior
+        url: https://aegwebprod.blob.core.windows.net/content/bowery/venues/MHOW-1200x800.jpg
+        credit: The Bowery Presents (official site)
+        license: null
+        source_url: https://www.bowerypresents.com/music-hall-of-williamsburg/
+  - slug: nethermead-prospect-park
+    name: The Nethermead, Prospect Park
+    aliases:
+      - Prospect Park (Nethermead), Great GoogaMooga
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Prospect Park
+    address: null
+    lat: 40.66039
+    lon: -73.96883
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A broad meadow near the center of Prospect Park. It hosted Superfly's Great GoogaMooga food and music festival in 2012 and 2013, before the Parks Department ended the event over damage to the grounds.
+    description_source:
+      label: WNYC
+      url: https://www.wnyc.org/story/great-googamooga-gone-good/
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Prospect_Park_Nethermead_(62947p).jpg?width=1600
+        credit: Rhododendrites
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Prospect_Park_Nethermead_(62947p).jpg
+  - slug: petes-candy-store
+    name: Pete's Candy Store
+    aliases:
+      - 'Pete''s Candy Store '
+    kind: bar
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 709 Lorimer St
+    lat: 40.7181
+    lon: -73.95018
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A 1920s candy shop on Lorimer Street in Williamsburg that was converted into a bar and music room. It has booked free shows nightly since 1999.
+    description_source:
+      label: Happy Hour NYC
+      url: https://happy-hour.nyc/bars-restaurants/petes-candy-store
+    website: https://www.petescandystore.com/
+    wikipedia: https://en.wikipedia.org/wiki/Pete's_Candy_Store
+    images:
+      - view: exterior
+        url: https://res.cloudinary.com/dlskxwzm6/image/upload/v1675532878/petes-website/home/PetesParty.jpg
+        credit: "Pete's Candy Store (official site)"
+        license: null
+        source_url: https://www.petescandystore.com/
+      - view: interior
+        url: https://res.cloudinary.com/dlskxwzm6/image/upload/v1675532878/petes-website/home/Milton.jpg
+        credit: "Pete's Candy Store (official site)"
+        license: null
+        source_url: https://www.petescandystore.com/
+  - slug: pianos
+    name: Pianos
+    aliases:
+      - Pianos
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 158 Ludlow St
+    lat: 40.721
+    lon: -73.98762
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A bar and music venue on Ludlow Street on the Lower East Side. Its name comes from the piano store that once occupied the building.
+    description_source: null
+    website: https://www.pianosnyc.com/
+    wikipedia: https://en.wikipedia.org/wiki/Pianos_(club)
+    images:
+      - view: exterior
+        url: https://freight.cargo.site/t/original/i/fce2e04eed0aa614a98911685a7319492248bde86fbce30cb4f5acdef321bb6f/_TR_3892.jpg
+        credit: Pianos (official site)
+        license: null
+        source_url: https://pianosnyc.com/Private-Events-1
+      - view: interior
+        url: https://freight.cargo.site/w/2000/i/6fd9690838d5112d507c8b3efe009afe5834efb0782b2fe9ea44b828b30f213a/IMG_3159-1.jpeg
+        credit: Pianos (official site)
+        license: null
+        source_url: https://pianosnyc.com/Private-Events-1
+  - slug: pier-17
+    name: The Rooftop at Pier 17
+    aliases:
+      - Pier 17
+      - The Rooftop at Pier 17
+    kind: other
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Seaport
+    address: 89 South St
+    lat: 40.70552
+    lon: -74.00157
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An open-air concert venue on the roof of Pier 17 at the South Street Seaport. Audiences watch shows with the Manhattan skyline and the East River bridges behind the stage.
+    description_source:
+      label: The Rooftop at Pier 17
+      url: https://rooftopatpier17.com/
+    website: https://rooftopatpier17.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://rooftopatpier17.com/wp-content/uploads/2023/03/Aerial-1_The-Rooftop-at-Pier-17_DJI_0082.jpg
+        credit: The Rooftop at Pier 17 (official site)
+        license: null
+        source_url: https://rooftopatpier17.com/
+  - slug: pier-63
+    name: Pier 63, Hudson River Park
+    aliases:
+      - Pier 63, Hudson River Park
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Chelsea
+    address: null
+    lat: 40.74962
+    lon: -74.00955
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A public pier at West 23rd Street in Hudson River Park, next to Chelsea Piers. In 2012 it hosted Converse-sponsored Bowery Presents concerts by bands including The Kills and Sleigh Bells.
+    description_source:
+      label: Hudson River Park Trust
+      url: https://hudsonriverpark.org/app/uploads/2020/03/Accomplishments_and_Operations_Fiscal_Year_2012-13.pdf
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Hudson_River_Park_td_(2018-11-27)_030_-_Pier_63.jpg?width=1600
+        credit: Tdorante10
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Hudson_River_Park_td_(2018-11-27)_030_-_Pier_63.jpg
+  - slug: public-assembly
+    name: Public Assembly
+    aliases:
+      - Public Assembly
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 70 N 6th St
+    lat: 40.71909
+    lon: -73.9615
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2013
+    description: A two-room club on North 6th Street in Williamsburg that took over the former Galapagos space in 2008. It closed quietly in December 2013 without any official announcement, and Black Bear Bar moved in.
+    description_source:
+      label: Gothamist
+      url: https://gothamist.com/arts-entertainment/this-williamsburg-music-venue-closed-last-year-and-no-one-noticed
+    website: null
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://live.staticflickr.com/6030/5915459257_c501f3ca3d_b.jpg
+        credit: Public Assembly (official Flickr)
+        license: null
+        source_url: https://www.flickr.com/photos/publicassemblynyc/5915459257/
+  - slug: public-records
+    name: Public Records
+    aliases:
+      - Public Records
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Gowanus
+    address: 233 Butler St
+    lat: 40.68217
+    lon: -73.98639
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A music venue, bar and eatery at 233 Butler Street in Gowanus, opened in 2019. Its main performance room, the Sound Room, holds up to about 200 people.
+    description_source: null
+    website: https://publicrecords.nyc/
+    wikipedia: https://en.wikipedia.org/wiki/Public_Records_(venue)
+    images:
+      - view: exterior
+        url: https://publicrecords.nyc/wp-content/uploads/2025/11/233-at-dusk-1.jpg
+        credit: Public Records (official site)
+        license: null
+        source_url: https://publicrecords.nyc/
+      - view: interior
+        url: https://publicrecords.nyc/wp-content/uploads/2025/11/atrium-bar.jpg
+        credit: Public Records (official site)
+        license: null
+        source_url: https://publicrecords.nyc/
+  - slug: racket-nyc
+    name: Racket
+    aliases:
+      - Racket NYC
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Chelsea
+    address: 431 W 16th St
+    lat: 40.743
+    lon: -74.00589
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A roughly 650-capacity club in Chelsea that The Bowery Presents opened in January 2023 in the former Highline Ballroom. The stage and bars stayed where they were, but the old dining tables and lounge seating were removed.
+    description_source:
+      label: Gothamist
+      url: https://gothamist.com/arts-entertainment/new-venue-racket-takes-over-old-highline-ballroom-space-in-chelsea
+    website: https://www.bowerypresents.com/racket/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://www.digitalmusicnews.com/wp-content/uploads/2019/01/highline_ballroom.jpg
+        credit: Digital Music News
+        license: null
+        source_url: https://www.digitalmusicnews.com/?p=118223
+      - view: interior
+        url: https://aegwebprod.blob.core.windows.net/content/photo_gallery_images/334/YgplFWIo2dxev8Y8LUjbUEHnfTfuDPRxkPWnkqTx.jpg
+        credit: Racket (official site)
+        license: null
+        source_url: https://www.racketnyc.com/venue-info
+  - slug: radio-city-music-hall
+    name: Radio City Music Hall
+    aliases:
+      - Radio City Music Hall
+    kind: theater
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Midtown
+    address: 1260 6th Ave
+    lat: 40.75981
+    lon: -73.97928
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An Art Deco theater in Rockefeller Center, opened in 1932. It is the home of the Rockettes and their annual Christmas show, and it also hosts major concerts.
+    description_source: null
+    website: https://www.msg.com/radio-city-music-hall
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://assets.msg.com/vlp/images/Radio-City-Music-Hall.jpg
+        credit: Radio City Music Hall (official site)
+        license: null
+        source_url: https://www.msg.com/radio-city-music-hall
+      - view: interior
+        url: https://platform-assets.msg.com/event-engine/RCMH_012215_212P-L-1750x984_1749585598304.webp
+        credit: Radio City Music Hall (official site)
+        license: null
+        source_url: https://www.msg.com/radio-city-music-hall
+  - slug: randalls-island
+    name: Randall's Island
+    aliases:
+      - Randall’s Island
+    kind: festival_grounds
+    city: New York
+    region: NY
+    country: US
+    neighborhood: null
+    address: null
+    lat: 40.796
+    lon: -73.9208
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An island park in the East River between Manhattan, Queens and the Bronx. Its fields were the longtime home of the Governors Ball Music Festival.
+    description_source: null
+    website: https://randallsisland.org/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://randallsisland.org/wp-content/uploads/2024/02/VisitMainHero1.jpg
+        credit: "Randall's Island Park Alliance (official site)"
+        license: null
+        source_url: https://randallsisland.org/visit/
+  - slug: red-rocks-amphitheatre
+    name: Red Rocks Amphitheatre
+    aliases:
+      - Red Rocks Amphitheatre
+    kind: other
+    city: Morrison
+    region: CO
+    country: US
+    neighborhood: null
+    address: 18300 W Alameda Pkwy
+    lat: 39.66539
+    lon: -105.20572
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An open-air amphitheatre set among red sandstone formations in Morrison, Colorado. It is a National Historic Landmark, and the surrounding park also has public trails.
+    description_source:
+      label: Red Rocks
+      url: https://www.redrocksonline.com/
+    website: https://www.redrocksonline.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://assets.redrocksonline.com/wp-content/uploads/2024/05/06100549/TurnpikeTroubadours_RRX2022_0515_200959-5502_ALIVECOVERAGE-1920x1280.jpg
+        credit: Red Rocks Amphitheatre (official site)
+        license: null
+        source_url: https://www.redrocksonline.com/
+  - slug: rockwood-music-hall
+    name: Rockwood Music Hall
+    aliases:
+      - Rockwood Music Hall, Stage 2
+      - Rockwood Music Hall
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 196 Allen St
+    lat: 40.72247
+    lon: -73.98851
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2024
+    description: A small Lower East Side listening room opened at 196 Allen Street in 2005 by musician Ken Rockwood. Its 175-person Stage 2 debuted in 2010 and closed in November 2023, and the whole venue shut abruptly on November 10, 2024.
+    description_source:
+      label: EV Grieve
+      url: https://evgrieve.com/2024/12/the-former-rockwood-music-hall-is-for.html
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Rockwood_Music_Hall
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Rockwood_Music_Hall_196_Allen_St_jeh.jpg?width=1600
+        credit: Jim.henderson
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Rockwood_Music_Hall_196_Allen_St_jeh.jpg
+      - view: interior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Rockwood_Approved_1_3000x2000.jpg/1280px-Rockwood_Approved_1_3000x2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: Asjkap
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Rockwood_Approved_1_3000x2000.jpg
+  - slug: roseland-ballroom
+    name: Roseland Ballroom
+    aliases:
+      - Roseland Ballroom
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Theater District
+    address: 239 W 52nd St
+    lat: 40.76315
+    lon: -73.98399
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2014
+    description: A dance hall turned concert venue on West 52nd Street in Midtown. It closed after a Lady Gaga residency that ended on April 7, 2014, and the site was redeveloped as an apartment tower.
+    description_source:
+      label: Rolling Stone
+      url: https://www.rollingstone.com/music/music-news/report-roseland-ballroom-closing-in-april-99451/
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Roseland_Ballroom
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Roseland-front.jpg/1280px-Roseland-front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: The original uploader was Americasroof at English Wikipedia.
+        license: CC BY-SA 2.5
+        source_url: https://commons.wikimedia.org/wiki/File:Roseland-front.jpg
+      - view: interior
+        url: https://web.archive.org/web/20121219120321im_/http://www.roselandballroom.com/files/9813/0374/8511/015.jpg
+        credit: "Roseland Ballroom (archived official site, photo tour)"
+        license: null
+        source_url: https://web.archive.org/web/2012/http://www.roselandballroom.com/photo-tour/
+  - slug: rough-trade-nyc
+    name: Rough Trade NYC
+    aliases:
+      - Rough Trade NYC
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 64 N 9th St
+    lat: 40.72077
+    lon: -73.95965
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2021
+    description: The New York branch of the British record shop, which combined a store and a live room in Williamsburg. It left Williamsburg in 2021 for a smaller shop at Rockefeller Center.
+    description_source:
+      label: Time Out New York
+      url: https://www.timeout.com/newyork/news/rough-trade-nyc-is-moving-from-williamsburg-to-midtown-manhattan-051021
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://www.bkmag.com/wp-content/uploads/2015/06/Rough_Trade_01.jpg
+        credit: Liz Clayman / Brooklyn Magazine
+        license: null
+        source_url: https://www.bkmag.com/?p=32087
+      - view: interior
+        url: https://www.bkmag.com/wp-content/uploads/2015/06/Rough_Trade_02.jpg
+        credit: Liz Clayman / Brooklyn Magazine
+        license: null
+        source_url: https://www.bkmag.com/?p=32087
+  - slug: santos-party-house
+    name: Santos Party House
+    aliases:
+      - Santos Party House
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Tribeca
+    address: 96 Lafayette St
+    lat: 40.71766
+    lon: -74.00137
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2016
+    description: A nightclub and music venue at 96 Lafayette Street in Lower Manhattan, co-owned by Andrew W.K. Its last night was May 29, 2016, and its manager said the lease was not being renewed.
+    description_source:
+      label: Resident Advisor
+      url: https://ra.co/news/34984
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/Santos_Party_House
+    images:
+      - view: interior
+        url: https://web.archive.org/web/20130531025159im_/http://santospartyhouse.com/images/photographs/nisian-hughes-empty-club-upstairs.jpg
+        credit: Nisian Hughes / Santos Party House (archived official site)
+        license: null
+        source_url: https://web.archive.org/web/20130531025159/http://santospartyhouse.com/
+  - slug: shea-stadium-bk
+    name: Shea Stadium (Brooklyn)
+    aliases:
+      - Shea Stadium
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Williamsburg
+    address: 20 Meadow St
+    lat: 40.7106
+    lon: -73.93638
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2017
+    description: A DIY music venue on Meadow Street in East Williamsburg, unrelated to the former Mets ballpark in Queens. After about eight years of shows it shut in 2017 under pressure from authorities, and a planned reopening fell through when the landlord withdrew support.
+    description_source:
+      label: SPIN
+      url: https://www.spinmagazine.com/2017/03/shea-stadium-brooklyn-closing/
+    website: null
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://www.bkmag.com/wp-content/uploads/2014/08/sheastadiumBK.jpg
+        credit: Brooklyn Magazine
+        license: null
+        source_url: https://www.bkmag.com/?p=56727
+  - slug: sony-hall
+    name: Sony Hall
+    aliases:
+      - Sony Hall
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Theater District
+    address: 235 W 46th St
+    lat: 40.75965
+    lon: -73.98701
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A concert hall and private-event space at 235 West 46th Street in the Theater District, at the same address as the Paramount Hotel. It presents live music across many genres.
+    description_source:
+      label: Sony Hall
+      url: https://sonyhall.com/
+    website: https://sonyhall.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Sony_Hall_2_%28cropped%29.jpg/1280px-Sony_Hall_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+        credit: Found5dollar
+        license: CC BY-SA 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Sony_Hall_2_(cropped).jpg
+      - view: interior
+        url: https://sonyhall.com/wp-content/uploads/2026/05/Sony-Hall-Main-Room-Sound-Board-1800x1200.jpg
+        credit: Sony Hall (official site)
+        license: null
+        source_url: https://sonyhall.com/private-events/
+  - slug: stuyvesant-oval
+    name: Stuyvesant Oval
+    aliases:
+      - Stuyvesent Oval
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Stuyvesant Town
+    address: null
+    lat: 40.73176
+    lon: -73.97784
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: The central oval green of Stuyvesant Town, the large apartment complex on Manhattan's East Side.
+    description_source: null
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://uxp-pd-cms-gmfqdagrdcdrd0gk.a02.azurefd.net/media/axjhz3rg/dsc02168.jpg
+        credit: StuyTown (official site)
+        license: null
+        source_url: https://www.stuytown.com/amenities/our-80-acres
+  - slug: terminal-5
+    name: Terminal 5
+    aliases:
+      - Terminal 5
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Hell's Kitchen
+    address: 610 W 56th St
+    lat: 40.76975
+    lon: -73.99274
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A multi-level concert hall at 610 West 56th Street, opened in 2007 in a converted industrial building. The Bowery Presents runs the room, which holds about 3,000 people across its floors.
+    description_source:
+      label: Stage and Street NYC
+      url: https://stageandstreetnyc.com/concerts/venues/terminal-5/
+    website: https://www.terminal5nyc.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Terminal_5_(55283714883).jpg?width=1600
+        credit: Ajay Suresh
+        license: CC BY 4.0
+        source_url: https://commons.wikimedia.org/wiki/File:Terminal_5_(55283714883).jpg
+      - view: interior
+        url: https://storage.googleapis.com/cms-org.media.aegpresents.com/venue-rentals/share-images/venues/terminal-5-venue.jpg
+        credit: AEG Presents / Terminal 5 (operator venue rentals)
+        license: null
+        source_url: https://aegsev.com/terminal-5
+  - slug: the-bell-house
+    name: The Bell House
+    aliases:
+      - The Bell House
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Gowanus
+    address: 149 7th St
+    lat: 40.67373
+    lon: -73.99168
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A music and comedy venue at 149 7th Street in Gowanus, Brooklyn, set in a converted industrial building.
+    description_source: null
+    website: https://www.thebellhouseny.com/
+    wikipedia: null
+    images: []
+  - slug: the-black-sheep
+    name: The Black Sheep
+    aliases:
+      - Colorado Springs, CO - The Black Sheep
+    kind: club
+    city: Colorado Springs
+    region: CO
+    country: US
+    neighborhood: null
+    address: 2106 E Platte Ave
+    lat: 38.83733
+    lon: -104.78933
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: An all-ages, standing-room concert hall on East Platte Avenue in Colorado Springs. It has booked touring punk and indie acts since 2005, with a full bar for those 21 and over.
+    description_source:
+      label: PeakRadar
+      url: https://peakradar.com/venue/black-sheep/
+    website: https://blacksheeprocks.com/
+    wikipedia: null
+    images:
+      - view: interior
+        url: https://www.blacksheeprocks.com/wp-content/uploads/2019/10/black-sheep-01.jpg
+        credit: The Black Sheep (official site)
+        license: null
+        source_url: https://www.blacksheeprocks.com/rentals/
+  - slug: the-garden-at-studio-square
+    name: The Garden at Studio Square
+    aliases:
+      - The Garden at Studio Square
+    kind: bar
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Long Island City
+    address: 35-33 36th St
+    lat: 40.75511
+    lon: -73.92518
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: null
+    description: A beer garden and event space on 36th Street in Long Island City, Queens, which opened as Studio Square NYC in 2009. Directory listings mark it as permanently closed, but no closing date was found.
+    description_source: null
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://web.archive.org/web/20140722101224im_/http://www.studiosquarebeergarden.com/s/cc_images/cache_3489555404.jpg?t=1346175281
+        credit: "The Garden at Studio Square (official site, archived)"
+        license: null
+        source_url: https://web.archive.org/web/2014/http://www.studiosquarebeergarden.com/
+  - slug: the-living-room
+    name: The Living Room
+    aliases:
+      - The Living Room
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Lower East Side
+    address: 154 Ludlow St
+    lat: 40.72087
+    lon: -73.98769
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2015
+    description: A Lower East Side listening room that moved to 154 Ludlow Street in 2003. Rising rent pushed it out in early 2013, and it later relocated to Williamsburg, where it closed in December 2015.
+    description_source:
+      label: JamBase
+      url: https://www.jambase.com/article/the-living-room-nyc-to-close-in-jan-2013-relocate
+    website: null
+    wikipedia: https://en.wikipedia.org/wiki/The_Living_Room
+    images: []
+  - slug: the-sultan-room
+    name: The Sultan Room
+    aliases:
+      - The Sultan Room
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Bushwick
+    address: 234 Starr St
+    lat: 40.70555
+    lon: -73.92234
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A music venue at 234 Starr Street in Bushwick with a rooftop and a late-night kebab counter.
+    description_source:
+      label: Bushwick Daily
+      url: https://bushwickdaily.com/music-and-nightlife/6152-new-music-venue-the-sultan-room-comes-to-bushwick-with-a-late-night-kabab-counter-and-rooftop/
+    website: https://www.thesultanroom.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://turksnyc.com/wp-content/uploads/2019/07/65A8580-F.jpg
+        credit: "The Turk's Inn (official site, same building as The Sultan Room)"
+        license: null
+        source_url: https://turksnyc.com/about/
+      - view: interior
+        url: https://thesultanroom.com/wp-content/uploads/2019/07/DiscoBall_115.jpg
+        credit: The Sultan Room (official site)
+        license: null
+        source_url: https://thesultanroom.com/about-us/
+  - slug: the-westway
+    name: The Westway
+    aliases:
+      - The Westway
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: West Village
+    address: 75 Clarkson St
+    lat: 40.7298
+    lon: -74.00936
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: 2015
+    description: A nightclub and music venue on Clarkson Street, opened in a former strip club by Matt Kliegman and Carlos Quirarte. It closed on July 1, 2015, to make way for condos.
+    description_source:
+      label: The Fader
+      url: https://www.thefader.com/2015/04/30/the-westway-nyc-closing-migos-nyc-debut-show
+    website: null
+    wikipedia: null
+    images: []
+  - slug: under-the-k-bridge-park
+    name: Under the K Bridge Park
+    aliases:
+      - Under the K Bridge Park
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Greenpoint
+    address: 19 Bridgewater St
+    lat: 40.72543
+    lon: -73.93228
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A seven-acre park beneath the Kosciuszko Bridge along Newtown Creek in Greenpoint, managed by the North Brooklyn Parks Alliance. The Bowery Presents stages outdoor concerts there.
+    description_source:
+      label: The Bowery Presents
+      url: https://www.bowerypresents.com/under-the-k-bridge-park/
+    website: https://nbkparks.org/under-the-k/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://nbkparks.org/wp-content/uploads/2020/09/img_northbrooklynparksalliance_UndertheK2.jpg
+        credit: North Brooklyn Parks Alliance
+        license: null
+        source_url: https://nbkparks.org/under-the-k/
+  - slug: warsaw
+    name: Warsaw
+    aliases:
+      - Warsaw
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Greenpoint
+    address: 261 Driggs Ave
+    lat: 40.72254
+    lon: -73.94832
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A concert hall inside the Polish National Home at 261 Driggs Avenue in Greenpoint. The ballroom books touring rock and punk bands.
+    description_source: null
+    website: https://www.warsawconcerts.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://assets.livenationcdn.com/uploads/dae99dc3-33a1-4203-beac-e0213cc6c98f.jpg
+        credit: Warsaw (official site)
+        license: null
+        source_url: https://www.warsawconcerts.com/private-events
+      - view: interior
+        url: https://assets.livenationcdn.com/uploads/7e52c92c-3396-4aeb-8c78-5c44016deb6d.jpg
+        credit: Warsaw (official site)
+        license: null
+        source_url: https://www.warsawconcerts.com/private-events
+  - slug: webster-hall
+    name: Webster Hall
+    aliases:
+      - Marlin Room Webster Hall
+      - Studio Webster hall
+      - Webster Hall
+    kind: club
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Village
+    address: 125 E 11th St
+    lat: 40.73176
+    lon: -73.98909
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A multi-level concert hall at 125 East 11th Street in the East Village, dating to the 1880s. It closed for renovation in 2017 and reopened in 2019; its smaller basement room was known as the Marlin Room or the Studio.
+    description_source: null
+    website: https://www.websterhall.com/
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://aegwebprod.blob.core.windows.net/content/hero_carousel_images/74/mMouEXLhVcMNms6ZnOpcblXKKAur6ekYBSnRUDyD.jpeg
+        credit: Webster Hall (official site)
+        license: null
+        source_url: https://www.websterhall.com/rentals/
+      - view: interior
+        url: https://aegwebprod.blob.core.windows.net/content/hero_carousel_images/74/Oxx2TxuYo0CCMv83DqWaD85JwfUM3LIIY8KFnB3d.jpeg
+        credit: Webster Hall (official site)
+        license: null
+        source_url: https://www.websterhall.com/rentals/
+  - slug: williamsburg-park
+    name: Williamsburg Park
+    aliases:
+      - 50 Kent Ave
+      - Williamsburg Park
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 50 Kent Ave
+    lat: 40.72222
+    lon: -73.95954
+    coordinates_source: nominatim
+    operating_status: unknown
+    closed_year: null
+    description: An outdoor concert lot at 50 Kent Avenue on the Williamsburg waterfront, between North 11th and North 12th Streets. It was set up to replace the nearby Williamsburg Waterfront site and later took the name 50 Kent, after its address.
+    description_source:
+      label: BrooklynVegan
+      url: https://www.brooklynvegan.com/welcome-william/
+    website: null
+    wikipedia: null
+    images: []
+  - slug: williamsburg-waterfront
+    name: Williamsburg Waterfront
+    aliases:
+      - Williamsburg Waterfront
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Williamsburg
+    address: 90 Kent Ave
+    lat: 40.72177
+    lon: -73.96219
+    coordinates_source: nominatim
+    operating_status: closed
+    closed_year: null
+    description: An outdoor concert site in what was then East River State Park on Kent Avenue, now Marsha P. Johnson State Park. Shows there gave way to the nearby Williamsburg Park site, though the park itself remains open.
+    description_source:
+      label: BrooklynVegan
+      url: https://www.brooklynvegan.com/welcome-william/
+    website: null
+    wikipedia: null
+    images: []
