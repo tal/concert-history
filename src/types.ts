@@ -199,6 +199,8 @@ export interface Artist {
   image_url: string | null;
   description: string | null;
   wikipedia: string | null;
+  /** Username only, without the @ or URL. */
+  instagram: string | null;
 }
 
 export interface ArtistsFile {

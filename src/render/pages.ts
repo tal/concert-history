@@ -160,6 +160,7 @@ export function artistPage(site: Site, artist: ArtistEntry): string {
   const last = shows[0]!;
   const links = [
     artist.spotify_id ? out(`https://open.spotify.com/artist/${artist.spotify_id}`, 'Open in Spotify ↗', 'btn btn--spotify') : '',
+    artist.instagram ? out(`https://www.instagram.com/${artist.instagram}/`, 'Instagram ↗', 'btn') : '',
     artist.wikipedia ? out(artist.wikipedia, 'Wikipedia ↗', 'btn') : '',
   ].join('');
   const span = first === last ? longDate(first.date) : `${longDate(first.date)} to ${longDate(last.date)}`;

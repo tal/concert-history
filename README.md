@@ -20,7 +20,7 @@ The site has real directory URLs (`/artists/lizzo/`), so view it through `previe
 |---|---|
 | `data/concerts.yml` | Canonical concert, source, and photo metadata |
 | `data/venues.yml`, `data/venues/` | Venues: merged name variants, location, description, credited images |
-| `data/artists.yml` | Artists: Spotify ID, hotlinked Spotify image, Wikipedia description |
+| `data/artists.yml` | Artists: Spotify ID, hotlinked Spotify image, Wikipedia description, Instagram username |
 | `data/festivals.yml` | Festival days: daily lineups, which days Tal attended, which acts were seen |
 | `data/photos/` | Portable WebP image copies |
 | `data/posters/` | Gig posters found on the web, as WebP |
@@ -52,7 +52,7 @@ Each concert has a stable `id`, date, artist, supporting acts, venue, status, no
 - `coverage_research` records `searched_on`, `outcome` (`found`, `none_found`, `unavailable`, or `not_searched`), exact `queries`, reviewed `sources`, and `notes`, including conflicting dates and unavailable pages. `found` requires attached coverage photos. Match the photographed date and venue, not just the article’s publication date. For a festival, identify the photographed day. Coverage never changes attendance status, personal photo references, or which sets were seen. `scripts/merge-coverage.ts` merges a reviewed JSON batch into the latest YAML by concert ID, checks artist/date/venue, and preserves existing fields.
 - Local paths in the YAML (photo `asset`s and non-HTTP source `url`s such as `research/…` or `dist/photo-catalog.json`) are relative to the project root. `research/` is never deployed, so those sources show as plain labels on the site.
 - `data/venues.yml`: every raw `venue` string in `concerts.yml` must be listed in exactly one venue's `aliases`. Only freely licensed images are ever stored locally. Most images are credited hotlinks, including Commons ones, because Wikimedia throttles bulk downloads. Each image has a `view` of `exterior` or `interior`, at most one of each, exterior first; open-air venues only get an exterior.
-- `data/artists.yml`: `spotify_match` is `exact`, `ambiguous` (several Spotify artists share the name, so the link may be wrong) or `none`. `image_url` is hotlinked from Spotify, never re-hosted.
+- `data/artists.yml`: `spotify_match` is `exact`, `ambiguous` (several Spotify artists share the name, so the link may be wrong) or `none`. `image_url` is hotlinked from Spotify, never re-hosted. `instagram` is a bare username or null. `bun scripts/fetch-instagram.ts --write` fills empty ones from Wikidata (P2003), matching on Spotify ID or Wikipedia article; an `ambiguous` Spotify ID only counts when its Wikipedia article points to the same Wikidata item, and existing usernames are never replaced.
 - `data/festivals.yml`: attendance and `seen` come only from a concert's own evidence. `seen[].date` is null when an act played two days and the evidence can't narrow it down.
 
 The `research/` directory preserves the original raw exports, saved pages, and contact sheets locally. Some older evidence links refer to these local contact sheets. The current build does not need raw research or access to the original Apple Photos library.

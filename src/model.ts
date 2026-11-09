@@ -177,6 +177,7 @@ export async function loadSite(dataDir: string): Promise<Site> {
       image_url: null,
       description: null,
       wikipedia: null,
+      instagram: null,
       appearances: [],
     };
     artists.push(stub);
