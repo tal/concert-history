@@ -51,6 +51,112 @@ concerts:
     sources:
       []
     notes: "Searched for post-show concert reviews and photo coverage using artist, date and venue. No usable photo verified for this exact show in the returned results."
+- date: '2008-06-03'
+  artist: R.E.M.
+  support: The National; Modest Mouse
+  venue: Red Rocks Amphitheatre
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal remembers seeing R.E.M. at Red Rocks
+    statement: Tal remembered seeing R.E.M. at Red Rocks sometime in 2007–2009 and confirmed this June 3, 2008 show
+      after seeing the ticket order and night-of post below.
+    confirmed_on: '2026-11-09'
+  - type: email
+    label: Ticketmaster order for 2 tickets (forwarded)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1191f72f7d0fef1b
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1191f72f7d0fef1b'
+    thread_id: '1191f72f7d0fef1b'
+    subject: 'FW: Your Ticketmaster Order  (19-14999/MTN)'
+  - type: email
+    label: '"we got REM tickets"'
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1191f661fb94c19e
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1191f661fb94c19e'
+    thread_id: '1191f661fb94c19e'
+    subject: we got REM tickets
+  - type: email
+    label: Night-of Tumblr post from Red Rocks
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/11a516746191814d
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '11a516746191814d'
+    thread_id: '11a516746191814d'
+    subject: Red Rocks
+  notes: 'Ticketmaster order placed April 5, 2008 for 2 reserved seats (section RES, row 31) to "R.E.M., Red Rocks
+    Amphitheatre, Morrison, CO, Tue, Jun 3, 2008 06:30 PM". At 8:26pm MDT that night Tal emailed a Tumblr post titled
+    "Red Rocks": "Not only is there great acoustics here but the structure keeps all the weed smoke on the crowd."'
+  id: 2008-06-03-rem
+  photo_match: null
+  photos: []
+  setlists:
+  - artist: R.E.M.
+    url: https://www.setlist.fm/setlist/rem/2008/red-rocks-amphitheatre-morrison-co-1bd6a920.html
+    tour: Accelerate
+    songs:
+    - Living Well Is the Best Revenge
+    - What's the Frequency, Kenneth?
+    - Welcome to the Occupation
+    - Ignoreland
+    - Man-Sized Wreath
+    - World Leader Pretend
+    - Accelerate
+    - Cuyahoga
+    - Hollow Man
+    - Walk Unafraid
+    - Houston
+    - Electrolite
+    - The One I Love
+    - Feeling Gravitys Pull
+    - Departure
+    - Final Straw
+    - I've Been High
+    - Let Me In
+    - Horse to Water
+    - Bad Day
+    - Orange Crush
+    - I'm Gonna DJ
+    - Supernatural Superserious
+    - These Days
+    - Losing My Religion
+    - Fall on Me
+    - Man on the Moon
+    encore_start_index: 22
+  web_research:
+    searched_on: '2026-11-09'
+    support: found
+    support_sources:
+    - https://www.jambase.com/article/r-e-m-tour-w-m-mouse-national
+    - https://www.westword.com/content/printView/5674648
+    - https://www.setlist.fm/setlist/the-national/2008/red-rocks-amphitheatre-morrison-co-1bd3e9bc.html
+    - https://www.setlist.fm/setlist/modest-mouse/2008/red-rocks-amphitheatre-morrison-co-3bd75c9c.html
+    setlist: found
+    poster: none_found
+    notes: 'Accelerate tour; JamBase lists "06/03/08 Tue Red Rocks Amphitheatre" with Modest Mouse and The National
+      supporting on all dates. Order from the Westword review (Tom Murphy), whose reviewer missed The National in line
+      and arrived for Modest Mouse; its dateline reads "Tuesday, May 30, 2008", a typo (May 30 was a Friday; its
+      27-song set matches setlist.fm''s June 3). setlist.fm has opener sets: The National (10 songs, Start a War …
+      Mr. November) and Modest Mouse (11 songs, Satin in a Coffin … Spitting Venom). Poster: remhq.com''s Accelerate
+      2008 limited-edition showposters cover only European dates; gigposters.com and searches found nothing for Red
+      Rocks. tour.remhq.com''s June 3 tour page is blocked by robots.txt and was left alone.'
+  coverage_photos:
+    []
+  coverage_research:
+    searched_on: 2026-11-09
+    outcome: unavailable
+    queries:
+      - "R.E.M. Red Rocks June 3 2008 photos"
+      - "youtube R.E.M. \"Red Rocks\" 2008 live video"
+      - "R.E.M. 2008 Accelerate tour poster Red Rocks Morrison"
+    sources:
+      - https://old.marqueemag.com/2008/06/rem/
+      - https://www.westword.com/content/printView/5674648
+      - https://remhq.com/news/tour-notes-next-up-red-rocks-st-paul-and-chicago-3
+      - https://cdn-2.concertarchives.org/bands/r-e-m/photos
+    notes: "Marquee Magazine's \"R.E.M. @ Red Rocks\" (June 4, 2008; photos by Soren McCarty/www.musicimagery.com) is a gallery of this exact night, but all eight image files (wp-content/uploads/2008/06/img_8023.JPG … img_8162.JPG) now return HTTP 404 and have no Wayback copy, so nothing can be hotlinked. Westword's review has no images; its Colorado-shows retrospective returned a client error. concertarchives.org fan photos cover other 2008 nights only. tour.remhq.com's Red Rocks page (photos, videos, blogs) is blocked by robots.txt and was not fetched. No video of this show was found."
 - date: '2009-12-07'
   artist: Artist unresolved
   support: ''
