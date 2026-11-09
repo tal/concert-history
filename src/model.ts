@@ -1,16 +1,12 @@
-// Turns the YAML files into the linked model that every page renders from.
-import path from 'node:path';
+// Links the raw records into the model every page renders from. Browser-safe: src/load.ts reads the YAML, src/payload.ts rebuilds this in the client.
 import {
   SUPPORTED_STATUSES,
   type ArchiveData,
   type Artist,
-  type ArtistsFile,
   type Concert,
   type Festival,
-  type FestivalsFile,
   type Status,
   type Venue,
-  type VenuesFile,
 } from './types';
 
 export type ShowType = 'gig' | 'festival' | 'showcase' | 'dj';
@@ -57,8 +53,23 @@ export interface Site {
   shows: Show[];
   artists: ArtistEntry[];
   venues: VenueEntry[];
+  /** artists.yml in file order, without stubs but with entries nobody appears on. */
+  declaredArtists: ArtistEntry[];
+  /** venues.yml in file order, without stubs but with entries that have no shows. */
+  declaredVenues: VenueEntry[];
   /** Lookup by normalizeName, for lineups that are plain strings. */
   artistByName: Map<string, ArtistEntry>;
+  warnings: string[];
+}
+
+/** The records before linking, from the YAML files or from a payload. */
+export interface RawSite {
+  data: ArchiveData;
+  venues: Venue[];
+  artists: Artist[];
+  festivals: Festival[];
+  /** Slugs held by artists left out of `artists`, so generated stub slugs still avoid them. */
+  reservedArtistSlugs?: string[];
   warnings: string[];
 }
 
@@ -94,6 +105,9 @@ export function normalizeName(name: string): string {
   return folded || name.trim().toLowerCase();
 }
 
+/** The locale is fixed so the browser orders lists exactly as the prerender did: hydration pairs nodes by position. */
+export const compareText = (a: string, b: string) => a.localeCompare(b, 'en');
+
 export const slugify = (name: string) => normalizeName(name).replaceAll(' ', '-');
 
 /** Venue strings differ only by stray spaces, case and curly quotes when they mean the same place. */
@@ -119,32 +133,13 @@ function showType(concert: Concert, festival: Festival | null): ShowType {
   return 'gig';
 }
 
-async function loadYaml<T>(file: string, warnings: string[]): Promise<T | null> {
-  const handle = Bun.file(file);
-  if (!(await handle.exists())) {
-    warnings.push(`${path.basename(file)} is missing`);
-    return null;
-  }
-  try {
-    return Bun.YAML.parse(await handle.text()) as T;
-  } catch (error) {
-    warnings.push(`${path.basename(file)} could not be parsed: ${String(error)}`);
-    return null;
-  }
-}
-
-export async function loadSite(dataDir: string): Promise<Site> {
-  const warnings: string[] = [];
-  const data = Bun.YAML.parse(await Bun.file(path.join(dataDir, 'concerts.yml')).text()) as ArchiveData;
-  if (data.schema_version !== 1) throw new Error('Unsupported YAML schema version');
-
-  const venuesFile = await loadYaml<VenuesFile>(path.join(dataDir, 'venues.yml'), warnings);
-  const artistsFile = await loadYaml<ArtistsFile>(path.join(dataDir, 'artists.yml'), warnings);
-  const festivalsFile = await loadYaml<FestivalsFile>(path.join(dataDir, 'festivals.yml'), warnings);
+export function linkSite(raw: RawSite): Site {
+  const { data } = raw;
+  const warnings = [...raw.warnings];
 
   const venueByAlias = new Map<string, VenueEntry>();
   const venues: VenueEntry[] = [];
-  for (const venue of venuesFile?.venues ?? []) {
+  for (const venue of raw.venues) {
     const entry: VenueEntry = { ...venue, shows: [] };
     venues.push(entry);
     for (const alias of [venue.name, ...venue.aliases]) venueByAlias.set(normalizeVenue(alias), entry);
@@ -152,15 +147,17 @@ export async function loadSite(dataDir: string): Promise<Site> {
 
   const artistByName = new Map<string, ArtistEntry>();
   const artists: ArtistEntry[] = [];
-  for (const artist of artistsFile?.artists ?? []) {
+  for (const artist of raw.artists) {
     const entry: ArtistEntry = { ...artist, appearances: [] };
     artists.push(entry);
     for (const alias of [artist.name, ...artist.aliases]) artistByName.set(normalizeName(alias), entry);
   }
 
-  const festivals = new Map((festivalsFile?.festivals ?? []).map((f) => [f.concert_id, f]));
+  const festivals = new Map(raw.festivals.map((f) => [f.concert_id, f]));
+  const declaredArtists = [...artists];
+  const declaredVenues = [...venues];
 
-  const usedSlugs = new Set([...artists.map((a) => a.slug)]);
+  const usedSlugs = new Set([...artists.map((a) => a.slug), ...(raw.reservedArtistSlugs ?? [])]);
   const lookupArtist = (label: string): ArtistEntry => {
     const key = normalizeName(data.artist_aliases[label.toLowerCase()] ?? label);
     const known = artistByName.get(key);
@@ -252,7 +249,7 @@ export async function loadSite(dataDir: string): Promise<Site> {
     };
     shows.push(show);
   }
-  shows.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
+  shows.sort((a, b) => compareText(b.date, a.date) || compareText(a.id, b.id));
 
   for (const show of shows) {
     show.venue.shows.push(show);
@@ -264,8 +261,10 @@ export async function loadSite(dataDir: string): Promise<Site> {
     data,
     concerts: data.concerts,
     shows,
-    artists: artists.filter((a) => a.appearances.length).sort((a, b) => a.name.localeCompare(b.name)),
-    venues: venues.filter((v) => v.shows.length).sort((a, b) => a.name.localeCompare(b.name)),
+    artists: artists.filter((a) => a.appearances.length).sort((a, b) => compareText(a.name, b.name)),
+    venues: venues.filter((v) => v.shows.length).sort((a, b) => compareText(a.name, b.name)),
+    declaredArtists,
+    declaredVenues,
     artistByName,
     warnings,
   };

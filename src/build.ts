@@ -1,10 +1,14 @@
 // Builds the static site in dist/ from the YAML files in data/.
 import { cp, mkdir, rm } from 'node:fs/promises';
 import path from 'node:path';
-import { loadSite, type Site } from './model';
+import { publicSourceUrl } from './app/lib/sources';
+import { allPaths } from './app/routes';
+import { waveformTile } from './art-tile';
+import { loadSite } from './load';
+import type { Site } from './model';
+import { fromPayload, toPayload } from './payload';
+import { renderDocument } from './prerender';
 import { STATUSES, type Concert } from './types';
-import { waveformTile } from './render/art';
-import { artistPage, artistsIndex, aboutPage, concertPage, homePage, publicSourceUrl, venuePage, venuesIndex } from './render/pages';
 
 const ROOT = path.resolve(import.meta.dir, '..');
 const DATA = path.join(ROOT, 'data');
@@ -83,10 +87,21 @@ export function validate(concert: Concert, seen: Set<string>, coverageDates = [c
   }
 }
 
-async function bundle(entry: string, name: string) {
-  const result = await Bun.build({ entrypoints: [path.join(SRC, 'client', entry)], target: 'browser', format: 'iife', minify: true });
-  if (!result.success) throw new AggregateError(result.logs, `Bundling ${entry} failed`);
-  await Bun.write(path.join(ASSETS, name), await result.outputs[0]!.text());
+/** Bundles the client into assets/ and returns the entry script's file name. */
+async function bundle(): Promise<string> {
+  const result = await Bun.build({
+    entrypoints: [path.join(SRC, 'client', 'main.tsx')],
+    outdir: ASSETS,
+    target: 'browser',
+    format: 'esm',
+    splitting: true,
+    minify: true,
+    naming: { entry: '[name]-[hash].[ext]', chunk: '[name]-[hash].[ext]', asset: '[name]-[hash].[ext]' },
+  });
+  if (!result.success) throw new AggregateError(result.logs, 'Bundling the client failed');
+  const entry = result.outputs.find((output) => output.kind === 'entry-point');
+  if (!entry) throw new Error('Bundling the client produced no entry point');
+  return path.basename(entry.path);
 }
 
 async function copyInto(directory: string, file: string) {
@@ -152,7 +167,14 @@ function markdown(site: Site, published: Concert[]) {
   return lines.join('\n') + '\n';
 }
 
-const writePage = (relative: string, html: string) => Bun.write(path.join(DIST, relative, 'index.html'), html);
+export const normalizeBase = (value: string) => `/${value.replace(/^\/+|\/+$/g, '')}/`.replace('//', '/');
+
+async function writePayload(json: string): Promise<string> {
+  const hash = new Bun.CryptoHasher('sha256').update(json).digest('hex').slice(0, 12);
+  const name = `site-${hash}.json`;
+  await Bun.write(path.join(ASSETS, name), json);
+  return name;
+}
 
 async function build() {
   const site = await loadSite(DATA);
@@ -166,16 +188,16 @@ async function build() {
   await rm(DIST, { recursive: true, force: true });
   await mkdir(ASSETS, { recursive: true });
   await copyAssets(site);
-  await bundle('app.ts', 'app.js');
-  await bundle('map.ts', 'map.js');
+  const script = await bundle();
 
-  await writePage('', homePage(site));
-  await writePage('about', aboutPage(site));
-  await writePage('artists', artistsIndex(site));
-  await writePage('venues', venuesIndex(site));
-  for (const artist of site.artists) await writePage(`artists/${artist.slug}`, artistPage(site, artist));
-  for (const venue of site.venues) await writePage(`venues/${venue.slug}`, venuePage(venue));
-  for (const show of site.shows) await writePage(`concerts/${show.id}`, concertPage(site, show));
+  // Prerender from the same payload the browser loads, so hydration starts from identical data.
+  const sitePayload = toPayload(site);
+  const payload = await writePayload(JSON.stringify(sitePayload));
+  const rendered = fromPayload(sitePayload);
+  const base = normalizeBase(process.env.BASE_PATH ?? '/');
+  const html = (route: string) => renderDocument({ site: rendered, base, path: route, script, payload });
+  for (const route of allPaths(rendered)) await Bun.write(path.join(DIST, route, 'index.html'), html(route));
+  await Bun.write(path.join(DIST, '404.html'), html('/404/'));
 
   // Exports follow the site: excluded records stay out of everything published.
   const published = site.concerts.filter((c) => c.status !== 'Excluded');

@@ -1,6 +1,6 @@
 # Concert history
 
-A personal concert archive, built as a static multi-page site: a chronological timeline, plus a page for every concert, artist and venue. Always dark, by design.
+A personal concert archive: a chronological timeline, plus a page for every concert, artist and venue. Every route is prerendered to static HTML and then hydrated as a Preact app, so in-site navigation doesn't reload the page. Always dark, by design.
 
 `data/concerts.yml` is the source of truth for shows. Edit the files in `data/` and rebuild with [Bun](https://bun.sh):
 
@@ -10,6 +10,7 @@ bun run build
 bun run preview     # serve dist/ at http://127.0.0.1:4173/
 bun run open        # the same, and open it (Orca browser tab inside Orca, default browser otherwise)
 bun run typecheck
+bun test
 ```
 
 The site has real directory URLs (`/artists/lizzo/`), so view it through `preview` or a static host rather than opening the files from disk. Records with status `Excluded` are never published. Everything else appears, with unconfirmed shows drawn hollow.
@@ -26,12 +27,17 @@ The site has real directory URLs (`/artists/lizzo/`), so view it through `previe
 | `data/posters/` | Gig posters found on the web, as WebP |
 | `AGENTS.md` | Checklist for adding concerts, including the required web search |
 | `src/build.ts` | Validates the data and writes everything in `dist/` |
+| `src/load.ts` | Reads the YAML files into the linked site |
 | `src/model.ts` | Links concerts, artists, venues and festivals into what the pages render |
+| `src/payload.ts` | The JSON the browser fetches: only what rendering needs, never an excluded concert |
 | `src/types.ts` | Shapes of the YAML files |
-| `src/render/` | HTML for each page type, the shared timeline, and generated art (waveforms, fallback posters) |
+| `src/prerender.tsx` | Renders one route to a complete HTML document |
+| `src/app/` | The Preact app: routes, pages, components, scroll memory |
+| `src/art-tile.ts` | Generated art that needs no DOM: seeded noise and the background tile |
 | `src/site.css` | All styles |
-| `src/client/` | Browser code: `app.ts` (filters, lightbox) and `map.ts` (Leaflet maps) |
+| `src/client/main.tsx` | Browser entry: fetches the payload and hydrates the page |
 | `src/preview.ts` | Local server for `dist/` |
+| `tests/` | Bun tests |
 | `dist/` | Generated output (Git ignores it) |
 | `research/` | Local raw exports and contact sheets (Git ignores it) |
 
@@ -61,9 +67,19 @@ The `research/` directory preserves the original raw exports, saved pages, and c
 
 `bun run build` validates source identifiers, statuses, and photo assets, warns about any artist or venue missing from its YAML file, then writes:
 
-- `dist/index.html`: the timeline.
+- `dist/index.html`: the timeline. `dist/404.html` is the not-found page.
 - `dist/artists/`, `dist/venues/`, `dist/concerts/`: an index and a page per item (concerts have no index; the timeline is it).
 - `dist/about/`: how the archive was reconstructed and how to read it.
-- `dist/assets/`: bundled JS, CSS, fonts and images.
+- `dist/assets/`: bundled JS, CSS, fonts and images, plus `site-<hash>.json`, the data payload the app hydrates from.
 - `dist/concert-history.md`: a plain Markdown table.
 - `dist/concerts.json` and `dist/photo-catalog.json`: derived exports. These are compatibility files, never canonical inputs.
+
+Set `BASE_PATH` to build for a subfolder, for example `BASE_PATH=/concerts/ bun run build`. It defaults to `/`. `bun run preview` only serves a root build.
+
+## Deploying
+
+`dist/` runs on any static host, with no server code and no SPA rewrite rule, because every route has its own `index.html`. The host needs to:
+
+- Serve `<path>/index.html` for directory URLs such as `/artists/lizzo/`.
+- Answer unmatched paths with `404.html` and status 404. Some hosts pick that file up by name; others need it configured. The page works at any URL depth.
+- Serve the site from the `BASE_PATH` it was built with. Links and assets are absolute, so a build can't be moved to another folder without rebuilding.

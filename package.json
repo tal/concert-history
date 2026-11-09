@@ -17,6 +17,9 @@
     "@types/bun": "^1.4.4",
     "@types/leaflet": "^1.9.22",
     "leaflet": "^1.9.4",
-    "typescript": "^7.0.2"
+    "preact": "^11.2.0",
+    "preact-render-to-string": "^6.8.2",
+    "typescript": "^7.0.2",
+    "wouter-preact": "^3.13.0"
   }
 }

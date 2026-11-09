@@ -50,3 +50,13 @@ Rules:
 - Keep verified hotlinks in `coverage_photos`, with `image_url`, `page_url`, `publication`, `credit`, `caption`, and `concert_date`. Never mix them into Tal’s `photos` or use them as attendance evidence.
 - Record searches, reviewed source URLs, outcomes and rejected nearby nights in `coverage_research` (see README). An unavailable page is not proof that coverage does not exist. Respect refusals and challenges.
 - Match the photographed night and venue; a multi-night report without per-photo dates is insufficient. Credit an unnamed photographer explicitly as uncredited rather than inferring the photographer from the article’s author.
+
+## Changing the site
+
+Page changes are JSX in `src/app/`. The same components produce the prerendered HTML and the hydrated app, so there are no HTML templates or separate page scripts to keep in step.
+
+- Link with router paths such as `/artists/lizzo/` (`src/app/lib/paths.ts`). The router adds `BASE_PATH`. Build asset URLs with `useUrls()` from `src/app/context.tsx`, never with relative paths.
+- A page can only use what is in the payload. Add new fields in `src/payload.ts`, and keep research-only data and excluded concerts out of it.
+- The first browser render must match the prerender. Sort displayed text with `compareText` from `src/model.ts` rather than a bare `localeCompare`, and keep browser-only values out of the first render.
+- Start every `.tsx` file with `/** @jsxImportSource preact */`, or the build fails when Bun runs from another directory.
+- Before finishing, run `bun run typecheck`, `bun test` and `bun run build`.
