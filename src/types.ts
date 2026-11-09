@@ -57,6 +57,25 @@ export interface Photo {
   references: PhotoReference[];
 }
 
+/** Hotlinked concert photography published after this particular show. Never attendance evidence. */
+export interface CoveragePhoto {
+  image_url: string;
+  page_url: string;
+  publication: string;
+  credit: string;
+  caption: string;
+  /** Date photographed, which may be a particular day of a festival. */
+  concert_date: string;
+}
+
+export interface CoverageResearch {
+  searched_on: string;
+  outcome: 'found' | 'none_found' | 'unavailable' | 'not_searched';
+  queries: string[];
+  sources: string[];
+  notes: string;
+}
+
 /** One performer's set, usually from setlist.fm. */
 export interface Setlist {
   artist: string;
@@ -102,6 +121,8 @@ export interface Concert {
   sources: Source[];
   photo_match: string | null;
   photos: Photo[];
+  coverage_photos?: CoveragePhoto[];
+  coverage_research?: CoverageResearch;
   setlists?: Setlist[];
   poster?: Poster | null;
   /** Absent until the concert has been searched on the web; the build warns about those. */

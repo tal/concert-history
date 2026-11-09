@@ -443,6 +443,13 @@ a.rail__label:hover { color: var(--ink); }
 .photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 8px; }
 .photos img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 8px; background: var(--panel-2); transition: box-shadow .15s; }
 .photos a:hover img { box-shadow: 0 0 18px rgb(39 227 240 / .55); }
+.photos--coverage { gap: 18px 12px; }
+.photos--coverage figure { margin: 0; min-width: 0; }
+.photos--coverage figcaption { color: var(--muted); font-size: 12px; line-height: 1.6; padding-top: 6px; overflow-wrap: anywhere; }
+.coverage-label { color: var(--cyan); font-family: var(--mono); font-size: 10px; text-transform: uppercase; }
+.coverage-caption { display: block; color: var(--faint); }
+.strip__coverage { position: relative; display: inline-flex; }
+.strip__coverage > span { position: absolute; bottom: 0; left: 0; right: 0; background: rgb(4 3 8 / .85); color: var(--ink); font-size: 8px; line-height: 1.5; text-align: center; }
 
 .evidence { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; font-size: 14.5px; color: var(--muted); max-width: 800px; }
 .evidence p { margin: 0 0 10px; }

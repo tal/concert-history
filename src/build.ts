@@ -21,7 +21,7 @@ const isInside = (child: string, parent: string) => {
   return rel !== '' && !rel.startsWith('..') && !path.isAbsolute(rel);
 };
 
-export function validate(concert: Concert, seen: Set<string>) {
+export function validate(concert: Concert, seen: Set<string>, coverageDates = [concert.date]) {
   if (seen.has(concert.id)) throw new Error(`Duplicate concert ID: ${concert.id}`);
   seen.add(concert.id);
   if (!/^[a-z0-9-]+$/.test(concert.id)) throw new Error(`Concert ID is not URL-safe: ${concert.id}`);
@@ -54,6 +54,22 @@ export function validate(concert: Concert, seen: Set<string>) {
     throw new Error(`Poster asset outside data/posters: ${concert.poster.asset}`);
   }
   const research = concert.web_research;
+  const coverage = concert.coverage_research;
+  const coveragePhotos = concert.coverage_photos ?? [];
+  if (coverage) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(coverage.searched_on) || !['found', 'none_found', 'unavailable', 'not_searched'].includes(coverage.outcome) || !Array.isArray(coverage.queries) || !coverage.queries.length || !Array.isArray(coverage.sources) || !coverage.notes) {
+      throw new Error(`Invalid coverage_research: ${concert.id}`);
+    }
+    if ((coverage.outcome === 'found') !== Boolean(coveragePhotos.length)) throw new Error(`coverage_research disagrees with coverage_photos: ${concert.id}`);
+  } else if (coveragePhotos.length) throw new Error(`Coverage photos need coverage_research: ${concert.id}`);
+  for (const photo of coveragePhotos) {
+    if (!photo.credit?.trim() || !photo.publication?.trim() || !photo.caption?.trim() || !/^\d{4}-\d{2}-\d{2}$/.test(photo.concert_date)) throw new Error(`Coverage photo needs credit, publication, caption and concert date: ${concert.id}`);
+    for (const url of [photo.image_url, photo.page_url]) {
+      if (typeof url !== 'string' || !/^https:\/\//.test(url) || !URL.canParse(url)) throw new Error(`Coverage photo needs public HTTPS URLs: ${concert.id}`);
+    }
+    if (!coverage?.sources.includes(photo.page_url)) throw new Error(`Coverage photo missing from research sources: ${concert.id}`);
+    if (!coverageDates.includes(photo.concert_date)) throw new Error(`Coverage photo is from a different concert date: ${concert.id}`);
+  }
   if (research) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(research.searched_on ?? '')) {
       throw new Error(`web_research needs a searched_on date: ${concert.id}`);
@@ -109,7 +125,7 @@ function markdown(site: Site, published: Concert[]) {
   const lines = [
     '# ' + site.data.title,
     '',
-    `${confirmed} check-in/photo/attendee supported events; ${published.filter((c) => c.photos.length).length} events with image galleries.`,
+    `${confirmed} check-in/photo/attendee supported events; ${published.filter((c) => c.photos.length || c.coverage_photos?.length).length} events with image galleries.`,
     '',
     '| Date | Artist / event | Supporting / billed acts | Venue | Evidence and notes | Images | Setlist | Poster |',
     '|---|---|---|---|---|---|---|---|',
@@ -127,7 +143,7 @@ function markdown(site: Site, published: Concert[]) {
       row.support || '—',
       row.venue,
       `${row.status} — ${refs} — ${row.notes}`,
-      row.photos.length || 'No match',
+      row.photos.length || row.coverage_photos?.length ? `${row.photos.length} personal; ${row.coverage_photos?.length ?? 0} coverage` : 'No match',
       row.setlists?.map((l) => `[${l.artist} (${l.songs.length} songs)](${l.url})`).join('; ') || '—',
       row.poster ? `[Poster](assets/posters/${path.basename(row.poster.asset)})` : '—',
     ];
@@ -141,7 +157,11 @@ const writePage = (relative: string, html: string) => Bun.write(path.join(DIST, 
 async function build() {
   const site = await loadSite(DATA);
   const seen = new Set<string>();
-  for (const concert of site.concerts) validate(concert, seen);
+  for (const concert of site.concerts) {
+    const festival = site.shows.find((show) => show.id === concert.id)?.festival;
+    const dates = festival ? festival.days.filter((day) => day.event_status !== 'cancelled').map((day) => day.date) : [concert.date];
+    validate(concert, seen, dates);
+  }
 
   await rm(DIST, { recursive: true, force: true });
   await mkdir(ASSETS, { recursive: true });
@@ -159,7 +179,7 @@ async function build() {
 
   // Exports follow the site: excluded records stay out of everything published.
   const published = site.concerts.filter((c) => c.status !== 'Excluded');
-  const catalog = published.filter((c) => c.photos.length).map(({ id, date, artist, venue, photos, photo_match }) => ({ id, date, artist, venue, photos, photo_match }));
+  const catalog = published.filter((c) => c.photos.length || c.coverage_photos?.length).map(({ id, date, artist, venue, photos, photo_match, coverage_photos, coverage_research }) => ({ id, date, artist, venue, photos, photo_match, coverage_photos, coverage_research }));
   await Bun.write(path.join(DIST, 'concerts.json'), JSON.stringify(published, null, 2) + '\n');
   await Bun.write(path.join(DIST, 'photo-catalog.json'), JSON.stringify(catalog, null, 2) + '\n');
   await Bun.write(path.join(DIST, 'concert-history.md'), markdown(site, published));

@@ -45,8 +45,8 @@ const PIN =
   '<svg class="pin" viewBox="0 0 12 16" aria-hidden="true"><path d="M6 0a6 6 0 0 0-6 6c0 4.2 6 10 6 10s6-5.800 6-10a6 6 0 0 0-6-6Zm0 8.200A2.200 2.200 0 1 1 6 3.800a2.200 2.200 0 0 1 0 4.400Z" fill="currentColor"/></svg>';
 
 function photoStrip(show: Show, ctx: Ctx): string {
-  const { photos, poster } = show.concert;
-  if (!photos.length && !poster) return '';
+  const { photos, poster, coverage_photos = [] } = show.concert;
+  if (!photos.length && !poster && !coverage_photos.length) return '';
   const thumbs = photos
     .slice(0, 3)
     .map((p) => `<img loading="lazy" decoding="async" src="${photoSrc(p.asset, ctx)}" alt="">`);
@@ -54,7 +54,9 @@ function photoStrip(show: Show, ctx: Ctx): string {
     ? [`<img class="is-poster" loading="lazy" decoding="async" src="${posterSrc(poster.asset, ctx)}" alt="">`]
     : [];
   const more = photos.length > 3 ? `<span class="strip__more">+${photos.length - 3}</span>` : '';
-  return `<div class="strip">${[...posterThumb, ...thumbs].join('')}${more}</div>`;
+  const coverage = coverage_photos[0];
+  const pressThumb = coverage ? `<span class="strip__coverage" title="${esc(`Coverage photo: ${coverage.credit} / ${coverage.publication}`)}"><img loading="lazy" decoding="async" src="${esc(coverage.image_url)}" alt="${esc(coverage.caption)}" referrerpolicy="no-referrer"><span>Coverage</span></span>` : '';
+  return `<div class="strip">${[...posterThumb, ...thumbs].join('')}${more}${pressThumb}</div>`;
 }
 
 function billLine(show: Show, ctx: Ctx): string {
@@ -95,7 +97,7 @@ export function showRow(show: Show, ctx: Ctx, { role }: RowOptions = {}): string
   ].join('');
   return (
     `<li class="show show--${show.type} show--${show.evidence}" data-type="${show.type}" data-evidence="${show.evidence}" ` +
-    `data-photos="${show.concert.photos.length ? 'with' : 'none'}" data-search="${esc(searchText(show))}">` +
+    `data-photos="${show.concert.photos.length || show.concert.coverage_photos?.length ? 'with' : 'none'}" data-search="${esc(searchText(show))}">` +
     `<span class="show__dot" aria-hidden="true"></span><div class="show__body">` +
     `<div class="show__meta"><time datetime="${show.date}">${esc(dateLabel(show))}</time><span class="show__pills">${pills}</span></div>` +
     `<h3 class="show__title"><a href="${showHref(show, ctx)}">${esc(show.title)}</a></h3>` +

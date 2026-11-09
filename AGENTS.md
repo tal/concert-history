@@ -43,3 +43,10 @@ Rules:
 - Use `not_searched` when a search couldn't actually run (e.g. the web-search quota ran out); never record `none_found` for a search that didn't happen.
 - `bun run build` warns about concerts with no `web_research` or with `not_searched` fields and fails if `web_research` disagrees with `setlists`/`poster`.
 - Write a changelog entry in `changelog/` for each batch of additions.
+
+## Post-show coverage photos
+
+- Search each published show for post-concert photo reports and official live galleries (BrooklynVegan, local music publications, and photographers’ own reports).
+- Keep verified hotlinks in `coverage_photos`, with `image_url`, `page_url`, `publication`, `credit`, `caption`, and `concert_date`. Never mix them into Tal’s `photos` or use them as attendance evidence.
+- Record searches, reviewed source URLs, outcomes and rejected nearby nights in `coverage_research` (see README). An unavailable page is not proof that coverage does not exist. Respect refusals and challenges.
+- Match the photographed night and venue; a multi-night report without per-photo dates is insufficient. Credit an unnamed photographer explicitly as uncredited rather than inferring the photographer from the article’s author.

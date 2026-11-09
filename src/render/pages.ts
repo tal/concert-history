@@ -373,6 +373,16 @@ function photosBlock(show: Show, ctx: Ctx): string {
   return `<section class="block"><h2 class="block__title">Tal’s photos <span>${photos.length}</span></h2><div class="photos">${items}</div></section>`;
 }
 
+function coverageBlock(show: Show): string {
+  const photos = show.concert.coverage_photos ?? [];
+  if (!photos.length) return '';
+  const items = photos.map((photo) => {
+    const caption = `${photo.caption} · ${longDate(photo.concert_date)} · Photo: ${photo.credit} / ${photo.publication}`;
+    return `<figure><a href="${esc(photo.image_url)}" data-lightbox="coverage" data-caption="${esc(caption)}" data-source="${esc(photo.page_url)}" data-source-label="Read coverage"><img loading="lazy" decoding="async" src="${esc(photo.image_url)}" alt="${esc(photo.caption)}" referrerpolicy="no-referrer"></a><figcaption><span class="coverage-label">Coverage</span> ${esc(photo.credit)} · ${out(photo.page_url, photo.publication)}<span class="coverage-caption">${esc(photo.caption)} · ${esc(longDate(photo.concert_date))}</span></figcaption></figure>`;
+  }).join('');
+  return `<section class="block"><h2 class="block__title">Coverage photos <span>${photos.length}</span></h2><p class="credit">From published reports and official galleries of this show. Photos belong to the credited photographers.</p><div class="photos photos--coverage">${items}</div></section>`;
+}
+
 const SOURCE_KINDS: Record<Source['type'], string> = {
   email: 'Email',
   calendar: 'Calendar',
@@ -435,6 +445,7 @@ export function concertPage(site: Site, show: Show): string {
 ${days ? `<section class="block"><h2 class="block__title">Day by day</h2><div class="fdays">${days.html}</div>${show.festival!.lineup_note ? `<p class="credit">${esc(show.festival!.lineup_note)}</p>` : ''}${show.festival!.unplaced?.length ? `<p class="credit">Billed, day unknown: ${esc(show.festival!.unplaced.join(', '))}${show.festival!.unplaced_note ? `. ${esc(show.festival!.unplaced_note)}` : ''}</p>` : ''}</section>` : ''}
 ${days && sets ? `<section class="block"><h2 class="block__title">Other setlists</h2>${sets}</section>` : ''}
 ${photosBlock(show, ctx)}
+${coverageBlock(show)}
 ${evidenceBlock(show, ctx)}`;
   return page({
     title: `${show.title}, ${longDate(show.date)} · Tal’s Concert History`,
