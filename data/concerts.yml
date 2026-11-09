@@ -4377,6 +4377,90 @@ concerts:
     sources:
       - https://carryapigeon.blogspot.com/2012/07/bombay-bicycle-club.html
     notes: Post-show report/gallery checked against this concert’s date and venue; attached photos are hotlinked from the credited source. Coverage does not establish attendance.
+- date: '2012-08-09'
+  artist: Grimes
+  support: Wild Nothing; DIIV
+  venue: Pier 84, Hudson River Park
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal remembers seeing Grimes at a West Side pier near the Intrepid
+    statement: Tal recalls seeing Grimes at a pier on the West Side around the Intrepid. Tal's own chats from the day
+      of the show and the day after match this memory.
+    confirmed_on: '2026-11-08'
+  - type: email
+    label: Gchat on the day of the show ("diiv and grimes at pier 84")
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1390d34384b8304f
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1390d34384b8304f'
+    thread_id: '1390bda787e74b57'
+    subject: Chat with Allie Skayne
+  - type: email
+    label: Gchat the next day, with Tal's description of how the set ended
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/1391129e188b6f8c
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '1391129e188b6f8c'
+    thread_id: '13910e458c60850e'
+    subject: Chat with Allie Skayne
+  - type: email
+    label: Tal's invitation to friends (hudsonriverpark.org event link)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/138e3fbd1e7b7168
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '138e3fbd1e7b7168'
+    thread_id: '138e3fbd1e7b7168'
+    subject: Grimes at Pier 84 Tomorrow (thurs) Night - FREE
+  - type: email
+    label: Tal's reminder to friends the night before
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/139091f8f88d7a83
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '139091f8f88d7a83'
+    thread_id: '139091f8f88d7a83'
+    subject: Diiv & Grimes Tomorrow Free
+  - type: web
+    label: BrooklynVegan River Rocks coverage
+    url: https://www.brooklynvegan.com/grimes-wild-not/
+  notes: 'Free River Rocks show, the last of the 2012 series. Tal described the ending the next day: Grimes had not
+    spoken all concert, said that was all the music she had, played a few unfinished songs and left the stage, then
+    came back for one more song as the crowd walked out. Tal also recalled The Flaming Lips and Santigold from around
+    the same spot. Both played Colbchella on the Intrepid the next night (2012-08-10), but on 2012-08-14 Tal wrote about
+    being sad to have missed that festival, and on 2026-11-08 Tal chose not to log it. Santigold was also on the bill
+    on days Tal attended Bonnaroo (2012-06-09) and Governors Ball (2012-06-23), which may be where that memory comes from.'
+  id: 2012-08-09-grimes
+  photo_match: null
+  photos: []
+  setlists: []
+  web_research:
+    searched_on: '2026-11-08'
+    support: found
+    support_sources:
+    - https://www.brooklynvegan.com/grimes-wild-not/
+    - https://www.wmagazine.com/culture/grimes-plays-a-free-show-on-the-hudson-river-with-wild-nothing-and-diiv
+    - https://weallwantsomeone.org/2012/08/11/grimes-pier-84-august-9-2012/
+    setlist: none_found
+    poster: not_searched
+    notes: BrooklynVegan posted Wild Nothing and DIIV setlists for this show, but no Grimes setlist turned up. The
+      photo library was not searched for this date.
+  coverage_photos:
+    - image_url: https://media.timeout.com/images/100491245/1024/768/image.jpg
+      page_url: https://www.timeout.com/newyork/music/grimes-at-hudson-river-park-live-photos
+      publication: Time Out New York
+      credit: Loren Wohl
+      caption: "Grimes at Pier 84, Hudson River Park"
+      concert_date: 2012-08-09
+  coverage_research:
+    searched_on: 2026-11-08
+    outcome: found
+    queries:
+      - "Grimes Pier 84, Hudson River Park August 9, 2012 photos review"
+    sources:
+      - https://weallwantsomeone.org/2012/08/11/grimes-pier-84-august-9-2012/
+      - https://www.brooklynvegan.com/grimes-wild-not/
+      - https://www.timeout.com/newyork/music/grimes-at-hudson-river-park-live-photos
+    notes: "August 13, 2012 post-show photo report of Grimes at Pier 84; exact August 9 event cross-checked against We All Want Someone’s dated report. Time Out credits Loren Wohl. QRO returned a Cloudflare block; left alone."
 - date: '2012-08-18'
   artist: Sharon Jones & the Dap-Kings
   support: Antibalas; The Electric Sound of Johnny Arrow

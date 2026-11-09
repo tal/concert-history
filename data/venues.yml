@@ -1250,6 +1250,33 @@ venues:
         credit: Tdorante10
         license: CC BY-SA 4.0
         source_url: https://commons.wikimedia.org/wiki/File:Hudson_River_Park_td_(2018-11-27)_030_-_Pier_63.jpg
+  - slug: pier-84
+    name: Pier 84, Hudson River Park
+    aliases:
+      - Pier 84, Hudson River Park
+    kind: park
+    city: New York
+    region: NY
+    country: US
+    neighborhood: Hell's Kitchen
+    address: null
+    lat: 40.76413
+    lon: -74.00207
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: A public pier in Hudson River Park, next to the Intrepid museum on the West Side of Manhattan. In 2012 it hosted the free River Rocks concert series.
+    description_source:
+      label: BrooklynVegan
+      url: https://www.brooklynvegan.com/grimes-wild-not/
+    website: null
+    wikipedia: null
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Pier83_and_84_(4687900205).jpg?width=1600
+        credit: Tony Hisgett
+        license: CC BY 2.0
+        source_url: https://commons.wikimedia.org/wiki/File:Pier83_and_84_(4687900205).jpg
   - slug: public-assembly
     name: Public Assembly
     aliases:
