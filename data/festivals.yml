@@ -6,8 +6,8 @@ festivals:
     end_date: '2011-06-18'
     days:
       - date: '2011-06-18'
-        attendance: unknown
-        attendance_basis: "Only evidence is a Ticketfly order email (status Ticket evidence). The record has no attendee statement or photos, and its notes say listed artists are not proof each set was seen."
+        attendance: attended
+        attendance_basis: "Tal remembers seeing Girl Talk at Governors Ball (attendee source), backed by a Ticketfly order email. The festival was a single day."
         lineup:
           - Pretty Lights
           - Empire of the Sun
@@ -23,7 +23,10 @@ festivals:
           - Outasight
         lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2011"
         lineup_status: complete
-    seen: []
+    seen:
+      - artist: Girl Talk
+        date: '2011-06-18'
+        basis: "attendee_confirmed"
     unplaced: []
   - concert_id: "2012-06-09-bonnaroo-music-arts-festival"
     name: Bonnaroo Music & Arts Festival 2012

@@ -159,6 +159,53 @@ concerts:
       - https://remhq.com/news/tour-notes-next-up-red-rocks-st-paul-and-chicago-3
       - https://cdn-2.concertarchives.org/bands/r-e-m/photos
     notes: "Marquee Magazine's \"R.E.M. @ Red Rocks\" (June 4, 2008; photos by Soren McCarty/www.musicimagery.com) is a gallery of this exact night, but all eight image files (wp-content/uploads/2008/06/img_8023.JPG … img_8162.JPG) now return HTTP 404 and have no Wayback copy, so nothing can be hotlinked. Westword's review has no images; its Colorado-shows retrospective returned a client error. concertarchives.org fan photos cover other 2008 nights only. tour.remhq.com's Red Rocks page (photos, videos, blogs) is blocked by robots.txt and was not fetched. No video of this show was found."
+- date: '2008-12-05'
+  artist: Girl Talk
+  support: ''
+  venue: River Run Village, Keystone Resort
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal remembers the Girl Talk show at Keystone
+    statement: Tal remembers seeing Girl Talk at a concert at Keystone (the ski resort in Colorado).
+    confirmed_on: '2026-11-10'
+  - type: email
+    label: Craigslist reply pointing Tal to the free Keystone show on Dec 5
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/11d4f17e573a9e2c
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '11d4f17e573a9e2c'
+    thread_id: '11d4e9e802a51b6d'
+    subject: 'RE: Girl Talk Ticket $30.00 Oct 31 Ogden - $30 (Denver)'
+  - type: web
+    label: '5280: "Best Music Bet: Girl Talk at Keystone Tonight" (Dec 5, 2008)'
+    url: https://5280.com/best-music-bet-girl-talk-at-keystone-tonight
+  notes: 'Free show in Keystone''s Friday Night Lights concert series, Fri Dec 5, 2008, 8 PM, River Run Village (5280).
+    On Oct 30, 2008 Tal tried to buy a Craigslist ticket to Girl Talk''s Oct 31 Ogden Theatre show; the seller had sold
+    it and replied that Girl Talk was playing a free show in Keystone on Dec 5. Logged on Tal''s word; no ticket,
+    check-in or photo has been found. setlist.fm files the same date under "Keystone Conference Center, Dillon, CO";
+    the 5280 listing, written that day, places it in River Run Village, so that is used here.'
+  id: 2008-12-05-girl-talk
+  photo_match: null
+  photos: []
+  setlists:
+  - artist: Girl Talk
+    url: https://www.setlist.fm/setlist/girl-talk/2008/keystone-conference-center-dillon-co-13d35165.html
+    songs: []
+    encore_start_index: null
+    tour: null
+  poster: null
+  web_research:
+    searched_on: '2026-11-10'
+    support: none_found
+    support_sources:
+    - https://5280.com/best-music-bet-girl-talk-at-keystone-tonight
+    - https://www.setlist.fm/setlist/girl-talk/2008/keystone-conference-center-dillon-co-13d35165.html
+    setlist: empty_event
+    poster: none_found
+    notes: 5280's same-day listing names only Girl Talk (free, 8 p.m., River Run Village). setlist.fm has the Dec 5, 2008
+      event without songs, under Keystone Conference Center. No poster on 5280 or setlist.fm; concertarchives.org's
+      Keystone page refused the fetch.
 - date: '2009-12-07'
   artist: Artist unresolved
   support: ''
@@ -1363,8 +1410,13 @@ concerts:
   support: 'Billed: Girl Talk; Pretty Lights; Empire of the Sun; Big Boi; Neon Indian; Passion Pit (DJ set); Das Racist;
     Mac Miller; Miami Horror; Outasight; People Under the Stairs; Reptar'
   venue: Governors Island, South Island Field
-  status: Ticket evidence
+  status: Attendee confirmed
+  previous_status: Ticket evidence
   sources:
+  - type: attendee
+    label: Tal remembers seeing Girl Talk at Governors Ball
+    statement: Tal remembers seeing Girl Talk at Governors Ball.
+    confirmed_on: '2026-11-10'
   - type: email
     label: Email
     url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/12f0ccf45975052a
@@ -1374,7 +1426,8 @@ concerts:
     thread_id: 12f0ccf45975052a
     subject: Your Ticketfly Order (099745690306)
     rfc822_message_id: <1422607844.56476.1301589999493.JavaMail.j2ee-backstage@ticketfly-web02.managed.contegix.com>
-  notes: Festival ticket. Listed artists are billed acts, not proof each set was seen.
+  notes: Festival ticket. Tal remembers seeing Girl Talk here (2026-11-10); the other listed artists are billed acts,
+    not proof each set was seen.
   id: 2011-06-18-governors-ball-music-festival
   photo_match: null
   photos: []
@@ -8580,6 +8633,62 @@ concerts:
     sources:
       []
     notes: "Searched for post-show concert reviews and photo coverage using artist, date and venue. No usable photo verified for this exact show in the returned results."
+- date: '2014-06-21'
+  artist: Jungle
+  support: ''
+  venue: The Wick
+  status: Attendee confirmed
+  sources:
+  - type: attendee
+    label: Tal remembers the Jungle Tumblr IRL show
+    statement: Tal remembers seeing Jungle at the show they played for Tumblr's IRL concert series.
+    confirmed_on: '2026-11-10'
+  - type: web
+    label: 'Tumblr IRL announcement: "JUNGLE: A Tumblr IRL"'
+    url: https://irlirl.tumblr.com/post/88967322792/announcing-jungle-a-tumblr-irl-in-celebration-of
+  - type: web
+    label: Tumblr IRL recap of the June 21 show
+    url: https://irlirl.tumblr.com/post/89763754207/on-june-21-jungle-and-their-fans-welcomed-the
+  notes: 'Free, all-ages Tumblr IRL summer-solstice party with a live set by Jungle and visuals by Oliver Hadlee Pearch,
+    Sat Jun 21, 2014, 8 PM, at The Wick, 260 Meserole St, Brooklyn (flyer and announcement agree). Logged on Tal''s word:
+    no RSVP email, check-in or photo of Tal''s has been found. Jungle also played
+    Bowery Ballroom on Jun 18, 2014, a different show.'
+  id: 2014-06-21-jungle
+  photo_match: null
+  photos: []
+  setlists: []
+  poster:
+    asset: data/posters/2014-06-21-jungle.webp
+    kind: show_poster
+    page_url: http://jungletumblr.splashthat.com/tumblr
+    image_url: http://d24wuq6o951i2g.cloudfront.net/img/events/id/151/151312/assets/c.H.97.b97.JUNGLE-TUMBLR-INVITE-1.jpg
+  web_research:
+    searched_on: '2026-11-10'
+    support: none_found
+    support_sources:
+    - https://irlirl.tumblr.com/post/88967322792/announcing-jungle-a-tumblr-irl-in-celebration-of
+    - http://jungletumblr.splashthat.com/tumblr
+    setlist: none_found
+    poster: found
+    notes: The announcement, the Splash RSVP page and the flyer name only Jungle (plus visuals by Oliver Hadlee Pearch),
+      no openers or DJs. setlist.fm's Jungle 2014 list (pages 3-6 of the artist search) has Jun 18 Bowery Ballroom,
+      Jun 19 Union Transfer and Jun 20 WXPN, but nothing on Jun 21. Poster is the Splash invite flyer.
+  coverage_photos:
+    - image_url: https://64.media.tumblr.com/58e8766a9f621dce54f6deb3a6ae1231/tumblr_n7mtw9CLT61sioaoho7_r1_1280.jpg
+      page_url: https://irlirl.tumblr.com/post/89763754207/on-june-21-jungle-and-their-fans-welcomed-the
+      publication: Tumblr IRL
+      credit: laurajunekirsch
+      caption: Jungle on stage at The Wick under a #TUMBLRIRL projection
+      concert_date: 2014-06-21
+  coverage_research:
+    searched_on: 2026-11-10
+    outcome: found
+    queries:
+      - '"Tumblr IRL" Jungle'
+    sources:
+      - https://irlirl.tumblr.com/post/89763754207/on-june-21-jungle-and-their-fans-welcomed-the
+    notes: Tumblr's own recap post of the night, credited "Photos by laurajunekirsch. Portraits by thebosco." The attached
+      stage photo was viewed and shows the Jungle backdrop and #TUMBLRIRL projection. Coverage does not establish attendance.
 - date: '2014-07-10'
   artist: DIIV
   support: Lodro; Regal Degal
