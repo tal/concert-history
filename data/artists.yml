@@ -2330,6 +2330,15 @@ artists:
     description: null
     wikipedia: null
     instagram: null
+  - slug: modest-mouse
+    name: Modest Mouse
+    aliases: []
+    spotify_id: 1yAwtBaoHLEDWAnWR87hBT
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab67616100005174bbeb3fbba1fa605214d010cd
+    description: "Modest Mouse is an American indie rock band formed in 1993 in Issaquah, Washington, and currently based in Portland, Oregon. The founding members were lead singer/guitarist Isaac Brock, drummer Jeremiah Green and bassist Eric Judy. They achieved critical acclaim for their albums The Lonesome Crowded West (1997) and The Moon & Antarctica (2000) and found mainstream success with the release of Good News for People Who Love Bad News (2004) and its singles \"Float On\" and \"Ocean Breathes Salty\". The following album We Were Dead Before the Ship Even Sank (2007) brought additional successes with the single \"Dashboard\"."
+    wikipedia: https://en.wikipedia.org/wiki/Modest_Mouse
+    instagram: null
   - slug: moneybrother
     name: Moneybrother
     aliases: []
@@ -2483,6 +2492,15 @@ artists:
     image_url: null
     description: null
     wikipedia: null
+    instagram: null
+  - slug: national
+    name: The National
+    aliases: []
+    spotify_id: 2cCUtGK9sDU2EoElnk0GNB
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517437b9a72e321b1d3406820ee1
+    description: "The National is an American rock band from Cincinnati, Ohio, formed in Brooklyn, New York City, in 1999. The band consists of Matt Berninger (vocals), twin brothers Aaron Dessner and Bryce Dessner, as well as brothers Scott Devendorf (bass) and Bryan Devendorf (drums). During live performances the band is joined by longtime touring members Ben Lanz and Kyle Resnick. Berninger's wife, Carin Besser, has written lyrics for the band alongside her husband since its 2007 album Boxer."
+    wikipedia: https://en.wikipedia.org/wiki/The_National_(band)
     instagram: null
   - slug: natureboy
     name: Natureboy
@@ -3006,6 +3024,15 @@ artists:
     image_url: https://i.scdn.co/image/0937cb23e380f6c9fdf878eb3d9379f8dd58d92f
     description: null
     wikipedia: null
+    instagram: null
+  - slug: rem
+    name: R.E.M.
+    aliases: []
+    spotify_id: 4KWTAlx2RvbpseOGMEmROg
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051746334ab6a83196f36475ada7f
+    description: "R.E.M. was an American rock band formed in Athens, Georgia, in 1980 by drummer Bill Berry, guitarist Peter Buck, bassist Mike Mills, and lead vocalist Michael Stipe, who were students at the University of Georgia. R.E.M. was noted for Buck's arpeggiated \"jangle\" guitar playing; Stipe's distinctive vocal style, unique stage presence, and cryptic lyrics; Mills's countermelodic bass lines and backing vocals; and Berry's tight, economical drumming. In the early 1990s, other alternative rock acts such as Nirvana, the Pixies, and Pavement named R.E.M. as a pioneer of the genre. After Berry left in 1997, the remaining members continued with mixed critical and commercial success. The band broke up amicably in 2011, having sold more than 90 million albums worldwide and becoming one of the world's best-selling music acts."
+    wikipedia: https://en.wikipedia.org/wiki/R.E.M.
     instagram: null
   - slug: reptar
     name: Reptar
