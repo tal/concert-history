@@ -7904,8 +7904,8 @@ concerts:
   sources:
   - type: attendee
     label: Tal remembers the Pianos CMJ showcase with Courtney Barnett
-    statement: Tal said they definitely went to the Pianos CMJ showcase with Courtney Barnett. Tal's CMJ 2013
-      calendar placed it on Fri Oct 18.
+    statement: Tal said they definitely went to the Pianos CMJ showcase with Courtney Barnett, and picked her Fri
+      Oct 18 5:30pm solo set over the Tue Oct 15 late band set. Tal's CMJ 2013 calendar also places it on Oct 18.
     confirmed_on: '2026-11-11'
   - type: calendar
     label: Calendar
@@ -7923,8 +7923,8 @@ concerts:
     url_eid: XzhjcmpnYzFpNmQwazZiOWw4Z3FqOGI5azZnczRjYmExNmtyMzJiYTM4Y3FqMGRobzhkMmo4ZGE2OGsgc3dpbW1pbmcuYmlyZEBt
   notes: 'Tal confirmed attending a Pianos CMJ showcase with Courtney Barnett (2026-11-11). Her solo 5:30pm set
     in Pianos Upstairs at the Planetary Group CMJ party matches Tal''s two CMJ calendar events for this date. She
-    also played Pianos with a band on Tue 10/15/13 (Banners CMJ party, 11:30pm), so the date rests on the calendar
-    rather than on a check-in or photo. Tal''s Swarm check-in at Pianos on 10/15 was at 1:16pm, not the Barnett set.'
+    also played Pianos with a band on Tue 10/15/13 (Banners CMJ party, 11:30pm). Tal chose the 10/18 solo set
+    when asked which one; no check-in or photo shows either set. Tal''s Swarm check-in at Pianos on 10/15 was at 1:16pm, not the Barnett set.'
   previous_status: Tentative schedule
   id: 2013-10-18-courtney-barnett
   photo_match: null

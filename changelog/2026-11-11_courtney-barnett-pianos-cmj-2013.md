@@ -11,7 +11,7 @@
 - Barnett played Pianos twice during CMJ 2013:
   - Tue 10/15, at the Banners CMJ Party with a band, 11:30pm (from BrooklynVegan's list of her CMJ dates and her own CMJ diary in The Music).
   - Fri 10/18, a solo set in Pianos Upstairs at 5:30pm, at the Planetary Group CMJ Party (WFUV, BrooklynVegan, and "Pianos, 5pm (solo)" in her diary).
-- Tal's two Google Calendar CMJ events are on 10/18, so the entry stays on that date. Tal's 10/15 Swarm check-in at Pianos is at 1:16pm, which is a day party and not the Barnett set.
+- Asked which set it was, Tal picked the Fri 10/18 solo set. That matches their two Google Calendar CMJ events on 10/18, so the entry stays on that date. Tal's 10/15 Swarm check-in at Pianos is at 1:16pm, which is a day party and not the Barnett set.
 - None of the sources shows Barnett at Pianos during CMJ 2014. Her 2014 CMJ shows were at Webster Hall.
 - A Google Photos search for "Pianos" returned an Oct 15, 2013 photo. Tal identified it as Knitting Factory from the logo behind the band, so it isn't evidence for Pianos.
 
