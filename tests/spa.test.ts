@@ -3,6 +3,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { allPaths, resolveRoute, tidyPathname, type Route } from '../src/app/routes';
 import { matchesFilters, NO_FILTERS, yearMatches, type TimelineFilters } from '../src/app/lib/filters';
+import { setTimeLabel } from '../src/app/lib/format';
 import { normalizeBase } from '../src/build';
 import { loadSite } from '../src/load';
 import type { Show, Site } from '../src/model';
@@ -223,5 +224,28 @@ describe('BASE_PATH', () => {
     const home = documentFor(rendered, '/');
     expect(home).toContain('href="/artists/"');
     expect(home).toContain('src="/assets/main-test.js"');
+  });
+});
+
+describe('festival set times', () => {
+  test('labels a set within one half of the day, across noon, and with an open end', () => {
+    expect(setTimeLabel({ artist: 'Girl Talk', stage: 'Gotham Stage', start: '21:05', end: '22:25' })).toBe('9:05–10:25 PM · Gotham Stage');
+    expect(setTimeLabel({ artist: 'X', stage: 'Main', start: '11:30', end: '12:15' })).toBe('11:30 AM–12:15 PM · Main');
+    expect(setTimeLabel({ artist: 'Pretty Lights', stage: 'Big Apple Stage', start: '22:30', end: null })).toBe('10:30 PM–late · Big Apple Stage');
+  });
+
+  test('every scheduled act is on that day\'s lineup', () => {
+    for (const festival of site.shows.flatMap((show) => (show.festival ? [show.festival] : []))) {
+      for (const day of festival.days) {
+        const lineup = new Set(day.lineup);
+        for (const set of day.schedule ?? []) expect(`${day.date} ${set.artist}: ${lineup.has(set.artist)}`).toBe(`${day.date} ${set.artist}: true`);
+      }
+    }
+  });
+
+  test('shows set times on the concert page', () => {
+    const page = documentFor(rendered, '/concerts/2011-06-18-governors-ball-music-festival/');
+    expect(page).toContain('9:05–10:25 PM · Gotham Stage');
+    expect(page).toContain('Set times source');
   });
 });

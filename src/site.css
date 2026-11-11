@@ -420,6 +420,7 @@ a.rail__label:hover { color: var(--ink); }
 .lineup a { text-decoration: none; }
 .lineup li.is-maybe { border: 1px dashed var(--magenta); }
 .lineup li.is-seen { border-color: var(--magenta); background: rgb(255 47 146 / .16); box-shadow: 0 0 12px rgb(255 47 146 / .35); font-weight: 600; }
+.lineup__time { font: 11.5px var(--mono); color: var(--muted); margin-left: 8px; font-weight: 400; white-space: nowrap; }
 
 .fdays { display: flex; flex-direction: column; gap: 14px; }
 .fday { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }

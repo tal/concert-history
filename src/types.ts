@@ -224,6 +224,18 @@ export interface FestivalDay {
   event_status_source?: string;
   /** Acts that were announced for this day but never made the final schedule. */
   not_on_final_schedule?: string[];
+  /** Published set times. `artist` matches a `lineup` entry exactly. */
+  schedule?: ScheduledSet[];
+  schedule_source?: string;
+}
+
+export interface ScheduledSet {
+  artist: string;
+  stage: string;
+  /** Local 24-hour time, `HH:MM`. */
+  start: string;
+  /** Null when the schedule left the end open. */
+  end: string | null;
 }
 
 export interface FestivalSeen {
