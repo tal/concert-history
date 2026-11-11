@@ -9804,16 +9804,19 @@ concerts:
   artist: In Flames / Opeth
   support: Red Fang
   venue: The Palladium, Worcester
-  status: Needs review
+  status: Attendee confirmed
+  previous_status: Needs review
   sources:
   - type: attendee
     label: Tal's memory
-    statement: Went to an In Flames concert in Worcester, MA over 10 years ago; one of the only times Tal was in Worcester.
+    statement: Went to an In Flames concert in Worcester, MA over 10 years ago, one of the only times Tal was in Worcester;
+      confirmed the December 19, 2014 Palladium date.
     confirmed_on: '2026-11-11'
   - type: web
     label: Tour dates
     url: https://loudwire.com/opeth-in-flames-red-fang-2014-north-american-tour/
-  notes: 'Tal remembers an In Flames show in Worcester but not the date. setlist.fm lists eleven In Flames shows at
+  notes: 'Tal remembered an In Flames show in Worcester but not the date, then confirmed Dec 19, 2014 when offered the
+    candidates. Google Photos has nothing from that day. setlist.fm lists eleven In Flames shows at
     the Palladium (1999-2014). This is the only one before ~2016 that fits best: Tal''s other 2006-2008 shows are in
     Colorado and from late 2009 most are in New York, and the Feb 17, 2012 Palladium date (with Trivium) clashes with Tal''s Swarm check-in at
     Sleigh Bells, Terminal 5, that night. Other Palladium dates in range: Apr 25, 2008 (New England Metal and Hardcore
