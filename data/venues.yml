@@ -1970,3 +1970,30 @@ venues:
     website: null
     wikipedia: null
     images: []
+  - slug: worcester-palladium
+    name: The Palladium
+    aliases:
+      - The Palladium, Worcester
+    kind: theater
+    city: Worcester
+    region: MA
+    country: US
+    neighborhood: Downtown
+    address: 261 Main St
+    lat: 42.2667
+    lon: -71.8008
+    coordinates_source: wikipedia
+    operating_status: open
+    closed_year: null
+    description: An all-ages concert hall on Main Street in downtown Worcester, opened in 1928 as the Plymouth Theatre. Its main room holds about 2,160 and an upstairs room about 500, and it is a regular stop for touring metal and hardcore bands, home to the annual New England Metal and Hardcore Festival.
+    description_source:
+      label: Wikipedia
+      url: https://en.wikipedia.org/wiki/Worcester_Palladium
+    website: https://www.thepalladium.net/
+    wikipedia: https://en.wikipedia.org/wiki/Worcester_Palladium
+    images:
+      - view: exterior
+        url: https://commons.wikimedia.org/wiki/Special:FilePath/Worcester_Palladium,_Worcester_MA.jpg?width=1600
+        credit: John Phelan
+        license: CC BY 3.0
+        source_url: https://commons.wikimedia.org/wiki/File:Worcester_Palladium,_Worcester_MA.jpg
