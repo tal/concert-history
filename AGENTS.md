@@ -131,6 +131,7 @@ Open-air venues (parks, piers, festival grounds) only get an exterior image.
 
 - Add performers to `data/artists.yml`. Take the Spotify ID from the Spotify connector and only accept an exact name match; mark it `ambiguous` if several artists share the name. Other spellings on bills go in the artist's `aliases`, or in `artist_aliases` at the top of `concerts.yml`.
 - A festival needs a `data/festivals.yml` entry. Attendance and `seen` only ever come from the record's own evidence.
+- When a day's published set times are found, add them to that day as `schedule: [{artist, stage, start, end}]` plus `schedule_source`. `artist` must match a `lineup` entry exactly. Times are local 24-hour `HH:MM`, and `end: null` means the schedule left it open. Set times never change attendance or `seen`.
 - The site is public: only freely licensed images are stored locally, Spotify images are hotlinked, and other third-party images are hotlinked with a credit.
 - When fetching, send a plain client identity such as `concert-history-site/1.0`. If a site challenges or refuses the request, leave that site alone; don't disguise the client. setlist.fm needs its official API key.
 

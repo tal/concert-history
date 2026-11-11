@@ -1,5 +1,6 @@
 // Dates, counts and labels shared by the pages. Browser-safe.
 import type { Show, ShowType, VenueEntry, Role } from '../../model';
+import type { ScheduledSet } from '../../types';
 
 const asDate = (iso: string) => new Date(`${iso}T12:00:00Z`);
 const format = (iso: string, options: Intl.DateTimeFormatOptions) =>
@@ -9,6 +10,21 @@ export const shortDate = (iso: string) => format(iso, { month: 'short', day: 'nu
 export const longDate = (iso: string) => format(iso, { month: 'long', day: 'numeric', year: 'numeric' });
 export const dayHeading = (iso: string) => format(iso, { weekday: 'long', month: 'long', day: 'numeric' });
 export const monthName = (iso: string) => format(iso, { month: 'long' });
+
+/** `21:05` → `9:05 PM`. */
+export function clockTime(hhmm: string): string {
+  const [h = 0, m = 0] = hhmm.split(':').map(Number);
+  return `${h % 12 || 12}:${String(m).padStart(2, '0')} ${h < 12 ? 'AM' : 'PM'}`;
+}
+
+/** `9:05–10:25 PM · Gotham Stage`; an open end reads `10:30 PM–late`. */
+export function setTimeLabel(set: ScheduledSet): string {
+  const start = clockTime(set.start);
+  if (!set.end) return `${start}–late · ${set.stage}`;
+  const end = clockTime(set.end);
+  const sameHalf = start.slice(-2) === end.slice(-2);
+  return `${sameHalf ? start.slice(0, -3) : start}–${end} · ${set.stage}`;
+}
 
 /** `Jun 6–8`, or `Jun 28–Jul 1` across a month boundary. */
 export function dateLabel(show: Show): string {

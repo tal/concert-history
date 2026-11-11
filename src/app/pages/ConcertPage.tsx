@@ -11,7 +11,7 @@ import { Out } from '../components/Out';
 import { EvidencePill, TypePill } from '../components/Pills';
 import { useHomeFilters, usePersistentState, useSite, useUrls } from '../context';
 import { NO_FILTERS, yearMatches } from '../lib/filters';
-import { dayHeading, EXTERNAL, longDate } from '../lib/format';
+import { dayHeading, EXTERNAL, longDate, setTimeLabel } from '../lib/format';
 import { artistPath, venuePath } from '../lib/paths';
 import { publicSourceUrl } from '../lib/sources';
 
@@ -87,6 +87,11 @@ function FestivalDayBlock({ show, festival, day }: { show: Show; festival: Festi
   const seen = new Set(festival.seen.filter((s) => s.date === day.date).map((s) => normalizeName(s.artist)));
   const maybe = new Set(festival.seen.filter((s) => !s.date && s.possible_dates?.includes(day.date)).map((s) => normalizeName(s.artist)));
   const cancelled = day.event_status === 'cancelled';
+  const sets = new Map((day.schedule ?? []).map((set) => [normalizeName(set.artist), set]));
+  const setTime = (key: string) => {
+    const set = sets.get(key);
+    return set ? <span class="lineup__time">{setTimeLabel(set)}</span> : null;
+  };
   const [expanded, setExpanded] = usePersistentState<'open' | 'closed'>(`concert:${show.id}:${day.date}`, 'closed');
   const heading = (
     <>
@@ -105,12 +110,14 @@ function FestivalDayBlock({ show, festival, day }: { show: Show; festival: Festi
               return (
                 <li key={i} class="is-maybe" title="Seen on one of the days they played">
                   <ArtistName name={name} />
+                  {setTime(key)}
                 </li>
               );
             }
             return (
               <li key={i} class={seen.has(key) ? 'is-seen' : undefined}>
                 <ArtistName name={name} />
+                {setTime(key)}
               </li>
             );
           })}
@@ -123,6 +130,11 @@ function FestivalDayBlock({ show, festival, day }: { show: Show; festival: Festi
       {day.lineup_source ? (
         <p class="credit">
           <Out href={day.lineup_source}>Lineup source</Out>
+        </p>
+      ) : null}
+      {day.schedule_source ? (
+        <p class="credit">
+          <Out href={day.schedule_source}>Set times source</Out>
         </p>
       ) : null}
       <SetlistsBlock sets={daySetlists(show, day)} />

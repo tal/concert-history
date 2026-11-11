@@ -23,6 +23,20 @@ festivals:
           - Outasight
         lineup_source: "https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups#2011"
         lineup_status: complete
+        schedule_source: "https://web.archive.org/web/20110628042450/http://governorsballmusicfestival.com/wp-content/uploads/2011/06/GovBall2011_Festival_Map.pdf"
+        schedule:
+          - { artist: Outasight, stage: Gotham Stage, start: "12:15", end: "12:45" }
+          - { artist: Reptar, stage: Big Apple Stage, start: "12:50", end: "13:25" }
+          - { artist: "Passion Pit (DJ set)", stage: Gotham Stage, start: "13:30", end: "14:15" }
+          - { artist: Das Racist, stage: Big Apple Stage, start: "14:20", end: "15:05" }
+          - { artist: Mac Miller, stage: Gotham Stage, start: "15:10", end: "15:55" }
+          - { artist: Miami Horror, stage: Big Apple Stage, start: "16:00", end: "16:50" }
+          - { artist: People Under the Stairs, stage: Gotham Stage, start: "16:55", end: "17:50" }
+          - { artist: Neon Indian, stage: Big Apple Stage, start: "17:55", end: "18:50" }
+          - { artist: Big Boi, stage: Gotham Stage, start: "18:55", end: "19:55" }
+          - { artist: Empire of the Sun, stage: Big Apple Stage, start: "20:00", end: "21:00" }
+          - { artist: Girl Talk, stage: Gotham Stage, start: "21:05", end: "22:25" }
+          - { artist: Pretty Lights, stage: Big Apple Stage, start: "22:30", end: null }
     seen:
       - artist: Girl Talk
         date: '2011-06-18'
