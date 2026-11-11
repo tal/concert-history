@@ -1389,6 +1389,11 @@ concerts:
     songs: []
     encore_start_index: null
     tour: Governors Ball 2011
+  poster:
+    asset: data/posters/2011-06-18-governors-ball-music-festival.webp
+    kind: festival_lineup
+    page_url: https://web.archive.org/web/20110628042450/http://governorsballmusicfestival.com/wp-content/uploads/2011/06/GovBall2011_Festival_Map.pdf
+    image_url: https://web.archive.org/web/20110628042450id_/http://governorsballmusicfestival.com:80/wp-content/uploads/2011/06/GovBall2011_Festival_Map.pdf
   web_research:
     searched_on: '2026-11-07'
     support: found
@@ -1397,9 +1402,11 @@ concerts:
     - https://en.wikipedia.org/wiki/Governors_Ball_Music_Festival_line-ups
     - https://www.stereogum.com/?p=736292
     setlist: empty_event
-    poster: none_found
+    poster: found
     notes: Inaugural single-day Gov Ball, 12 acts on setlist.fm (full list). Headliner setlists (Girl Talk, Empire
-      of the Sun) exist on setlist.fm without songs.
+      of the Sun) exist on setlist.fm without songs. Poster (2026-11-11) is the official on-site festival map from
+      the festival site's Wayback capture; it lists every act with set times on the Big Apple and Gotham stages. No
+      announcement lineup poster image was found (Stereogum's Feb 2011 key art has the logo and date only).
   coverage_photos:
     - image_url: https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2011/06/neon-indian1-scaled-scaled.jpg?w=2880
       page_url: https://stereogum.com/736292/governors-ball-2011-in-photos/photo
