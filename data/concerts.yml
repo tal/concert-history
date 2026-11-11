@@ -7900,8 +7900,13 @@ concerts:
   artist: Courtney Barnett
   support: The Preatures; Ginger & The Ghost; Wildlife; Jay Arner
   venue: Pianos
-  status: Tentative schedule
+  status: Attendee confirmed
   sources:
+  - type: attendee
+    label: Tal remembers the Pianos CMJ showcase with Courtney Barnett
+    statement: Tal said they definitely went to the Pianos CMJ showcase with Courtney Barnett. Tal's CMJ 2013
+      calendar placed it on Fri Oct 18.
+    confirmed_on: '2026-11-11'
   - type: calendar
     label: Calendar
     url: https://www.google.com/calendar/event?eid=XzZjb2owZDIxODhvajZiYTY2a3NrNGI5azZrcDRhYmExOGwya2FiOWk2Y3IzY2M5aTY0cmo0ZzluNzQgc3dpbW1pbmcuYmlyZEBt&ctz=America/Los_Angeles
@@ -7916,23 +7921,31 @@ concerts:
     event_id: _8crjgc1i6d0k6b9l8gqj8b9k6gs4cba16kr32ba38cqj0dho8d2j8da68k
     calendar_id: swimming.bird@gmail.com
     url_eid: XzhjcmpnYzFpNmQwazZiOWw4Z3FqOGI5azZnczRjYmExNmtyMzJiYTM4Y3FqMGRobzhkMmo4ZGE2OGsgc3dpbW1pbmcuYmlyZEBt
-  notes: CMJ itinerary only; overlapping sets and multiple venues mean this is a tentative plan, not proof of attendance.
+  notes: 'Tal confirmed attending a Pianos CMJ showcase with Courtney Barnett (2026-11-11). Her solo 5:30pm set
+    in Pianos Upstairs at the Planetary Group CMJ party matches Tal''s two CMJ calendar events for this date. She
+    also played Pianos with a band on Tue 10/15/13 (Banners CMJ party, 11:30pm), so the date rests on the calendar
+    rather than on a check-in or photo. Tal''s Swarm check-in at Pianos on 10/15 was at 1:16pm, not the Barnett set.'
+  previous_status: Tentative schedule
   id: 2013-10-18-courtney-barnett
   photo_match: null
   photos: []
   web_research:
-    searched_on: '2026-11-07'
+    searched_on: '2026-11-11'
     support: found
     support_sources:
+    - https://www.brooklynvegan.com/courtney-barnet/
     - https://wfuv.org/content/cmj-roundup-2013-courtney-barnett-claire-joanna-gruesome-and-more
+    - https://themusic.com.au/news/cmj-washup-courtney-barnett/p--4u7q9vL8/29-10-13
     - https://www.kcrw.com/music/articles/bands-to-watch-at-cmj-2013
     setlist: none_found
     poster: none_found
     notes: 'WFUV: Courtney Barnett played Pianos Upstairs at 5:30pm Fri 10/18 (solo; played Avant Gardener plus a
-      new song); Ginger & the Ghost played Pianos Upstairs at 5pm. That fits the Planetary Group CMJ party at Pianos
-      (5pm start; lineup incl. The Preatures, Ginger & The Ghost, Wildlife, Jay Arner) but Barnett isn''t named in
-      that party''s published lineup — support list is low-confidence. She also played the Pitchfork showcase at 285
-      Kent that night. setlist.fm only has Oct 19 Baby''s All Right.'
+      new song); Ginger & the Ghost played Pianos Upstairs at 5pm. BrooklynVegan''s list of her CMJ dates puts her on
+      the Planetary Group CMJ Party at Pianos that day (The Preatures, Ginger & The Ghost, Wildlife, Jay Arner), and
+      her own CMJ diary in The Music has "Pianos, 5pm (solo)". The same BrooklynVegan list has an earlier Pianos set,
+      Tue 10/15 at the Banners CMJ Party (Total Slacker, Saint Rich, Spires, COIN; 11:30pm per her diary). She also
+      played the Pitchfork showcase at 285 Kent on 10/18. No Pianos set found for CMJ 2014. setlist.fm only has Oct
+      19 Baby''s All Right.'
   coverage_photos:
     []
   coverage_research:
