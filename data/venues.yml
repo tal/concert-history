@@ -1448,6 +1448,28 @@ venues:
         credit: Red Rocks Amphitheatre (official site)
         license: null
         source_url: https://www.redrocksonline.com/
+  - slug: river-run-village-keystone
+    name: River Run Village, Keystone Resort
+    aliases:
+      - River Run Village, Keystone Resort
+    kind: other
+    city: Keystone
+    region: CO
+    country: US
+    neighborhood: River Run Village
+    address: River Run Rd
+    lat: 39.60677
+    lon: -105.94276
+    coordinates_source: nominatim
+    operating_status: open
+    closed_year: null
+    description: The main base village of Keystone Resort, a ski area in Summit County, Colorado, at the foot of the River Run Gondola. Its plaza hosted the resort's free Friday Night Lights concert series in the 2008–09 season.
+    description_source:
+      label: 5280 (Dec 5, 2008)
+      url: https://5280.com/best-music-bet-girl-talk-at-keystone-tonight
+    website: https://www.keystoneresort.com/
+    wikipedia: https://en.wikipedia.org/wiki/Keystone_Resort
+    images: []
   - slug: rockwood-music-hall
     name: Rockwood Music Hall
     aliases:
@@ -1833,6 +1855,26 @@ venues:
     description_source:
       label: The Fader
       url: https://www.thefader.com/2015/04/30/the-westway-nyc-closing-migos-nyc-debut-show
+    website: null
+    wikipedia: null
+    images: []
+  - slug: the-wick
+    name: The Wick
+    aliases:
+      - The Wick
+    kind: other
+    city: New York
+    region: NY
+    country: US
+    neighborhood: East Williamsburg
+    address: 260 Meserole St
+    lat: 40.70837
+    lon: -73.93814
+    coordinates_source: nominatim
+    operating_status: unknown
+    closed_year: null
+    description: An event space in a former warehouse at 260 Meserole Street in Brooklyn, used for parties, concerts and brand events.
+    description_source: null
     website: null
     wikipedia: null
     images: []
