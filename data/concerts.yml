@@ -9929,6 +9929,87 @@ concerts:
     sources:
       []
     notes: "Searched for post-show concert reviews and photo coverage using artist, date and venue. No usable photo verified for this exact show in the returned results. Artist remains unidentified; no web candidate was treated as identification or attendance evidence."
+- date: '2014-12-19'
+  artist: In Flames / Opeth
+  support: Red Fang
+  venue: The Palladium, Worcester
+  status: Attendee confirmed
+  previous_status: Needs review
+  sources:
+  - type: attendee
+    label: Tal's memory
+    statement: Went to an In Flames concert in Worcester, MA over 10 years ago, one of the only times Tal was in Worcester;
+      confirmed the December 19, 2014 Palladium date.
+    confirmed_on: '2026-11-11'
+  - type: web
+    label: Tour dates
+    url: https://loudwire.com/opeth-in-flames-red-fang-2014-north-american-tour/
+  notes: 'Tal remembered an In Flames show in Worcester but not the date, then confirmed Dec 19, 2014 when offered the
+    candidates. Google Photos has nothing from that day. setlist.fm lists eleven In Flames shows at
+    the Palladium (1999-2014). This is the only one before ~2016 that fits best: Tal''s other 2006-2008 shows are in
+    Colorado and from late 2009 most are in New York, and the Feb 17, 2012 Palladium date (with Trivium) clashes with Tal''s Swarm check-in at
+    Sleigh Bells, Terminal 5, that night. Other Palladium dates in range: Apr 25, 2008 (New England Metal and Hardcore
+    Festival X) and Dec 6, 2008. No email, calendar event or Google Photos result for Worcester or this date.'
+  id: 2014-12-19-in-flames-opeth
+  photo_match: null
+  photos: []
+  setlists:
+  - artist: In Flames
+    url: https://www.setlist.fm/setlist/in-flames/2014/the-palladium-worcester-ma-6bcd123a.html
+    songs:
+    - In Plain View
+    - Everything's Gone
+    - Trigger
+    - Cloud Connected
+    - Delight and Angers
+    - Paralyzed
+    - Through Oblivion
+    - Only for the Weak
+    - The Chosen Pessimist
+    - Where the Dead Ships Dwell
+    - Rusted Nail
+    - The Quiet Place
+    - The Mirror's Truth
+    - Deliver Us
+    - Take This Life
+    encore_start_index: null
+    tour: Communion of Sirens
+  - artist: Opeth
+    url: https://www.setlist.fm/setlist/opeth/2014/the-palladium-worcester-ma-7bcd1244.html
+    songs:
+    - Eternal Rains Will Come
+    - Cusp of Eternity
+    - The Drapery Falls
+    - The Moor
+    - Windowpane
+    - The Lotus Eater
+    - Deliverance
+    encore_start_index: null
+    tour: Communion of Sirens
+  poster: null
+  web_research:
+    searched_on: '2026-11-11'
+    support: found
+    support_sources:
+    - https://www.setlist.fm/setlist/red-fang/2014/the-palladium-worcester-ma-63cd123b.html
+    - https://loudwire.com/opeth-in-flames-red-fang-2014-north-american-tour/
+    - https://ghostcultmag.com/opeth-in-flames-red-fang-live-at-the-palladium-worcester-ma
+    setlist: found
+    poster: none_found
+    notes: Co-headline Communion of Sirens tour; In Flames played before Opeth (Ghost Cult), Red Fang opened. Red Fang's
+      setlist.fm page has 7 songs (Malverde to Prehistoric Dog). Neither headliner's setlist.fm page marks an encore, and
+      Ghost Cult says Opeth played none. Poster search (tour announcement articles, Loudwire) found only a broken
+      placeholder image; no gigposters.com or venue poster found for Worcester.
+  coverage_photos:
+    []
+  coverage_research:
+    searched_on: 2026-11-11
+    outcome: none_found
+    queries:
+      - "Opeth In Flames Red Fang Palladium Worcester December 19 2014 review photos"
+    sources:
+      - https://ghostcultmag.com/opeth-in-flames-red-fang-live-at-the-palladium-worcester-ma
+    notes: "Ghost Cult's review of this Palladium night has no images in its fetched text and no photographer credit. No other post-show coverage was found."
 - date: '2015-02-18'
   artist: Artist unresolved
   support: ''

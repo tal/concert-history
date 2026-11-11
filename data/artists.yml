@@ -2646,6 +2646,15 @@ artists:
     description: 'Omar Almasikh (Arabic: عمر المسيخ; born 1966), better known by his stage name Omar Souleyman (عمر سليمان), is a Syrian singer. He began his career in 1994 singing at weddings and has since released numerous records and performed all over the world.'
     wikipedia: https://en.wikipedia.org/wiki/Omar_Souleyman
     instagram: null
+  - slug: opeth
+    name: Opeth
+    aliases: []
+    spotify_id: 0ybFZ2Ab08V8hueghSXm6E
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab6761610000517445e1bb6e5285297f9e55e550
+    description: Opeth is a Swedish progressive metal band from Stockholm, formed in 1990. Led by guitarist and vocalist Mikael Åkerfeldt, they moved from progressive death metal toward 1970s-style progressive rock with Heritage (2011) and Pale Communion (2014).
+    wikipedia: https://en.wikipedia.org/wiki/Opeth
+    instagram: null
   - slug: orwells
     name: The Orwells
     aliases: []
@@ -3006,6 +3015,15 @@ artists:
     image_url: https://image-cdn-ak.spotifycdn.com/image/ab67616100005174dc7995d810459d09a32a61ba
     description: Ravens & Chimes is an indie art rock band from New York City.
     wikipedia: https://en.wikipedia.org/wiki/Ravens_%26_Chimes
+    instagram: null
+  - slug: red-fang
+    name: Red Fang
+    aliases: []
+    spotify_id: 3u4HBuoQ4dgPBzX2Q9uf5S
+    spotify_match: exact
+    image_url: https://image-cdn-fa.spotifycdn.com/image/ab676161000051745affd715375cdca767655f16
+    description: Red Fang is an American stoner rock band from Portland, Oregon, formed in 2005. They are known for heavy, riff-driven songs and comedic music videos such as "Prehistoric Dog".
+    wikipedia: https://en.wikipedia.org/wiki/Red_Fang
     instagram: null
   - slug: red-hot-chili-peppers
     name: Red Hot Chili Peppers
