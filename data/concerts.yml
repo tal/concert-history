@@ -9842,8 +9842,12 @@ concerts:
   artist: Alex Winston
   support: ''
   venue: The Westway
-  status: Ticket evidence
+  status: Attendee confirmed
   sources:
+  - type: attendee
+    label: Tal confirmed attending
+    statement: Tal said they definitely went to Alex Winston on March 5, 2015.
+    confirmed_on: '2026-11-11'
   - type: email
     label: Email
     url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/14b8007adad82517
