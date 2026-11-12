@@ -12525,15 +12525,28 @@ concerts:
     notes: Part of Brooklyn Steel's opening run (Apr 6/7/8/10/11, 2017). Dropped the tape intro 'New York Groove'
       (played from tape). No opener listed.
   coverage_photos:
-    []
+    - image_url: https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2017/04/18/lcd-night-4.jpeg
+      page_url: https://www.brooklynvegan.com/lcd-soundsystem-continued-their-brooklyn-steel-run-night-4-pics-setlist/
+      publication: BrooklynVegan
+      credit: Uncredited (Instagram photo used by BrooklynVegan)
+      caption: LCD Soundsystem's setlist propped on a stuffed bear at the lighting desk, clock reading 21:36, Brooklyn Steel night 4
+      concert_date: 2017-04-10
   coverage_research:
-    searched_on: 2026-11-08
-    outcome: none_found
+    searched_on: 2026-11-12
+    outcome: found
     queries:
       - "LCD Soundsystem Brooklyn Steel April 10, 2017 photos review"
+      - "LCD Soundsystem Brooklyn Steel April 10 2017 pictures setlist"
+      - "brooklynvegan LCD Soundsystem Brooklyn Steel night 4 pics"
+      - "\"LCD Soundsystem\" \"Brooklyn Steel\" \"April 10, 2017\" photo"
+      - "LCD Soundsystem Brooklyn Steel 2017-04-10 flickr OR gettyimages OR photographer"
     sources:
-      []
-    notes: "Searched for post-show concert reviews and photo coverage using artist, date and venue. No usable photo verified for this exact show in the returned results."
+      - https://www.brooklynvegan.com/lcd-soundsystem-continued-their-brooklyn-steel-run-night-4-pics-setlist/
+      - https://www.stereogum.com/1934162/lcd-soundsystem-debuted-a-fourth-new-song-haircut-in-brooklyn-last-night/news/
+      - https://www.theaureview.com/music/live-review-lcd-soundsystem-brooklyn-steel-new-york-11-04-17/
+      - https://atwoodmagazine.com/live-lcd-soundsystem-brooklyn-2017/
+      - https://www.nastylittleman.com/?p=18570
+    notes: "BrooklynVegan's Night 4 post (published 2017-04-11) covers Monday 4/10 and prints this night's setlist. Its page now serves a browser challenge to plain clients, so it was read through BrooklynVegan's public WordPress API (wp-json/wp/v2/posts and media), which answered normally. The post's only hosted image is its featured image, an Instagram-style square of the lighting desk; the setlist sheet in it runs Movement straight into Someone Great with no 'Yeah', which matches 4/10 and not 4/8. The photographer isn't named. The post's other 'pics' are embedded fan Instagram posts tagged Mon 4/10 (e.g. katarina_martinez, trippedout, thedrussell, djchroma); they aren't hotlinkable because Instagram's image URLs expire, so they're not attached. Rejected: Stereogum's 4/8 'Haircut' story (night 2, illustrated with a 2016 Getty photo), The AU Review (night 5, 4/11), BrooklynVegan nights 1, 2 and 5, Atwood Magazine (June 19 residency), and the venue publicist's announcement (no photos)."
 - date: '2017-08-22'
   artist: LPX
   support: ''
