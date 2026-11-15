@@ -5460,18 +5460,42 @@ concerts:
     provider: swarm
     checkin_id: '5078cc73e4b018ca957d2ca4'
     id_note: "Recovered from Swarm history on 2026-11-07; Glasslands Gallery at 2012-10-12 22:05:39 local time. Event: Lord Huron and NIGHT MOVES."
+  - type: attendee
+    label: Tal remembers seeing Lord Huron at Glasslands
+    statement: Tal said "I definitely saw lord huron at glasslands."
+    confirmed_on: '2026-11-15'
+  - type: email
+    label: Tal's invite to friends (Oct 10, 2012)
+    url: https://mail.google.com/mail/u/?authuser=swimming.bird%40gmail.com#all/13a4baee9a473905
+    provider: gmail
+    account: swimming.bird@gmail.com
+    message_id: '13a4baee9a473905'
+    thread_id: '13a4baee9a473905'
+    subject: Lord Huron - Friday @ Glasslands
+  - type: web
+    label: 'JamBase: "Lord Huron: Debut Album, Fall Tour" (Jul 11, 2012) lists Oct 12 at Glasslands Gallery'
+    url: https://www.jambase.com/article/lord-huron-debut-album-fall-tour
   notes: " Swarm lists this event/artist on this date. Supporting acts are billed acts; arrival for every set is\
-    \ not proven."
+    \ not proven. The Ticketfly order (2 GA, will call) reads Lord Huron, Glasslands Gallery, Fri Oct 12, 2012 8:30 PM.\
+    \ On Wed Oct 10 Tal emailed friends that Tal and Joe were going Friday. Glasslands was Lord Huron's only\
+    \ Brooklyn date on the fall 2012 tour (Great Scott Oct 11, Mohawk Place Oct 13)."
   id: 2012-10-12-lord-huron
   photo_match: null
   photos: []
   web_research:
-    searched_on: '2026-11-07'
-    support: not_searched
-    support_sources: []
+    searched_on: '2026-11-15'
+    support: matches_existing
+    support_sources:
+    - https://www.jambase.com/article/lord-huron-debut-album-fall-tour
+    - https://xpn.org/photos-lord-huron-and-night-moves-at-the-tla
+    - https://herecomesthedumptruck.blogspot.com/2012/10/lord-huron-and-night-moves-neurolux.html
     setlist: none_found
-    poster: not_searched
-    notes: No setlist.fm entry for Lord Huron or Night Moves at Glasslands on 2012-10-12; Lord Huron played Mohawk
+    poster: none_found
+    notes: 2026-11-15 recheck. JamBase's tour list confirms the Oct 12 Glasslands date but names no opener. Night Moves
+      supported other fall 2012 dates (TLA Philadelphia, Neurolux Boise), and the Swarm event name lists "Lord Huron and
+      NIGHT MOVES", so 'Night Moves' is kept; no listing specific to this night names the opener. A web search for
+      a Glasslands poster found none.
+      2026-11-07 notes - No setlist.fm entry for Lord Huron or Night Moves at Glasslands on 2012-10-12; Lord Huron played Mohawk
       Place, Buffalo the next night (Oct 13), consistent with the tour route. Existing support 'Night Moves' unverified.
       WebSearch budget for the session was exhausted mid-batch, so poster/support searching for this row was limited
       to setlist.fm site search (no general web/image search).
